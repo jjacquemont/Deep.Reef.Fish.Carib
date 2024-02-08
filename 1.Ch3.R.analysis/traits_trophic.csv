@@ -1,0 +1,2099 @@
+species,Carnivore,Corallivore,Detritivore,Ectoparasite cleaner,Herbivore,Omnivore,Parasitic,Planktivore
+Acanthuridae,,,,,,,,
+Acanthurus chirurgus,,,x,,x,,,
+Acanthurus coeruleus,,,,,x,,,
+Acanthurus guttatus,,,,,x,,,
+Acanthurus pyroferus,,,x,,,,,
+Acanthurus sohal,,,,,x,,,
+Acanthurus tractus,,,,,x,,,
+Naso lituratus,,,,,x,,,
+Zebrasoma desjardinii,,,,,x,,,
+Zebrasoma flavescens,,,,,x,,,
+Zebrasoma scopas,,,,,x,,,
+Zebrasoma velifer,,,,,x,,,
+Zebrasoma xanthurum,,,,,x,,,
+Achiridae,,,,,,,,
+Achirus achirus,x,,,,,,,
+Achirus declivis,x,,,,,,,
+Achirus lineatus,x,,,,,,,
+Apionichthys dumerili,x,,,,,,,
+Gymnachirus melas,x,,,,,,,
+Gymnachirus nudus,x,,,,,,,
+Gymnachirus texae,x,,,,,,,
+Trinectes inscriptus,x,,,,,,,
+Trinectes maculatus,x,,,,,,,
+Trinectes microphthalmus,x,,,,,,,
+Trinectes paulistanus,x,,,,,,,
+Acipenseridae,,,,,,,,
+Acipenser brevirostrum,x,,,,,,,
+Acipenser oxyrinchus,x,,,,,,,
+Scaphirhynchus albus,x,,,,,,,
+Acropomatidae,,,,,,,,
+Synagrops bellus,x,,,,,,,x
+Synagrops pseudomicrolepis,x,,,,,,,
+Synagrops spinosus,x,,,,,,,x
+Synagrops trispinosus,x,,,,,,,x
+Verilus sordidus,x,,,,,,,
+Aetobatidae,,,,,,,,
+Aetobatus narinari,x,,,,,,,
+Albulidae,,,,,,,,
+Albula goreensis,x,,,,,,,
+Albula nemoptera,x,,,,,,,
+Albula vulpes,x,,,,,,,
+Alopiidae,,,,,,,,
+Alopias superciliosus,x,,,,,,,
+Alopias vulpinus,x,,,,,,,
+Ammodytidae,,,,,,,,
+Protammodytes sarisa,x,,,,,,,x
+Anablepidae,,,,,,,,
+Anableps anableps,x,,,,,,,x
+Anableps microlepis,x,,,,,,,x
+Anacanthobatidae,,,,,,,,
+Schroederobatis americana,x,,,,,,,
+Springeria folirostris,x,,,,,,,
+Springeria longirostris,x,,,,,,,
+Anguillidae,,,,,,,,
+Anguilla rostrata,x,,,,,,,
+Anomalopidae,,,,,,,,
+Kryptophanaron alfredi,,,,,,,,x
+Antennariidae,,,,,,,,
+Antennarius multiocellatus,x,,,,,,,
+Antennarius pauciradiatus,x,,,,,,,
+Antennarius scaber,x,,,,,,,
+Antennatus bermudensis,x,,,,,,,
+Fowlerichthys ocellatus,x,,,,,,,
+Fowlerichthys radiosus,x,,,,,,,
+Histrio histrio,x,,,,,,,
+Apogonidae,,,,,,,,
+Apogon aurolineatus,,,,,,,,x
+Apogon binotatus,,,,,,,,x
+Apogon gouldi,,,,,,,,x
+Apogon lachneri,,,,,,,,x
+Apogon leptocaulus,,,,,,,,x
+Apogon maculatus,,,,,,,,x
+Apogon mosavi,,,,,,,,x
+Apogon phenax,,,,,,,,x
+Apogon pillionatus,,,,,,,,x
+Apogon planifrons,,,,,,,,x
+Apogon pseudomaculatus,x,,,,,,,x
+Apogon quadrisquamatus,,,,,,,,x
+Apogon robbyi,,,,,,,,x
+Apogon robinsi,,,,,,,,x
+Apogon townsendi,,,,,,,,x
+Astrapogon alutus,x,,,,,,,
+Astrapogon puncticulatus,x,,,,,,,
+Astrapogon stellatus,x,,,,,,,
+Paroncheilus affinis,,,,,,,,x
+Phaeoptyx conklini,,,,,,,,x
+Phaeoptyx pigmentaria,,,,,,,,x
+Phaeoptyx xenus,,,,,,,,x
+Zapogon evermanni,,,,,,,,x
+Argentinidae,,,,,,,,
+Argentina striata,x,,,,,,,
+Glossanodon pygmaeus,x,,,,,,,
+Arhynchobatidae,,,,,,,,
+Pseudoraja fischeri,x,,,,,,,
+Ariidae,,,,,,,,
+Ariopsis assimilis,x,,,,,,,
+Ariopsis canteri,x,,,,,,,
+Ariopsis felis,x,,,,,,,
+Bagre bagre,x,,,,,,,
+Bagre marinus,x,,,,,,,
+Cathorops aguadulce,x,,,,,,,
+Cathorops arenatus,x,,,,,,,
+Cathorops belizensis,x,,,,,,,
+Cathorops higuchii,x,,,,,,,
+Cathorops kailolae,x,,,,,,,
+Cathorops mapale,x,,,,,,,
+Cathorops melanopus,x,,,,,,,
+Cathorops nuchalis,x,,,,,,,
+Cathorops wayuu,x,,,,,,,
+Notarius grandicassis,x,,,,,,,
+Notarius neogranatensis,x,,,,,,,
+Notarius phrygiatus,x,,,,,,,
+Notarius quadriscutis,x,,,,,,,
+Notarius rugispinis,x,,,,,,,
+Sciades couma,x,,,,,,,
+Sciades herzbergii,x,,,,,,,
+Sciades parkeri,x,,,,,,,
+Sciades passany,x,,,,,,,
+Sciades proops,x,,,,,,,
+Ariommatidae,,,,,,,,
+Ariomma bondi,x,,,,,,,x
+Ariomma melanum,x,,,,,,,x
+Ariomma regulus,x,,,,,,,x
+Aspredinidae,,,,,,,,
+Aspredinichthys filamentosus,x,,,,,,,
+Aspredo aspredo,x,,,,,,,
+Platystacus cotylephorus,x,,,,,,,
+Atherinidae,,,,,,,,
+Alepidomus evermanni,,,,,,,,x
+Atherina harringtonensis,x,,,,,,,x
+Atherinomorus stipes,,,,,,,,x
+Atherinopsidae,,,,,,,,
+Atherinella alvarezi,,,,,,x,,x
+Atherinella beani,,,,,,x,,x
+Atherinella blackburni,,,,,,,,x
+Atherinella brasiliensis,,,,,,x,,x
+Atherinella chagresi,,,,,,x,,x
+Atherinella milleri,,,,,,x,,x
+Atherinella robbersi,,,,,,x,,x
+Atherinella schultzi,,,,,,x,,x
+Atherinella species A,,,,,,x,,x
+Melanorhinus microps,,,,,,,,x
+Membras analis,,,,,,,,x
+Membras argentea,,,,,,,,x
+Membras martinica,,,,,,,,x
+Membras species A,,,,,,,,x
+Menidia beryllina,x,,,,,,,x
+Menidia clarkhubbsi,x,,,,,,,x
+Menidia colei,x,,,,,,,x
+Menidia conchorum,x,,,,,,,x
+Menidia menidia,x,,,,,,,x
+Menidia peninsulae,x,,,,,,,x
+Menidia species A,x,,,,,,,x
+Auchenipteridae,,,,,,,,
+Pseudauchenipterus nodosus,,,x,,,,,
+Aulopidae,,,,,,,,
+Aulopus filamentosus,x,,,,,,,
+Aulostomidae,,,,,,,,
+Aulostomus maculatus,x,,,,,,,
+Balistidae,,,,,,,,
+Balistes capriscus,x,,,,,,,
+Balistes vetula,x,x,,,,,,
+Balistoides conspicillum,x,,,,,,,
+Canthidermis maculata,x,,,,,,,x
+Canthidermis sufflamen,x,x,,,,,,x
+Melichthys niger,,x,,,,x,,x
+Rhinecanthus aculeatus,,x,,,,x,,x
+Rhinecanthus verrucosus,,,,,,x,,x
+Xanthichthys ringens,x,,,,,,,x
+Batrachoididae,,,,,,,,
+Amphichthys cryptocentrus,x,,,,,,,
+Batrachoides gilberti,x,,,,,,,
+Batrachoides manglae,x,,,,,,,
+Batrachoides surinamensis,x,,,,,,,
+Opsanus beta,x,,,,,,,
+Opsanus dichrostomus,x,,,,,,,
+Opsanus pardus,x,,,,,,,
+Opsanus phobetron,x,,,,,,,
+Opsanus tau,x,,,,,,,
+Porichthys bathoiketes,x,,,,,,,
+Porichthys oculofrenum,x,,,,,,,
+Porichthys pauciradiatus,x,,,,,,,
+Porichthys plectrodon,x,,,,,,,
+Sanopus astrifer,x,,,,,,,
+Sanopus barbatus,x,,,,,,,
+Sanopus greenfieldorum,x,,,,,,,
+Sanopus johnsoni,x,,,,,,,
+Sanopus reticulatus,x,,,,,,,
+Sanopus splendidus,x,,,,,,,
+Thalassophryne maculosa,x,,,,,,,
+Thalassophryne megalops,x,,,,,,,
+Thalassophryne nattereri,x,,,,,,,
+Vladichthys gloverensis,x,,,,,,,
+Belonidae,,,,,,,,
+Ablennes hians,x,,,,,,,
+Platybelone argalus argalus,x,,,,,,,
+Strongylura marina,x,,,,,,,x
+Strongylura notata,x,,,,,,,x
+Strongylura timucu,x,,,,,,,
+Tylosurus acus acus,x,,,,,,,x
+Tylosurus crocodilus crocodilus,x,,,,,,,x
+Berycidae,,,,,,,,
+Beryx decadactylus,x,,,,,,,
+Beryx splendens,x,,,,,,,x
+Blenniidae,,,,,,,,
+Chasmodes bosquianus,x,,x,,,,,
+Chasmodes longimaxilla,x,,x,,,,,
+Chasmodes saburrae,x,,x,,,,,
+Entomacrodus nigricans,,,,,,x,,
+Hypleurochilus bermudensis,,,,,,x,,
+Hypleurochilus caudovittatus,,,,,,x,,
+Hypleurochilus geminatus,,,,,,x,,
+Hypleurochilus multifilis,,,,,,x,,
+Hypleurochilus pseudoaequipinnis,,,,,,x,,
+Hypleurochilus springeri,,,,,,x,,
+Hypsoblennius exstochilus,,x,,,,x,,
+Hypsoblennius hentz,,x,,,,x,,
+Hypsoblennius invemar,,,,,,x,,
+Hypsoblennius ionthas,,x,,,,x,,
+Lupinoblennius nicholsi,,,,,,x,,
+Lupinoblennius vinctus,,,,,,x,,
+Omobranchus punctatus,,,x,,x,,,
+Ophioblennius macclurei,,,x,,x,,,
+Parablennius marmoreus,,x,,,,x,,
+Scartella cristata,,,x,,x,x,,
+Bothidae,,,,,,,,
+Bothus lunatus,x,,,,,,,
+Bothus maculiferus,x,,,,,,,
+Bothus ocellatus,x,,,,,,,
+Bothus robinsi,x,,,,,,,
+Chascanopsetta danae,x,,,,,,,
+Chascanopsetta lugubris,x,,,,,,,
+Engyophrys senta,x,,,,,,,
+Monolene atrimana,x,,,,,,,
+Monolene megalepis,x,,,,,,,
+Monolene sessilicauda,x,,,,,,,
+Trichopsetta caribbaea,x,,,,,,,
+Trichopsetta melasma,x,,,,,,,
+Trichopsetta orbisulcus,x,,,,,,,
+Trichopsetta ventralis,x,,,,,,,
+Bramidae,,,,,,,,
+Brama brama,x,,,,,,,
+Brama caribbea,x,,,,,,,
+Brama dussumieri,x,,,,,,,
+Eumegistus brevorti,x,,,,,,,
+Pteraclis carolinus,x,,,,,,,
+Pterycombus brama,x,,,,,,,
+Taractes rubescens,x,,,,,,,
+Taractichthys longipinnis,x,,,,,,,
+Bregmacerotidae,,,,,,,,
+Bregmaceros atlanticus,,,,,,,,x
+Bregmaceros cantori,,,,,,,,x
+Bregmaceros houdei,,,,,,,,x
+Bythitidae,,,,,,,,
+Calamopteryx goslinei,x,,,,,,,
+Calamopteryx robinsorum,x,,,,,,,
+Grammonus claudei,x,,,,,,,
+Lucifuga lucayana,x,,,,,,,
+Lucifuga simile,x,,,,,,,
+Lucifuga spelaeotes,x,,,,,,,
+Parasaccogaster melanomycter,x,,,,,,,
+Stygnobrotula latebricola,x,,,x,,,,
+Callionymidae,,,,,,,,
+Callionymus bairdi,x,,,,,,,
+Diplogrammus pauciradiatus,x,,,,,,,
+Foetorepus agassizii,x,,,,,,,
+Foetorepus dagmarae,x,,,,,,,
+Foetorepus goodenbeani,x,,,,,,,
+Caproidae,,,,,,,,
+Antigonia capros,x,,,,,,,x
+Antigonia combatia,x,,,,,,,x
+Carangidae,,,,,,,,
+Alectis ciliaris,x,,,,,,,x
+Caranx bartholomaei,x,,,,,,,
+Caranx crysos,x,,,,,,,x
+Caranx hippos,x,,,,,,,
+Caranx latus,x,,,,,,,x
+Caranx lugubris,x,,,,,,,x
+Caranx ruber,x,,,,,,,x
+Chloroscombrus chrysurus,x,,,,,,,x
+Decapterus macarellus,,,,,,,,x
+Decapterus punctatus,x,,,,,,,x
+Decapterus tabl,,,,,,,,x
+Elagatis bipinnulata,x,,,,,,,x
+Gnathanodon speciosus,x,,,,,,,
+Hemicaranx amblyrhynchus,x,,,,,,,
+Naucrates ductor,x,,,x,,,,
+Oligoplites palometa,x,,,,,,,x
+Oligoplites saliens,x,,,,,,,x
+Oligoplites saurus saurus,x,,,x,,,,x
+Pseudocaranx dentex,x,,,,,,,x
+Selar crumenophthalmus,,,,,,,,x
+Selene brownii,x,,,,,,,x
+Selene setapinnis,x,,,,,,,x
+Selene vomer,x,,,,,,,
+Seriola dumerili,x,,,,,,,x
+Seriola fasciata,x,,,,,,,
+Seriola rivoliana,x,,,,,,,
+Seriola zonata,x,,,,,,,
+Trachinotus carolinus,x,,,,,,,
+Trachinotus cayennensis,x,,,,,,,
+Trachinotus falcatus,x,,,,,,,
+Trachinotus goodei,x,,,,,,,
+Trachurus lathami,x,,,,,,,x
+Uraspis secunda,x,,,,,,,x
+Carapidae,,,,,,,,
+Carapus bermudensis,x,,,,,,,
+Echiodon dawsoni,x,,,,,,,
+Carcharhinidae,,,,,,,,
+Carcharhinus acronotus,x,,,,,,,
+Carcharhinus altimus,x,,,,,,,
+Carcharhinus brachyurus,x,,,,,,,
+Carcharhinus brevipinna,x,,,,,,,
+Carcharhinus falciformis,x,,,,,,,
+Carcharhinus galapagensis,x,,,,,,,
+Carcharhinus isodon,x,,,,,,,
+Carcharhinus leucas,x,,,,,,,
+Carcharhinus limbatus,x,,,,,,,
+Carcharhinus longimanus,x,,,,,,,
+Carcharhinus obscurus,x,,,,,,,
+Carcharhinus perezii,x,,,,,,,
+Carcharhinus plumbeus,x,,,,,,,
+Carcharhinus porosus,x,,,,,,,
+Carcharhinus signatus,x,,,,,,,
+Galeocerdo cuvier,x,,,,,,,
+Isogomphodon oxyrhynchus,x,,,,,,,
+Negaprion brevirostris,x,,,,,,,
+Prionace glauca,x,,,,,,,
+Rhizoprionodon lalandii,x,,,,,,,
+Rhizoprionodon porosus,x,,,,,,,
+Rhizoprionodon terraenovae,x,,,,,,,
+Centriscidae,,,,,,,,
+Macroramphosus gracilis,,,,,,,,x
+Macroramphosus scolopax,x,,,,,,,x
+Centrolophidae,,,,,,,,
+Hyperoglyphe bythites,x,,,,,,,x
+Hyperoglyphe perciformis,x,,,,,,,x
+Schedophilus ovalis,x,,,,,,,x
+Schedophilus pemarco,x,,,,,,,x
+Centrophoridae,,,,,,,,
+Centrophorus granulosus,x,,,,,,,
+Centrophorus squamosus,x,,,,,,,
+Centrophorus tessellatus,x,,,,,,,
+Deania calcea,x,,,,,,,
+Deania profundorum,x,,,,,,,
+Centropomidae,,,,,,,,
+Centropomus ensiferus,x,,,,,,,
+Centropomus mexicanus,x,,,,,,,
+Centropomus parallelus,x,,,,,,,
+Centropomus pectinatus,x,,,,,,,
+Centropomus poeyi,x,,,,,,,
+Centropomus undecimalis,x,,,,,,,
+Cetorhinidae,,,,,,,,
+Cetorhinus maximus,,,,,,,,x
+Chaenopsidae,,,,,,,,
+Acanthemblemaria aceroi,x,,,,,,,x
+Acanthemblemaria aspera,x,,,,,,,x
+Acanthemblemaria betinensis,x,,,,,,,x
+Acanthemblemaria chaplini,x,,,,,,,x
+Acanthemblemaria greenfieldi,x,,,,,,,x
+Acanthemblemaria harpeza,x,,,,,,,x
+Acanthemblemaria johnsoni,x,,,,,,,x
+Acanthemblemaria maria,x,,,,,,,x
+Acanthemblemaria medusa,x,,,,,,,x
+Acanthemblemaria paula,x,,,,,,,x
+Acanthemblemaria rivasi,x,,,,,,,x
+Acanthemblemaria spinosa,x,,,,,,,x
+Chaenopsis limbaughi,x,,,,,,,
+Chaenopsis megalops,x,,,,,,,
+Chaenopsis ocellata,x,,,,,,,
+Chaenopsis resh,x,,,,,,,
+Chaenopsis roseola,x,,,,,,,
+Chaenopsis stephensi,x,,,,,,,
+Coralliozetus cardonae,x,,,,,,,x
+Ekemblemaria nigra,x,,,,,,,
+Emblemaria atlantica,x,,,,,,,x
+Emblemaria australis,x,,,,,,,x
+Emblemaria biocellata,x,,,,,,,x
+Emblemaria caldwelli,x,,,,,,,x
+Emblemaria caycedoi,x,,,,,,,x
+Emblemaria culmenis,x,,,,,,,x
+Emblemaria diphyodontis,x,,,,,,,x
+Emblemaria hyltoni,x,,,,,,,x
+Emblemaria pandionis,x,,,,,x,,
+Emblemaria piratula,x,,,,,,,x
+Emblemaria vitta,x,,,,,,,x
+Emblemariopsis bahamensis,x,,,,,,,x
+Emblemariopsis bottomei,x,,,,,,,x
+Emblemariopsis carib,x,,,,,,,x
+Emblemariopsis dianae,x,,,,,,,x
+Emblemariopsis diaphana,x,,,,,,,x
+Emblemariopsis falcon,x,,,,,,,x
+Emblemariopsis lancea,x,,,,,,,x
+Emblemariopsis leptocirris,x,,,,,,,x
+Emblemariopsis occidentalis,x,,,,,,,x
+Emblemariopsis pricei,x,,,,,,,x
+Emblemariopsis randalli,x,,,,,,,x
+Emblemariopsis ruetzleri,x,,,,,,,x
+Emblemariopsis tayrona,x,,,,,,,x
+Hemiemblemaria simula,x,,,,,,,
+Lucayablennius zingaro,x,,,,,,,
+Protemblemaria punctata,x,,,,,,,x
+Stathmonotus gymnodermis,x,,,,,,,
+Stathmonotus hemphillii,x,,,,,,,
+Stathmonotus stahli,x,,,,,,,
+Stathmonotus tekla,x,,,,,,,
+Chaetodontidae,,,,,,,,
+Chaetodon capistratus,x,x,,,,,,x
+Chaetodon lunula,,x,,,,x,,
+Chaetodon ocellatus,x,x,,,,,,
+Chaetodon sedentarius,x,x,,,,,,
+Chaetodon striatus,x,x,,,,,,
+Heniochus diphreutes,,,,x,,,,x
+Heniochus intermedius,x,x,,x,,x,,
+Heniochus monoceros,x,,,,,,,
+Prognathodes aculeatus,x,,,,,,,
+Prognathodes aya,x,,,,,,,
+Prognathodes guyanensis,,,,,,x,,
+Characidae,,,,,,,,
+Astyanax aeneus,,,,,,x,,
+Chaunacidae,,,,,,,,
+Chaunacops roseus,x,,,,,,,
+Chaunax pictus,x,,,,,,,
+Chaunax stigmaeus,x,,,,,,,
+Chaunax suttkusi,x,,,,,,,
+Chimaeridae,,,,,,,,
+Chimaera bahamaensis,x,,,,,,,
+Chimaera cubana,x,,,,,,,
+Hydrolagus alberti,x,,,,,,,
+Hydrolagus mirabilis,x,,,,,,,
+Chlamydoselachidae,,,,,,,,
+Chlamydoselachus anguineus,x,,,,,,,
+Chlopsidae,,,,,,,,
+Catesbya pseudomuraena,x,,,,,,,
+Chilorhinus suensonii,x,,,,,,,
+Chlopsis bicolor,x,,,,,,,
+Chlopsis dentatus,x,,,,,,,
+Kaupichthys hyoproroides,x,,,,,,,
+Kaupichthys nuchalis,x,,,,,,,
+Robinsia catherinae,x,,,,,,,
+Chlorophthalmidae,,,,,,,,
+Chlorophthalmus agassizi,x,,,,,,,x
+Chlorophthalmus brasiliensis,x,,,,,,,x
+Parasudis truculenta,x,,,,,,,
+Cichlidae,,,,,,,,
+Hemichromis letourneuxi,,,,,,x,,
+Herichthys cyanoguttatus,,,,,,x,,
+Mayaheros urophthalmus,x,,,,,,,
+Nandopsis haitiensis,,,,,,x,,
+Nandopsis tetracanthus,x,,,,,,,
+Oreochromis aureus,,,,,,x,,x
+Oreochromis mossambicus,,,,,,x,,x
+Oreochromis niloticus niloticus,,,x,,,x,,x
+Oreochromis urolepis,,,x,,x,,,x
+Sarotherodon melanotheron,,,,,,x,,x
+Tilapia mariae,,,x,,,x,,x
+Tilapia rendalli,,,,,,x,,x
+Tilapia zillii,,,,,,x,,x
+Vieja maculicauda,,,x,,x,,,
+Vieja melanura,,,x,,x,,,
+Cirrhitidae,,,,,,,,
+Amblycirrhitus pinos,x,,,,,,,x
+Clupeidae,,,,,,,,
+Alosa aestivalis,x,,,,,,,x
+Alosa alabamae,x,,,,,,,x
+Alosa chrysochloris,x,,,,,,,x
+Alosa sapidissima,x,,,,,x,,
+Brevoortia gunteri,x,,,,,,,x
+Brevoortia patronus,x,,,,,,,x
+Brevoortia smithi,,,,,,,,x
+Brevoortia tyrannus,x,,,,,,,x
+Dorosoma cepedianum,,,,,,,,x
+Dorosoma petenense,x,,,,,,,x
+Etrumeus sadina,,,,,,,,x
+Harengula clupeola,,,,,,,,x
+Harengula humeralis,x,,,,,,,x
+Harengula jaguana,,,,,,,,x
+Jenkinsia lamprotaenia,,,,,,,,x
+Jenkinsia majua,,,,,,,,x
+Jenkinsia parvula,,,,,,,,x
+Jenkinsia stolifera,,,,,,,,x
+Lile piquitinga,,,,,,,,x
+Opisthonema oglinum,x,,,,,,,x
+Rhinosardinia amazonica,,,,,,,,x
+Sardinella aurita,,,,,,,,x
+Congridae,,,,,,,,
+Ariosoma anale,x,,,,,,,
+Ariosoma balearicum,x,,,,,,,
+Ariosoma selenops,x,,,,,,,
+Bathycongrus bullisi,x,,,,,,,
+Bathycongrus dubius,x,,,,,,,
+Bathycongrus polyporus,x,,,,,,,
+Bathycongrus thysanochilus,x,,,,,,,
+Bathycongrus vicinalis,x,,,,,,,
+Bathyuroconger vicinus,x,,,,,,,
+Conger esculentus,x,,,,,,,
+Conger oceanicus,x,,,,,,,
+Conger triporiceps,x,,,,,,,
+Gnathophis bathytopos,x,,,,,,,
+Gnathophis bracheatopos,x,,,,,,,
+Heteroconger camelopardalis,,,,,,,,x
+Heteroconger longissimus,,,,,,,,x
+Heteroconger luteolus,,,,,,,,x
+Japonoconger caribbeus,x,,,,,,,
+Paraconger caudilimbatus,x,,,,,,,
+Pseudophichthys splendens,x,,,,,,,
+Rhynchoconger flavus,x,,,,,,,
+Rhynchoconger gracilior,x,,,,,,,
+Rhynchoconger guppyi,x,,,,,,,
+Uroconger syringinus,x,,,,,,,
+Coryphaenidae,,,,,,,,
+Coryphaena equiselis,x,,,,,,,
+Coryphaena hippurus,x,,,,,,,
+Crurirajidae,,,,,,,,
+Cruriraja atlantis,x,,,,,,,
+Cruriraja cadenati,x,,,,,,,
+Cruriraja poeyi,x,,,,,,,
+Cruriraja rugosa,x,,,,,,,
+Cynoglossidae,,,,,,,,
+Symphurus arawak,x,,,,,,,
+Symphurus billykrietei,x,,,,,,,
+Symphurus caribbeanus,x,,,,,,,
+Symphurus civitatium,x,,,,,,,
+Symphurus diomedeanus,x,,,,,,,
+Symphurus hernandezi,x,,,,,,,
+Symphurus marginatus,x,,,,,,,
+Symphurus minor,x,,,,,,,
+Symphurus nebulosus,x,,,,,,,
+Symphurus oculellus,x,,,,,,,
+Symphurus ommaspilus,x,,,,,,,
+Symphurus parvus,x,,,,,,,
+Symphurus pelicanus,x,,,,,,,
+Symphurus piger,x,,,,,,,
+Symphurus plagiusa,x,,,,,,,
+Symphurus plagusia,x,,,,,,,
+Symphurus pusillus,x,,,,,,,
+Symphurus rhytisma,x,,,,,,,
+Symphurus stigmosus,x,,,,x,,,
+Symphurus tessellatus,x,,,,,,,
+Symphurus urospilus,x,,,,,,,
+Cynolebiidae,,,,,,,,
+Rivulus garciai,x,,,,,,,
+Rivulus hartii,,,,,,x,,
+Rivulus marmoratus,x,,,,,,,
+Cyprinodontidae,,,,,,,,
+Cubanichthys cubensis,,,x,,,x,,
+Cyprinodon artifrons,,,x,,,x,,
+Cyprinodon dearborni,,,x,,,x,,
+Cyprinodon laciniatus,,,x,,,x,,
+Cyprinodon variegatus,,,x,,,x,,
+Floridichthys carpio,,,,,,x,,x
+Floridichthys polyommus,,,,,,x,,x
+Jordanella floridae,,,x,,,x,,x
+Jordanella pulchra,,,x,,,x,,x
+Dactylopteridae,,,,,,,,
+Dactylopterus volitans,x,,,,,,,
+Dactyloscopidae,,,,,,,,
+Dactylagnus peratikos,x,,,,,,,
+Dactyloscopus boehlkei,x,,,,,,,
+Dactyloscopus comptus,x,,,,,,,
+Dactyloscopus crossotus,x,,,,,,,
+Dactyloscopus foraminosus,x,,,,,,,
+Dactyloscopus moorei,x,,,,,,,
+Dactyloscopus poeyi,x,,,,,,,
+Dactyloscopus tridigitatus,x,,,,,,,
+Gillellus greyae,x,,,,,,,
+Gillellus healae,x,,,,,,,
+Gillellus inescatus,x,,,,,,,
+Gillellus jacksoni,x,,,,,,,
+Gillellus uranidea,x,,,,,,,
+Leurochilus acon,x,,,,,,,
+Myxodagnus belone,x,,,,,,,
+Platygillellus rubrocinctus,x,,,,,,,
+Platygillellus smithi,x,,,,,,,
+Dalatiidae,,,,,,,,
+Dalatias licha,x,,,,,,,
+Isistius brasiliensis,x,,,,,,,
+Isistius plutodus,x,,,,,,,
+Mollisquama species A,x,,,,,,,
+Squaliolus laticaudus,x,,,,,,,
+Dasyatidae,,,,,,,,
+Bathytoshia centroura,x,,,,,,,
+Fontitrygon geijskesi,x,,,,,,,
+Hypanus americanus,x,,,,,,,
+Hypanus guttatus,x,,,,,,,
+Hypanus sabinus,x,,,,,,,
+Hypanus say,x,,,,,,,
+Pteroplatytrygon violacea,x,,,,,,,
+Dinematichthyidae,,,,,,,,
+Alionematichthys minyomma,x,,,,,,,
+Gunterichthys longipenis,x,,,,,,,
+Ogilbia boehlkei,x,,,,,,,
+Ogilbia cayorum,x,,,,,,,
+Ogilbia jeffwilliamsi,x,,,,,,,
+Ogilbia mccoskeri,x,,,,,,,
+Ogilbia sabaji,x,,,,,,,
+Ogilbia species A,x,,,,,,,
+Ogilbia species B,x,,,,,,,
+Ogilbia suarezae,x,,,,,,,
+Ogilbia tyleri,x,,,,,,,
+Ogilbichthys ferocis,x,,,,,,,
+Ogilbichthys haitiensis,x,,,,,,,
+Ogilbichthys kakuki,x,,,,,,,
+Ogilbichthys longimanus,x,,,,,,,
+Ogilbichthys microphthalmus,x,,,,,,,
+Ogilbichthys puertoricoensis,x,,,,,,,
+Ogilbichthys tobagoensis,x,,,,,,,
+Pseudogilbia sanblasensis,x,,,,,,,
+Diodontidae,,,,,,,,
+Chilomycterus antennatus,x,,,,,,,
+Chilomycterus antillarum,x,,,,,,,
+Chilomycterus reticulatus,x,,,,,,,
+Chilomycterus schoepfii,x,,,,,,,
+Chilomycterus spinosus spinosus,x,,,,,,,
+Diodon eydouxii,x,,,,,,,x
+Diodon holocanthus,x,,,,,,,
+Diodon hystrix,x,,,,,,,
+Draconettidae,,,,,,,,
+Centrodraco acanthopoma,x,,,,,,,
+Echeneidae,,,,,,,,
+Echeneis naucrates,x,,,x,,,,x
+Echeneis neucratoides,x,,,x,,,,x
+Phtheirichthys lineatus,x,,,x,,,,x
+Remora albescens,x,,,x,,,,
+Remora australis,x,,,x,,,,x
+Remora brachyptera,x,,,x,,,,x
+Remora osteochir,x,,,x,,,,x
+Remora remora,x,,,x,,,,x
+Echinorhinidae,,,,,,,,
+Echinorhinus brucus,x,,,,,,,
+Eleotridae,,,,,,,,
+Butis koilomatodon,x,,,,,,,
+Dormitator maculatus,,,x,,,x,,x
+Eleotris amblyopsis,x,,,,,,,
+Eleotris perniger,x,,,,,,,
+Eleotris picta,x,,,,,,,
+Eleotris pisonis,x,,,,,,,
+Erotelis smaragdus,,,x,,,,,
+Gobiomorus dormitor,x,,,,,,,
+Guavina guavina,x,,,,,,,
+Leptophilypnus fluviatilis,,,,,,,,x
+Elopidae,,,,,,,,
+Elops saurus,x,,,,,,,
+Elops smithi,x,,,,,,,
+Emmelichthyidae,,,,,,,,
+Emmelichthys ruber,,,,,,,,x
+Erythrocles monodi,,,,,,,,x
+Engraulidae,,,,,,,,
+Anchoa cayorum,,,,,,,,x
+Anchoa choerostoma,,,,,,,,x
+Anchoa colonensis,,,,,,,,x
+Anchoa cubana,,,,,,,,x
+Anchoa filifera,,,,,,,,x
+Anchoa hepsetus,,,,,,,,x
+Anchoa januaria,,,,,,,,x
+Anchoa lamprotaenia,,,,,,,,x
+Anchoa lyolepis,,,,,,,,x
+Anchoa mitchilli,x,,,,,,,x
+Anchoa parva,,,,,,,,x
+Anchoa spinifer,x,,,,,,,x
+Anchoa trinitatis,,,,,,,,x
+Anchovia clupeoides,,,,,,,,x
+Anchovia surinamensis,,,,,,,,x
+Anchoviella blackburni,,,,,,,,x
+Anchoviella brevirostris,,,,,,,,x
+Anchoviella elongata,,,,,,,,x
+Anchoviella guianensis,,,,,,,,x
+Anchoviella lepidentostole,,,,,,,,x
+Anchoviella perfasciata,,,,,,,,x
+Cetengraulis edentulus,,,,,,,,x
+Engraulis eurystole,,,,,,,,x
+Lycengraulis batesii,x,,,,,,,x
+Lycengraulis grossidens,x,,,,,,,x
+Lycengraulis limnichthys,x,,,,,,,x
+Pterengraulis atherinoides,x,,,,,,,x
+Ephippidae,,,,,,,,
+Chaetodipterus faber,,x,,,,x,,
+Platax orbicularis,,,,,,x,,
+Etmopteridae,,,,,,,,
+Centroscyllium fabricii,x,,,,,,,
+Etmopterus bigelowi,x,,,,,,,
+Etmopterus bullisi,x,,,,,,,
+Etmopterus carteri,x,,,,,,,
+Etmopterus gracilispinis,x,,,,,,,
+Etmopterus hillianus,x,,,,,,,
+Etmopterus perryi,x,,,,,,,
+Etmopterus pusillus,x,,,,,,,
+Etmopterus robinsi,x,,,,,,,
+Etmopterus schultzi,x,,,,,,,
+Etmopterus virens,x,,,,,,,
+Exocoetidae,,,,,,,,
+Cheilopogon cyanopterus,,,,,,,,x
+Cheilopogon exsiliens,,,,,,,,x
+Cheilopogon furcatus,,,,,,,,x
+Cheilopogon heterurus,,,,,,,,x
+Cheilopogon melanurus,,,,,,,,x
+Cypselurus comatus,,,,,,,,x
+Exocoetus obtusirostris,,,,,,,,x
+Exocoetus volitans,,,,,,,,x
+Hirundichthys affinis,,,,,,,,x
+Hirundichthys rondeletii,,,,,,,,x
+Hirundichthys speculiger,,,,,,,,x
+Parexocoetus hillianus,,,,,,,,x
+Prognichthys glaphyrae,,,,,,,,x
+Prognichthys occidentalis,,,,,,,,x
+Fistulariidae,,,,,,,,
+Fistularia petimba,x,,,,,,,x
+Fistularia tabacaria,x,,,,,,,
+Fundulidae,,,,,,,,
+Fundulus bermudae,,,,,,x,,
+Fundulus chrysotus,,,,,,x,,
+Fundulus confluentus,,,,,,x,,
+Fundulus grandis,,,,,,x,,
+Fundulus grandissimus,,,,,,x,,
+Fundulus jenkinsi,,,,,,x,,
+Fundulus majalis,,,,,,x,,x
+Fundulus persimilis,,,,,,x,,
+Fundulus pulvereus,x,,,,,,,
+Fundulus relictus,,,,,,x,,
+Fundulus saguanus,,,,,,x,,
+Fundulus seminolis,,,,,,x,,
+Fundulus similis,,,,,,x,,x
+Fundulus xenicus,,,,,,x,,
+Lucania parva,x,,,,,,,x
+Gadidae,,,,,,,,
+Enchelyopus cimbrius,x,,,,,,,x
+Phycis chesteri,x,,,,,,,
+Urophycis cirrata,x,,,,,,,x
+Urophycis earllii,x,,,,,,,x
+Urophycis floridana,x,,,,,,,
+Urophycis regia,x,,,,,,,x
+Gempylidae,,,,,,,,
+Diplospinus multistriatus,x,,,,,,,
+Epinnula magistralis,x,,,,,,,
+Gempylus serpens,x,,,,,,,
+Lepidocybium flavobrunneum,x,,,,,,,
+Nealotus tripes,x,,,,,,,
+Neoepinnula americana,x,,,,,,,
+Nesiarchus nasutus,x,,,,,,,
+Promethichthys prometheus,x,,,,,,,
+Ruvettus pretiosus,x,,,,,,,
+Gerreidae,,,,,,,,
+Diapterus auratus,x,,,,,,,
+Diapterus rhombeus,x,,,,,,,
+Eucinostomus argenteus,x,,,,,,,x
+Eucinostomus gula,x,,,,,,,
+Eucinostomus harengulus,x,,,,,,,
+Eucinostomus havana,x,,,,,,,
+Eucinostomus jonesii,x,,,,,,,
+Eucinostomus lefroyi,x,,,,,,,
+Eucinostomus melanopterus,x,,,,,,,x
+Eugerres awlae,x,,,,,x,,
+Eugerres brasilianus,x,,,,,x,,
+Eugerres plumieri,x,,,,,,,
+Gerres cinereus,x,,,,,,,
+Ginglymostomatidae,,,,,,,,
+Ginglymostoma cirratum,x,,,,,,,
+Gobiesocidae,,,,,,,,
+Acyrtops amplicirrus,x,,,,,,,
+Acyrtops beryllinus,x,,,,,,,
+Acyrtus artius,x,,,,,,,
+Acyrtus lanthanum,x,,,,,,,
+Acyrtus rubiginosus,x,,,,,,,
+Arcos nudus,x,,,,,,,
+Derilissus altifrons,x,,,,,,,
+Derilissus kremnobates,x,,,,,,,
+Derilissus lombardii,x,,,,,,,
+Derilissus nanus,x,,,,,,,
+Derilissus vittiger,x,,,,,,,
+Gobiesox barbatulus,x,,,,,,,
+Gobiesox cephalus,x,,,,,,,
+Gobiesox lucayanus,x,,,,,,,
+Gobiesox nigripinnis,x,,,,,,,
+Gobiesox punctulatus,x,,,,,,,
+Gobiesox strumosus,x,,,,,,,
+Gymnoscyphus ascitus,x,,,,,,,
+Tomicodon briggsi,x,,,,,,,
+Tomicodon clarkei,x,,,,,,,
+Tomicodon cryptus,x,,,,,,,
+Tomicodon fasciatus,x,,,,,,,
+Tomicodon lavettsmithi,x,,,,,,,
+Tomicodon leurodiscus,x,,,,,,,
+Tomicodon reitzae,x,,,,,,,
+Tomicodon rhabdotus,x,,,,,,,
+Tomicodon rupestris,x,,,,,,,
+Gobiidae,,,,,,,,
+Akko dionaea,,,,,,,,x
+Antilligobius nikkiae,,,,,,,,x
+Awaous banana,,,,,x,,,
+Awaous flavus,,,,,,x,,
+Barbulifer antennatus,,,,,,,,x
+Barbulifer ceuthoecus,,,,,,,,x
+Bathygobius antilliensis,x,,,,,,,
+Bathygobius curacao,x,,,,,,,
+Bathygobius geminatus,x,,,,,,,
+Bathygobius lacertus,x,,,,,,,
+Bathygobius mystacium,x,,,,,,,
+Bathygobius soporator,x,,,,,,,
+Bollmannia boqueronensis,x,,,,,,,
+Bollmannia communis,x,,,,,,,
+Bollmannia eigenmanni,x,,,,,,,
+Bollmannia litura,x,,,,,,,
+Carrigobius amblyrhynchus,,,,,,,,x
+Cerdale floridana,x,,,,,,,
+Chriolepis fisheri,,,,,,,,x
+Chriolepis roosevelti,,,,,,,,x
+Coryphopterus alloides,,,x,,,x,,
+Coryphopterus curasub,,,x,,,x,,
+Coryphopterus dicrus,,,x,,,x,,
+Coryphopterus eidolon,,,x,,,x,,
+Coryphopterus glaucofraenum,,,x,,,x,,
+Coryphopterus hyalinus,,,,,,,,x
+Coryphopterus kuna,,,x,,,x,,
+Coryphopterus lipernes,,,x,,,x,,
+Coryphopterus personatus,,,,,,,,x
+Coryphopterus punctipectophorus,,,x,,,x,,
+Coryphopterus thrix,,,x,,,x,,
+Coryphopterus tortugae,,,x,,,x,,
+Coryphopterus venezuelae,,,x,,,x,,
+Cryptopsilotris batrachodes,,,,,,,,x
+Ctenogobius boleosoma,,,x,,,x,,
+Ctenogobius claytonii,,,x,,,x,,
+Ctenogobius fasciatus,,,x,,,x,,
+Ctenogobius phenacus,,,x,,,x,,
+Ctenogobius pseudofasciatus,,,x,,,x,,
+Ctenogobius saepepallens,x,,,,,,,
+Ctenogobius shufeldti,,,x,,,x,,
+Ctenogobius smaragdus,,,x,,,x,,
+Ctenogobius stigmaticus,,,x,,,x,,
+Ctenogobius stigmaturus,,,x,,,x,,
+Elacatinus atronasus,,,,,,,,x
+Elacatinus cayman,x,,,x,,,,x
+Elacatinus centralis,x,,,,,,,
+Elacatinus chancei,x,,,,,,,
+Elacatinus colini,x,,,,,,,
+Elacatinus evelynae,x,x,,x,,,,x
+Elacatinus genie,,,,x,,,,
+Elacatinus horsti,x,,,,,,,
+Elacatinus illecebrosus,,,,x,,,,
+Elacatinus jarocho,,,,,,,,x
+Elacatinus lobeli,,,,x,,,,
+Elacatinus lori,x,,,,,,,
+Elacatinus louisae,x,,,,,,,
+Elacatinus oceanops,,,,x,,,,
+Elacatinus prochilos,x,x,,x,,,,x
+Elacatinus randalli,x,,,x,,,,x
+Elacatinus serranilla,x,,,,,,,
+Elacatinus species N,x,,,,,,,
+Elacatinus species P,x,,,,,,,
+Elacatinus tenox,x,,,,,,,
+Elacatinus xanthiprora,x,,,x,,,,
+Evermannichthys bicolor,,,,,,,,x
+Evermannichthys convictor,,,,,,,,x
+Evermannichthys metzelaari,,,,,,,,x
+Evermannichthys silus,,,,,,,,x
+Evermannichthys spongicola,,,,,,,,x
+Evorthodus lyricus,,,x,,x,,,
+Ginsburgellus novemlineatus,x,,,,,,x,
+Gnatholepis thompsoni,,,x,,,x,,
+Gobioides broussonnetii,,,,,,,,x
+Gobionellus oceanicus,,,,,,x,,x
+Gobiosoma bosc,x,,,,,,,
+Gobiosoma ginsburgi,x,,,,,,,
+Gobiosoma grosvenori,x,,,,,,,
+Gobiosoma hildebrandi,x,,,,,,,
+Gobiosoma longipala,x,,,,,,,
+Gobiosoma nudum,x,,,,,,,
+Gobiosoma robustum,,,,,,x,,
+Gobiosoma schultzi,x,,,,,,,
+Gobiosoma spes,x,,,,,,,
+Gobiosoma spilotum,x,,,,,,,
+Gobiosoma yucatanum,x,,,,,,,
+Gobulus myersi,,,,,,,,x
+Lophogobius cyprinoides,,,,,,x,,
+Lythrypnus crocodilus,x,,,,,,,
+Lythrypnus elasson,x,,,,,,,
+Lythrypnus heterochroma,x,,,,,,,
+Lythrypnus minimus,x,,,,,,,
+Lythrypnus mowbrayi,x,,,,,,,
+Lythrypnus nesiotes,x,,,,,,,
+Lythrypnus okapia,x,,,,,,,
+Lythrypnus phorellus,x,,,,,,,
+Lythrypnus species 3,x,,,,,,,
+Lythrypnus spilus,x,,,,,,,
+Microdesmus bahianus,x,,,,,,,
+Microdesmus carri,x,,,,,,,
+Microdesmus lanceolatus,x,,,,,,,
+Microdesmus longipinnis,x,,,,,,,
+Microdesmus luscus,x,,,,,,,
+Microgobius carri,x,,,,,,,x
+Microgobius gulosus,,,x,,,x,,
+Microgobius meeki,x,,,,,,,x
+Microgobius microlepis,x,,,,,,,x
+Microgobius signatus,x,,,,,,,x
+Microgobius thalassinus,x,,,,,,,x
+Nes longus,x,,,,,,,
+Oxyurichthys stigmalophius,x,,,,,,,
+Paedovaricus imswe,,,,,,,,x
+Palatogobius grandoculus,x,,,,,,,x
+Palatogobius incendius,,,,,,,,x
+Palatogobius paradoxus,x,,,,,,,x
+Pariah scotius,x,,,,,,,
+Parrella macropteryx,,,,,,,,x
+Pinnichthys aimoriensis,x,,,,,,,
+Pinnichthys bilix,x,,,,,,,
+Pinnichthys prolata,x,,,,,,,
+Pinnichthys saurimimica,x,,,,,,,
+Priolepis dawsoni,,,,,,,,x
+Priolepis hipoliti,,,,,,,,x
+Priolepis robinsi,,,,,,,,x
+Psilotris alepis,,,,,,,,x
+Psilotris boehlkei,,,,,,,,x
+Psilotris celsa,,,,,,,,x
+Psilotris kaufmani,,,,,,,,x
+Psilotris laetarii,,,,,,,,x
+Psilotris laurae,,,,,,,,x
+Psilotris vantasselli,,,,,,,,x
+Ptereleotris calliura,,,,,,,,x
+Ptereleotris helenae,,,,,,,,x
+Ptereleotris randalli,,,,,,,,x
+Risor ruber,x,,,,,,,x
+Robinsichthys arrowsmithensis,,,,,,,,x
+Sicydium buscki,,,,,x,,,
+Tigrigobius dilepis,x,,,,,,,
+Tigrigobius gemmatus,x,,,,,,,
+Tigrigobius harveyi,x,,,,,,,
+Tigrigobius macrodon,x,,,,,,,
+Tigrigobius multifasciatus,x,,,,,,,
+Tigrigobius pallens,x,,,,,,,
+Tigrigobius panamensis,x,,,,,,,
+Tigrigobius redimiculus,x,,,,,,,
+Tigrigobius rubrigenis,x,,,,,,,
+Tigrigobius saucrus,,x,,,,x,,
+Tigrigobius zebrellus,x,,,,,,,
+Varicus adamsi,,,,,,,,x
+Varicus benthonis,,,,,,,,x
+Varicus bucca,,,,,,,,x
+Varicus cephalocellatus,,,,,,,x,
+Varicus decorum,,,,,,,,x
+Varicus lacerta,,,,,,,,x
+Varicus marilynae,,,,,,,,x
+Varicus nigritus,,,,,,,,x
+Varicus veliguttatus,,,,,,,,x
+Varicus vespa,,,,,,,,x
+Vomerogobius flavus,x,,,,,,,x
+Grammatidae,,,,,,,,
+Gramma dejongi,x,,,,,,,x
+Gramma linki,x,,,,,,,x
+Gramma loreto,x,,,x,,,,x
+Gramma melacara,x,,,,,,,
+Lipogramma anabantoides,,,,,,,,x
+Lipogramma barrettorum,,,,,,,,x
+Lipogramma evides,,,,,,,,x
+Lipogramma flavescens,,,,,,,,x
+Lipogramma haberorum,,,,,,,,x
+Lipogramma idabeli,,,,,,,,x
+Lipogramma klayi,,,,,,,,x
+Lipogramma levinsoni,,,,,,,,x
+Lipogramma regia,,,,,,,,x
+Lipogramma robinsi,,,,,,,,x
+Lipogramma rosea,,,,,,,,x
+Lipogramma schrieri,,,,,,,,x
+Lipogramma trilineata,,,,,,,,x
+Grammicolepididae,,,,,,,,
+Grammicolepis brachiusculus,x,,,,,,,
+Xenolepidichthys dalgleishi,,,,,,,,x
+Gymnuridae,,,,,,,,
+Gymnura altavela,x,,,,,,,
+Gymnura lessae,x,,,,,,,
+Gymnura micrura,x,,,,,,,
+Haemulidae,,,,,,,,
+Anisotremus surinamensis,x,,,,,,,
+Anisotremus virginicus,x,,,x,,,,
+Conodon nobilis,x,,,,,,,
+Emmelichthyops atlanticus,,,,,,,,x
+Genyatremus cavifrons,x,,,,,,,
+Haemulon album,x,,,,,,,
+Haemulon atlanticus,x,,,,,,,
+Haemulon aurolineatum,x,,,,,,,x
+Haemulon bonariense,x,,,,,,,
+Haemulon boschmae,x,,,,,,,x
+Haemulon carbonarium,x,,,,,,,
+Haemulon flavolineatum,x,,,,,,,
+Haemulon macrostomum,x,,,,,,,
+Haemulon melanurum,x,,,,,,,
+Haemulon parra,x,,,,,,,
+Haemulon plumierii,x,,,,,,,
+Haemulon sciurus,x,,,,,,,
+Haemulon striatum,,,,,,,,x
+Haemulon vittatum,,,,,,,,x
+Haemulopsis corvinaeformis,x,,,,,,,
+Orthopristis chrysoptera,x,,,,,,,x
+Orthopristis scapularis,x,,,,,,,
+Paranisotremus moricandi,x,,,,,,,
+Rhonciscus crocro,x,,,,,,,
+Brachygenys chrysargyrea,x,,,,,,,x
+Hemiramphidae,,,,,,,,
+Chriodorus atherinoides,,,,,,x,,x
+Euleptorhamphus velox,,,,,,,,x
+Hemiramphus balao,x,,,,,,,x
+Hemiramphus bermudensis,x,,,,,,,x
+Hemiramphus brasiliensis,,,,,,x,,x
+Hyporhamphus collettei,,,,,x,,,x
+Hyporhamphus meeki,,,,,,x,,
+Hyporhamphus roberti,,,,,,x,,x
+Hyporhamphus unifasciatus,,,,,,x,,x
+Oxyporhamphus similis,,,,,,,,x
+Hemiscylliidae,,,,,,,,
+Chiloscyllium punctatum,x,,,,,,,
+Heterenchelyidae,,,,,,,,
+Pythonichthys sanguineus,x,,,,,,,
+Hexanchidae,,,,,,,,
+Heptranchias perlo,x,,,,,,,
+Hexanchus griseus,x,,,,,,,
+Hexanchus vitulus,x,,,,,,,
+Holocentridae,,,,,,,,
+Corniger spinosus,x,,,,,,,x
+Holocentrus adscensionis,x,,,,,,,
+Holocentrus rufus,x,,,,,,,
+Myripristis jacobus,x,,,,,,,x
+Neoniphon coruscum,x,,,,,,,
+Neoniphon marianus,x,,,,,,,
+Neoniphon vexillarium,x,,,,,,,
+Ostichthys trachypoma,x,,,,,,,x
+Plectrypops retrospinis,x,,,,,,,
+Sargocentron bullisi,x,,,,,,,x
+Sargocentron poco,x,,,,,,,
+Istiophoridae,,,,,,,,
+Istiophorus platypterus,x,,,,,,,x
+Kajikia albida,x,,,,,,,x
+Makaira nigricans,x,,,,,,,x
+Tetrapturus georgii,x,,,,,,,
+Tetrapturus pfluegeri,x,,,,,,,
+Kyphosidae,,,,,,,,
+Kyphosus bigibbus,,,,,x,x,,
+Kyphosus cinerascens,,,,,x,,,x
+Kyphosus sectatrix,,,,,x,,,
+Kyphosus vaigiensis,,,,,x,x,,
+Labridae labrinae,,,,,,,,
+Bodianus pulchellus,x,,,x,,,,x
+Bodianus rufus,x,,,x,,,,
+Clepticus parrae,,,,,,,,x
+Decodon puellaris,x,,,,,,,
+Doratonotus megalepis,x,,,,,,,
+Halichoeres bathyphilus,x,,,,,,,
+Halichoeres bivittatus,x,,,,,,,
+Halichoeres burekae,x,,,,,,,x
+Halichoeres caudalis,x,,,,,,,
+Halichoeres cyanocephalus,x,,,x,,,,
+Halichoeres garnoti,x,,,,,,,
+Halichoeres maculipinna,x,,,,,,,
+Halichoeres pictus,x,,,,,,,x
+Halichoeres poeyi,x,,,,,,,
+Halichoeres radiatus,x,,,,,,,
+Halichoeres socialis,,,,,,,,x
+Lachnolaimus maximus,x,,,,,,,
+Polylepion species A,x,,,,,,,
+Thalassoma bifasciatum,x,,,x,,,,x
+Xyrichtys martinicensis,x,,,,,,,x
+Xyrichtys novacula,x,,,,,,,x
+Xyrichtys splendens,x,,,,,,,x
+Labridae scarinae,,,,,,,,
+Cryptotomus roseus,,,,,x,,,
+Nicholsina usta,,,,,x,,,
+Scarus coelestinus,,,,,x,,,
+Scarus coeruleus,,,,,x,,,
+Scarus guacamaia,,,,,x,,,
+Scarus iseri,,,,,x,,,x
+Scarus taeniopterus,,,,,x,,,
+Scarus vetula,,,,,x,,,
+Sparisoma atomarium,,,,,x,,,
+Sparisoma aurofrenatum,,,,,x,,,
+Sparisoma axillare,,,,,x,,,
+Sparisoma chrysopterum,,,,,x,,,
+Sparisoma griseorubrum,,,,,x,,,
+Sparisoma radians,,,,,x,,,
+Sparisoma rubripinne,,,,,x,,,
+Sparisoma viride,,,,,x,,,
+Labrisomidae,,,,,,,,
+Brockius albigenys,x,,,,,,,
+Brockius nigricinctus,x,,,,,,,
+Gobioclinus bucciferus,x,,,,,,,
+Gobioclinus filamentosus,x,,,,,,,
+Gobioclinus gobio,x,,,,,,,
+Gobioclinus guppyi,x,,,,,,,
+Gobioclinus haitiensis,x,,,,,,,
+Gobioclinus kalisherae,x,,,,,,,
+Haptoclinus apectolophus,x,,,,,,,
+Haptoclinus dropi,x,,,,,,,x
+Labrisomus conditus,x,,,,,,,
+Labrisomus cricota,x,,,,,,,
+Labrisomus nuchipinnis,x,,,,,,,
+Malacoctenus aurolineatus,x,,,,,,,
+Malacoctenus boehlkei,x,,,,,,,
+Malacoctenus delalandii,x,,,,,,,
+Malacoctenus erdmani,x,,,,,,,
+Malacoctenus gilli,x,,,,,,,
+Malacoctenus macropus,x,,,,,,,
+Malacoctenus triangulatus,x,,,,,,,
+Malacoctenus versicolor,,,,,,x,,x
+Nemaclinus atelestos,x,,,,,,,
+Paraclinus barbatus,x,,,,,,,
+Paraclinus cingulatus,x,,,,,,,
+Paraclinus fasciatus,x,,,,,,,
+Paraclinus grandicomis,x,,,,,,,
+Paraclinus infrons,x,,,,,,,
+Paraclinus marmoratus,x,,,,,,,
+Paraclinus naeorhegmis,x,,,,,,,
+Paraclinus nigripinnis,x,,,,,,,
+Starksia atlantica,x,,,,,,,
+Starksia culebrae,x,,,,,,,
+Starksia elongata,x,,,,,,,
+Starksia fasciata,x,,,,,,,
+Starksia greenfieldi,x,,,,,,,
+Starksia guttata,x,,,,,,,
+Starksia hassi,x,,,,,,,
+Starksia langi,x,,,,,,,
+Starksia lepicoelia,x,,,,,,,
+Starksia leucovitta,x,,,,,,,
+Starksia melasma,x,,,,,,,
+Starksia nanodes,x,,,,,,,
+Starksia occidentalis,x,,,,,,,
+Starksia ocellata,x,,,,,,,
+Starksia rava,x,,,,,,,
+Starksia robertsoni,x,,,,,,,
+Starksia sangreyae,x,,,,,,,
+Starksia sella,x,,,,,,,
+Starksia sluiteri,x,,,,,,,
+Starksia smithvanizi,x,,,,,,,
+Starksia species A,x,,,,,,,
+Starksia species B,x,,,,,,,
+Starksia splendens,x,,,,,,,
+Starksia springeri,x,,,,,,,
+Starksia starcki,x,,,,,,,
+Starksia variabilis,x,,,,,,,
+Starksia weigti,x,,,,,,,
+Starksia williamsi,x,,,,,,,
+Starksia y-lineata,x,,,,,,,
+Lamnidae,,,,,,,,
+Carcharodon carcharias,x,,,,,,,
+Isurus oxyrinchus,x,,,,,,,
+Isurus paucus,x,,,,,,,
+Lamna nasus,x,,,,,,,
+Lamprididae,,,,,,,,
+Lampris megalopsis,x,,,,,,,
+Lepisosteidae,,,,,,,,
+Atractosteus spatula,x,,,,,,,
+Atractosteus tristoechus,x,,,,,,,
+Lepisosteus oculatus,x,,,,,,,
+Lepisosteus osseus,x,,,,,,,
+Lepisosteus platyrhincus,x,,,,,,,
+Lobotidae,,,,,,,,
+Lobotes surinamensis,x,,,,,,,
+Lophiidae,,,,,,,,
+Lophiodes beroe,x,,,,,,,
+Lophiodes monodi,x,,,,,,,
+Lophiodes reticulatus,x,,,,,,,
+Lophius americanus,x,,,,,,,
+Lophius gastrophysus,x,,,,,,,
+Sladenia shaefersi,x,,,,,,,
+Lutjanidae,,,,,,,,
+Apsilus dentatus,x,,,,,,,
+Etelis oculatus,x,,,,,,,
+Lutjanus analis,x,,,,,,,
+Lutjanus apodus,x,,,,,,,
+Lutjanus buccanella,x,,,,,,,
+Lutjanus campechanus,x,,,,,,,x
+Lutjanus cyanopterus,x,,,,,,,
+Lutjanus griseus,x,,,,,,,
+Lutjanus jocu,x,,,,,,,
+Lutjanus mahogoni,x,,,,,,,
+Lutjanus purpureus,x,,,,,,,x
+Lutjanus synagris,x,,,,,,,
+Lutjanus vivanus,x,,,,,,,
+Ocyurus chrysurus,x,,,,,,,x
+Pristipomoides aquilonaris,x,,,,,,,
+Pristipomoides freemani,x,,,,,,,x
+Pristipomoides macrophthalmus,x,,,,,,,x
+Rhomboplites aurorubens,x,,,,,,,x
+Luvaridae,,,,,,,,
+Luvarus imperialis,x,,,,,,,x
+Malacanthidae,,,,,,,,
+Caulolatilus bermudensis,x,,,,,,,
+Caulolatilus chrysops,x,,,,,,,x
+Caulolatilus cyanops,x,,,,,,,
+Caulolatilus dooleyi,x,,,,,,,
+Caulolatilus guppyi,x,,,,,,,
+Caulolatilus intermedius,x,,,,,,,
+Caulolatilus microps,x,,,,,,,
+Caulolatilus williamsi,x,,,,,,,
+Lopholatilus chamaeleonticeps,x,,,,,,,
+Malacanthus plumieri,x,,,,,,,
+Megachasmidae,,,,,,,,
+Megachasma pelagios,,,,,,,,x
+Megalopidae,,,,,,,,
+Megalops atlanticus,x,,,,,,,x
+Merlucciidae,,,,,,,,
+Merluccius albidus,x,,,,,,,x
+Merluccius bilinearis,x,,,,,,,x
+Steindachneria argentea,x,,,,,,,x
+Mitsukurinidae,,,,,,,,
+Mitsukurina owstoni,x,,,,,,,
+Mobulidae,,,,,,,,
+Mobula birostris,x,,,,,,,x
+Mobula hypostoma,,,,,,,,x
+Mobula mobular,,,,,,,,x
+Mobula species A,x,,,,,,,x
+Mobula tarapacana,,,,,,,,x
+Mobula thurstoni,,,,,,,,x
+Molidae,,,,,,,,
+Masturus lanceolatus,,,,,,,,x
+Mola mola,x,,,,,,,x
+Ranzania laevis,,,,,,,,x
+Monacanthidae,,,,,,,,
+Aluterus heudelotii,,x,,,,x,,
+Aluterus monoceros,,x,,,,x,,
+Aluterus schoepfii,,x,,,,x,,
+Aluterus scriptus,,x,,,,x,,
+Cantherhines macrocerus,,x,,,,x,,
+Cantherhines pullus,,x,,,,x,,
+Monacanthus ciliatus,,,,,,x,,
+Monacanthus tuckeri,x,,,,,,,
+Stephanolepis hispidus,,x,,,,x,,
+Stephanolepis setifer,,x,,,,x,,
+Moridae,,,,,,,,
+Laemonema barbatulum,x,,,,,,,x
+Physiculus fulvus,x,,,,,,,x
+Moringuidae,,,,,,,,
+Moringua edwardsi,x,,,,,,,
+Neoconger mucronatus,x,,,,,,,
+Moronidae,,,,,,,,
+Morone chrysops,x,,,,,,,x
+Morone mississippiensis,x,,,,,,,x
+Morone saxatilis,x,,,,,,,x
+Mugilidae,,,,,,,,
+Dajaus monticola,,,,,,x,,
+Joturus pichardi,,,,,,x,,
+Mugil cephalus,,,x,,,x,,x
+Mugil curema,,,x,,,x,,x
+Mugil curvidens,,,x,,,,,
+Mugil incilis,,,x,,,,,
+Mugil liza,,,x,,,,,x
+Mugil longicauda,,,x,,,x,,x
+Mugil margaritae,,,x,,,x,,x
+Mugil rubrioculus,,,x,,,x,,x
+Mugil trichodon,,,x,,x,,,
+Mullidae,,,,,,,,
+Mulloidichthys martinicus,x,,,,,,,x
+Mullus auratus,x,,,,,,,
+Pseudupeneus maculatus,x,,,,,,,
+Upeneus parvus,x,,,,,,,
+Muraenesocidae,,,,,,,,
+Cynoponticus savanna,x,,,,,,,
+Muraenidae,,,,,,,,
+Anarchias similis,x,,,,,,,
+Channomuraena vittata,x,,,,,,,
+Echidna catenata,x,,,,,,,
+Enchelycore anatina,x,,,,,,,
+Enchelycore carychroa,x,,,,,,,
+Enchelycore nigricans,x,,,,,,,
+Gymnothorax conspersus,x,,,,,,,
+Gymnothorax funebris,x,,,,,,,
+Gymnothorax hubbsi,x,,,,,,,
+Gymnothorax kolpos,x,,,,,,,
+Gymnothorax maderensis,x,,,,,,,
+Gymnothorax miliaris,x,,,,,,,
+Gymnothorax moringa,x,,,,,,,
+Gymnothorax nigromarginatus,x,,,,,,,
+Gymnothorax ocellatus,x,,,,,,,
+Gymnothorax polygonius,x,,,,,,,
+Gymnothorax saxicola,x,,,,,,,
+Gymnothorax vicinus,x,,,,,,,
+Monopenchelys acuta,x,,,,,,,
+Muraena pavonina,x,,,,,,,
+Muraena retifera,x,,,,,,,
+Muraena robusta,x,,,,,,,
+Uropterygius macularius,x,,,,,,,
+Myliobatidae,,,,,,,,
+Myliobatis freminvillii,x,,,,,,,
+Myliobatis goodei,x,,,,,,,
+Narcinidae,,,,,,,,
+Benthobatis marcida,x,,,,,,,
+Diplobatis colombiensis,x,,,,,,,
+Diplobatis guamachensis,x,,,,,,,
+Diplobatis picta,x,,,,,,,
+Narcine bancroftii,x,,,,,,,
+Nettastomatidae,,,,,,,,
+Facciolella species A,x,,,,,,,x
+Hoplunnis diomediana,x,,,,,,,
+Hoplunnis macrura,x,,,,,,,
+Hoplunnis megista,x,,,,,,,
+Hoplunnis similis,x,,,,,,,
+Hoplunnis tenuis,x,,,,,,,
+Nettastoma melanurum,x,,,,,,,
+Nettastoma syntresis,x,,,,,,,
+Nettenchelys exoria,x,,,,,,,
+Nettenchelys inion,x,,,,,,,
+Nettenchelys pygmaea,x,,,,,,,
+Saurenchelys cognita,x,,,,,,,
+Saurenchelys species A,x,,,,,,,
+Venefica procera,x,,,,,,,
+Nomeidae,,,,,,,,
+Cubiceps capensis,,,,,,,,x
+Cubiceps gracilis,,,,,,,,x
+Cubiceps pauciradiatus,x,,,,,,,x
+Nomeus gronovii,x,,,,,,,x
+Psenes arafurensis,x,,,,,,,x
+Psenes cyanophrys,x,,,,,,,x
+Psenes pellucidus,x,,,,,,,x
+Odontaspididae,,,,,,,,
+Carcharias taurus,x,,,,,,,
+Odontaspis ferox,x,,,,,,,
+Odontaspis noronhai,x,,,,,,,
+Ogcocephalidae,,,,,,,,
+Dibranchus atlanticus,x,,,,,,,
+Halieutichthys aculeatus,x,,,,,,,
+Halieutichthys bispinosus,x,,,,,,,
+Halieutichthys caribbaeus,x,,,,,,,
+Halieutichthys intermedius,x,,,,,,,
+Malthopsis gnoma,x,,,,,,,
+Ogcocephalus corniger,x,,,,,,,
+Ogcocephalus cubifrons,x,,,,,,,
+Ogcocephalus declivirostris,x,,,,,,,
+Ogcocephalus nasutus,x,,,,,,,
+Ogcocephalus notatus,x,,,,,,,
+Ogcocephalus pantostictus,x,,,,,,,
+Ogcocephalus parvus,x,,,,,,,
+Ogcocephalus pumilus,x,,,,,,,
+Ogcocephalus rostellum,x,,,,,,,
+Zalieutes mcgintyi,x,,,,,,,
+Ophichthidae,,,,,,,,
+Ahlia egmontis,x,,,,,,,
+Aplatophis chauliodus,x,,,,,,,
+Aprognathodon platyventris,x,,,,,,,
+Apterichtus ansp,x,,,,,,,
+Apterichtus kendalli,x,,,,,,,
+Bascanichthys bascanium,x,,,,,,,
+Bascanichthys gaira,x,,,,,,,
+Bascanichthys inopinatus,x,,,,,,,
+Bascanichthys scuticaris,x,,,,,,,
+Callechelys bilinearis,x,,,,,,,
+Callechelys guineensis,x,,,,,,,
+Callechelys muraena,x,,,,,,,
+Callechelys springeri,x,,,,,,,
+Caralophia loxochila,x,,,,,,,
+Echiophis intertinctus,x,,,,,,,
+Echiophis punctifer,x,,,,,,,
+Ethadophis akkistikos,x,,,,,,,
+Gordiichthys ergodes,x,,,,,,,
+Gordiichthys irretitus,x,,,,,,,
+Gordiichthys leibyi,x,,,,,,,
+Gordiichthys randalli,x,,,,,,,
+Hyphalophis devius,x,,,,,,,
+Ichthyapus ophioneus,x,,,,,,,
+Kertomichthys blastorhinos,x,,,,,,,
+Letharchus velifer,x,,,,,,,
+Lethogoleos andersoni,x,,,,,,,
+Mixomyrophis pusillipinna,x,,,,,,,
+Myrichthys breviceps,x,,,,,,,
+Myrichthys ocellatus,x,,,,,,,
+Myrophis anterodorsalis,x,,,,,,,
+Myrophis platyrhynchus,x,,,,,,,
+Myrophis plumbeus,x,,,,,,,
+Myrophis punctatus,x,,,,,,,
+Ophichthus cruentifer,x,,,,,,,
+Ophichthus cylindroideus,x,,,,,,,
+Ophichthus gomesii,x,,,,,,,
+Ophichthus hyposagmatus,x,,,,,,,
+Ophichthus melanoporus,x,,,,,,,
+Ophichthus menezesi,x,,,,,,,
+Ophichthus omorgmus,x,,,,,,,
+Ophichthus ophis,x,,,,,,,
+Ophichthus puncticeps,x,,,,,,,
+Ophichthus rex,x,,,,,,,
+Ophichthus spinicauda,x,,,,,,,
+Phaenomonas longissima,x,,,,,,,
+Pseudomyrophis frio,x,,,,,,,
+Pseudomyrophis fugesae,x,,,,,,,
+Pseudomyrophis nimius,x,,,,,,,
+Quassiremus ascensionis,x,,,,,,,
+Ophidiidae,,,,,,,,
+Brotula barbata,x,,,,,,,
+Lepophidium aporrhox,x,,,,,,,
+Lepophidium brevibarbe,x,,,,,,,
+Lepophidium collettei,x,,,,,,,
+Lepophidium crossotum,x,,,,,,,
+Lepophidium cultratum,x,,,,,,,
+Lepophidium entomelan,x,,,,,,,
+Lepophidium gilmorei,x,,,,,,,
+Lepophidium jeannae,x,,,,,,,
+Lepophidium kallion,x,,,,,,,
+Lepophidium marmoratum,x,,,,,,,
+Lepophidium pheromystax,x,,,,,,,
+Lepophidium profundorum,x,,,,,,,
+Lepophidium robustum,x,,,,,,,
+Lepophidium staurophor,x,,,,,,,
+Lepophidium wileyi,x,,,,,,,
+Lepophidium zophochir,x,,,,,,,
+Monomitopus agassizii,x,,,,,,,x
+Neobythites elongatus,x,,,,,,,
+Neobythites gilli,x,,,,,,,
+Neobythites marginatus,x,,,,,,,
+Neobythites monocellatus,x,,,,,,,
+Neobythites multidigitatus,x,,,,,,,
+Neobythites multiocellatus,x,,,,,,,
+Neobythites unicolor,x,,,,,,,
+Ophidion antipholus,x,,,,,,,
+Ophidion dromio,x,,,,,,,
+Ophidion grayi,x,,,,,,,
+Ophidion guianense,x,,,,,,,
+Ophidion holbrookii,x,,,,,,,
+Ophidion josephi,x,,,,,,,
+Ophidion lagochila,x,,,,,,,
+Ophidion marginatum,x,,,,,,,
+Ophidion nocomis,x,,,,,,,
+Ophidion selenops,x,,,,,,,
+Otophidium chickcharney,x,,,,,,,
+Otophidium dormitator,x,,,,,,,
+Otophidium omostigma,x,,,,,,,
+Parophidion schmidti,x,,,,,,,
+Petrotyx sanguineus,x,,,,,,,
+Opistognathidae,,,,,,,,
+Anoptoplacus pygmaeus,x,,,,,,,
+Lonchopisthus ancistrus,x,,,,,,,
+Lonchopisthus higmani,x,,,,,,,
+Lonchopisthus lemur,x,,,,,,,x
+Lonchopisthus micrognathus,x,,,,,,,x
+Opistognathus aurifrons,,,,,,,,x
+Opistognathus gilberti,x,,,,,,,
+Opistognathus leprocarus,x,,,,,,,
+Opistognathus lonchurus,x,,,,,,,
+Opistognathus macrognathus,x,,,,,,,
+Opistognathus maxillosus,x,,,,,,,
+Opistognathus megalepis,x,,,,,,,
+Opistognathus melachasme,x,,,,,,,
+Opistognathus nothus,x,,,,,,,
+Opistognathus robinsi,x,,,,,,,
+Opistognathus schrieri,x,,,,,,,
+Opistognathus signatus,x,,,,,,,
+Opistognathus whitehursti,x,,,,,,,
+Ostraciidae,,,,,,,,
+Acanthostracion polygonius,x,x,,,,,,
+Acanthostracion quadricornis,,x,,,,x,,
+Lactophrys bicaudalis,,,,,,x,,
+Lactophrys trigonus,,,,,,x,,
+Lactophrys triqueter,x,,,,,,,
+Oxynotidae,,,,,,,,
+Oxynotus caribbaeus,x,,,,,,,
+Paralichthyidae,,,,,,,,
+Ancylopsetta antillarum,x,,,,,,,
+Ancylopsetta cycloidea,x,,,,,,,
+Ancylopsetta dilecta,x,,,,,,,
+Ancylopsetta kumperae,x,,,,,,,
+Ancylopsetta microctenus,x,,,,,,,
+Ancylopsetta ommata,x,,,,,,,
+Citharichthys abbotti,x,,,,,,,
+Citharichthys amblybregmatus,x,,,,,,,
+Citharichthys arctifrons,x,,,,,,,
+Citharichthys arenaceus,x,,,,,,,
+Citharichthys cornutus,x,,,,,,,
+Citharichthys dinoceros,x,,,,,,,
+Citharichthys gymnorhinus,x,,,,,,,
+Citharichthys macrops,x,,,,,,,
+Citharichthys minutus,x,,,,,,,
+Citharichthys spilopterus,x,,,,,,,
+Citharichthys uhleri,x,,,,,,,
+Citharichthys valdezi,x,,,,,,,
+Cyclopsetta chittendeni,x,,,,,,,
+Cyclopsetta fimbriata,x,,,,,,,
+Etropus crossotus,x,,,,,,,
+Etropus cyclosquamus,x,,,,,,,
+Etropus delsmani delsmani,x,,,,,,,
+Etropus rimosus,x,,,,,,,
+Gastropsetta frontalis,x,,,,,,,
+Paralichthys albigutta,x,,,,,,,
+Paralichthys dentatus,x,,,,,,,
+Paralichthys lethostigma,x,,,,,,,
+Paralichthys oblongus,x,,,,,,,
+Paralichthys squamilentus,x,,,,,,,
+Paralichthys tropicus,x,,,,,,,
+Syacium gunteri,x,,,,,,,
+Syacium micrurum,x,,,,,,,
+Syacium papillosum,x,,,,,,,
+Parazenidae,,,,,,,,
+Cyttopsis rosea,x,,,,,,,
+Parazen pacificus,,,,,,,,
+Pempheridae,,,,,,,,
+Pempheris poeyi,,,,,,,,x
+Pempheris schomburgkii,,,,,,,,x
+Percophidae,,,,,,,,
+Bembrops anatirostris,x,,,,,,,
+Bembrops gobioides,x,,,,,,,
+Bembrops macromma,x,,,,,,,
+Bembrops magnisquamis,x,,,,,,,
+Bembrops ocellatus,x,,,,,,,
+Bembrops quadrisella,x,,,,,,,
+Bembrops raneyi,x,,,,,,,
+Chrionema squamentum,x,,,,,,,
+Peristediidae,,,,,,,,
+Peristedion antillarum,x,,,,,,,
+Peristedion brevirostre,x,,,,,,,
+Peristedion ecuadorense,x,,,,,,,
+Peristedion gracile,x,,,,,,,
+Peristedion greyae,x,,,,,,,
+Peristedion imberbe,x,,,,,,,
+Peristedion longispatha,x,,,,,,,
+Peristedion miniatum,x,,,,,,,
+Peristedion species T,x,,,,,,,
+Peristedion thompsoni,x,,,,,,,
+Peristedion truncatum,x,,,,,,,
+Peristedion unicuspis,x,,,,,,,
+Pimelodidae,,,,,,,,
+Brachyplatystoma filamentosum,x,,,,,,,
+Brachyplatystoma vaillantii,x,,,,,,,
+Hypophthalmus edentatus,x,,,,,,,x
+Pimelodus blochii,,,,,,x,,
+Pleuronectidae,,,,,,,,
+Poecilopsetta beanii,x,,,,,,,
+Poecilopsetta inermis,x,,,,,,,
+Poeciliidae,,,,,,,,
+Belonesox belizanus,x,,,,,,,x
+Brachyrhaphis cascajalensis,x,,,,,,,
+Gambusia affinis,x,,x,,,,,x
+Gambusia lemaitrei,x,,x,,,,,
+Gambusia luma,x,,x,,,,,
+Gambusia manni,x,,,,,,,
+Gambusia nicaraguensis,x,,,,,,,
+Gambusia punctata,x,,x,,,,,
+Gambusia puncticulata,x,,x,,,,,
+Gambusia rhizophorae,x,,x,,,,,
+Gambusia wrayi,x,,x,,,,,
+Gambusia xanthosoma,x,,x,,,,,
+Gambusia yucatana,x,,x,,,,,
+Heterandria formosa,x,,,,,x,,x
+Limia caymanensis,x,,x,,,,,
+Limia rivasi,x,,x,,,,,
+Limia vittata,x,,x,,,,,
+Poecilia gillii,,,x,,x,,,
+Poecilia koperi,,,x,,,x,,
+Poecilia latipinna,,,x,,,x,,x
+Poecilia mexicana,x,,x,,,,,
+Poecilia orri,x,,x,,,,,
+Poecilia petenensis,x,,x,,,,,
+Poecilia picta,,,x,,,x,,
+Poecilia reticulata,x,,x,,,,,x
+Poecilia sphenops,x,,x,,,x,,
+Poecilia vandepolli,x,,x,,,,,
+Poecilia velifera,x,,x,,,,,
+Poecilia vivipara,x,,x,,,,,
+Polymixiidae,,,,,,,,
+Polymixia lowei,x,,,,,,,
+Polymixia nobilis,x,,,,,,,
+Polynemidae,,,,,,,,
+Polydactylus octonemus,x,,,,,,,x
+Polydactylus oligodon,x,,,,,,,x
+Polydactylus virginicus,x,,,,,,,x
+Polyprionidae,,,,,,,,
+Polyprion americanus,x,,,,,,,
+Pomacanthidae,,,,,,,,
+Centropyge argi,,,,,x,,,
+Centropyge aurantonotus,,,,,,x,,
+Holacanthus bermudensis,,x,,x,,x,,
+Holacanthus ciliaris,,x,,x,,x,,
+Holacanthus tricolor,,x,,,,x,,
+Pomacanthus annularis,x,,,,,,,x
+Pomacanthus arcuatus,,x,,x,,x,,
+Pomacanthus asfur,x,,,,,,,
+Pomacanthus imperator,x,,,,,,,
+Pomacanthus maculosus,,,,,,x,,
+Pomacanthus paru,,x,,x,,x,,
+Pomacanthus semicirculatus,,,,,,x,,
+Pomacanthus xanthometopon,x,,,,,,,
+Pomacentridae,,,,,,,,
+Abudefduf saxatilis,,,,,,x,,x
+Abudefduf taurus,,x,,,,x,,
+Chromis bermudae,,,,,,,,x
+Chromis cyanea,,,,,,,,x
+Chromis enchrysurus,,,,,,,,x
+Chromis insolata,,,,,,,,x
+Chromis jubauna,,,,,,,,x
+Chromis multilineata,,,,,,,,x
+Chromis scotti,,,,,,,,x
+Chromis vanbebberae,,,,,,,,x
+Dascyllus aruanus,,,,,,x,,x
+Dascyllus trimaculatus,,,,,,x,,x
+Microspathodon chrysurus,,x,,x,,x,,
+Neopomacentrus cyanomos,,,,,,,,x
+Stegastes adustus,,,x,,,x,,
+Stegastes diencaeus,,,,,,x,,
+Stegastes leucostictus,,,,,,x,,
+Stegastes otophorus,,,,,,x,,
+Stegastes partitus,,,,,,x,,x
+Stegastes pictus,,,,,,x,,
+Stegastes planifrons,,x,,,,x,,x
+Stegastes xanthurus,,x,,,,x,,
+Pomatomidae,,,,,,,,
+Pomatomus saltatrix,x,,,,,,,x
+Potamotrygonidae,,,,,,,,
+Styracura schmardae,x,,,,,,,
+Priacanthidae,,,,,,,,
+Cookeolus japonicus,x,,,,,,,x
+Heteropriacanthus cruentatus,x,,,,,,,x
+Priacanthus arenatus,x,,,,,,,x
+Pristigenys alta,x,,,,,,,
+Pristidae,,,,,,,,
+Pristis pectinata,x,,,,,,,
+Pristis pristis,x,,,,,,,
+Pristigasteridae,,,,,,,,
+Chirocentrodon bleekerianus,x,,,,,,,x
+Neoopisthopterus cubanus,,,,,,,,x
+Odontognathus compressus,x,,,,,,,x
+Odontognathus mucronatus,x,,,,,,,x
+Pellona harroweri,x,,,,,,,x
+Pristiophoridae,,,,,,,,
+Pristiophorus schroederi,x,,,,,,,
+Proscylliidae,,,,,,,,
+Eridacnis barbouri,x,,,,,,,
+Pseudocarchariidae,,,,,,,,
+Pseudocarcharias kamoharai,x,,,,,,,
+Pseudotriakidae,,,,,,,,
+Pseudotriakis microdon,x,,,,,,,
+Rachycentridae,,,,,,,,
+Rachycentron canadum,x,,,,,,,
+Rajidae,,,,,,,,
+Amblyraja radiata,x,,,,,,,
+Breviraja claramaculata,x,,,,,,,
+Breviraja colesi,x,,,,,,,
+Breviraja mouldi,x,,,,,,,
+Breviraja nigriventralis,x,,,,,,,
+Breviraja spinosa,x,,,,,,,
+Dactylobatus armatus,x,,,,,,,
+Dactylobatus clarkii,x,,,,,,,
+Dipturus bullisi,x,,,,,,,
+Dipturus garricki,x,,,,,,,
+Dipturus olseni,x,,,,,,,
+Dipturus oregoni,x,,,,,,,
+Dipturus teevani,x,,,,,,,
+Fenestraja atripinna,x,,,,,,,
+Fenestraja cubensis,x,,,,,,,
+Fenestraja ishiyamai,x,,,,,,,
+Fenestraja plutonia,x,,,,,,,
+Fenestraja sinusmexicanus,x,,,,,,,
+Gurgesiella atlantica,x,,,,,,,
+Leucoraja garmani,x,,,,,,,
+Leucoraja lentiginosa,x,,,,,,,
+Leucoraja yucatanensis,x,,,,,,,
+Malacoraja senta,x,,,,,,,
+Neoraja carolinensis,x,,,,,,,
+Rajella bigelowi,x,,,,,,,
+Rajella fuliginea,x,,,,,,,
+Rajella purpuriventralis,x,,,,,,,
+Rostroraja ackleyi,x,,,,,,,
+Rostroraja bahamensis,x,,,,x,,,
+Rostroraja cervigoni,x,,,,,,,
+Rostroraja eglanteria,x,,,,,,,
+Rostroraja texana,x,,,,,,,
+Regalecidae,,,,,,,,
+Regalecus glesne,x,,,,,,,x
+Rhincodontidae,,,,,,,,
+Rhincodon typus,,,,,,,,x
+Rhinobatidae,,,,,,,,
+Pseudobatos lentiginosus,x,,,,,,,
+Pseudobatos percellens,x,,,,,,,
+Rhinochimaeridae,,,,,,,,
+Harriotta raleighana,x,,,,,,,
+Neoharriotta carri,x,,,,,,,
+Rhinochimaera atlantica,x,,,,,,,
+Rhinopteridae,,,,,,,,
+Rhinoptera bonasus,x,,,,,,,
+Rhinoptera brasiliensis,x,,,,,,,
+Scatophagidae,,,,,,,,
+Scatophagus argus,,,x,,,x,,
+Sciaenidae,,,,,,,,
+Bairdiella chrysoura,x,,,,,,,x
+Bairdiella ronchus,x,,,,,,,x
+Corvula batabana,x,,,,,,,
+Corvula sanctaeluciae,x,,,,,,,
+Ctenosciaena gracilicirrhus,x,,,,,,,
+Cynoscion acoupa,x,,,,,,,
+Cynoscion arenarius,x,,,,,,,x
+Cynoscion jamaicensis,x,,,,,,,
+Cynoscion leiarchus,x,,,,,,,
+Cynoscion microlepidotus,x,,,,,,,
+Cynoscion nebulosus,x,,,,,,,
+Cynoscion nothus,x,,,,,,,x
+Cynoscion regalis,x,,,,,,,
+Cynoscion similis,x,,,,,,,
+Cynoscion virescens,x,,,,,,,
+Equetus lanceolatus,x,,,,,,,
+Equetus punctatus,x,,,,,,,
+Isopisthus parvipinnis,x,,,,,,,
+Larimus breviceps,x,,,,,,,
+Larimus fasciatus,x,,,,,x,,
+Leiostomus xanthurus,x,,x,,,,,
+Lonchurus elegans,x,,,,,,,
+Lonchurus lanceolatus,x,,,,,,,
+Macrodon ancylodon,x,,,,,,,x
+Menticirrhus americanus,x,,,,,,,
+Menticirrhus littoralis,x,,,,,,,
+Menticirrhus saxatilis,x,,,,,,,
+Micropogonias furnieri,x,,,,,,,x
+Micropogonias undulatus,x,,,,,,,x
+Nebris microps,x,,,,,,,
+Odontoscion dentex,x,,,,,,,x
+Ophioscion gomezi,x,,,,,,,
+Ophioscion panamensis,x,,,,,,,
+Ophioscion punctatissimus,x,,,,,,,
+Paralonchurus brasiliensis,x,,,,,,,
+Pareques acuminatus,x,,,,,,,x
+Pareques iwamotoi,x,,,,,,,
+Pareques umbrosus,x,,,,,,,
+Pogonias cromis,x,,,,,,,
+Protosciaena bathytatos,x,,,,,,,
+Protosciaena trewavasae,x,,,,,,,
+Sciaenops ocellatus,x,,,,,,,
+Stellifer chaoi,x,,,,,,,
+Stellifer colonensis,x,,,,,,,
+Stellifer griseus,x,,,,,,,
+Stellifer lanceolatus,x,,,,,,,
+Stellifer magoi,x,,,,,,,
+Stellifer microps,x,,,,,,,
+Stellifer naso,x,,,,,,,
+Stellifer rastrifer,x,,,,,,,
+Stellifer species A,x,,,,,,,
+Stellifer species C,x,,,,,,,
+Stellifer stellifer,x,,,,,,,x
+Stellifer venezuelae,x,,,,,,,
+Umbrina broussonnetii,x,,,,,,,
+Umbrina coroides,x,,,,,,,
+Umbrina milliae,x,,,,,,,
+Scomberesocidae,,,,,,,,
+Scomberesox saurus saurus,x,,,,,,,x
+Scombridae,,,,,,,,
+Acanthocybium solandri,x,,,,,,,
+Auxis rochei rochei,x,,,,,,,x
+Auxis thazard thazard,x,,,,,,,x
+Euthynnus alletteratus,x,,,,,,,x
+Katsuwonus pelamis,x,,,,,,,x
+Sarda sarda,x,,,,,,,x
+Scomber colias,x,,,,,,,x
+Scomberomorus brasiliensis,x,,,,,,,
+Scomberomorus cavalla,x,,,,,,,
+Scomberomorus maculatus,x,,,,,,,
+Scomberomorus regalis,x,,,,,,,
+Thunnus alalunga,x,,,,,,,
+Thunnus albacares,x,,,,,,,x
+Thunnus atlanticus,x,,,,,,,x
+Thunnus obesus,x,,,,,,,x
+Thunnus thynnus,x,,,,,,,
+Scombropidae,,,,,,,,
+Scombrops oculatus,x,,,,,,,
+Scophthalmidae,,,,,,,,
+Scophthalmus aquosus,x,,,,,,,x
+Scorpaenidae,,,,,,,,
+Ectreposebastes imus,x,,,,,,,
+Helicolenus dactylopterus,x,,,,,,,x
+Idiastion kyphos,x,,,,,,,
+Neomerinthe beanorum,x,,,,,,,
+Neomerinthe hemingwayi,x,,,,,,,
+Phenacoscorpius nebris,x,,,,,,,
+Pontinus castor,x,,,,,,,
+Pontinus helena,x,,,,,,,
+Pontinus longispinis,x,,,,,,,
+Pontinus nematophthalmus,x,,,,,,,
+Pontinus rathbuni,x,,,,,,,
+Pterois volitans,x,,,,,,,
+Scorpaena agassizii,x,,,,,,,
+Scorpaena albifimbria,x,,,,,,,
+Scorpaena bergii,x,,,,,,,
+Scorpaena brachyptera,x,,,,,,,
+Scorpaena brasiliensis,x,,,,,,,
+Scorpaena calcarata,x,,,,,,,
+Scorpaena dispar,x,,,,,,,
+Scorpaena elachys,x,,,,,,,
+Scorpaena grandicornis,x,,,,,,,
+Scorpaena inermis,x,,,,,,,
+Scorpaena isthmensis,x,,,,,,,
+Scorpaena plumieri,x,,,,,,,
+Scorpaenodes barrybrowni,x,,,,,,,
+Scorpaenodes caribbaeus,x,,,,,,,
+Scorpaenodes tredecimspinosus,x,,,,,,,
+Setarches guentheri,x,,,,,,,
+Trachyscorpia cristulata,x,,,,,,,
+Scyliorhinidae,,,,,,,,
+Apristurus canutus,x,,,,,,,
+Apristurus laurussonii,x,,,,,,,
+Apristurus parvipinnis,x,,,,,,,
+Apristurus riveri,x,,,,,,,
+Galeus antillensis,x,,,,,,,
+Galeus arae,x,,,,,,,
+Galeus cadenati,x,,,,,,,
+Galeus springeri,x,,,,,,,
+Parmaturus campechiensis,x,,,,,,,
+Schroederichthys maculatus,x,,,,,,,
+Schroederichthys tenuis,x,,,,,,,
+Scyliorhinus boa,x,,,,,,,
+Scyliorhinus hesperius,x,,,,,,,
+Scyliorhinus meadi,x,,,,,,,
+Scyliorhinus retifer,x,,,,,,,
+Scyliorhinus torrei,x,,,,,,,
+Serranidae,,,,,,,,
+Alphestes afer,x,,,,,,,
+Anthias asperilinguis,,,,,,,,x
+Anthias hensleyi,,,,,,,,x
+Anthias nicholsi,,,,,,,,x
+Anthias woodsi,,,,,,,,x
+Baldwinella aureorubens,,,,,,,,x
+Baldwinella vivanus,,,,,,,,x
+Bathyanthias cubensis,x,,,,,,,
+Bathyanthias mexicanus,x,,,,,,,
+Bathyanthias species A,x,,,,,,,
+Bullisichthys caribbaeus,x,,,,,,,
+Centropristis ocyurus,x,,,,,,,
+Centropristis philadelphica,x,,,,,,,
+Centropristis striata,x,,,,,,,
+Cephalopholis argus,x,,,,,,,
+Cephalopholis cruentata,x,,,,,,,
+Cephalopholis fulva,x,,,,,,,
+Choranthias tenuis,,,,,,,,x
+Dermatolepis inermis,x,,,,,,,
+Diplectrum bivittatum,x,,,,,,,
+Diplectrum formosum,x,,,,,,,
+Diplectrum radiale,x,,,,,,,
+Epinephelus adscensionis,x,,,,,,,
+Epinephelus altivelis,x,,,,,,,
+Epinephelus guttatus,x,,,,,,,
+Epinephelus itajara,x,,,,,,,
+Epinephelus morio,x,,,,,,,
+Epinephelus ongus,x,,,,,,,
+Epinephelus striatus,x,,,,,,,
+Gonioplectrus hispanus,x,,,,,,,
+Hemanthias leptus,,,,,,,,x
+Hypoplectrus aberrans,x,,,,,,,
+Hypoplectrus atlahua,x,,,,,,,
+Hypoplectrus castroaguirrei,x,,,,,,,
+Hypoplectrus chlorurus,x,,,,,,,
+Hypoplectrus ecosur,x,,,,,,,
+Hypoplectrus floridae,x,,,,,,,
+Hypoplectrus gemma,x,,,,,,,
+Hypoplectrus gummigutta,x,,,,,,,
+Hypoplectrus guttavarius,x,,,,,,,
+Hypoplectrus indigo,x,,,,,,,
+Hypoplectrus liberte,x,,,,,,,
+Hypoplectrus maculiferus,x,,,,,,,
+Hypoplectrus maya,x,,,,,,,
+Hypoplectrus nigricans,x,,,,,,,
+Hypoplectrus providencianus,x,,,,,,,
+Hypoplectrus puella,x,,,,,,,
+Hypoplectrus randallorum,x,,,,,,,
+Hypoplectrus species 1,x,,,,,,,
+Hypoplectrus unicolor,x,,,,,,,
+Hyporthodus drummondhayi,x,,,,,,,
+Hyporthodus flavolimbatus,x,,,,,,,
+Hyporthodus mystacinus,x,,,,,,,
+Hyporthodus nigritus,x,,,,,,,
+Hyporthodus niveatus,x,,,,,,,
+Jeboehlkia gladifer,x,,,,,,,
+Liopropoma aberrans,x,,,,,,,
+Liopropoma carmabi,x,,,,,,,
+Liopropoma eukrines,x,,,,,,,
+Liopropoma mowbrayi,x,,,,,,,
+Liopropoma olneyi,x,,,,,,,
+Liopropoma rubre,x,,,,,,,
+Liopropoma santi,x,,,,,,,
+Mycteroperca acutirostris,x,,,,,,,x
+Mycteroperca bonaci,x,,,,,,,
+Mycteroperca cidi,x,,,,,,,
+Mycteroperca interstitialis,x,,,,,,,
+Mycteroperca microlepis,x,,,,,,,
+Mycteroperca phenax,x,,,,,,,
+Mycteroperca tigris,x,,,,,,,
+Mycteroperca venenosa,x,,,,,,,
+Paralabrax dewegeri,x,,,,,,,
+Paranthias furcifer,,,,,,,,x
+Parasphyraenops atrimanus,,,,,,,,x
+Parasphyraenops incisus,,,,,,,,x
+Plectranthias garrupellus,x,,,,,,,
+Plectranthias species A,x,,,,,,,
+Pronotogrammus martinicensis,,,,,,,,x
+Pseudogramma gregoryi,x,,,,,,,
+Rypticus bistrispinus,x,,,,,,,
+Rypticus bornoi,x,,,,,,,
+Rypticus carpenteri,x,,,,,,,
+Rypticus maculatus,x,,,,,,,
+Rypticus randalli,x,,,,,,,
+Rypticus saponaceus,x,,,,,,,
+Rypticus subbifrenatus,x,,,,,,,
+Schultzea beta,,,,,,,,x
+Serraniculus pumilio,x,,,,,,,
+Serranus annularis,x,,,,,,,
+Serranus atrobranchus,x,,,,,,,
+Serranus baldwini,x,,,,,,,
+Serranus chionaraia,x,,,,,,,
+Serranus flaviventris,x,,,,,,,
+Serranus fuscula,x,,,,,,,
+Serranus luciopercanus,x,,,,,,,
+Serranus maytagi,x,,,,,,,
+Serranus notospilus,x,,,,,,,
+Serranus phoebe,x,,,,,,,
+Serranus subligarius,x,,,,,,,x
+Serranus tabacarius,x,,,,,,,
+Serranus tigrinus,x,,,,,,,
+Serranus tortugarum,,,,,,,,x
+Somniosidae,,,,,,,,
+Centroscymnus coelolepis,x,,,,,,,
+Centroscymnus owstonii,x,,,,,,,
+Somniosus microcephalus,x,,,,,,,
+Somniosus rostratus,x,,,,,,,
+Zameus squamulosus,x,,,,,,,
+Sparidae,,,,,,,,
+Archosargus probatocephalus,,,,,,x,,
+Archosargus rhomboidalis,,,,,,x,,
+Calamus arctifrons,x,,,,,,,
+Calamus bajonado,x,,,,,,,
+Calamus calamus,x,,,,,,,
+Calamus campechanus,x,,,,,,,
+Calamus cervigoni,x,,,,,,,
+Calamus leucosteus,x,x,,,,,,
+Calamus nodosus,x,,,,,,,
+Calamus penna,x,,,,,,,
+Calamus pennatula,x,,,,,,,
+Calamus proridens,x,,,,,,,
+Diplodus argenteus caudimacula,,,x,,,x,,
+Diplodus bermudensis,,,,,,x,,
+Diplodus holbrookii,,,,x,,x,,x
+Lagodon rhomboides,,,x,,,x,,x
+Pagrus pagrus,x,x,,,,,,
+Stenotomus caprinus,x,,,,,,,
+Stenotomus chrysops,x,,,,,,,
+Sphyraenidae,,,,,,,,
+Sphyraena barracuda,x,,,,,,,
+Sphyraena borealis,x,,,,,,,
+Sphyraena guachancho,x,,,,,,,
+Sphyrnidae,,,,,,,,
+Sphyrna gilberti,x,,,,,,,
+Sphyrna lewini,x,,,,,,,
+Sphyrna media,x,,,,,,,
+Sphyrna mokarran,x,,,,,,,
+Sphyrna tiburo,,,,,,x,,
+Sphyrna tudes,x,,,,,,,
+Sphyrna zygaena,x,,,,,,,
+Squalidae,,,,,,,,
+Cirrhigaleus asper,x,,,,,,,
+Squalus acanthias,x,,,,,,,
+Squalus clarkae,x,x,,,,,,
+Squalus cubensis,x,,,,,,,
+Squatinidae,,,,,,,,
+Squatina david,x,,,,,,,
+Squatina dumeril,x,,,,,,,
+Stromateidae,,,,,,,,
+Peprilus burti,x,,,,,,,x
+Peprilus paru,x,,,,,,,x
+Peprilus triacanthus,x,,,,,,,x
+Peprilus xanthurus,x,,,,,,,x
+Symphysanodontidae,,,,,,,,
+Symphysanodon berryi,,,,,,,,x
+Symphysanodon mona,,,,,,,,x
+Symphysanodon octoactinus,,,,,,,,x
+Synaphobranchidae,,,,,,,,
+Dysomma anguillare,x,,,,,,,
+Linkenchelys multipora,x,,,,,,,
+Syngnathidae,,,,,,,,
+Amphelikturus dendriticus,x,,,,,,,
+Anarchopterus criniger,x,,,,,,,x
+Anarchopterus tectus,x,,,,,,,
+Bryx dunckeri,x,,,,,,,
+Bryx randalli,x,,,,,,,
+Cosmocampus albirostris,x,,,,,,,
+Cosmocampus brachycephalus,x,,,,,,,
+Cosmocampus elucens,x,,,,,,,
+Cosmocampus hildebrandi,x,,,,,,,
+Cosmocampus profundus,x,,,,,,,
+Halicampus crinitus,x,,,,,,,
+Hippocampus erectus,x,,,,,,,x
+Hippocampus reidi,x,,,,,,,x
+Hippocampus zosterae,x,,,,,,,x
+Micrognathus erugatus,x,,,,,,,
+Microphis lineatus,x,,,,,,,x
+Minyichthys inusitatus,x,,,,,,,
+Penetopteryx nanus,x,,,,,,,
+Pseudophallus mindii,x,,,,,,,
+Syngnathus caribbaeus,x,,,,,,,x
+Syngnathus dawsoni,x,,,,,,,x
+Syngnathus floridae,x,,,,,,,x
+Syngnathus fuscus,x,,,,,,,x
+Syngnathus louisianae,x,,,,,,,x
+Syngnathus makaxi,x,,,,,,,x
+Syngnathus pelagicus,x,,,,,,,x
+Syngnathus scovelli,x,,,,,,,x
+Syngnathus springeri,x,,,,,,,x
+Syngnathus texanus,x,,,,,,,x
+Synodontidae,,,,,,,,
+Saurida brasiliensis,x,,,,,,,
+Saurida caribbaea,x,,,,,,,
+Saurida normani,x,,,,,,,
+Saurida suspicio,x,,,,,,,
+Synodus bondi,x,,,,,,,
+Synodus foetens,x,,,,,,,
+Synodus intermedius,x,,,,,,,
+Synodus macrostigmus,x,,,,,,,
+Synodus poeyi,x,,,,,,,
+Synodus saurus,x,,,,,,,
+Synodus synodus,x,,,,,,,
+Trachinocephalus myops,x,,,,,,,
+Tetraodontidae,,,,,,,,
+Arothron diadematus,,x,,,,x,,
+Canthigaster figueiredoi,,x,,,,x,,
+Canthigaster jamestyleri,,x,,,,x,,
+Canthigaster rostrata,,x,,,,x,,
+Colomesus psittacus,x,,,,,,,
+Lagocephalus laevigatus,x,,,,,,,
+Lagocephalus lagocephalus,x,,,,,,,x
+Sphoeroides dorsalis,x,,,,,,,
+Sphoeroides georgemilleri,x,,,,,,,
+Sphoeroides greeleyi,x,,,,,,,
+Sphoeroides maculatus,x,,,,,,,
+Sphoeroides nephelus,x,,,,,,,
+Sphoeroides pachygaster,x,,,,,,,
+Sphoeroides parvus,x,,,,,,,
+Sphoeroides spengleri,x,,,,,,,
+Sphoeroides testudineus,x,,,,,,,
+Sphoeroides tyleri,x,,,,,,,
+Sphoeroides yergeri,x,,,,,,,
+Torpedinidae,,,,,,,,
+Tetronarce occidentalis,x,,,,,,,
+Torpedo andersoni,x,,,,,,,
+Trachichthyidae,,,,,,,,
+Gephyroberyx darwinii,x,,,,,,,x
+Hoplostethus mediterraneus,x,,,,,,,
+Hoplostethus occidentalis,x,,,,,,,
+Triacanthodidae,,,,,,,,
+Hollardia hollardi,x,,,,,,,x
+Hollardia meadi,x,,,,,,,x
+Johnsonina eriomma,x,,,,,,,x
+Parahollardia lineata,x,,,,,,,x
+Parahollardia schmidti,x,,,,,,,x
+Triakidae,,,,,,,,
+Mustelus canis,x,,,,,,,
+Mustelus higmani,x,,,,,,,
+Mustelus minicanis,x,,,,,,,
+Mustelus norrisi,x,,,,,,,
+Mustelus sinusmexicanus,x,,,,,,,
+Trichiuridae,,,,,,,,
+Aphanopus carbo,x,,,,,,,
+Aphanopus intermedius,x,,,,,,,
+Assurger anzac,x,,,,,,,
+Benthodesmus simonyi,x,,,,,,,
+Benthodesmus tenuis,x,,,,,,,
+Evoxymetopon taeniatus,x,,,,,,,
+Lepidopus altifrons,x,,,,,,,
+Trichiurus lepturus,x,,,,,,,x
+Triglidae,,,,,,,,
+Bellator brachychir,x,,,,,,,x
+Bellator egretta,x,,,,,,,x
+Bellator militaris,x,,,,,,,x
+Bellator ribeiroi,x,,,,,,,x
+Prionotus alatus,x,,,,,,,
+Prionotus beanii,x,,,,,,,
+Prionotus carolinus,x,,,,,,,
+Prionotus evolans,x,,,,,,,
+Prionotus longispinosus,x,,,,,,,
+Prionotus martis,x,,,,,,,
+Prionotus ophryas,x,,,,,,,
+Prionotus paralatus,x,,,,,,,
+Prionotus punctatus,x,,,,,,,
+Prionotus roseus,x,,,,,,,
+Prionotus rubio,x,,,,,,,
+Prionotus scitulus,x,,,,,,,x
+Prionotus stearnsi,x,,,,,,,
+Prionotus tribulus,x,,,,,,,
+Tripterygiidae,,,,,,,,
+Enneanectes altivelis,x,,,,,,,x
+Enneanectes atrorus,x,,,,,,,x
+Enneanectes boehlkei,x,,,,,,,x
+Enneanectes deloachorum,x,,,,,,,x
+Enneanectes flavus,x,,,,,,,
+Enneanectes jordani,x,,,,,,,x
+Enneanectes matador,x,,,,,,,x
+Enneanectes quadra,x,,,,,,,x
+Enneanectes wilki,x,,,,,,,x
+Uranoscopidae,,,,,,,,
+Astroscopus guttatus,x,,,,,,,
+Astroscopus y-graecum,x,,,,,,,
+Kathetostoma albigutta,x,,,,,,,
+Kathetostoma cubana,x,,,,,,,
+Xenocephalus egregius,x,,,,,,,
+Urotrygonidae,,,,,,,,
+Urobatis jamaicensis,x,,,,,,,
+Urotrygon microphthalmum,x,,,,,,,
+Urotrygon venezuelae,x,,,,,,,
+Xiphiidae,,,,,,,,
+Xiphias gladius,x,,,,,,,
+Zanclidae,,,,,,,,
+Zanclus cornutus,,,,,,x,,
+Zeidae,,,,,,,,
+Zenopsis conchifer,x,,,,,,,x
+Zeniontidae,,,,,,,,
+Zenion hololepis,,,,,,,,

@@ -1,0 +1,1829 @@
+"","species","dband","location","abundance","X","m","COEF","abu.corr"
+"1","Abudefduf saxatilis",10,"Roatan",191,54,"m",2.225,424.975
+"2","Abudefduf saxatilis",20,"Roatan",18,55,"m",1.934782609,34.826086962
+"3","Acanthostracion polygonius",60,"St. Eustatius",1,102,"m",6.826086957,6.826086957
+"4","Acanthostracion polygonius",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"5","Acanthostracion quadricornis",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"6","Acanthostracion quadricornis",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"7","Acanthurus chirurgus",10,"Roatan",23,54,"m",2.225,51.175
+"8","Acanthurus chirurgus",20,"Roatan",3,55,"m",1.934782609,5.804347827
+"9","Acanthurus chirurgus",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"10","Acanthurus chirurgus",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"11","Acanthurus coeruleus",10,"Roatan",163,54,"m",2.225,362.675
+"12","Acanthurus coeruleus",20,"Roatan",4,55,"m",1.934782609,7.739130436
+"13","Acanthurus coeruleus",30,"Roatan",3,56,"m",1.034883721,3.104651163
+"14","Acanthurus coeruleus",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"15","Acanthurus coeruleus",40,"Roatan",3,57,"m",1.1125,3.3375
+"16","Acanthurus coeruleus",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"17","Acanthurus coeruleus",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"18","Acanthurus coeruleus",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"19","Acanthurus tractus",30,"Roatan",2,56,"m",1.034883721,2.069767442
+"20","Acanthurus tractus",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"21","Acanthurus tractus",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"22","Anisotremus surinamensis",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"23","Anisotremus virginicus",10,"Roatan",2,54,"m",2.225,4.45
+"24","Anisotremus virginicus",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"25","Anthias asperilinguis",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"26","Anthias asperilinguis",120,"Curacao",2,29,"m",1.127104229,2.254208458
+"27","Anthias asperilinguis",220,"Curacao",3,39,"m",1.136560242,3.409680726
+"28","Anthias asperilinguis",230,"Curacao",2,40,"m",1.644295347,3.288590694
+"29","Anthias asperilinguis",230,"Roatan",1,76,"m",1.589285714,1.589285714
+"30","Anthias asperilinguis",240,"Curacao",6,41,"m",2.350351807,14.102110842
+"31","Anthias asperilinguis",250,"Curacao",2,42,"m",3.051927409,6.103854818
+"32","Anthias asperilinguis",270,"Curacao",1,44,"m",3.382094313,3.382094313
+"33","Anthias asperilinguis",280,"Roatan",1,81,"m",2.022727273,2.022727273
+"34","Anthias asperilinguis",290,"Curacao",2,46,"m",4.077742475,8.15548495
+"35","Anthias asperilinguis",360,"Roatan",1,88,"m",8.090909091,8.090909091
+"36","Antigonia capros",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"37","Antigonia capros",160,"Curacao",4,33,"m",1.212877394,4.851509576
+"38","Antigonia capros",170,"Curacao",4,34,"m",1.172632844,4.690531376
+"39","Antigonia capros",180,"Curacao",12,35,"m",1.724533239,20.694398868
+"40","Antigonia capros",190,"Curacao",2,36,"m",1.643187332,3.286374664
+"41","Antigonia capros",200,"Curacao",9,37,"m",1.203301258,10.829711322
+"42","Antigonia capros",210,"Curacao",11,38,"m",1.454078712,15.994865832
+"43","Antigonia capros",220,"Curacao",16,39,"m",1.136560242,18.184963872
+"44","Antigonia capros",220,"St. Eustatius",1,109,"m",5.980952381,5.980952381
+"45","Antigonia capros",230,"Curacao",9,40,"m",1.644295347,14.798658123
+"46","Antigonia capros",240,"Curacao",2,41,"m",2.350351807,4.700703614
+"47","Antigonia capros",250,"Curacao",3,42,"m",3.051927409,9.155782227
+"48","Antigonia capros",270,"Curacao",2,44,"m",3.382094313,6.764188626
+"49","Antigonia capros",280,"Curacao",2,45,"m",3.295256757,6.590513514
+"50","Antigonia capros",290,"Curacao",1,46,"m",4.077742475,4.077742475
+"51","Antilligobius nikkiae",60,"Bonaire",10,23,"m",2.016114097,20.16114097
+"52","Antilligobius nikkiae",70,"Bonaire",1,24,"m",2.085070543,2.085070543
+"53","Antilligobius nikkiae",70,"Roatan",15,60,"m",2.656716418,39.85074627
+"54","Antilligobius nikkiae",80,"Bonaire",21,25,"m",1.181725224,24.816229704
+"55","Antilligobius nikkiae",80,"Curacao",4,52,"m",1.181725224,4.726900896
+"56","Antilligobius nikkiae",80,"Roatan",11,61,"m",2.472222222,27.194444442
+"57","Antilligobius nikkiae",90,"Bonaire",101,26,"m",1.187769118,119.964680918
+"58","Antilligobius nikkiae",90,"Curacao",65,53,"m",1.187769118,77.20499267
+"59","Antilligobius nikkiae",90,"Roatan",231,62,"m",2.966666667,685.300000077
+"60","Antilligobius nikkiae",90,"St. Eustatius",9,99,"m",1,9
+"61","Antilligobius nikkiae",100,"Bonaire",1,1,"m",1.379236425,1.379236425
+"62","Antilligobius nikkiae",100,"Curacao",29,27,"m",1.379236425,39.997856325
+"63","Antilligobius nikkiae",100,"Roatan",9,63,"m",1.483333333,13.349999997
+"64","Antilligobius nikkiae",100,"St. Eustatius",151,121,"m",1.546301253,233.491489203
+"65","Antilligobius nikkiae",110,"Bonaire",100,2,"m",1.161185714,116.1185714
+"66","Antilligobius nikkiae",110,"Curacao",134,28,"m",1.161185714,155.598885676
+"67","Antilligobius nikkiae",110,"Roatan",3,64,"m",1.934782609,5.804347827
+"68","Antilligobius nikkiae",110,"St. Eustatius",357,120,"m",1.300675371,464.341107447
+"69","Antilligobius nikkiae",120,"Bonaire",32,3,"m",1.127104229,36.067335328
+"70","Antilligobius nikkiae",120,"Curacao",16,29,"m",1.127104229,18.033667664
+"71","Antilligobius nikkiae",120,"Roatan",15,65,"m",2.170731707,32.560975605
+"72","Antilligobius nikkiae",120,"St. Eustatius",351,119,"m",3.838426787,1347.287802237
+"73","Antilligobius nikkiae",130,"Bonaire",12,4,"m",1.303308391,15.639700692
+"74","Antilligobius nikkiae",130,"Curacao",4,30,"m",1.303308391,5.213233564
+"75","Antilligobius nikkiae",130,"Roatan",45,66,"m",2.542857143,114.428571435
+"76","Antilligobius nikkiae",130,"St. Eustatius",160,118,"m",3.42437174,547.8994784
+"77","Antilligobius nikkiae",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"78","Antilligobius nikkiae",140,"Curacao",1,31,"m",1.365335946,1.365335946
+"79","Antilligobius nikkiae",140,"Roatan",129,67,"m",1.893617021,244.276595709
+"80","Antilligobius nikkiae",140,"St. Eustatius",21,117,"m",5.143874644,108.021367524
+"81","Antilligobius nikkiae",150,"Roatan",1,68,"m",2.022727273,2.022727273
+"82","Antilligobius nikkiae",150,"St. Eustatius",27,116,"m",3.366899767,90.906293709
+"83","Antilligobius nikkiae",160,"Roatan",5,69,"m",1.618181818,8.09090909
+"84","Antilligobius nikkiae",170,"Roatan",10,70,"m",1.022988506,10.22988506
+"85","Antilligobius nikkiae",170,"St. Eustatius",64,114,"m",3.76734481,241.11006784
+"86","Antilligobius nikkiae",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"87","Antilligobius nikkiae",180,"Roatan",5,71,"m",2.870967742,14.35483871
+"88","Antilligobius nikkiae",180,"St. Eustatius",36,113,"m",4.174566474,150.284393064
+"89","Antilligobius nikkiae",200,"Curacao",1,37,"m",1.203301258,1.203301258
+"90","Apogon gouldi",100,"Curacao",3,27,"m",1.379236425,4.137709275
+"91","Apogon gouldi",110,"Bonaire",1,2,"m",1.161185714,1.161185714
+"92","Apogon gouldi",110,"Curacao",3,28,"m",1.161185714,3.483557142
+"93","Apogon gouldi",120,"Curacao",2,29,"m",1.127104229,2.254208458
+"94","Apogon gouldi",130,"Curacao",3,30,"m",1.303308391,3.909925173
+"95","Apogon gouldi",140,"Curacao",5,31,"m",1.365335946,6.82667973
+"96","Apogon gouldi",150,"Curacao",2,32,"m",1.188927353,2.377854706
+"97","Apogon gouldi",150,"Roatan",2,68,"m",2.022727273,4.045454546
+"98","Apogon lachneri",90,"Roatan",1,62,"m",2.966666667,2.966666667
+"99","Apogon maculatus",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"100","Apogon pillionatus",70,"St. Eustatius",2,101,"m",5.971062422,11.942124844
+"101","Apogon pseudomaculatus",70,"Bonaire",1,24,"m",2.085070543,2.085070543
+"102","Apogon pseudomaculatus",110,"Bonaire",1,2,"m",1.161185714,1.161185714
+"103","Apogon pseudomaculatus",130,"Bonaire",4,4,"m",1.303308391,5.213233564
+"104","Apsilus dentatus",90,"Roatan",1,62,"m",2.966666667,2.966666667
+"105","Aulopus filamentosus",280,"Roatan",1,81,"m",2.022727273,2.022727273
+"106","Aulopus filamentosus",360,"Roatan",1,88,"m",8.090909091,8.090909091
+"107","Aulostomus maculatus",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"108","Baldwinella vivanus",120,"Curacao",2,29,"m",1.127104229,2.254208458
+"109","Baldwinella vivanus",120,"St. Eustatius",1,119,"m",3.838426787,3.838426787
+"110","Baldwinella vivanus",140,"Curacao",11,31,"m",1.365335946,15.018695406
+"111","Baldwinella vivanus",150,"Bonaire",7,6,"m",1.188927353,8.322491471
+"112","Baldwinella vivanus",150,"Curacao",4,32,"m",1.188927353,4.755709412
+"113","Baldwinella vivanus",160,"Curacao",7,33,"m",1.212877394,8.490141758
+"114","Baldwinella vivanus",170,"Bonaire",2,8,"m",1.172632844,2.345265688
+"115","Baldwinella vivanus",170,"Curacao",3,34,"m",1.172632844,3.517898532
+"116","Baldwinella vivanus",180,"Bonaire",2,9,"m",1.724533239,3.449066478
+"117","Baldwinella vivanus",180,"Curacao",7,35,"m",1.724533239,12.071732673
+"118","Baldwinella vivanus",190,"Curacao",12,36,"m",1.643187332,19.718247984
+"119","Baldwinella vivanus",200,"Curacao",4,37,"m",1.203301258,4.813205032
+"120","Baldwinella vivanus",210,"Curacao",3,38,"m",1.454078712,4.362236136
+"121","Baldwinella vivanus",220,"Curacao",3,39,"m",1.136560242,3.409680726
+"122","Baldwinella vivanus",230,"Curacao",1,40,"m",1.644295347,1.644295347
+"123","Baldwinella vivanus",230,"St. Eustatius",1,108,"m",2.26572549,2.26572549
+"124","Bathyanthias sp.",210,"Bonaire",3,12,"m",1.454078712,4.362236136
+"125","Bathyanthias sp.",270,"St. Eustatius",1,105,"m",18.23737374,18.23737374
+"126","Bellator brachychir",170,"Bonaire",2,8,"m",1.172632844,2.345265688
+"127","Bellator brachychir",190,"Curacao",5,36,"m",1.643187332,8.21593666
+"128","Bellator brachychir",210,"Bonaire",1,12,"m",1.454078712,1.454078712
+"129","Bellator brachychir",220,"Curacao",1,39,"m",1.136560242,1.136560242
+"130","Bellator brachychir",230,"Curacao",1,40,"m",1.644295347,1.644295347
+"131","Bellator brachychir",240,"Curacao",3,41,"m",2.350351807,7.051055421
+"132","Bellator egretta",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"133","Bellator egretta",170,"Bonaire",1,8,"m",1.172632844,1.172632844
+"134","Bellator egretta",170,"Curacao",1,34,"m",1.172632844,1.172632844
+"135","Bellator egretta",180,"Bonaire",4,9,"m",1.724533239,6.898132956
+"136","Bellator egretta",180,"Curacao",2,35,"m",1.724533239,3.449066478
+"137","Bellator egretta",190,"Curacao",1,36,"m",1.643187332,1.643187332
+"138","Bellator egretta",210,"Bonaire",1,12,"m",1.454078712,1.454078712
+"139","Bellator egretta",210,"Curacao",1,38,"m",1.454078712,1.454078712
+"140","Bellator egretta",220,"Curacao",1,39,"m",1.136560242,1.136560242
+"141","Bellator egretta",220,"St. Eustatius",1,109,"m",5.980952381,5.980952381
+"142","Bellator egretta",230,"Bonaire",1,14,"m",1.644295347,1.644295347
+"143","Bellator egretta",230,"Curacao",1,40,"m",1.644295347,1.644295347
+"144","Bembrops sp.",160,"Roatan",1,69,"m",1.618181818,1.618181818
+"145","Bembrops sp.",180,"Roatan",1,71,"m",2.870967742,2.870967742
+"146","Bembrops sp.",210,"Roatan",4,74,"m",2.119047619,8.476190476
+"147","Bembrops sp.",230,"Roatan",1,76,"m",1.589285714,1.589285714
+"148","Bembrops sp.",240,"Roatan",2,77,"m",1.711538462,3.423076924
+"149","Bodianus pulchellus",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"150","Bodianus pulchellus",90,"Roatan",4,62,"m",2.966666667,11.866666668
+"151","Bodianus rufus",10,"Roatan",3,54,"m",2.225,6.675
+"152","Bodianus rufus",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"153","Bodianus rufus",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"154","Bodianus rufus",40,"Roatan",2,57,"m",1.1125,2.225
+"155","Bodianus rufus",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"156","Bodianus rufus",50,"Bonaire",3,22,"m",0.999995899,2.999987697
+"157","Bodianus rufus",50,"Roatan",3,58,"m",1.390625,4.171875
+"158","Bodianus rufus",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"159","Bodianus rufus",90,"Roatan",1,62,"m",2.966666667,2.966666667
+"160","Bollmannia boqueronensis",70,"Bonaire",30,24,"m",2.085070543,62.55211629
+"161","Bollmannia boqueronensis",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"162","Bollmannia boqueronensis",100,"Bonaire",2,1,"m",1.379236425,2.75847285
+"163","Bollmannia boqueronensis",110,"Bonaire",2,2,"m",1.161185714,2.322371428
+"164","Bollmannia eigenmanni",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"165","Brotula barbata",220,"St. Eustatius",1,109,"m",5.980952381,5.980952381
+"166","Bullisichthys caribbaeus",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"167","Bullisichthys caribbaeus",80,"Curacao",30,52,"m",1.181725224,35.45175672
+"168","Bullisichthys caribbaeus",80,"St. Eustatius",301,100,"m",3.768327681,1134.266631981
+"169","Bullisichthys caribbaeus",90,"Curacao",33,53,"m",1.187769118,39.196380894
+"170","Bullisichthys caribbaeus",100,"Curacao",59,27,"m",1.379236425,81.374949075
+"171","Bullisichthys caribbaeus",100,"St. Eustatius",40,121,"m",1.546301253,61.85205012
+"172","Bullisichthys caribbaeus",110,"Curacao",106,28,"m",1.161185714,123.085685684
+"173","Bullisichthys caribbaeus",110,"St. Eustatius",524,120,"m",1.300675371,681.553894404
+"174","Bullisichthys caribbaeus",120,"Curacao",4,29,"m",1.127104229,4.508416916
+"175","Bullisichthys caribbaeus",120,"Roatan",20,65,"m",2.170731707,43.41463414
+"176","Bullisichthys caribbaeus",120,"St. Eustatius",239,119,"m",3.838426787,917.384002093
+"177","Bullisichthys caribbaeus",130,"Curacao",30,30,"m",1.303308391,39.09925173
+"178","Bullisichthys caribbaeus",130,"Roatan",10,66,"m",2.542857143,25.42857143
+"179","Bullisichthys caribbaeus",130,"St. Eustatius",21,118,"m",3.42437174,71.91180654
+"180","Bullisichthys caribbaeus",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"181","Bullisichthys caribbaeus",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"182","Bullisichthys caribbaeus",160,"St. Eustatius",21,115,"m",4.342754059,91.197835239
+"183","Calamus calamus",10,"Roatan",1,54,"m",2.225,2.225
+"184","Cantherhines sp.",20,"Roatan",2,55,"m",1.934782609,3.869565218
+"185","Canthidermis sufflamen",10,"Roatan",1,54,"m",2.225,2.225
+"186","Canthidermis sufflamen",20,"Roatan",2,55,"m",1.934782609,3.869565218
+"187","Canthidermis sufflamen",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"188","Canthidermis sufflamen",40,"St. Eustatius",3,104,"m",10.87650602,32.62951806
+"189","Canthidermis sufflamen",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"190","Canthidermis sufflamen",90,"St. Eustatius",1,99,"m",1,1
+"191","Canthigaster jamestyleri",20,"Roatan",4,55,"m",1.934782609,7.739130436
+"192","Canthigaster jamestyleri",40,"Roatan",1,57,"m",1.1125,1.1125
+"193","Canthigaster jamestyleri",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"194","Canthigaster jamestyleri",70,"Curacao",64,51,"m",2.085070543,133.444514752
+"195","Canthigaster jamestyleri",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"196","Canthigaster jamestyleri",80,"Curacao",2,52,"m",1.181725224,2.363450448
+"197","Canthigaster jamestyleri",80,"Roatan",2,61,"m",2.472222222,4.944444444
+"198","Canthigaster jamestyleri",90,"Curacao",23,53,"m",1.187769118,27.318689714
+"199","Canthigaster jamestyleri",90,"Roatan",5,62,"m",2.966666667,14.833333335
+"200","Canthigaster jamestyleri",100,"Roatan",1,63,"m",1.483333333,1.483333333
+"201","Canthigaster jamestyleri",110,"Curacao",12,28,"m",1.161185714,13.934228568
+"202","Canthigaster jamestyleri",110,"Roatan",2,64,"m",1.934782609,3.869565218
+"203","Canthigaster jamestyleri",120,"Curacao",8,29,"m",1.127104229,9.016833832
+"204","Canthigaster jamestyleri",120,"Roatan",3,65,"m",2.170731707,6.512195121
+"205","Canthigaster jamestyleri",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"206","Canthigaster jamestyleri",130,"Roatan",6,66,"m",2.542857143,15.257142858
+"207","Canthigaster jamestyleri",140,"Curacao",5,31,"m",1.365335946,6.82667973
+"208","Canthigaster jamestyleri",140,"Roatan",13,67,"m",1.893617021,24.617021273
+"209","Canthigaster jamestyleri",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"210","Canthigaster jamestyleri",170,"Roatan",1,70,"m",1.022988506,1.022988506
+"211","Canthigaster rostrata",10,"Roatan",444,54,"m",2.225,987.9
+"212","Canthigaster rostrata",20,"Roatan",507,55,"m",1.934782609,980.934782763
+"213","Canthigaster rostrata",30,"Roatan",661,56,"m",1.034883721,684.058139581
+"214","Canthigaster rostrata",40,"Roatan",182,57,"m",1.1125,202.475
+"215","Canthigaster rostrata",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"216","Canthigaster rostrata",50,"Roatan",80,58,"m",1.390625,111.25
+"217","Canthigaster rostrata",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"218","Canthigaster rostrata",60,"Roatan",114,59,"m",1.893617021,215.872340394
+"219","Canthigaster rostrata",70,"Bonaire",1,24,"m",2.085070543,2.085070543
+"220","Canthigaster rostrata",70,"Roatan",198,60,"m",2.656716418,526.029850764
+"221","Canthigaster rostrata",70,"St. Eustatius",2,101,"m",5.971062422,11.942124844
+"222","Canthigaster rostrata",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"223","Canthigaster rostrata",80,"Roatan",107,61,"m",2.472222222,264.527777754
+"224","Canthigaster rostrata",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"225","Canthigaster rostrata",90,"Bonaire",2,26,"m",1.187769118,2.375538236
+"226","Canthigaster rostrata",90,"Roatan",381,62,"m",2.966666667,1130.300000127
+"227","Canthigaster rostrata",90,"St. Eustatius",1,99,"m",1,1
+"228","Canthigaster rostrata",100,"Bonaire",1,1,"m",1.379236425,1.379236425
+"229","Canthigaster rostrata",100,"Roatan",27,63,"m",1.483333333,40.049999991
+"230","Canthigaster rostrata",100,"St. Eustatius",1,121,"m",1.546301253,1.546301253
+"231","Canthigaster rostrata",110,"Roatan",44,64,"m",1.934782609,85.130434796
+"232","Canthigaster rostrata",120,"Roatan",28,65,"m",2.170731707,60.780487796
+"233","Canthigaster rostrata",130,"Roatan",21,66,"m",2.542857143,53.400000003
+"234","Canthigaster rostrata",140,"Roatan",16,67,"m",1.893617021,30.297872336
+"235","Canthigaster rostrata",150,"Roatan",4,68,"m",2.022727273,8.090909092
+"236","Canthigaster rostrata",210,"St. Eustatius",1,110,"m",2.498961938,2.498961938
+"237","Carangoides bartholomaei",90,"Bonaire",10,26,"m",1.187769118,11.87769118
+"238","Carangoides ruber",10,"Roatan",25,54,"m",2.225,55.625
+"239","Carangoides ruber",20,"Roatan",12,55,"m",1.934782609,23.217391308
+"240","Carangoides ruber",30,"Roatan",3,56,"m",1.034883721,3.104651163
+"241","Carangoides ruber",40,"Roatan",7,57,"m",1.1125,7.7875
+"242","Carangoides ruber",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"243","Carangoides ruber",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"244","Carangoides ruber",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"245","Carangoides ruber",70,"Bonaire",1,24,"m",2.085070543,2.085070543
+"246","Carangoides ruber",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"247","Carangoides ruber",80,"Roatan",1,61,"m",2.472222222,2.472222222
+"248","Carangoides ruber",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"249","Carangoides ruber",180,"Roatan",4,71,"m",2.870967742,11.483870968
+"250","Carangoides ruber",200,"Roatan",1,73,"m",1.369230769,1.369230769
+"251","Caranx latus",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"252","Caranx latus",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"253","Caranx lugubris",40,"Roatan",1,57,"m",1.1125,1.1125
+"254","Caranx lugubris",90,"Roatan",3,62,"m",2.966666667,8.900000001
+"255","Caranx lugubris",100,"Roatan",1,63,"m",1.483333333,1.483333333
+"256","Caranx lugubris",110,"Roatan",4,64,"m",1.934782609,7.739130436
+"257","Caranx lugubris",110,"St. Eustatius",1,120,"m",1.300675371,1.300675371
+"258","Caranx lugubris",120,"Roatan",2,65,"m",2.170731707,4.341463414
+"259","Caranx lugubris",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"260","Caranx lugubris",170,"Roatan",1,70,"m",1.022988506,1.022988506
+"261","Caranx lugubris",180,"Roatan",2,71,"m",2.870967742,5.741935484
+"262","Caranx lugubris",190,"Roatan",1,72,"m",1.934782609,1.934782609
+"263","Caranx lugubris",200,"Roatan",1,73,"m",1.369230769,1.369230769
+"264","Caranx lugubris",230,"Roatan",3,76,"m",1.589285714,4.767857142
+"265","Caranx lugubris",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"266","Caranx lugubris",250,"Roatan",1,78,"m",1.034883721,1.034883721
+"267","Caranx lugubris",290,"Roatan",1,82,"m",1.308823529,1.308823529
+"268","Caulolatilus dooleyi",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"269","Caulolatilus dooleyi",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"270","Caulolatilus dooleyi",130,"Bonaire",1,4,"m",1.303308391,1.303308391
+"271","Caulolatilus dooleyi",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"272","Caulolatilus dooleyi",170,"Bonaire",4,8,"m",1.172632844,4.690531376
+"273","Caulolatilus dooleyi",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"274","Caulolatilus dooleyi",190,"Bonaire",3,10,"m",1.643187332,4.929561996
+"275","Caulolatilus dooleyi",200,"Bonaire",3,11,"m",1.203301258,3.609903774
+"276","Caulolatilus plumieri",130,"Bonaire",1,4,"m",1.303308391,1.303308391
+"277","Caulolatilus plumieri",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"278","Centropristis fuscula",40,"Curacao",1,48,"m",1.139215137,1.139215137
+"279","Centropristis fuscula",70,"Curacao",2,51,"m",2.085070543,4.170141086
+"280","Centropristis fuscula",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"281","Centropristis fuscula",110,"Curacao",1,28,"m",1.161185714,1.161185714
+"282","Centropristis fuscula",120,"Curacao",3,29,"m",1.127104229,3.381312687
+"283","Centropristis fuscula",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"284","Centropristis fuscula",190,"Curacao",2,36,"m",1.643187332,3.286374664
+"285","Centropristis fuscula",230,"Curacao",2,40,"m",1.644295347,3.288590694
+"286","Centropristis fuscula",240,"Curacao",1,41,"m",2.350351807,2.350351807
+"287","Centropyge argi",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"288","Centropyge argi",40,"St. Eustatius",2,104,"m",10.87650602,21.75301204
+"289","Centropyge argi",50,"Roatan",1,58,"m",1.390625,1.390625
+"290","Centropyge argi",60,"Bonaire",2,23,"m",2.016114097,4.032228194
+"291","Centropyge argi",60,"Curacao",30,50,"m",2.016114097,60.48342291
+"292","Centropyge argi",60,"St. Eustatius",7,102,"m",6.826086957,47.782608699
+"293","Centropyge argi",70,"Bonaire",18,24,"m",2.085070543,37.531269774
+"294","Centropyge argi",70,"Curacao",8,51,"m",2.085070543,16.680564344
+"295","Centropyge argi",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"296","Centropyge argi",70,"St. Eustatius",20,101,"m",5.971062422,119.42124844
+"297","Centropyge argi",80,"Bonaire",6,25,"m",1.181725224,7.090351344
+"298","Centropyge argi",80,"St. Eustatius",2,100,"m",3.768327681,7.536655362
+"299","Centropyge argi",90,"Bonaire",2,26,"m",1.187769118,2.375538236
+"300","Centropyge argi",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"301","Centropyge argi",90,"St. Eustatius",2,99,"m",1,2
+"302","Cephalopholis cruentata",10,"Roatan",2,54,"m",2.225,4.45
+"303","Cephalopholis cruentata",20,"Roatan",4,55,"m",1.934782609,7.739130436
+"304","Cephalopholis cruentata",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"305","Cephalopholis cruentata",40,"Curacao",2,48,"m",1.139215137,2.278430274
+"306","Cephalopholis cruentata",40,"Roatan",2,57,"m",1.1125,2.225
+"307","Cephalopholis cruentata",40,"St. Eustatius",2,104,"m",10.87650602,21.75301204
+"308","Cephalopholis cruentata",50,"Curacao",1,49,"m",0.999995899,0.999995899
+"309","Cephalopholis cruentata",50,"Roatan",2,58,"m",1.390625,2.78125
+"310","Cephalopholis cruentata",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"311","Cephalopholis cruentata",60,"Bonaire",2,23,"m",2.016114097,4.032228194
+"312","Cephalopholis cruentata",60,"Curacao",4,50,"m",2.016114097,8.064456388
+"313","Cephalopholis cruentata",60,"Roatan",6,59,"m",1.893617021,11.361702126
+"314","Cephalopholis cruentata",70,"Curacao",4,51,"m",2.085070543,8.340282172
+"315","Cephalopholis cruentata",70,"Roatan",14,60,"m",2.656716418,37.194029852
+"316","Cephalopholis cruentata",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"317","Cephalopholis cruentata",80,"Curacao",2,52,"m",1.181725224,2.363450448
+"318","Cephalopholis cruentata",80,"Roatan",3,61,"m",2.472222222,7.416666666
+"319","Cephalopholis cruentata",80,"St. Eustatius",3,100,"m",3.768327681,11.304983043
+"320","Cephalopholis cruentata",90,"Bonaire",18,26,"m",1.187769118,21.379844124
+"321","Cephalopholis cruentata",90,"Curacao",5,53,"m",1.187769118,5.93884559
+"322","Cephalopholis cruentata",90,"Roatan",4,62,"m",2.966666667,11.866666668
+"323","Cephalopholis cruentata",90,"St. Eustatius",2,99,"m",1,2
+"324","Cephalopholis cruentata",100,"Curacao",9,27,"m",1.379236425,12.413127825
+"325","Cephalopholis cruentata",100,"Roatan",2,63,"m",1.483333333,2.966666666
+"326","Cephalopholis cruentata",100,"St. Eustatius",4,121,"m",1.546301253,6.185205012
+"327","Cephalopholis cruentata",110,"Bonaire",7,2,"m",1.161185714,8.128299998
+"328","Cephalopholis cruentata",110,"Curacao",3,28,"m",1.161185714,3.483557142
+"329","Cephalopholis cruentata",110,"Roatan",1,64,"m",1.934782609,1.934782609
+"330","Cephalopholis cruentata",110,"St. Eustatius",3,120,"m",1.300675371,3.902026113
+"331","Cephalopholis cruentata",120,"Curacao",1,29,"m",1.127104229,1.127104229
+"332","Cephalopholis cruentata",120,"St. Eustatius",3,119,"m",3.838426787,11.515280361
+"333","Cephalopholis cruentata",130,"Curacao",1,30,"m",1.303308391,1.303308391
+"334","Cephalopholis cruentata",140,"St. Eustatius",1,117,"m",5.143874644,5.143874644
+"335","Cephalopholis fulva",30,"Roatan",5,56,"m",1.034883721,5.174418605
+"336","Cephalopholis fulva",50,"St. Eustatius",3,103,"m",15.20421053,45.61263159
+"337","Chaetodon capistratus",10,"Roatan",23,54,"m",2.225,51.175
+"338","Chaetodon capistratus",20,"Roatan",41,55,"m",1.934782609,79.326086969
+"339","Chaetodon capistratus",30,"Roatan",27,56,"m",1.034883721,27.941860467
+"340","Chaetodon capistratus",40,"Curacao",4,48,"m",1.139215137,4.556860548
+"341","Chaetodon capistratus",40,"Roatan",16,57,"m",1.1125,17.8
+"342","Chaetodon capistratus",50,"Curacao",5,49,"m",0.999995899,4.999979495
+"343","Chaetodon capistratus",50,"Roatan",11,58,"m",1.390625,15.296875
+"344","Chaetodon capistratus",50,"St. Eustatius",2,103,"m",15.20421053,30.40842106
+"345","Chaetodon capistratus",60,"Roatan",5,59,"m",1.893617021,9.468085105
+"346","Chaetodon capistratus",70,"Curacao",4,51,"m",2.085070543,8.340282172
+"347","Chaetodon capistratus",70,"Roatan",11,60,"m",2.656716418,29.223880598
+"348","Chaetodon capistratus",80,"Curacao",3,52,"m",1.181725224,3.545175672
+"349","Chaetodon capistratus",80,"Roatan",7,61,"m",2.472222222,17.305555554
+"350","Chaetodon capistratus",90,"Roatan",6,62,"m",2.966666667,17.800000002
+"351","Chaetodon capistratus",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"352","Chaetodon capistratus",100,"Roatan",1,63,"m",1.483333333,1.483333333
+"353","Chaetodon capistratus",110,"Roatan",2,64,"m",1.934782609,3.869565218
+"354","Chaetodon ocellatus",90,"Roatan",1,62,"m",2.966666667,2.966666667
+"355","Chaetodon sedentarius",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"356","Chaetodon sedentarius",60,"St. Eustatius",1,102,"m",6.826086957,6.826086957
+"357","Chaetodon sedentarius",70,"Roatan",2,60,"m",2.656716418,5.313432836
+"358","Chaetodon sedentarius",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"359","Chaetodon sedentarius",80,"Roatan",2,61,"m",2.472222222,4.944444444
+"360","Chaetodon sedentarius",80,"St. Eustatius",4,100,"m",3.768327681,15.073310724
+"361","Chaetodon sedentarius",90,"Bonaire",4,26,"m",1.187769118,4.751076472
+"362","Chaetodon sedentarius",90,"St. Eustatius",2,99,"m",1,2
+"363","Chaetodon sedentarius",100,"Bonaire",1,1,"m",1.379236425,1.379236425
+"364","Chaetodon sedentarius",100,"St. Eustatius",1,121,"m",1.546301253,1.546301253
+"365","Chaetodon sedentarius",110,"St. Eustatius",4,120,"m",1.300675371,5.202701484
+"366","Chaetodon striatus",10,"Roatan",2,54,"m",2.225,4.45
+"367","Chaetodon striatus",20,"Roatan",2,55,"m",1.934782609,3.869565218
+"368","Chaetodon striatus",50,"Bonaire",2,22,"m",0.999995899,1.999991798
+"369","Chaetodon striatus",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"370","Chaetodon striatus",60,"Bonaire",2,23,"m",2.016114097,4.032228194
+"371","Chaetodon striatus",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"372","Chaetodon striatus",80,"Bonaire",6,25,"m",1.181725224,7.090351344
+"373","Chaetodon striatus",80,"Roatan",20,61,"m",2.472222222,49.44444444
+"374","Chaetodon striatus",100,"St. Eustatius",1,121,"m",1.546301253,1.546301253
+"375","Chaunax pictus",10,"Roatan",3,54,"m",2.225,6.675
+"376","Chaunax pictus",240,"Curacao",1,41,"m",2.350351807,2.350351807
+"377","Chaunax pictus",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"378","Chaunax pictus",260,"Curacao",1,43,"m",2.855374707,2.855374707
+"379","Chaunax pictus",270,"Curacao",1,44,"m",3.382094313,3.382094313
+"380","Chaunax pictus",280,"Curacao",2,45,"m",3.295256757,6.590513514
+"381","Chaunax pictus",290,"Curacao",1,46,"m",4.077742475,4.077742475
+"382","Chaunax pictus",330,"Roatan",2,86,"m",8.090909091,16.181818182
+"383","Choranthias tenuis",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"384","Choranthias tenuis",110,"Bonaire",124,2,"m",1.161185714,143.987028536
+"385","Choranthias tenuis",110,"Curacao",7,28,"m",1.161185714,8.128299998
+"386","Choranthias tenuis",120,"Bonaire",2,3,"m",1.127104229,2.254208458
+"387","Choranthias tenuis",120,"Curacao",5,29,"m",1.127104229,5.635521145
+"388","Choranthias tenuis",130,"Bonaire",4,4,"m",1.303308391,5.213233564
+"389","Choranthias tenuis",140,"Curacao",2,31,"m",1.365335946,2.730671892
+"390","Choranthias tenuis",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"391","Choranthias tenuis",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"392","Choranthias tenuis",160,"Curacao",1,33,"m",1.212877394,1.212877394
+"393","Choranthias tenuis",170,"Curacao",1,34,"m",1.172632844,1.172632844
+"394","Choranthias tenuis",180,"Bonaire",4,9,"m",1.724533239,6.898132956
+"395","Choranthias tenuis",180,"Curacao",3,35,"m",1.724533239,5.173599717
+"396","Choranthias tenuis",300,"Curacao",1,47,"m",8.196605042,8.196605042
+"397","Chrionema squamentum",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"398","Chrionema squamentum",160,"Bonaire",4,7,"m",1.212877394,4.851509576
+"399","Chrionema squamentum",160,"Curacao",1,33,"m",1.212877394,1.212877394
+"400","Chrionema squamentum",170,"Bonaire",1,8,"m",1.172632844,1.172632844
+"401","Chrionema squamentum",180,"Bonaire",3,9,"m",1.724533239,5.173599717
+"402","Chrionema squamentum",180,"Curacao",2,35,"m",1.724533239,3.449066478
+"403","Chrionema squamentum",190,"Curacao",3,36,"m",1.643187332,4.929561996
+"404","Chrionema squamentum",190,"St. Eustatius",1,112,"m",3.571711177,3.571711177
+"405","Chrionema squamentum",200,"Bonaire",4,11,"m",1.203301258,4.813205032
+"406","Chrionema squamentum",200,"Curacao",1,37,"m",1.203301258,1.203301258
+"407","Chrionema squamentum",200,"St. Eustatius",1,111,"m",3.862032086,3.862032086
+"408","Chrionema squamentum",210,"Bonaire",3,12,"m",1.454078712,4.362236136
+"409","Chrionema squamentum",210,"Curacao",7,38,"m",1.454078712,10.178550984
+"410","Chrionema squamentum",210,"Roatan",3,74,"m",2.119047619,6.357142857
+"411","Chrionema squamentum",210,"St. Eustatius",1,110,"m",2.498961938,2.498961938
+"412","Chrionema squamentum",220,"Bonaire",1,13,"m",1.136560242,1.136560242
+"413","Chrionema squamentum",220,"Curacao",15,39,"m",1.136560242,17.04840363
+"414","Chrionema squamentum",230,"Bonaire",1,14,"m",1.644295347,1.644295347
+"415","Chrionema squamentum",230,"Curacao",14,40,"m",1.644295347,23.020134858
+"416","Chrionema squamentum",230,"Roatan",1,76,"m",1.589285714,1.589285714
+"417","Chrionema squamentum",230,"St. Eustatius",4,108,"m",2.26572549,9.06290196
+"418","Chrionema squamentum",240,"Curacao",7,41,"m",2.350351807,16.452462649
+"419","Chrionema squamentum",240,"Roatan",2,77,"m",1.711538462,3.423076924
+"420","Chrionema squamentum",250,"Curacao",4,42,"m",3.051927409,12.207709636
+"421","Chrionema squamentum",250,"Roatan",2,78,"m",1.034883721,2.069767442
+"422","Chrionema squamentum",260,"Bonaire",6,16,"m",2.855374707,17.132248242
+"423","Chrionema squamentum",260,"Curacao",2,43,"m",2.855374707,5.710749414
+"424","Chrionema squamentum",260,"Roatan",3,79,"m",1.126582278,3.379746834
+"425","Chrionema squamentum",270,"Bonaire",8,17,"m",3.382094313,27.056754504
+"426","Chrionema squamentum",270,"Roatan",7,80,"m",1,7
+"427","Chrionema squamentum",280,"Bonaire",4,18,"m",3.295256757,13.181027028
+"428","Chrionema squamentum",280,"Curacao",48,45,"m",3.295256757,158.172324336
+"429","Chrionema squamentum",290,"Bonaire",1,19,"m",4.077742475,4.077742475
+"430","Chrionema squamentum",290,"Curacao",55,46,"m",4.077742475,224.275836125
+"431","Chrionema squamentum",300,"Bonaire",3,20,"m",8.196605042,24.589815126
+"432","Chrionema squamentum",300,"Curacao",21,47,"m",8.196605042,172.128705882
+"433","Chrionema squamentum",330,"Roatan",3,86,"m",8.090909091,24.272727273
+"434","Chrionema squamentum",390,"Roatan",1,89,"m",8.090909091,8.090909091
+"435","Chromis cyanea",10,"Roatan",517,54,"m",2.225,1150.325
+"436","Chromis cyanea",20,"Roatan",86,55,"m",1.934782609,166.391304374
+"437","Chromis cyanea",30,"Roatan",59,56,"m",1.034883721,61.058139539
+"438","Chromis cyanea",40,"Bonaire",162,21,"m",1.139215137,184.552852194
+"439","Chromis cyanea",40,"Curacao",5,48,"m",1.139215137,5.696075685
+"440","Chromis cyanea",40,"Roatan",96,57,"m",1.1125,106.8
+"441","Chromis cyanea",40,"St. Eustatius",66,104,"m",10.87650602,717.84939732
+"442","Chromis cyanea",50,"Bonaire",143,22,"m",0.999995899,142.999413557
+"443","Chromis cyanea",50,"Curacao",27,49,"m",0.999995899,26.999889273
+"444","Chromis cyanea",50,"Roatan",37,58,"m",1.390625,51.453125
+"445","Chromis cyanea",50,"St. Eustatius",217,103,"m",15.20421053,3299.31368501
+"446","Chromis cyanea",60,"Bonaire",13,23,"m",2.016114097,26.209483261
+"447","Chromis cyanea",60,"Curacao",7,50,"m",2.016114097,14.112798679
+"448","Chromis cyanea",60,"Roatan",26,59,"m",1.893617021,49.234042546
+"449","Chromis cyanea",70,"Bonaire",4,24,"m",2.085070543,8.340282172
+"450","Chromis cyanea",70,"Curacao",3,51,"m",2.085070543,6.255211629
+"451","Chromis cyanea",70,"Roatan",3,60,"m",2.656716418,7.970149254
+"452","Chromis cyanea",70,"St. Eustatius",6,101,"m",5.971062422,35.826374532
+"453","Chromis cyanea",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"454","Chromis enchrysura",40,"Bonaire",2,21,"m",1.139215137,2.278430274
+"455","Chromis enchrysura",60,"Roatan",20,59,"m",1.893617021,37.87234042
+"456","Chromis enchrysura",70,"Bonaire",5,24,"m",2.085070543,10.425352715
+"457","Chromis enchrysura",70,"Curacao",3,51,"m",2.085070543,6.255211629
+"458","Chromis enchrysura",80,"Bonaire",19,25,"m",1.181725224,22.452779256
+"459","Chromis enchrysura",80,"Curacao",4,52,"m",1.181725224,4.726900896
+"460","Chromis enchrysura",90,"Bonaire",39,26,"m",1.187769118,46.322995602
+"461","Chromis enchrysura",90,"Curacao",9,53,"m",1.187769118,10.689922062
+"462","Chromis enchrysura",100,"Bonaire",4,1,"m",1.379236425,5.5169457
+"463","Chromis enchrysura",100,"Curacao",26,27,"m",1.379236425,35.86014705
+"464","Chromis enchrysura",110,"Bonaire",68,2,"m",1.161185714,78.960628552
+"465","Chromis enchrysura",110,"Curacao",18,28,"m",1.161185714,20.901342852
+"466","Chromis enchrysura",110,"St. Eustatius",3,120,"m",1.300675371,3.902026113
+"467","Chromis enchrysura",120,"Bonaire",22,3,"m",1.127104229,24.796293038
+"468","Chromis enchrysura",120,"Curacao",4,29,"m",1.127104229,4.508416916
+"469","Chromis enchrysura",120,"St. Eustatius",1,119,"m",3.838426787,3.838426787
+"470","Chromis enchrysura",130,"Bonaire",18,4,"m",1.303308391,23.459551038
+"471","Chromis enchrysura",130,"Curacao",3,30,"m",1.303308391,3.909925173
+"472","Chromis enchrysura",130,"Roatan",1,66,"m",2.542857143,2.542857143
+"473","Chromis enchrysura",130,"St. Eustatius",3,118,"m",3.42437174,10.27311522
+"474","Chromis enchrysura",140,"Bonaire",6,5,"m",1.365335946,8.192015676
+"475","Chromis enchrysura",140,"Curacao",1,31,"m",1.365335946,1.365335946
+"476","Chromis enchrysura",140,"Roatan",4,67,"m",1.893617021,7.574468084
+"477","Chromis enchrysura",140,"St. Eustatius",1,117,"m",5.143874644,5.143874644
+"478","Chromis enchrysura",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"479","Chromis enchrysura",150,"Roatan",3,68,"m",2.022727273,6.068181819
+"480","Chromis enchrysura",150,"St. Eustatius",4,116,"m",3.366899767,13.467599068
+"481","Chromis enchrysura",160,"Roatan",1,69,"m",1.618181818,1.618181818
+"482","Chromis enchrysura",160,"St. Eustatius",3,115,"m",4.342754059,13.028262177
+"483","Chromis enchrysura",170,"St. Eustatius",6,114,"m",3.76734481,22.60406886
+"484","Chromis insolata",10,"Roatan",186,54,"m",2.225,413.85
+"485","Chromis insolata",20,"Roatan",469,55,"m",1.934782609,907.413043621
+"486","Chromis insolata",30,"Roatan",389,56,"m",1.034883721,402.569767469
+"487","Chromis insolata",40,"Bonaire",6,21,"m",1.139215137,6.835290822
+"488","Chromis insolata",40,"Curacao",4,48,"m",1.139215137,4.556860548
+"489","Chromis insolata",40,"Roatan",680,57,"m",1.1125,756.5
+"490","Chromis insolata",40,"St. Eustatius",3,104,"m",10.87650602,32.62951806
+"491","Chromis insolata",50,"Bonaire",33,22,"m",0.999995899,32.999864667
+"492","Chromis insolata",50,"Curacao",37,49,"m",0.999995899,36.999848263
+"493","Chromis insolata",50,"Roatan",521,58,"m",1.390625,724.515625
+"494","Chromis insolata",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"495","Chromis insolata",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"496","Chromis insolata",60,"Curacao",58,50,"m",2.016114097,116.934617626
+"497","Chromis insolata",60,"Roatan",365,59,"m",1.893617021,691.170212665
+"498","Chromis insolata",60,"St. Eustatius",21,102,"m",6.826086957,143.347826097
+"499","Chromis insolata",70,"Bonaire",6,24,"m",2.085070543,12.510423258
+"500","Chromis insolata",70,"Curacao",47,51,"m",2.085070543,97.998315521
+"501","Chromis insolata",70,"Roatan",301,60,"m",2.656716418,799.671641818
+"502","Chromis insolata",70,"St. Eustatius",121,101,"m",5.971062422,722.498553062
+"503","Chromis insolata",80,"Bonaire",3,25,"m",1.181725224,3.545175672
+"504","Chromis insolata",80,"Curacao",45,52,"m",1.181725224,53.17763508
+"505","Chromis insolata",80,"Roatan",121,61,"m",2.472222222,299.138888862
+"506","Chromis insolata",80,"St. Eustatius",167,100,"m",3.768327681,629.310722727
+"507","Chromis insolata",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"508","Chromis insolata",90,"Curacao",9,53,"m",1.187769118,10.689922062
+"509","Chromis insolata",90,"Roatan",97,62,"m",2.966666667,287.766666699
+"510","Chromis insolata",90,"St. Eustatius",52,99,"m",1,52
+"511","Chromis insolata",100,"Curacao",12,27,"m",1.379236425,16.5508371
+"512","Chromis insolata",100,"Roatan",3,63,"m",1.483333333,4.449999999
+"513","Chromis insolata",100,"St. Eustatius",14,121,"m",1.546301253,21.648217542
+"514","Chromis insolata",110,"Curacao",1,28,"m",1.161185714,1.161185714
+"515","Chromis insolata",110,"St. Eustatius",7,120,"m",1.300675371,9.104727597
+"516","Chromis insolata",120,"Roatan",2,65,"m",2.170731707,4.341463414
+"517","Chromis insolata",120,"St. Eustatius",1,119,"m",3.838426787,3.838426787
+"518","Chromis insolata",130,"Bonaire",1,4,"m",1.303308391,1.303308391
+"519","Chromis insolata",130,"St. Eustatius",1,118,"m",3.42437174,3.42437174
+"520","Chromis insolata",140,"Roatan",2,67,"m",1.893617021,3.787234042
+"521","Chromis insolata",150,"Roatan",1,68,"m",2.022727273,2.022727273
+"522","Chromis multilineata",10,"Roatan",128,54,"m",2.225,284.8
+"523","Chromis multilineata",40,"Curacao",26,48,"m",1.139215137,29.619593562
+"524","Chromis multilineata",40,"St. Eustatius",13,104,"m",10.87650602,141.39457826
+"525","Chromis multilineata",50,"Curacao",22,49,"m",0.999995899,21.999909778
+"526","Chromis multilineata",60,"Bonaire",4,23,"m",2.016114097,8.064456388
+"527","Chromis multilineata",60,"Curacao",1,50,"m",2.016114097,2.016114097
+"528","Chromis multilineata",70,"Bonaire",10,24,"m",2.085070543,20.85070543
+"529","Chromis scotti",40,"Curacao",1,48,"m",1.139215137,1.139215137
+"530","Chromis scotti",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"531","Chromis scotti",50,"Curacao",1,49,"m",0.999995899,0.999995899
+"532","Chromis scotti",50,"Roatan",7,58,"m",1.390625,9.734375
+"533","Chromis scotti",60,"Curacao",4,50,"m",2.016114097,8.064456388
+"534","Chromis scotti",60,"Roatan",7,59,"m",1.893617021,13.255319147
+"535","Chromis scotti",60,"St. Eustatius",1,102,"m",6.826086957,6.826086957
+"536","Chromis scotti",70,"Curacao",38,51,"m",2.085070543,79.232680634
+"537","Chromis scotti",70,"Roatan",28,60,"m",2.656716418,74.388059704
+"538","Chromis scotti",70,"St. Eustatius",2,101,"m",5.971062422,11.942124844
+"539","Chromis scotti",80,"Curacao",24,52,"m",1.181725224,28.361405376
+"540","Chromis scotti",80,"Roatan",6,61,"m",2.472222222,14.833333332
+"541","Chromis scotti",80,"St. Eustatius",14,100,"m",3.768327681,52.756587534
+"542","Chromis scotti",90,"Curacao",6,53,"m",1.187769118,7.126614708
+"543","Chromis scotti",90,"Roatan",21,62,"m",2.966666667,62.300000007
+"544","Chromis scotti",100,"Curacao",10,27,"m",1.379236425,13.79236425
+"545","Chromis scotti",100,"Roatan",2,63,"m",1.483333333,2.966666666
+"546","Chromis scotti",100,"St. Eustatius",11,121,"m",1.546301253,17.009313783
+"547","Chromis scotti",110,"Curacao",1,28,"m",1.161185714,1.161185714
+"548","Chromis scotti",110,"Roatan",2,64,"m",1.934782609,3.869565218
+"549","Chromis scotti",110,"St. Eustatius",12,120,"m",1.300675371,15.608104452
+"550","Chromis scotti",120,"Roatan",1,65,"m",2.170731707,2.170731707
+"551","Chromis scotti",120,"St. Eustatius",5,119,"m",3.838426787,19.192133935
+"552","Chromis scotti",130,"Roatan",1,66,"m",2.542857143,2.542857143
+"553","Chromis scotti",130,"St. Eustatius",6,118,"m",3.42437174,20.54623044
+"554","Chromis scotti",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"555","Clepticus parrae",10,"Roatan",1385,54,"m",2.225,3081.625
+"556","Clepticus parrae",20,"Roatan",514,55,"m",1.934782609,994.478261026
+"557","Clepticus parrae",30,"Roatan",269,56,"m",1.034883721,278.383720949
+"558","Clepticus parrae",40,"Curacao",77,48,"m",1.139215137,87.719565549
+"559","Clepticus parrae",40,"Roatan",24,57,"m",1.1125,26.7
+"560","Clepticus parrae",40,"St. Eustatius",94,104,"m",10.87650602,1022.39156588
+"561","Clepticus parrae",50,"Bonaire",11,22,"m",0.999995899,10.999954889
+"562","Clepticus parrae",50,"Curacao",2,49,"m",0.999995899,1.999991798
+"563","Clepticus parrae",50,"Roatan",13,58,"m",1.390625,18.078125
+"564","Clepticus parrae",60,"Bonaire",2,23,"m",2.016114097,4.032228194
+"565","Clepticus parrae",60,"Curacao",125,50,"m",2.016114097,252.014262125
+"566","Clepticus parrae",60,"Roatan",249,59,"m",1.893617021,471.510638229
+"567","Clepticus parrae",70,"Curacao",76,51,"m",2.085070543,158.465361268
+"568","Clepticus parrae",70,"Roatan",259,60,"m",2.656716418,688.089552262
+"569","Clepticus parrae",80,"Curacao",3,52,"m",1.181725224,3.545175672
+"570","Clepticus parrae",80,"Roatan",101,61,"m",2.472222222,249.694444422
+"571","Clepticus parrae",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"572","Clepticus parrae",90,"Curacao",4,53,"m",1.187769118,4.751076472
+"573","Clepticus parrae",90,"Roatan",55,62,"m",2.966666667,163.166666685
+"574","Corniger spinosus",110,"Bonaire",3,2,"m",1.161185714,3.483557142
+"575","Corniger spinosus",120,"Bonaire",5,3,"m",1.127104229,5.635521145
+"576","Corniger spinosus",120,"Roatan",1,65,"m",2.170731707,2.170731707
+"577","Corniger spinosus",130,"Bonaire",3,4,"m",1.303308391,3.909925173
+"578","Corniger spinosus",130,"Curacao",1,30,"m",1.303308391,1.303308391
+"579","Corniger spinosus",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"580","Corniger spinosus",140,"Curacao",1,31,"m",1.365335946,1.365335946
+"581","Corniger spinosus",150,"Bonaire",9,6,"m",1.188927353,10.700346177
+"582","Corniger spinosus",150,"Curacao",2,32,"m",1.188927353,2.377854706
+"583","Corniger spinosus",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"584","Corniger spinosus",160,"Curacao",2,33,"m",1.212877394,2.425754788
+"585","Corniger spinosus",160,"Roatan",2,69,"m",1.618181818,3.236363636
+"586","Corniger spinosus",160,"St. Eustatius",1,115,"m",4.342754059,4.342754059
+"587","Corniger spinosus",170,"Curacao",1,34,"m",1.172632844,1.172632844
+"588","Corniger spinosus",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"589","Corniger spinosus",230,"Curacao",1,40,"m",1.644295347,1.644295347
+"590","Coryphopterus curasub",70,"Curacao",3,51,"m",2.085070543,6.255211629
+"591","Coryphopterus curasub",80,"Bonaire",4,25,"m",1.181725224,4.726900896
+"592","Coryphopterus curasub",80,"Curacao",2,52,"m",1.181725224,2.363450448
+"593","Coryphopterus personatus",10,"Roatan",40,54,"m",2.225,89
+"594","Coryphopterus personatus",20,"Roatan",72,55,"m",1.934782609,139.304347848
+"595","Coryphopterus personatus",30,"Roatan",289,56,"m",1.034883721,299.081395369
+"596","Coryphopterus personatus",40,"Roatan",720,57,"m",1.1125,801
+"597","Coryphopterus personatus",50,"Roatan",150,58,"m",1.390625,208.59375
+"598","Coryphopterus personatus",60,"Roatan",287,59,"m",1.893617021,543.468085027
+"599","Coryphopterus personatus",70,"Roatan",110,60,"m",2.656716418,292.23880598
+"600","Decapterus sp.",80,"Roatan",20,61,"m",2.472222222,49.44444444
+"601","Decodon puellaris",120,"St. Eustatius",2,119,"m",3.838426787,7.676853574
+"602","Decodon puellaris",160,"Curacao",3,33,"m",1.212877394,3.638632182
+"603","Decodon puellaris",170,"St. Eustatius",2,114,"m",3.76734481,7.53468962
+"604","Decodon puellaris",180,"Curacao",2,35,"m",1.724533239,3.449066478
+"605","Decodon puellaris",180,"St. Eustatius",2,113,"m",4.174566474,8.349132948
+"606","Decodon puellaris",200,"Curacao",1,37,"m",1.203301258,1.203301258
+"607","Decodon puellaris",200,"St. Eustatius",1,111,"m",3.862032086,3.862032086
+"608","Decodon puellaris",220,"St. Eustatius",3,109,"m",5.980952381,17.942857143
+"609","Decodon puellaris",230,"Curacao",1,40,"m",1.644295347,1.644295347
+"610","Decodon puellaris",230,"St. Eustatius",4,108,"m",2.26572549,9.06290196
+"611","Decodon shallow",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"612","Decodon shallow",90,"Bonaire",9,26,"m",1.187769118,10.689922062
+"613","Decodon shallow",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"614","Decodon shallow",90,"St. Eustatius",1,99,"m",1,1
+"615","Decodon shallow",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"616","Decodon shallow",100,"St. Eustatius",8,121,"m",1.546301253,12.370410024
+"617","Decodon shallow",110,"Bonaire",2,2,"m",1.161185714,2.322371428
+"618","Decodon shallow",110,"St. Eustatius",6,120,"m",1.300675371,7.804052226
+"619","Decodon shallow",120,"Bonaire",5,3,"m",1.127104229,5.635521145
+"620","Decodon shallow",120,"Curacao",2,29,"m",1.127104229,2.254208458
+"621","Decodon shallow",120,"St. Eustatius",1,119,"m",3.838426787,3.838426787
+"622","Decodon shallow",130,"Bonaire",2,4,"m",1.303308391,2.606616782
+"623","Decodon shallow",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"624","Decodon shallow",130,"St. Eustatius",5,118,"m",3.42437174,17.1218587
+"625","Decodon shallow",140,"Bonaire",8,5,"m",1.365335946,10.922687568
+"626","Decodon shallow",140,"St. Eustatius",2,117,"m",5.143874644,10.287749288
+"627","Decodon shallow",150,"Bonaire",2,6,"m",1.188927353,2.377854706
+"628","Decodon shallow",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"629","Decodon shallow",150,"St. Eustatius",4,116,"m",3.366899767,13.467599068
+"630","Decodon shallow",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"631","Decodon shallow",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"632","Derilissus lombardii",100,"St. Eustatius",3,121,"m",1.546301253,4.638903759
+"633","Derilissus lombardii",110,"St. Eustatius",4,120,"m",1.300675371,5.202701484
+"634","Derilissus lombardii",120,"St. Eustatius",5,119,"m",3.838426787,19.192133935
+"635","Derilissus lombardii",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"636","Derilissus lombardii",170,"St. Eustatius",1,114,"m",3.76734481,3.76734481
+"637","Elacatinus chancei",80,"Roatan",1,61,"m",2.472222222,2.472222222
+"638","Elacatinus chancei",110,"St. Eustatius",1,120,"m",1.300675371,1.300675371
+"639","Elacatinus lobeli",10,"Roatan",1,54,"m",2.225,2.225
+"640","Epigonidae",260,"Roatan",8,79,"m",1.126582278,9.012658224
+"641","Epigonidae",270,"Roatan",4,80,"m",1,4
+"642","Epigonidae",280,"Roatan",6,81,"m",2.022727273,12.136363638
+"643","Epigonidae",290,"Roatan",18,82,"m",1.308823529,23.558823522
+"644","Epigonidae",300,"Roatan",93,83,"m",2.617647059,243.441176487
+"645","Epigonidae",330,"Roatan",11,86,"m",8.090909091,89.000000001
+"646","Epigonidae",350,"Roatan",1,87,"m",8.090909091,8.090909091
+"647","Epigonidae",400,"Roatan",1,90,"m",3.708333333,3.708333333
+"648","Epigonidae",430,"Roatan",2,93,"m",2.282051282,4.564102564
+"649","Epigonidae",440,"Roatan",1,94,"m",3.296296296,3.296296296
+"650","Epigonidae",450,"Roatan",2,95,"m",5.933333333,11.866666666
+"651","Epigonidae",470,"Roatan",1,97,"m",5.933333333,5.933333333
+"652","Epigonidae",480,"Roatan",6,98,"m",5.933333333,35.599999998
+"653","Epinephalus striatus",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"654","Epinephelus adscensionis",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"655","Epinephelus adscensionis",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"656","Epinephelus adscensionis",110,"St. Eustatius",2,120,"m",1.300675371,2.601350742
+"657","Epinephelus adscensionis",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"658","Epinephelus guttatus",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"659","Epinephelus guttatus",60,"St. Eustatius",1,102,"m",6.826086957,6.826086957
+"660","Epinephelus guttatus",100,"St. Eustatius",2,121,"m",1.546301253,3.092602506
+"661","Equetus lanceolatus",90,"Bonaire",2,26,"m",1.187769118,2.375538236
+"662","Equetus lanceolatus",110,"Bonaire",5,2,"m",1.161185714,5.80592857
+"663","Equetus lanceolatus",120,"Bonaire",4,3,"m",1.127104229,4.508416916
+"664","Equetus lanceolatus",130,"Bonaire",3,4,"m",1.303308391,3.909925173
+"665","Equetus lanceolatus",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"666","Equetus lanceolatus",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"667","Equetus lanceolatus",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"668","Etelis oculatus",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"669","Etelis oculatus",250,"Roatan",2,78,"m",1.034883721,2.069767442
+"670","Etelis oculatus",290,"Roatan",1,82,"m",1.308823529,1.308823529
+"671","Fistularia sp.",120,"St. Eustatius",1,119,"m",3.838426787,3.838426787
+"672","Fistularia sp.",170,"Bonaire",1,8,"m",1.172632844,1.172632844
+"673","Flammeo marianus",40,"Roatan",10,57,"m",1.1125,11.125
+"674","Flammeo marianus",50,"Curacao",5,49,"m",0.999995899,4.999979495
+"675","Flammeo marianus",50,"Roatan",7,58,"m",1.390625,9.734375
+"676","Flammeo marianus",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"677","Flammeo marianus",60,"Curacao",10,50,"m",2.016114097,20.16114097
+"678","Flammeo marianus",60,"Roatan",18,59,"m",1.893617021,34.085106378
+"679","Flammeo marianus",70,"Curacao",2,51,"m",2.085070543,4.170141086
+"680","Flammeo marianus",70,"Roatan",18,60,"m",2.656716418,47.820895524
+"681","Flammeo marianus",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"682","Flammeo marianus",80,"Curacao",17,52,"m",1.181725224,20.089328808
+"683","Flammeo marianus",80,"Roatan",18,61,"m",2.472222222,44.499999996
+"684","Flammeo marianus",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"685","Flammeo marianus",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"686","Flammeo marianus",90,"Curacao",2,53,"m",1.187769118,2.375538236
+"687","Flammeo marianus",90,"Roatan",29,62,"m",2.966666667,86.033333343
+"688","Flammeo marianus",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"689","Flammeo marianus",100,"Roatan",8,63,"m",1.483333333,11.866666664
+"690","Flammeo marianus",100,"St. Eustatius",19,121,"m",1.546301253,29.379723807
+"691","Flammeo marianus",110,"Bonaire",1,2,"m",1.161185714,1.161185714
+"692","Flammeo marianus",110,"Roatan",5,64,"m",1.934782609,9.673913045
+"693","Flammeo marianus",110,"St. Eustatius",5,120,"m",1.300675371,6.503376855
+"694","Flammeo marianus",120,"Roatan",3,65,"m",2.170731707,6.512195121
+"695","Flammeo marianus",120,"St. Eustatius",2,119,"m",3.838426787,7.676853574
+"696","Flammeo marianus",130,"Roatan",1,66,"m",2.542857143,2.542857143
+"697","Flammeo marianus",130,"St. Eustatius",1,118,"m",3.42437174,3.42437174
+"698","Flammeo marianus",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"699","Flammeo marianus",140,"St. Eustatius",1,117,"m",5.143874644,5.143874644
+"700","Flammeo marianus",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"701","Foetorepus agassizii",240,"Curacao",1,41,"m",2.350351807,2.350351807
+"702","Foetorepus agassizii",250,"Curacao",2,42,"m",3.051927409,6.103854818
+"703","Foetorepus agassizii",280,"Curacao",3,45,"m",3.295256757,9.885770271
+"704","Foetorepus agassizii",300,"Curacao",1,47,"m",8.196605042,8.196605042
+"705","Gastropsetta frontalis",210,"St. Eustatius",1,110,"m",2.498961938,2.498961938
+"706","Gephyroberyx darwinii",160,"Curacao",1,33,"m",1.212877394,1.212877394
+"707","Gephyroberyx darwinii",190,"Roatan",1,72,"m",1.934782609,1.934782609
+"708","Gephyroberyx darwinii",220,"Roatan",2,75,"m",1.854166667,3.708333334
+"709","Gephyroberyx darwinii",230,"Curacao",2,40,"m",1.644295347,3.288590694
+"710","Gephyroberyx darwinii",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"711","Gephyroberyx darwinii",250,"Curacao",1,42,"m",3.051927409,3.051927409
+"712","Gephyroberyx darwinii",250,"Roatan",1,78,"m",1.034883721,1.034883721
+"713","Gephyroberyx darwinii",260,"Curacao",2,43,"m",2.855374707,5.710749414
+"714","Gephyroberyx darwinii",260,"Roatan",3,79,"m",1.126582278,3.379746834
+"715","Gephyroberyx darwinii",270,"Curacao",5,44,"m",3.382094313,16.910471565
+"716","Gephyroberyx darwinii",280,"Curacao",1,45,"m",3.295256757,3.295256757
+"717","Gephyroberyx darwinii",280,"Roatan",4,81,"m",2.022727273,8.090909092
+"718","Gephyroberyx darwinii",410,"Roatan",1,91,"m",3.068965517,3.068965517
+"719","Gephyroberyx darwinii",420,"Roatan",1,92,"m",3.178571429,3.178571429
+"720","Gephyroberyx darwinii",430,"Roatan",1,93,"m",2.282051282,2.282051282
+"721","Gephyroberyx darwinii",460,"Roatan",1,96,"m",5.933333333,5.933333333
+"722","Gnatholepis thompsoni",40,"Roatan",11,57,"m",1.1125,12.2375
+"723","Gnatholepis thompsoni",50,"Roatan",18,58,"m",1.390625,25.03125
+"724","Gnatholepis thompsoni",60,"Roatan",8,59,"m",1.893617021,15.148936168
+"725","Gnatholepis thompsoni",70,"Roatan",10,60,"m",2.656716418,26.56716418
+"726","Gnatholepis thompsoni",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"727","Gnatholepis thompsoni",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"728","Gonioplectrus hispanus",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"729","Gonioplectrus hispanus",120,"Curacao",4,29,"m",1.127104229,4.508416916
+"730","Gonioplectrus hispanus",130,"Curacao",9,30,"m",1.303308391,11.729775519
+"731","Gonioplectrus hispanus",140,"Curacao",8,31,"m",1.365335946,10.922687568
+"732","Gonioplectrus hispanus",150,"Bonaire",11,6,"m",1.188927353,13.078200883
+"733","Gonioplectrus hispanus",150,"Curacao",13,32,"m",1.188927353,15.456055589
+"734","Gonioplectrus hispanus",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"735","Gonioplectrus hispanus",160,"Bonaire",2,7,"m",1.212877394,2.425754788
+"736","Gonioplectrus hispanus",160,"Curacao",10,33,"m",1.212877394,12.12877394
+"737","Gonioplectrus hispanus",170,"Curacao",5,34,"m",1.172632844,5.86316422
+"738","Gonioplectrus hispanus",180,"Curacao",3,35,"m",1.724533239,5.173599717
+"739","Gonioplectrus hispanus",200,"Curacao",2,37,"m",1.203301258,2.406602516
+"740","Gonioplectrus hispanus",200,"Roatan",1,73,"m",1.369230769,1.369230769
+"741","Gonioplectrus hispanus",220,"Curacao",1,39,"m",1.136560242,1.136560242
+"742","Gramma linki",40,"Roatan",1,57,"m",1.1125,1.1125
+"743","Gramma linki",70,"Roatan",9,60,"m",2.656716418,23.910447762
+"744","Gramma linki",80,"Roatan",1,61,"m",2.472222222,2.472222222
+"745","Gramma linki",80,"St. Eustatius",2,100,"m",3.768327681,7.536655362
+"746","Gramma linki",90,"Roatan",5,62,"m",2.966666667,14.833333335
+"747","Gramma linki",100,"Roatan",1,63,"m",1.483333333,1.483333333
+"748","Gramma linki",100,"St. Eustatius",2,121,"m",1.546301253,3.092602506
+"749","Gramma linki",110,"Roatan",1,64,"m",1.934782609,1.934782609
+"750","Gramma linki",110,"St. Eustatius",2,120,"m",1.300675371,2.601350742
+"751","Gramma loreto",10,"Roatan",32,54,"m",2.225,71.2
+"752","Gramma loreto",20,"Roatan",36,55,"m",1.934782609,69.652173924
+"753","Gramma loreto",30,"Roatan",13,56,"m",1.034883721,13.453488373
+"754","Gramma loreto",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"755","Gramma loreto",40,"Curacao",13,48,"m",1.139215137,14.809796781
+"756","Gramma loreto",40,"Roatan",2,57,"m",1.1125,2.225
+"757","Gramma loreto",50,"Curacao",7,49,"m",0.999995899,6.999971293
+"758","Gramma loreto",50,"Roatan",5,58,"m",1.390625,6.953125
+"759","Gramma loreto",60,"Curacao",7,50,"m",2.016114097,14.112798679
+"760","Gramma melacara",20,"Roatan",4,55,"m",1.934782609,7.739130436
+"761","Gramma melacara",30,"Roatan",42,56,"m",1.034883721,43.465116282
+"762","Gramma melacara",40,"Roatan",136,57,"m",1.1125,151.3
+"763","Gramma melacara",50,"Roatan",21,58,"m",1.390625,29.203125
+"764","Gramma melacara",60,"Roatan",120,59,"m",1.893617021,227.23404252
+"765","Gramma melacara",70,"Roatan",245,60,"m",2.656716418,650.89552241
+"766","Gramma melacara",80,"Roatan",33,61,"m",2.472222222,81.583333326
+"767","Gramma melacara",90,"Roatan",50,62,"m",2.966666667,148.33333335
+"768","Gramma melacara",100,"Roatan",4,63,"m",1.483333333,5.933333332
+"769","Gramma melacara",110,"Roatan",2,64,"m",1.934782609,3.869565218
+"770","Gymnothorax funebris",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"771","Gymnothorax moringa",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"772","Gymnothorax moringa",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"773","Gymnothorax ocellatus",60,"St. Eustatius",1,102,"m",6.826086957,6.826086957
+"774","Gymnothorax ocellatus",130,"Bonaire",1,4,"m",1.303308391,1.303308391
+"775","Gymnothorax ocellatus",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"776","Gymnothorax ocellatus",170,"Bonaire",2,8,"m",1.172632844,2.345265688
+"777","Gymnothorax ocellatus",180,"Bonaire",2,9,"m",1.724533239,3.449066478
+"778","Gymnothorax ocellatus",190,"Bonaire",1,10,"m",1.643187332,1.643187332
+"779","Haemulon bonariense",40,"Roatan",1,57,"m",1.1125,1.1125
+"780","Haemulon chrysargyreum",110,"Bonaire",51,2,"m",1.161185714,59.220471414
+"781","Haemulon chrysargyreum",140,"Bonaire",2,5,"m",1.365335946,2.730671892
+"782","Haemulon flavolineatum",10,"Roatan",4,54,"m",2.225,8.9
+"783","Haemulon flavolineatum",20,"Roatan",2,55,"m",1.934782609,3.869565218
+"784","Haemulon flavolineatum",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"785","Haemulon flavolineatum",40,"Roatan",3,57,"m",1.1125,3.3375
+"786","Haemulon flavolineatum",50,"Bonaire",2,22,"m",0.999995899,1.999991798
+"787","Haemulon flavolineatum",50,"Curacao",2,49,"m",0.999995899,1.999991798
+"788","Haemulon flavolineatum",50,"Roatan",3,58,"m",1.390625,4.171875
+"789","Haemulon flavolineatum",60,"Bonaire",3,23,"m",2.016114097,6.048342291
+"790","Haemulon flavolineatum",60,"Curacao",5,50,"m",2.016114097,10.080570485
+"791","Haemulon flavolineatum",60,"Roatan",4,59,"m",1.893617021,7.574468084
+"792","Haemulon flavolineatum",70,"Curacao",4,51,"m",2.085070543,8.340282172
+"793","Haemulon flavolineatum",70,"Roatan",5,60,"m",2.656716418,13.28358209
+"794","Haemulon flavolineatum",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"795","Haemulon plumierii",10,"Roatan",1,54,"m",2.225,2.225
+"796","Haemulon plumierii",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"797","Haemulon plumierii",40,"Roatan",3,57,"m",1.1125,3.3375
+"798","Haemulon plumierii",60,"Roatan",2,59,"m",1.893617021,3.787234042
+"799","Haemulon sciurus",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"800","Haemulon striatum",50,"Curacao",1,49,"m",0.999995899,0.999995899
+"801","Haemulon striatum",60,"Bonaire",4,23,"m",2.016114097,8.064456388
+"802","Haemulon striatum",60,"Curacao",2,50,"m",2.016114097,4.032228194
+"803","Haemulon striatum",70,"Curacao",23,51,"m",2.085070543,47.956622489
+"804","Haemulon striatum",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"805","Haemulon striatum",80,"Curacao",3,52,"m",1.181725224,3.545175672
+"806","Haemulon striatum",80,"Roatan",1,61,"m",2.472222222,2.472222222
+"807","Haemulon striatum",80,"St. Eustatius",4,100,"m",3.768327681,15.073310724
+"808","Haemulon striatum",90,"Bonaire",40,26,"m",1.187769118,47.51076472
+"809","Haemulon striatum",90,"Curacao",3,53,"m",1.187769118,3.563307354
+"810","Haemulon striatum",90,"Roatan",165,62,"m",2.966666667,489.500000055
+"811","Haemulon striatum",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"812","Haemulon striatum",100,"Roatan",2,63,"m",1.483333333,2.966666666
+"813","Haemulon striatum",110,"Roatan",4,64,"m",1.934782609,7.739130436
+"814","Haemulon striatum",120,"Bonaire",3,3,"m",1.127104229,3.381312687
+"815","Haemulon striatum",120,"Roatan",30,65,"m",2.170731707,65.12195121
+"816","Haemulon striatum",140,"Roatan",24,67,"m",1.893617021,45.446808504
+"817","Haemulon striatum",150,"Roatan",2,68,"m",2.022727273,4.045454546
+"818","Haemulon vittata",60,"Curacao",2,50,"m",2.016114097,4.032228194
+"819","Haemulon vittata",100,"Curacao",15,27,"m",1.379236425,20.688546375
+"820","Halichoeres bathyphilus",80,"Bonaire",20,25,"m",1.181725224,23.63450448
+"821","Halichoeres bathyphilus",100,"St. Eustatius",1,121,"m",1.546301253,1.546301253
+"822","Halichoeres bathyphilus",110,"Bonaire",2,2,"m",1.161185714,2.322371428
+"823","Halichoeres garnoti",10,"Roatan",10,54,"m",2.225,22.25
+"824","Halichoeres garnoti",20,"Roatan",23,55,"m",1.934782609,44.500000007
+"825","Halichoeres garnoti",30,"Roatan",15,56,"m",1.034883721,15.523255815
+"826","Halichoeres garnoti",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"827","Halichoeres garnoti",40,"Roatan",35,57,"m",1.1125,38.9375
+"828","Halichoeres garnoti",40,"St. Eustatius",26,104,"m",10.87650602,282.78915652
+"829","Halichoeres garnoti",50,"Bonaire",9,22,"m",0.999995899,8.999963091
+"830","Halichoeres garnoti",50,"Roatan",18,58,"m",1.390625,25.03125
+"831","Halichoeres garnoti",50,"St. Eustatius",9,103,"m",15.20421053,136.83789477
+"832","Halichoeres garnoti",60,"Bonaire",2,23,"m",2.016114097,4.032228194
+"833","Halichoeres garnoti",60,"Roatan",38,59,"m",1.893617021,71.957446798
+"834","Halichoeres garnoti",60,"St. Eustatius",1,102,"m",6.826086957,6.826086957
+"835","Halichoeres garnoti",70,"Bonaire",1,24,"m",2.085070543,2.085070543
+"836","Halichoeres garnoti",70,"Roatan",32,60,"m",2.656716418,85.014925376
+"837","Halichoeres garnoti",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"838","Halichoeres garnoti",80,"Roatan",10,61,"m",2.472222222,24.72222222
+"839","Halichoeres garnoti",80,"St. Eustatius",9,100,"m",3.768327681,33.914949129
+"840","Halichoeres garnoti",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"841","Halichoeres garnoti",90,"Roatan",5,62,"m",2.966666667,14.833333335
+"842","Halichoeres garnoti",90,"St. Eustatius",4,99,"m",1,4
+"843","Halichoeres garnoti",110,"St. Eustatius",2,120,"m",1.300675371,2.601350742
+"844","Halichoeres maculipinna",10,"Roatan",1,54,"m",2.225,2.225
+"845","Halichoeres maculipinna",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"846","Halichoeres maculipinna",40,"Roatan",1,57,"m",1.1125,1.1125
+"847","Halichoeres pictus",10,"Roatan",2,54,"m",2.225,4.45
+"848","Halichoeres pictus",40,"Roatan",16,57,"m",1.1125,17.8
+"849","Halichoeres pictus",50,"Roatan",1,58,"m",1.390625,1.390625
+"850","Haptoclinus dropi",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"851","Haptoclinus dropi",160,"Curacao",1,33,"m",1.212877394,1.212877394
+"852","Haptoclinus dropi",360,"Roatan",1,88,"m",8.090909091,8.090909091
+"853","Hemanthias leptus",110,"Curacao",2,28,"m",1.161185714,2.322371428
+"854","Hemanthias leptus",150,"Bonaire",3,6,"m",1.188927353,3.566782059
+"855","Hemanthias leptus",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"856","Heteropriacanthus cruentatus",160,"Roatan",2,69,"m",1.618181818,3.236363636
+"857","Heteropriacanthus cruentatus",170,"Roatan",1,70,"m",1.022988506,1.022988506
+"858","Holacanthus ciliaris",10,"Roatan",4,54,"m",2.225,8.9
+"859","Holacanthus ciliaris",20,"Roatan",2,55,"m",1.934782609,3.869565218
+"860","Holacanthus ciliaris",30,"Roatan",7,56,"m",1.034883721,7.244186047
+"861","Holacanthus ciliaris",50,"Roatan",1,58,"m",1.390625,1.390625
+"862","Holacanthus ciliaris",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"863","Holacanthus ciliaris",70,"Roatan",3,60,"m",2.656716418,7.970149254
+"864","Holacanthus ciliaris",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"865","Holacanthus ciliaris",80,"Roatan",1,61,"m",2.472222222,2.472222222
+"866","Holacanthus ciliaris",90,"Roatan",5,62,"m",2.966666667,14.833333335
+"867","Holacanthus ciliaris",110,"St. Eustatius",1,120,"m",1.300675371,1.300675371
+"868","Holacanthus ciliaris",120,"St. Eustatius",2,119,"m",3.838426787,7.676853574
+"869","Holacanthus tricolor",30,"Roatan",2,56,"m",1.034883721,2.069767442
+"870","Holacanthus tricolor",40,"Roatan",2,57,"m",1.1125,2.225
+"871","Holacanthus tricolor",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"872","Holacanthus tricolor",50,"Roatan",5,58,"m",1.390625,6.953125
+"873","Holacanthus tricolor",50,"St. Eustatius",7,103,"m",15.20421053,106.42947371
+"874","Holacanthus tricolor",60,"Roatan",2,59,"m",1.893617021,3.787234042
+"875","Holacanthus tricolor",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"876","Holacanthus tricolor",80,"St. Eustatius",2,100,"m",3.768327681,7.536655362
+"877","Holacanthus tricolor",100,"St. Eustatius",1,121,"m",1.546301253,1.546301253
+"878","Holacanthus tricolor",110,"St. Eustatius",1,120,"m",1.300675371,1.300675371
+"879","Holacanthus tricolor",140,"St. Eustatius",1,117,"m",5.143874644,5.143874644
+"880","Hollardia hollardi",400,"Roatan",1,90,"m",3.708333333,3.708333333
+"881","Hollardia hollardi",410,"Roatan",1,91,"m",3.068965517,3.068965517
+"882","Hollardia hollardi",430,"Roatan",2,93,"m",2.282051282,4.564102564
+"883","Hollardia hollardi",470,"Roatan",1,97,"m",5.933333333,5.933333333
+"884","Hollardia hollardi",480,"Roatan",2,98,"m",5.933333333,11.866666666
+"885","Holocentrus adscensionis",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"886","Holocentrus adscensionis",50,"St. Eustatius",13,103,"m",15.20421053,197.65473689
+"887","Holocentrus adscensionis",80,"St. Eustatius",4,100,"m",3.768327681,15.073310724
+"888","Holocentrus adscensionis",90,"Bonaire",3,26,"m",1.187769118,3.563307354
+"889","Holocentrus adscensionis",90,"St. Eustatius",4,99,"m",1,4
+"890","Holocentrus adscensionis",100,"St. Eustatius",2,121,"m",1.546301253,3.092602506
+"891","Holocentrus adscensionis",120,"Bonaire",2,3,"m",1.127104229,2.254208458
+"892","Holocentrus adscensionis",120,"St. Eustatius",2,119,"m",3.838426787,7.676853574
+"893","Holocentrus adscensionis",130,"St. Eustatius",2,118,"m",3.42437174,6.84874348
+"894","Holocentrus adscensionis",140,"St. Eustatius",5,117,"m",5.143874644,25.71937322
+"895","Holocentrus adscensionis",150,"St. Eustatius",2,116,"m",3.366899767,6.733799534
+"896","Holocentrus rufus",40,"Roatan",2,57,"m",1.1125,2.225
+"897","Holocentrus rufus",40,"St. Eustatius",4,104,"m",10.87650602,43.50602408
+"898","Holocentrus rufus",50,"Roatan",1,58,"m",1.390625,1.390625
+"899","Holocentrus rufus",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"900","Holocentrus rufus",60,"Roatan",3,59,"m",1.893617021,5.680851063
+"901","Holocentrus rufus",60,"St. Eustatius",1,102,"m",6.826086957,6.826086957
+"902","Holocentrus rufus",70,"Roatan",8,60,"m",2.656716418,21.253731344
+"903","Holocentrus rufus",70,"St. Eustatius",2,101,"m",5.971062422,11.942124844
+"904","Holocentrus rufus",80,"Roatan",9,61,"m",2.472222222,22.249999998
+"905","Holocentrus rufus",80,"St. Eustatius",2,100,"m",3.768327681,7.536655362
+"906","Holocentrus rufus",90,"Roatan",18,62,"m",2.966666667,53.400000006
+"907","Holocentrus rufus",90,"St. Eustatius",3,99,"m",1,3
+"908","Holocentrus rufus",100,"Roatan",2,63,"m",1.483333333,2.966666666
+"909","Holocentrus rufus",100,"St. Eustatius",4,121,"m",1.546301253,6.185205012
+"910","Holocentrus rufus",110,"Roatan",1,64,"m",1.934782609,1.934782609
+"911","Holocentrus rufus",110,"St. Eustatius",5,120,"m",1.300675371,6.503376855
+"912","Holocentrus rufus",120,"Roatan",1,65,"m",2.170731707,2.170731707
+"913","Holocentrus rufus",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"914","Hypoplectrus chlorurus",50,"Bonaire",3,22,"m",0.999995899,2.999987697
+"915","Hypoplectrus indigo",10,"Roatan",3,54,"m",2.225,6.675
+"916","Hypoplectrus indigo",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"917","Hypoplectrus nigricans",10,"Roatan",2,54,"m",2.225,4.45
+"918","Hypoplectrus nigricans",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"919","Hypoplectrus nigricans",60,"Roatan",2,59,"m",1.893617021,3.787234042
+"920","Hypoplectrus puella",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"921","Hypoplectrus puella",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"922","Hypoplectrus puella",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"923","Hyporthodus niveatus",170,"Bonaire",1,8,"m",1.172632844,1.172632844
+"924","Jeboehlkia gladifer",120,"Curacao",1,29,"m",1.127104229,1.127104229
+"925","Jeboehlkia gladifer",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"926","Jeboehlkia gladifer",160,"Bonaire",2,7,"m",1.212877394,2.425754788
+"927","Jeboehlkia gladifer",170,"Bonaire",1,8,"m",1.172632844,1.172632844
+"928","Jeboehlkia gladifer",170,"Curacao",9,34,"m",1.172632844,10.553695596
+"929","Jeboehlkia gladifer",170,"Roatan",2,70,"m",1.022988506,2.045977012
+"930","Jeboehlkia gladifer",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"931","Jeboehlkia gladifer",180,"Curacao",4,35,"m",1.724533239,6.898132956
+"932","Jeboehlkia gladifer",190,"Curacao",7,36,"m",1.643187332,11.502311324
+"933","Jeboehlkia gladifer",200,"Curacao",3,37,"m",1.203301258,3.609903774
+"934","Jeboehlkia gladifer",210,"Curacao",5,38,"m",1.454078712,7.27039356
+"935","Jeboehlkia gladifer",220,"Curacao",3,39,"m",1.136560242,3.409680726
+"936","Jeboehlkia gladifer",230,"Curacao",8,40,"m",1.644295347,13.154362776
+"937","Jeboehlkia gladifer",240,"Curacao",4,41,"m",2.350351807,9.401407228
+"938","Jeboehlkia gladifer",250,"Curacao",5,42,"m",3.051927409,15.259637045
+"939","Jeboehlkia gladifer",250,"Roatan",1,78,"m",1.034883721,1.034883721
+"940","Jeboehlkia gladifer",260,"Curacao",2,43,"m",2.855374707,5.710749414
+"941","Jeboehlkia gladifer",270,"Curacao",2,44,"m",3.382094313,6.764188626
+"942","Jeboehlkia gladifer",280,"Curacao",1,45,"m",3.295256757,3.295256757
+"943","Jeboehlkia gladifer",280,"Roatan",2,81,"m",2.022727273,4.045454546
+"944","Jeboehlkia gladifer",290,"Roatan",3,82,"m",1.308823529,3.926470587
+"945","Jeboehlkia gladifer",300,"Curacao",1,47,"m",8.196605042,8.196605042
+"946","Jeboehlkia gladifer",360,"Roatan",1,88,"m",8.090909091,8.090909091
+"947","Jeboehlkia gladifer",390,"Roatan",2,89,"m",8.090909091,16.181818182
+"948","Lachnolaimus maximus",50,"Roatan",1,58,"m",1.390625,1.390625
+"949","Lactophrys trigonus",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"950","Lactophrys triqueter",10,"Roatan",1,54,"m",2.225,2.225
+"951","Lactophrys triqueter",70,"Bonaire",2,24,"m",2.085070543,4.170141086
+"952","Liopropoma aberrans",90,"Curacao",2,53,"m",1.187769118,2.375538236
+"953","Liopropoma aberrans",110,"Curacao",7,28,"m",1.161185714,8.128299998
+"954","Liopropoma aberrans",110,"Roatan",1,64,"m",1.934782609,1.934782609
+"955","Liopropoma aberrans",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"956","Liopropoma aberrans",120,"Curacao",7,29,"m",1.127104229,7.889729603
+"957","Liopropoma aberrans",120,"Roatan",2,65,"m",2.170731707,4.341463414
+"958","Liopropoma aberrans",130,"Curacao",4,30,"m",1.303308391,5.213233564
+"959","Liopropoma aberrans",130,"Roatan",2,66,"m",2.542857143,5.085714286
+"960","Liopropoma aberrans",140,"Curacao",4,31,"m",1.365335946,5.461343784
+"961","Liopropoma aberrans",140,"Roatan",2,67,"m",1.893617021,3.787234042
+"962","Liopropoma aberrans",150,"Curacao",8,32,"m",1.188927353,9.511418824
+"963","Liopropoma aberrans",150,"Roatan",11,68,"m",2.022727273,22.250000003
+"964","Liopropoma aberrans",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"965","Liopropoma aberrans",160,"Curacao",1,33,"m",1.212877394,1.212877394
+"966","Liopropoma aberrans",160,"Roatan",1,69,"m",1.618181818,1.618181818
+"967","Liopropoma aberrans",170,"Curacao",4,34,"m",1.172632844,4.690531376
+"968","Liopropoma aberrans",170,"Roatan",4,70,"m",1.022988506,4.091954024
+"969","Liopropoma aberrans",180,"Roatan",1,71,"m",2.870967742,2.870967742
+"970","Liopropoma aberrans",190,"Roatan",1,72,"m",1.934782609,1.934782609
+"971","Liopropoma aberrans",240,"Curacao",1,41,"m",2.350351807,2.350351807
+"972","Liopropoma carmabi",70,"Bonaire",1,24,"m",2.085070543,2.085070543
+"973","Liopropoma carmabi",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"974","Liopropoma carmabi",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"975","Liopropoma carmabi",160,"St. Eustatius",1,115,"m",4.342754059,4.342754059
+"976","Liopropoma mowbrayi",40,"Roatan",6,57,"m",1.1125,6.675
+"977","Liopropoma mowbrayi",50,"Curacao",1,49,"m",0.999995899,0.999995899
+"978","Liopropoma mowbrayi",50,"Roatan",1,58,"m",1.390625,1.390625
+"979","Liopropoma mowbrayi",60,"Curacao",3,50,"m",2.016114097,6.048342291
+"980","Liopropoma mowbrayi",60,"Roatan",7,59,"m",1.893617021,13.255319147
+"981","Liopropoma mowbrayi",70,"Curacao",7,51,"m",2.085070543,14.595493801
+"982","Liopropoma mowbrayi",70,"Roatan",21,60,"m",2.656716418,55.791044778
+"983","Liopropoma mowbrayi",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"984","Liopropoma mowbrayi",80,"Bonaire",5,25,"m",1.181725224,5.90862612
+"985","Liopropoma mowbrayi",80,"Curacao",13,52,"m",1.181725224,15.362427912
+"986","Liopropoma mowbrayi",80,"Roatan",3,61,"m",2.472222222,7.416666666
+"987","Liopropoma mowbrayi",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"988","Liopropoma mowbrayi",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"989","Liopropoma mowbrayi",90,"Curacao",24,53,"m",1.187769118,28.506458832
+"990","Liopropoma mowbrayi",90,"Roatan",30,62,"m",2.966666667,89.00000001
+"991","Liopropoma mowbrayi",90,"St. Eustatius",1,99,"m",1,1
+"992","Liopropoma mowbrayi",100,"Curacao",31,27,"m",1.379236425,42.756329175
+"993","Liopropoma mowbrayi",100,"Roatan",10,63,"m",1.483333333,14.83333333
+"994","Liopropoma mowbrayi",100,"St. Eustatius",11,121,"m",1.546301253,17.009313783
+"995","Liopropoma mowbrayi",110,"Curacao",27,28,"m",1.161185714,31.352014278
+"996","Liopropoma mowbrayi",110,"Roatan",13,64,"m",1.934782609,25.152173917
+"997","Liopropoma mowbrayi",110,"St. Eustatius",15,120,"m",1.300675371,19.510130565
+"998","Liopropoma mowbrayi",120,"Curacao",3,29,"m",1.127104229,3.381312687
+"999","Liopropoma mowbrayi",120,"Roatan",12,65,"m",2.170731707,26.048780484
+"1000","Liopropoma mowbrayi",120,"St. Eustatius",8,119,"m",3.838426787,30.707414296
+"1001","Liopropoma mowbrayi",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"1002","Liopropoma mowbrayi",130,"Roatan",7,66,"m",2.542857143,17.800000001
+"1003","Liopropoma mowbrayi",130,"St. Eustatius",4,118,"m",3.42437174,13.69748696
+"1004","Liopropoma mowbrayi",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"1005","Liopropoma mowbrayi",140,"St. Eustatius",4,117,"m",5.143874644,20.575498576
+"1006","Liopropoma mowbrayi",150,"Roatan",1,68,"m",2.022727273,2.022727273
+"1007","Liopropoma olneyi",110,"Bonaire",3,2,"m",1.161185714,3.483557142
+"1008","Liopropoma olneyi",110,"Curacao",6,28,"m",1.161185714,6.967114284
+"1009","Liopropoma olneyi",120,"Bonaire",4,3,"m",1.127104229,4.508416916
+"1010","Liopropoma olneyi",120,"Curacao",13,29,"m",1.127104229,14.652354977
+"1011","Liopropoma olneyi",130,"Bonaire",4,4,"m",1.303308391,5.213233564
+"1012","Liopropoma olneyi",130,"Curacao",8,30,"m",1.303308391,10.426467128
+"1013","Liopropoma olneyi",140,"Bonaire",9,5,"m",1.365335946,12.288023514
+"1014","Liopropoma olneyi",140,"Curacao",7,31,"m",1.365335946,9.557351622
+"1015","Liopropoma olneyi",140,"St. Eustatius",1,117,"m",5.143874644,5.143874644
+"1016","Liopropoma olneyi",150,"Bonaire",13,6,"m",1.188927353,15.456055589
+"1017","Liopropoma olneyi",150,"Curacao",12,32,"m",1.188927353,14.267128236
+"1018","Liopropoma olneyi",150,"St. Eustatius",4,116,"m",3.366899767,13.467599068
+"1019","Liopropoma olneyi",160,"Bonaire",2,7,"m",1.212877394,2.425754788
+"1020","Liopropoma olneyi",160,"Curacao",7,33,"m",1.212877394,8.490141758
+"1021","Liopropoma olneyi",160,"St. Eustatius",7,115,"m",4.342754059,30.399278413
+"1022","Liopropoma olneyi",170,"Curacao",5,34,"m",1.172632844,5.86316422
+"1023","Liopropoma olneyi",170,"Roatan",1,70,"m",1.022988506,1.022988506
+"1024","Liopropoma olneyi",170,"St. Eustatius",3,114,"m",3.76734481,11.30203443
+"1025","Liopropoma olneyi",180,"Curacao",12,35,"m",1.724533239,20.694398868
+"1026","Liopropoma olneyi",180,"St. Eustatius",2,113,"m",4.174566474,8.349132948
+"1027","Liopropoma olneyi",190,"Curacao",4,36,"m",1.643187332,6.572749328
+"1028","Liopropoma olneyi",190,"St. Eustatius",2,112,"m",3.571711177,7.143422354
+"1029","Liopropoma olneyi",200,"St. Eustatius",2,111,"m",3.862032086,7.724064172
+"1030","Liopropoma olneyi",220,"Curacao",2,39,"m",1.136560242,2.273120484
+"1031","Liopropoma olneyi",230,"Roatan",1,76,"m",1.589285714,1.589285714
+"1032","Liopropoma olneyi",250,"Roatan",1,78,"m",1.034883721,1.034883721
+"1033","Liopropoma santi",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"1034","Liopropoma santi",240,"Curacao",1,41,"m",2.350351807,2.350351807
+"1035","Liopropoma santi",250,"Roatan",1,78,"m",1.034883721,1.034883721
+"1036","Liopropoma santi",260,"Roatan",1,79,"m",1.126582278,1.126582278
+"1037","Lipogramma barrettorum",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"1038","Lipogramma barrettorum",160,"Curacao",1,33,"m",1.212877394,1.212877394
+"1039","Lipogramma evides",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"1040","Lipogramma evides",140,"Bonaire",5,5,"m",1.365335946,6.82667973
+"1041","Lipogramma evides",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"1042","Lipogramma evides",150,"Curacao",5,32,"m",1.188927353,5.944636765
+"1043","Lipogramma evides",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"1044","Lipogramma evides",160,"Curacao",5,33,"m",1.212877394,6.06438697
+"1045","Lipogramma evides",170,"Curacao",11,34,"m",1.172632844,12.898961284
+"1046","Lipogramma evides",180,"Curacao",9,35,"m",1.724533239,15.520799151
+"1047","Lipogramma evides",180,"Roatan",1,71,"m",2.870967742,2.870967742
+"1048","Lipogramma evides",190,"Curacao",9,36,"m",1.643187332,14.788685988
+"1049","Lipogramma evides",200,"Curacao",3,37,"m",1.203301258,3.609903774
+"1050","Lipogramma evides",210,"Curacao",2,38,"m",1.454078712,2.908157424
+"1051","Lipogramma evides",210,"Roatan",1,74,"m",2.119047619,2.119047619
+"1052","Lipogramma evides",230,"Roatan",4,76,"m",1.589285714,6.357142856
+"1053","Lipogramma evides",240,"Curacao",1,41,"m",2.350351807,2.350351807
+"1054","Lipogramma evides",240,"Roatan",3,77,"m",1.711538462,5.134615386
+"1055","Lipogramma evides",240,"St. Eustatius",1,107,"m",14.21653543,14.21653543
+"1056","Lipogramma evides",260,"Curacao",1,43,"m",2.855374707,2.855374707
+"1057","Lipogramma flavescens",90,"Roatan",2,62,"m",2.966666667,5.933333334
+"1058","Lipogramma flavescens",210,"Roatan",2,74,"m",2.119047619,4.238095238
+"1059","Lipogramma flavescens",220,"Roatan",1,75,"m",1.854166667,1.854166667
+"1060","Lipogramma flavescens",230,"Roatan",3,76,"m",1.589285714,4.767857142
+"1061","Lipogramma flavescens",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"1062","Lipogramma flavescens",260,"Roatan",1,79,"m",1.126582278,1.126582278
+"1063","Lipogramma haberi",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"1064","Lipogramma haberi",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"1065","Lipogramma haberi",230,"Curacao",1,40,"m",1.644295347,1.644295347
+"1066","Lipogramma idabeli",130,"Roatan",3,66,"m",2.542857143,7.628571429
+"1067","Lipogramma idabeli",160,"Roatan",4,69,"m",1.618181818,6.472727272
+"1068","Lipogramma klayi",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"1069","Lipogramma klayi",60,"Roatan",3,59,"m",1.893617021,5.680851063
+"1070","Lipogramma klayi",70,"Bonaire",1,24,"m",2.085070543,2.085070543
+"1071","Lipogramma klayi",70,"Curacao",10,51,"m",2.085070543,20.85070543
+"1072","Lipogramma klayi",70,"Roatan",41,60,"m",2.656716418,108.925373138
+"1073","Lipogramma klayi",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"1074","Lipogramma klayi",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"1075","Lipogramma klayi",80,"Curacao",5,52,"m",1.181725224,5.90862612
+"1076","Lipogramma klayi",80,"Roatan",11,61,"m",2.472222222,27.194444442
+"1077","Lipogramma klayi",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"1078","Lipogramma klayi",90,"Bonaire",2,26,"m",1.187769118,2.375538236
+"1079","Lipogramma klayi",90,"Curacao",27,53,"m",1.187769118,32.069766186
+"1080","Lipogramma klayi",90,"Roatan",62,62,"m",2.966666667,183.933333354
+"1081","Lipogramma klayi",90,"St. Eustatius",4,99,"m",1,4
+"1082","Lipogramma klayi",100,"Curacao",5,27,"m",1.379236425,6.896182125
+"1083","Lipogramma klayi",100,"Roatan",9,63,"m",1.483333333,13.349999997
+"1084","Lipogramma klayi",100,"St. Eustatius",18,121,"m",1.546301253,27.833422554
+"1085","Lipogramma klayi",110,"Bonaire",1,2,"m",1.161185714,1.161185714
+"1086","Lipogramma klayi",110,"Curacao",2,28,"m",1.161185714,2.322371428
+"1087","Lipogramma klayi",110,"Roatan",4,64,"m",1.934782609,7.739130436
+"1088","Lipogramma klayi",110,"St. Eustatius",15,120,"m",1.300675371,19.510130565
+"1089","Lipogramma klayi",120,"Roatan",4,65,"m",2.170731707,8.682926828
+"1090","Lipogramma klayi",120,"St. Eustatius",10,119,"m",3.838426787,38.38426787
+"1091","Lipogramma klayi",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"1092","Lipogramma levinsoni",90,"Curacao",2,53,"m",1.187769118,2.375538236
+"1093","Lipogramma levinsoni",100,"Bonaire",3,1,"m",1.379236425,4.137709275
+"1094","Lipogramma levinsoni",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"1095","Lipogramma levinsoni",110,"Bonaire",2,2,"m",1.161185714,2.322371428
+"1096","Lipogramma levinsoni",110,"Curacao",4,28,"m",1.161185714,4.644742856
+"1097","Lipogramma levinsoni",120,"Bonaire",9,3,"m",1.127104229,10.143938061
+"1098","Lipogramma levinsoni",120,"Curacao",3,29,"m",1.127104229,3.381312687
+"1099","Lipogramma levinsoni",120,"Roatan",1,65,"m",2.170731707,2.170731707
+"1100","Lipogramma levinsoni",130,"Bonaire",13,4,"m",1.303308391,16.943009083
+"1101","Lipogramma levinsoni",130,"Curacao",11,30,"m",1.303308391,14.336392301
+"1102","Lipogramma levinsoni",130,"St. Eustatius",2,118,"m",3.42437174,6.84874348
+"1103","Lipogramma levinsoni",140,"Bonaire",3,5,"m",1.365335946,4.096007838
+"1104","Lipogramma levinsoni",140,"Curacao",3,31,"m",1.365335946,4.096007838
+"1105","Lipogramma levinsoni",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"1106","Lipogramma levinsoni",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"1107","Lipogramma levinsoni",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"1108","Lipogramma levinsoni",160,"St. Eustatius",2,115,"m",4.342754059,8.685508118
+"1109","Lipogramma levinsoni",170,"St. Eustatius",2,114,"m",3.76734481,7.53468962
+"1110","Lipogramma regium",100,"St. Eustatius",2,121,"m",1.546301253,3.092602506
+"1111","Lipogramma regium",110,"St. Eustatius",2,120,"m",1.300675371,2.601350742
+"1112","Lipogramma schrieri",170,"Curacao",3,34,"m",1.172632844,3.517898532
+"1113","Lipogramma schrieri",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"1114","Lipogramma schrieri",190,"Curacao",1,36,"m",1.643187332,1.643187332
+"1115","Lipogramma trilineata",90,"St. Eustatius",1,99,"m",1,1
+"1116","Lipogramma trilineata",100,"St. Eustatius",3,121,"m",1.546301253,4.638903759
+"1117","Lipogramma trilineata",110,"St. Eustatius",1,120,"m",1.300675371,1.300675371
+"1118","Malacanthus plumieri",40,"Roatan",3,57,"m",1.1125,3.3375
+"1119","Malacanthus plumieri",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"1120","Malacanthus plumieri",60,"Bonaire",3,23,"m",2.016114097,6.048342291
+"1121","Malacanthus plumieri",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"1122","Malacanthus plumieri",70,"Bonaire",2,24,"m",2.085070543,4.170141086
+"1123","Malacanthus plumieri",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"1124","Malacanthus plumieri",90,"Bonaire",3,26,"m",1.187769118,3.563307354
+"1125","Malacanthus plumieri",100,"Bonaire",3,1,"m",1.379236425,4.137709275
+"1126","Malacanthus plumieri",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"1127","Malacanthus plumieri",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"1128","Melichthys niger",10,"Roatan",4,54,"m",2.225,8.9
+"1129","Microspathodon chrysurus",10,"Roatan",20,54,"m",2.225,44.5
+"1130","Mulloidichthys martinicus",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"1131","Mulloidichthys martinicus",40,"Bonaire",7,21,"m",1.139215137,7.974505959
+"1132","Mulloidichthys martinicus",40,"Roatan",3,57,"m",1.1125,3.3375
+"1133","Mulloidichthys martinicus",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"1134","Mulloidichthys martinicus",50,"Bonaire",23,22,"m",0.999995899,22.999905677
+"1135","Mulloidichthys martinicus",50,"Roatan",1,58,"m",1.390625,1.390625
+"1136","Mulloidichthys martinicus",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"1137","Mulloidichthys martinicus",100,"St. Eustatius",2,121,"m",1.546301253,3.092602506
+"1138","Muraena retifera",130,"Bonaire",2,4,"m",1.303308391,2.606616782
+"1139","Muraena retifera",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"1140","Muraena retifera",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"1141","Mycteroperca bonaci",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"1142","Mycteroperca bonaci",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"1143","Mycteroperca bonaci",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"1144","Mycteroperca interstitialis",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"1145","Mycteroperca interstitialis",90,"Roatan",1,62,"m",2.966666667,2.966666667
+"1146","Mycteroperca tigris",50,"Roatan",1,58,"m",1.390625,1.390625
+"1147","Mycteroperca tigris",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"1148","Myctoperca bonaci",120,"Roatan",1,65,"m",2.170731707,2.170731707
+"1149","Myripristis jacobus",40,"Curacao",2,48,"m",1.139215137,2.278430274
+"1150","Myripristis jacobus",50,"Curacao",2,49,"m",0.999995899,1.999991798
+"1151","Myripristis jacobus",60,"Curacao",6,50,"m",2.016114097,12.096684582
+"1152","Myripristis jacobus",70,"Curacao",2,51,"m",2.085070543,4.170141086
+"1153","Myripristis jacobus",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"1154","Myripristis jacobus",80,"Curacao",1,52,"m",1.181725224,1.181725224
+"1155","Myripristis jacobus",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"1156","Myripristis jacobus",100,"St. Eustatius",3,121,"m",1.546301253,4.638903759
+"1157","Myripristis jacobus",110,"St. Eustatius",1,120,"m",1.300675371,1.300675371
+"1158","Myripristis jacobus",120,"St. Eustatius",3,119,"m",3.838426787,11.515280361
+"1159","Neoepinnula americana",310,"Roatan",1,84,"m",1.308823529,1.308823529
+"1160","Neoepinnula americana",480,"Roatan",1,98,"m",5.933333333,5.933333333
+"1161","Neoniphon coruscum",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"1162","Neoscopelus macrolepidotus",470,"Roatan",1,97,"m",5.933333333,5.933333333
+"1163","Ocyurus chrysurus",10,"Roatan",21,54,"m",2.225,46.725
+"1164","Ocyurus chrysurus",30,"Roatan",2,56,"m",1.034883721,2.069767442
+"1165","Ocyurus chrysurus",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"1166","Ocyurus chrysurus",50,"Roatan",1,58,"m",1.390625,1.390625
+"1167","Ocyurus chrysurus",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"1168","Ogcocephalus corniger",170,"St. Eustatius",1,114,"m",3.76734481,3.76734481
+"1169","Ogcocephalus corniger",200,"St. Eustatius",1,111,"m",3.862032086,3.862032086
+"1170","Ogcocephalus corniger",230,"St. Eustatius",3,108,"m",2.26572549,6.79717647
+"1171","Ogcocephalus parvus",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"1172","Opistognathus aurifrons",40,"Roatan",2,57,"m",1.1125,2.225
+"1173","Opistognathus schrieri",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"1174","Opistognathus schrieri",200,"Roatan",1,73,"m",1.369230769,1.369230769
+"1175","Opistognathus schrieri",220,"Roatan",1,75,"m",1.854166667,1.854166667
+"1176","Ostichthys trachypoma",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"1177","Ostichthys trachypoma",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"1178","Ostichthys trachypoma",160,"Curacao",4,33,"m",1.212877394,4.851509576
+"1179","Ostichthys trachypoma",170,"Bonaire",2,8,"m",1.172632844,2.345265688
+"1180","Ostichthys trachypoma",170,"Curacao",3,34,"m",1.172632844,3.517898532
+"1181","Ostichthys trachypoma",170,"Roatan",2,70,"m",1.022988506,2.045977012
+"1182","Ostichthys trachypoma",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"1183","Ostichthys trachypoma",180,"Curacao",7,35,"m",1.724533239,12.071732673
+"1184","Ostichthys trachypoma",180,"Roatan",3,71,"m",2.870967742,8.612903226
+"1185","Ostichthys trachypoma",190,"Curacao",1,36,"m",1.643187332,1.643187332
+"1186","Ostichthys trachypoma",190,"Roatan",3,72,"m",1.934782609,5.804347827
+"1187","Ostichthys trachypoma",190,"St. Eustatius",1,112,"m",3.571711177,3.571711177
+"1188","Ostichthys trachypoma",200,"Curacao",7,37,"m",1.203301258,8.423108806
+"1189","Ostichthys trachypoma",200,"Roatan",7,73,"m",1.369230769,9.584615383
+"1190","Ostichthys trachypoma",210,"Curacao",6,38,"m",1.454078712,8.724472272
+"1191","Ostichthys trachypoma",210,"Roatan",4,74,"m",2.119047619,8.476190476
+"1192","Ostichthys trachypoma",210,"St. Eustatius",1,110,"m",2.498961938,2.498961938
+"1193","Ostichthys trachypoma",220,"Curacao",11,39,"m",1.136560242,12.502162662
+"1194","Ostichthys trachypoma",220,"Roatan",1,75,"m",1.854166667,1.854166667
+"1195","Ostichthys trachypoma",230,"Curacao",35,40,"m",1.644295347,57.550337145
+"1196","Ostichthys trachypoma",230,"Roatan",3,76,"m",1.589285714,4.767857142
+"1197","Ostichthys trachypoma",240,"Curacao",3,41,"m",2.350351807,7.051055421
+"1198","Ostichthys trachypoma",240,"Roatan",4,77,"m",1.711538462,6.846153848
+"1199","Ostichthys trachypoma",250,"Curacao",6,42,"m",3.051927409,18.311564454
+"1200","Ostichthys trachypoma",250,"Roatan",3,78,"m",1.034883721,3.104651163
+"1201","Ostichthys trachypoma",260,"Curacao",10,43,"m",2.855374707,28.55374707
+"1202","Ostichthys trachypoma",260,"Roatan",5,79,"m",1.126582278,5.63291139
+"1203","Ostichthys trachypoma",270,"Curacao",1,44,"m",3.382094313,3.382094313
+"1204","Ostichthys trachypoma",280,"Curacao",1,45,"m",3.295256757,3.295256757
+"1205","Ostichthys trachypoma",280,"Roatan",1,81,"m",2.022727273,2.022727273
+"1206","Ostichthys trachypoma",290,"Roatan",1,82,"m",1.308823529,1.308823529
+"1207","Ostichthys trachypoma",300,"Roatan",1,83,"m",2.617647059,2.617647059
+"1208","Oxyurichthys stigmalophius",90,"Bonaire",2,26,"m",1.187769118,2.375538236
+"1209","Oxyurichthys stigmalophius",100,"Bonaire",1,1,"m",1.379236425,1.379236425
+"1210","Palatogobius grandoculus",120,"Roatan",20,65,"m",2.170731707,43.41463414
+"1211","Palatogobius grandoculus",130,"Roatan",2,66,"m",2.542857143,5.085714286
+"1212","Palatogobius grandoculus",140,"Roatan",220,67,"m",1.893617021,416.59574462
+"1213","Palatogobius grandoculus",150,"Roatan",210,68,"m",2.022727273,424.77272733
+"1214","Palatogobius grandoculus",160,"Roatan",300,69,"m",1.618181818,485.4545454
+"1215","Palatogobius grandoculus",170,"Roatan",300,70,"m",1.022988506,306.8965518
+"1216","Palatogobius grandoculus",190,"Roatan",4,72,"m",1.934782609,7.739130436
+"1217","Palatogobius grandoculus",200,"Roatan",28,73,"m",1.369230769,38.338461532
+"1218","Palatogobius grandoculus",210,"Roatan",17,74,"m",2.119047619,36.023809523
+"1219","Palatogobius grandoculus",220,"Roatan",6,75,"m",1.854166667,11.125000002
+"1220","Palatogobius grandoculus",230,"Roatan",7,76,"m",1.589285714,11.124999998
+"1221","Palatogobius grandoculus",240,"Roatan",10,77,"m",1.711538462,17.11538462
+"1222","Palatogobius grandoculus",260,"Roatan",4,79,"m",1.126582278,4.506329112
+"1223","Palatogobius grandoculus",260,"St. Eustatius",1,106,"m",6.485855411,6.485855411
+"1224","Palatogobius grandoculus",270,"Roatan",1,80,"m",1,1
+"1225","Palatogobius grandoculus",280,"Roatan",6,81,"m",2.022727273,12.136363638
+"1226","Palatogobius grandoculus",290,"Roatan",1,82,"m",1.308823529,1.308823529
+"1227","Palatogobius incendius",70,"Bonaire",6,24,"m",2.085070543,12.510423258
+"1228","Palatogobius incendius",90,"Roatan",438,62,"m",2.966666667,1299.400000146
+"1229","Palatogobius incendius",100,"St. Eustatius",26,121,"m",1.546301253,40.203832578
+"1230","Palatogobius incendius",110,"Bonaire",51,2,"m",1.161185714,59.220471414
+"1231","Palatogobius incendius",110,"Curacao",140,28,"m",1.161185714,162.56599996
+"1232","Palatogobius incendius",110,"Roatan",401,64,"m",1.934782609,775.847826209
+"1233","Palatogobius incendius",110,"St. Eustatius",267,120,"m",1.300675371,347.280324057
+"1234","Palatogobius incendius",120,"Curacao",82,29,"m",1.127104229,92.422546778
+"1235","Palatogobius incendius",120,"Roatan",261,65,"m",2.170731707,566.560975527
+"1236","Palatogobius incendius",130,"St. Eustatius",1,118,"m",3.42437174,3.42437174
+"1237","Palatogobius incendius",140,"Curacao",60,31,"m",1.365335946,81.92015676
+"1238","Palatogobius incendius",140,"Roatan",21,67,"m",1.893617021,39.765957441
+"1239","Palatogobius incendius",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"1240","Palatogobius incendius",150,"Curacao",32,32,"m",1.188927353,38.045675296
+"1241","Palatogobius incendius",150,"Roatan",379,68,"m",2.022727273,766.613636467
+"1242","Palatogobius incendius",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"1243","Palatogobius incendius",160,"Roatan",405,69,"m",1.618181818,655.36363629
+"1244","Palatogobius incendius",160,"St. Eustatius",165,115,"m",4.342754059,716.554419735
+"1245","Palatogobius incendius",170,"Roatan",205,70,"m",1.022988506,209.71264373
+"1246","Palatogobius incendius",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"1247","Palatogobius incendius",180,"Roatan",49,71,"m",2.870967742,140.677419358
+"1248","Palatogobius incendius",180,"St. Eustatius",31,113,"m",4.174566474,129.411560694
+"1249","Palatogobius incendius",190,"Roatan",3,72,"m",1.934782609,5.804347827
+"1250","Palatogobius incendius",200,"Curacao",1,37,"m",1.203301258,1.203301258
+"1251","Palatogobius incendius",200,"Roatan",53,73,"m",1.369230769,72.569230757
+"1252","Palatogobius paradoxus",240,"Roatan",4,77,"m",1.711538462,6.846153848
+"1253","Paranthias furcifer",40,"St. Eustatius",5,104,"m",10.87650602,54.3825301
+"1254","Paranthias furcifer",50,"Bonaire",26,22,"m",0.999995899,25.999893374
+"1255","Paranthias furcifer",50,"Curacao",6,49,"m",0.999995899,5.999975394
+"1256","Paranthias furcifer",60,"Bonaire",16,23,"m",2.016114097,32.257825552
+"1257","Paranthias furcifer",60,"Curacao",189,50,"m",2.016114097,381.045564333
+"1258","Paranthias furcifer",70,"Curacao",45,51,"m",2.085070543,93.828174435
+"1259","Paranthias furcifer",80,"Bonaire",101,25,"m",1.181725224,119.354247624
+"1260","Paranthias furcifer",90,"Bonaire",50,26,"m",1.187769118,59.3884559
+"1261","Paranthias furcifer",90,"Curacao",4,53,"m",1.187769118,4.751076472
+"1262","Paranthias furcifer",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"1263","Paranthias furcifer",110,"Bonaire",1,2,"m",1.161185714,1.161185714
+"1264","Paranthias furcifer",110,"Curacao",2,28,"m",1.161185714,2.322371428
+"1265","Paroncheilus affinis",80,"Bonaire",350,25,"m",1.181725224,413.6038284
+"1266","Paroncheilus affinis",80,"St. Eustatius",1004,100,"m",3.768327681,3783.400991724
+"1267","Paroncheilus affinis",90,"Bonaire",36,26,"m",1.187769118,42.759688248
+"1268","Paroncheilus affinis",90,"St. Eustatius",1,99,"m",1,1
+"1269","Paroncheilus affinis",100,"Bonaire",1,1,"m",1.379236425,1.379236425
+"1270","Paroncheilus affinis",100,"St. Eustatius",51,121,"m",1.546301253,78.861363903
+"1271","Paroncheilus affinis",110,"Bonaire",249,2,"m",1.161185714,289.135242786
+"1272","Paroncheilus affinis",110,"Curacao",5,28,"m",1.161185714,5.80592857
+"1273","Paroncheilus affinis",130,"Bonaire",1,4,"m",1.303308391,1.303308391
+"1274","Paroncheilus affinis",200,"Bonaire",1,11,"m",1.203301258,1.203301258
+"1275","Peristedion brevirostre",170,"Bonaire",1,8,"m",1.172632844,1.172632844
+"1276","Peristedion brevirostre",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"1277","Peristedion brevirostre",220,"Bonaire",1,13,"m",1.136560242,1.136560242
+"1278","Phenacoscorpius nebrius",360,"Roatan",1,88,"m",8.090909091,8.090909091
+"1279","Phenacoscorpius nebrius",420,"Roatan",1,92,"m",3.178571429,3.178571429
+"1280","Physiculus fulvus",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"1281","Physiculus fulvus",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"1282","Physiculus fulvus",170,"Bonaire",2,8,"m",1.172632844,2.345265688
+"1283","Pinnichthys aimoriensis",90,"St. Eustatius",1,99,"m",1,1
+"1284","Pinnichthys aimoriensis",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"1285","Plectranthias garrupellus",150,"Roatan",1,68,"m",2.022727273,2.022727273
+"1286","Plectranthias garrupellus",170,"St. Eustatius",1,114,"m",3.76734481,3.76734481
+"1287","Plectranthias garrupellus",230,"Roatan",1,76,"m",1.589285714,1.589285714
+"1288","Plectranthias garrupellus",260,"Roatan",1,79,"m",1.126582278,1.126582278
+"1289","Plectranthias garrupellus",270,"Roatan",1,80,"m",1,1
+"1290","Plectranthias sp.",90,"Curacao",2,53,"m",1.187769118,2.375538236
+"1291","Plectranthias sp.",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"1292","Plectranthias sp.",120,"Curacao",2,29,"m",1.127104229,2.254208458
+"1293","Plectranthias sp.",170,"St. Eustatius",1,114,"m",3.76734481,3.76734481
+"1294","Polylepion sp.",210,"Curacao",1,38,"m",1.454078712,1.454078712
+"1295","Polylepion sp.",240,"Roatan",2,77,"m",1.711538462,3.423076924
+"1296","Polylepion sp.",250,"Curacao",1,42,"m",3.051927409,3.051927409
+"1297","Polylepion sp.",270,"Curacao",1,44,"m",3.382094313,3.382094313
+"1298","Polylepion sp.",270,"Roatan",1,80,"m",1,1
+"1299","Polylepion sp.",300,"Roatan",2,83,"m",2.617647059,5.235294118
+"1300","Polylepion sp.",320,"Roatan",1,85,"m",5.235294118,5.235294118
+"1301","Pomacanthus arcuatus",40,"Roatan",1,57,"m",1.1125,1.1125
+"1302","Pomacanthus arcuatus",70,"Bonaire",2,24,"m",2.085070543,4.170141086
+"1303","Pomacanthus arcuatus",100,"Roatan",1,63,"m",1.483333333,1.483333333
+"1304","Pomacanthus paru",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"1305","Pomacanthus paru",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"1306","Pomacanthus paru",50,"St. Eustatius",2,103,"m",15.20421053,30.40842106
+"1307","Pomacanthus paru",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"1308","Pomacanthus paru",80,"St. Eustatius",2,100,"m",3.768327681,7.536655362
+"1309","Pomacanthus paru",90,"St. Eustatius",2,99,"m",1,2
+"1310","Pomacanthus paru",150,"Bonaire",2,6,"m",1.188927353,2.377854706
+"1311","Pontinus castor",110,"Bonaire",1,2,"m",1.161185714,1.161185714
+"1312","Pontinus castor",120,"Curacao",2,29,"m",1.127104229,2.254208458
+"1313","Pontinus castor",130,"Curacao",1,30,"m",1.303308391,1.303308391
+"1314","Pontinus castor",140,"Bonaire",5,5,"m",1.365335946,6.82667973
+"1315","Pontinus castor",150,"Bonaire",4,6,"m",1.188927353,4.755709412
+"1316","Pontinus castor",150,"Curacao",5,32,"m",1.188927353,5.944636765
+"1317","Pontinus castor",160,"Curacao",2,33,"m",1.212877394,2.425754788
+"1318","Pontinus castor",170,"St. Eustatius",1,114,"m",3.76734481,3.76734481
+"1319","Pontinus castor",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"1320","Pontinus castor",180,"Curacao",2,35,"m",1.724533239,3.449066478
+"1321","Pontinus castor",180,"Roatan",2,71,"m",2.870967742,5.741935484
+"1322","Pontinus castor",180,"St. Eustatius",1,113,"m",4.174566474,4.174566474
+"1323","Pontinus castor",190,"Curacao",2,36,"m",1.643187332,3.286374664
+"1324","Pontinus castor",190,"Roatan",1,72,"m",1.934782609,1.934782609
+"1325","Pontinus castor",200,"Curacao",2,37,"m",1.203301258,2.406602516
+"1326","Pontinus castor",200,"Roatan",1,73,"m",1.369230769,1.369230769
+"1327","Pontinus castor",210,"Curacao",2,38,"m",1.454078712,2.908157424
+"1328","Pontinus castor",210,"Roatan",1,74,"m",2.119047619,2.119047619
+"1329","Pontinus castor",210,"St. Eustatius",1,110,"m",2.498961938,2.498961938
+"1330","Pontinus castor",240,"Curacao",1,41,"m",2.350351807,2.350351807
+"1331","Pontinus castor",250,"Bonaire",1,15,"m",3.051927409,3.051927409
+"1332","Pontinus castor",270,"Roatan",1,80,"m",1,1
+"1333","Pontinus nematophthalmus",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"1334","Pontinus nematophthalmus",150,"Curacao",2,32,"m",1.188927353,2.377854706
+"1335","Pontinus nematophthalmus",160,"Curacao",2,33,"m",1.212877394,2.425754788
+"1336","Pontinus nematophthalmus",170,"Curacao",2,34,"m",1.172632844,2.345265688
+"1337","Pontinus nematophthalmus",180,"Curacao",3,35,"m",1.724533239,5.173599717
+"1338","Pontinus nematophthalmus",190,"Curacao",2,36,"m",1.643187332,3.286374664
+"1339","Pontinus nematophthalmus",200,"Curacao",4,37,"m",1.203301258,4.813205032
+"1340","Pontinus nematophthalmus",210,"Curacao",2,38,"m",1.454078712,2.908157424
+"1341","Pontinus nematophthalmus",230,"Curacao",1,40,"m",1.644295347,1.644295347
+"1342","Pontinus nematophthalmus",240,"Curacao",1,41,"m",2.350351807,2.350351807
+"1343","Pontinus nematophthalmus",250,"Curacao",1,42,"m",3.051927409,3.051927409
+"1344","Pontinus nematophthalmus",300,"Curacao",1,47,"m",8.196605042,8.196605042
+"1345","Priacanthus arenatus",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"1346","Priacanthus arenatus",150,"Roatan",2,68,"m",2.022727273,4.045454546
+"1347","Priacanthus arenatus",190,"St. Eustatius",1,112,"m",3.571711177,3.571711177
+"1348","Priolepis hipoliti",110,"Bonaire",3,2,"m",1.161185714,3.483557142
+"1349","Pristigenys alta",70,"Curacao",1,51,"m",2.085070543,2.085070543
+"1350","Pristigenys alta",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"1351","Pristigenys alta",110,"Curacao",1,28,"m",1.161185714,1.161185714
+"1352","Pristigenys alta",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"1353","Pristigenys alta",120,"Curacao",1,29,"m",1.127104229,1.127104229
+"1354","Pristigenys alta",120,"Roatan",1,65,"m",2.170731707,2.170731707
+"1355","Pristigenys alta",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"1356","Pristigenys alta",140,"Bonaire",2,5,"m",1.365335946,2.730671892
+"1357","Pristigenys alta",140,"Roatan",1,67,"m",1.893617021,1.893617021
+"1358","Pristigenys alta",140,"St. Eustatius",1,117,"m",5.143874644,5.143874644
+"1359","Pristigenys alta",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"1360","Pristigenys alta",150,"Roatan",4,68,"m",2.022727273,8.090909092
+"1361","Pristigenys alta",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"1362","Pristigenys alta",160,"Bonaire",5,7,"m",1.212877394,6.06438697
+"1363","Pristigenys alta",160,"Curacao",2,33,"m",1.212877394,2.425754788
+"1364","Pristigenys alta",160,"Roatan",4,69,"m",1.618181818,6.472727272
+"1365","Pristigenys alta",160,"St. Eustatius",4,115,"m",4.342754059,17.371016236
+"1366","Pristigenys alta",170,"Curacao",1,34,"m",1.172632844,1.172632844
+"1367","Pristigenys alta",170,"Roatan",1,70,"m",1.022988506,1.022988506
+"1368","Pristigenys alta",170,"St. Eustatius",3,114,"m",3.76734481,11.30203443
+"1369","Pristigenys alta",180,"Curacao",2,35,"m",1.724533239,3.449066478
+"1370","Pristigenys alta",180,"St. Eustatius",2,113,"m",4.174566474,8.349132948
+"1371","Pristigenys alta",190,"St. Eustatius",3,112,"m",3.571711177,10.715133531
+"1372","Pristigenys alta",210,"St. Eustatius",2,110,"m",2.498961938,4.997923876
+"1373","Pristipomoides aquilonaris",160,"Bonaire",1,7,"m",1.212877394,1.212877394
+"1374","Pristipomoides aquilonaris",210,"Bonaire",3,12,"m",1.454078712,4.362236136
+"1375","Pristipomoides aquilonaris",230,"Bonaire",1,14,"m",1.644295347,1.644295347
+"1376","Pristipomoides freemani",190,"Bonaire",1,10,"m",1.643187332,1.643187332
+"1377","Pristipomoides macrophthalmus",210,"Curacao",1,38,"m",1.454078712,1.454078712
+"1378","Pristipomoides macrophthalmus",230,"St. Eustatius",1,108,"m",2.26572549,2.26572549
+"1379","Prognathodes aculeatus",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"1380","Prognathodes aculeatus",30,"Roatan",3,56,"m",1.034883721,3.104651163
+"1381","Prognathodes aculeatus",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"1382","Prognathodes aculeatus",40,"Roatan",2,57,"m",1.1125,2.225
+"1383","Prognathodes aculeatus",40,"St. Eustatius",4,104,"m",10.87650602,43.50602408
+"1384","Prognathodes aculeatus",50,"Bonaire",2,22,"m",0.999995899,1.999991798
+"1385","Prognathodes aculeatus",50,"Curacao",2,49,"m",0.999995899,1.999991798
+"1386","Prognathodes aculeatus",50,"St. Eustatius",2,103,"m",15.20421053,30.40842106
+"1387","Prognathodes aculeatus",60,"Bonaire",2,23,"m",2.016114097,4.032228194
+"1388","Prognathodes aculeatus",60,"Curacao",4,50,"m",2.016114097,8.064456388
+"1389","Prognathodes aculeatus",60,"Roatan",6,59,"m",1.893617021,11.361702126
+"1390","Prognathodes aculeatus",70,"Curacao",5,51,"m",2.085070543,10.425352715
+"1391","Prognathodes aculeatus",70,"Roatan",7,60,"m",2.656716418,18.597014926
+"1392","Prognathodes aculeatus",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"1393","Prognathodes aculeatus",80,"Curacao",5,52,"m",1.181725224,5.90862612
+"1394","Prognathodes aculeatus",80,"Roatan",1,61,"m",2.472222222,2.472222222
+"1395","Prognathodes aculeatus",80,"St. Eustatius",8,100,"m",3.768327681,30.146621448
+"1396","Prognathodes aculeatus",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"1397","Prognathodes aculeatus",90,"Curacao",8,53,"m",1.187769118,9.502152944
+"1398","Prognathodes aculeatus",90,"Roatan",1,62,"m",2.966666667,2.966666667
+"1399","Prognathodes aculeatus",90,"St. Eustatius",6,99,"m",1,6
+"1400","Prognathodes aculeatus",100,"Curacao",2,27,"m",1.379236425,2.75847285
+"1401","Prognathodes aculeatus",100,"St. Eustatius",10,121,"m",1.546301253,15.46301253
+"1402","Prognathodes aculeatus",110,"Bonaire",2,2,"m",1.161185714,2.322371428
+"1403","Prognathodes aculeatus",110,"St. Eustatius",6,120,"m",1.300675371,7.804052226
+"1404","Prognathodes aculeatus",120,"Bonaire",3,3,"m",1.127104229,3.381312687
+"1405","Prognathodes aculeatus",120,"Curacao",1,29,"m",1.127104229,1.127104229
+"1406","Prognathodes aculeatus",120,"St. Eustatius",3,119,"m",3.838426787,11.515280361
+"1407","Prognathodes aculeatus",130,"Bonaire",1,4,"m",1.303308391,1.303308391
+"1408","Prognathodes aculeatus",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"1409","Prognathodes aculeatus",130,"St. Eustatius",2,118,"m",3.42437174,6.84874348
+"1410","Prognathodes aculeatus",140,"St. Eustatius",2,117,"m",5.143874644,10.287749288
+"1411","Prognathodes aculeatus",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"1412","Prognathodes guyanensis",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"1413","Prognathodes guyanensis",100,"Curacao",4,27,"m",1.379236425,5.5169457
+"1414","Prognathodes guyanensis",100,"Roatan",3,63,"m",1.483333333,4.449999999
+"1415","Prognathodes guyanensis",110,"Bonaire",1,2,"m",1.161185714,1.161185714
+"1416","Prognathodes guyanensis",110,"Curacao",2,28,"m",1.161185714,2.322371428
+"1417","Prognathodes guyanensis",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"1418","Prognathodes guyanensis",120,"Curacao",3,29,"m",1.127104229,3.381312687
+"1419","Prognathodes guyanensis",130,"Bonaire",1,4,"m",1.303308391,1.303308391
+"1420","Prognathodes guyanensis",130,"Curacao",4,30,"m",1.303308391,5.213233564
+"1421","Prognathodes guyanensis",140,"Bonaire",5,5,"m",1.365335946,6.82667973
+"1422","Prognathodes guyanensis",140,"Curacao",3,31,"m",1.365335946,4.096007838
+"1423","Prognathodes guyanensis",140,"St. Eustatius",2,117,"m",5.143874644,10.287749288
+"1424","Prognathodes guyanensis",150,"Bonaire",2,6,"m",1.188927353,2.377854706
+"1425","Prognathodes guyanensis",150,"Curacao",2,32,"m",1.188927353,2.377854706
+"1426","Prognathodes guyanensis",160,"Bonaire",4,7,"m",1.212877394,4.851509576
+"1427","Prognathodes guyanensis",160,"Curacao",6,33,"m",1.212877394,7.277264364
+"1428","Prognathodes guyanensis",170,"Curacao",1,34,"m",1.172632844,1.172632844
+"1429","Prognathodes guyanensis",170,"St. Eustatius",1,114,"m",3.76734481,3.76734481
+"1430","Prognathodes guyanensis",200,"Curacao",1,37,"m",1.203301258,1.203301258
+"1431","Prognathodes guyanensis",200,"Roatan",1,73,"m",1.369230769,1.369230769
+"1432","Prognathodes guyanensis",210,"Curacao",1,38,"m",1.454078712,1.454078712
+"1433","Pronotogrammus martinicensis",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"1434","Pronotogrammus martinicensis",80,"Curacao",1,52,"m",1.181725224,1.181725224
+"1435","Pronotogrammus martinicensis",90,"Bonaire",40,26,"m",1.187769118,47.51076472
+"1436","Pronotogrammus martinicensis",90,"Curacao",17,53,"m",1.187769118,20.192075006
+"1437","Pronotogrammus martinicensis",100,"Bonaire",12,1,"m",1.379236425,16.5508371
+"1438","Pronotogrammus martinicensis",100,"Curacao",12,27,"m",1.379236425,16.5508371
+"1439","Pronotogrammus martinicensis",110,"Bonaire",79,2,"m",1.161185714,91.733671406
+"1440","Pronotogrammus martinicensis",110,"Curacao",100,28,"m",1.161185714,116.1185714
+"1441","Pronotogrammus martinicensis",120,"Bonaire",186,3,"m",1.127104229,209.641386594
+"1442","Pronotogrammus martinicensis",120,"Curacao",80,29,"m",1.127104229,90.16833832
+"1443","Pronotogrammus martinicensis",130,"Bonaire",49,4,"m",1.303308391,63.862111159
+"1444","Pronotogrammus martinicensis",130,"Curacao",76,30,"m",1.303308391,99.051437716
+"1445","Pronotogrammus martinicensis",140,"Bonaire",104,5,"m",1.365335946,141.994938384
+"1446","Pronotogrammus martinicensis",140,"Curacao",27,31,"m",1.365335946,36.864070542
+"1447","Pronotogrammus martinicensis",140,"Roatan",3,67,"m",1.893617021,5.680851063
+"1448","Pronotogrammus martinicensis",140,"St. Eustatius",1,117,"m",5.143874644,5.143874644
+"1449","Pronotogrammus martinicensis",150,"Bonaire",61,6,"m",1.188927353,72.524568533
+"1450","Pronotogrammus martinicensis",150,"Curacao",52,32,"m",1.188927353,61.824222356
+"1451","Pronotogrammus martinicensis",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"1452","Pronotogrammus martinicensis",160,"Bonaire",19,7,"m",1.212877394,23.044670486
+"1453","Pronotogrammus martinicensis",160,"Curacao",93,33,"m",1.212877394,112.797597642
+"1454","Pronotogrammus martinicensis",160,"St. Eustatius",12,115,"m",4.342754059,52.113048708
+"1455","Pronotogrammus martinicensis",170,"Bonaire",13,8,"m",1.172632844,15.244226972
+"1456","Pronotogrammus martinicensis",170,"Curacao",22,34,"m",1.172632844,25.797922568
+"1457","Pronotogrammus martinicensis",170,"St. Eustatius",28,114,"m",3.76734481,105.48565468
+"1458","Pronotogrammus martinicensis",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"1459","Pronotogrammus martinicensis",180,"Curacao",47,35,"m",1.724533239,81.053062233
+"1460","Pronotogrammus martinicensis",180,"St. Eustatius",10,113,"m",4.174566474,41.74566474
+"1461","Pronotogrammus martinicensis",190,"Curacao",17,36,"m",1.643187332,27.934184644
+"1462","Pronotogrammus martinicensis",190,"St. Eustatius",8,112,"m",3.571711177,28.573689416
+"1463","Pronotogrammus martinicensis",200,"Curacao",6,37,"m",1.203301258,7.219807548
+"1464","Pronotogrammus martinicensis",200,"St. Eustatius",1,111,"m",3.862032086,3.862032086
+"1465","Pronotogrammus martinicensis",210,"Curacao",2,38,"m",1.454078712,2.908157424
+"1466","Pronotogrammus martinicensis",210,"St. Eustatius",2,110,"m",2.498961938,4.997923876
+"1467","Pronotogrammus martinicensis",220,"Curacao",5,39,"m",1.136560242,5.68280121
+"1468","Pronotogrammus martinicensis",230,"Curacao",1,40,"m",1.644295347,1.644295347
+"1469","Pronotogrammus martinicensis",240,"St. Eustatius",1,107,"m",14.21653543,14.21653543
+"1470","Pronotogrammus martinicensis",290,"Curacao",1,46,"m",4.077742475,4.077742475
+"1471","Pseudupeneus maculatus",50,"Roatan",1,58,"m",1.390625,1.390625
+"1472","Pseudupeneus maculatus",60,"Roatan",5,59,"m",1.893617021,9.468085105
+"1473","Psilotris laurae",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"1474","Ptereleotris helenae",60,"Bonaire",3,23,"m",2.016114097,6.048342291
+"1475","Ptereleotris helenae",60,"Curacao",1,50,"m",2.016114097,2.016114097
+"1476","Ptereleotris helenae",70,"Bonaire",3,24,"m",2.085070543,6.255211629
+"1477","Ptereleotris helenae",70,"Curacao",8,51,"m",2.085070543,16.680564344
+"1478","Ptereleotris helenae",70,"St. Eustatius",2,101,"m",5.971062422,11.942124844
+"1479","Ptereleotris helenae",80,"Bonaire",13,25,"m",1.181725224,15.362427912
+"1480","Ptereleotris helenae",80,"Curacao",10,52,"m",1.181725224,11.81725224
+"1481","Ptereleotris helenae",80,"Roatan",1,61,"m",2.472222222,2.472222222
+"1482","Ptereleotris helenae",80,"St. Eustatius",19,100,"m",3.768327681,71.598225939
+"1483","Ptereleotris helenae",90,"Bonaire",4,26,"m",1.187769118,4.751076472
+"1484","Ptereleotris helenae",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"1485","Ptereleotris helenae",90,"St. Eustatius",33,99,"m",1,33
+"1486","Ptereleotris helenae",100,"Bonaire",7,1,"m",1.379236425,9.654654975
+"1487","Ptereleotris helenae",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"1488","Ptereleotris helenae",100,"St. Eustatius",22,121,"m",1.546301253,34.018627566
+"1489","Ptereleotris helenae",110,"Bonaire",19,2,"m",1.161185714,22.062528566
+"1490","Ptereleotris helenae",120,"Curacao",2,29,"m",1.127104229,2.254208458
+"1491","Ptereleotris helenae",130,"St. Eustatius",1,118,"m",3.42437174,3.42437174
+"1492","Ptereleotris helenae",140,"Roatan",2,67,"m",1.893617021,3.787234042
+"1493","Ptereleotris helenae",180,"St. Eustatius",1,113,"m",4.174566474,4.174566474
+"1494","Pterois volitans",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"1495","Pterois volitans",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"1496","Pterois volitans",70,"Roatan",4,60,"m",2.656716418,10.626865672
+"1497","Pterois volitans",80,"Roatan",4,61,"m",2.472222222,9.888888888
+"1498","Pterois volitans",90,"Roatan",21,62,"m",2.966666667,62.300000007
+"1499","Pterois volitans",100,"Roatan",1,63,"m",1.483333333,1.483333333
+"1500","Pterois volitans",110,"Roatan",2,64,"m",1.934782609,3.869565218
+"1501","Pterois volitans",120,"Roatan",1,65,"m",2.170731707,2.170731707
+"1502","Pterois volitans",140,"Roatan",4,67,"m",1.893617021,7.574468084
+"1503","Pterois volitans",150,"Roatan",3,68,"m",2.022727273,6.068181819
+"1504","Pterois volitans",170,"Roatan",1,70,"m",1.022988506,1.022988506
+"1505","Pterois volitans",200,"Roatan",2,73,"m",1.369230769,2.738461538
+"1506","Pterois volitans",210,"Roatan",1,74,"m",2.119047619,2.119047619
+"1507","Rypticus maculatus",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"1508","Rypticus saponaceous",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"1509","Rypticus saponaceous",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"1510","Rypticus saponaceous",100,"Bonaire",2,1,"m",1.379236425,2.75847285
+"1511","Rypticus saponaceous",110,"Bonaire",3,2,"m",1.161185714,3.483557142
+"1512","Rypticus saponaceous",130,"Bonaire",2,4,"m",1.303308391,2.606616782
+"1513","Rypticus saponaceous",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"1514","Rypticus saponaceus",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"1515","Rypticus saponaceus",110,"Roatan",1,64,"m",1.934782609,1.934782609
+"1516","Rypticus saponaceus",110,"St. Eustatius",1,120,"m",1.300675371,1.300675371
+"1517","Rypticus saponaceus",200,"St. Eustatius",1,111,"m",3.862032086,3.862032086
+"1518","Rypticus saponaceus",210,"St. Eustatius",1,110,"m",2.498961938,2.498961938
+"1519","Sargocentron bullisi",110,"Bonaire",2,2,"m",1.161185714,2.322371428
+"1520","Sargocentron bullisi",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"1521","Sargocentron poco",180,"Roatan",1,71,"m",2.870967742,2.870967742
+"1522","Scarus iseri",10,"Roatan",66,54,"m",2.225,146.85
+"1523","Scarus iseri",20,"Roatan",15,55,"m",1.934782609,29.021739135
+"1524","Scarus iseri",30,"Roatan",9,56,"m",1.034883721,9.313953489
+"1525","Scarus iseri",40,"Roatan",3,57,"m",1.1125,3.3375
+"1526","Scarus taeniopterus",10,"Roatan",17,54,"m",2.225,37.825
+"1527","Scarus taeniopterus",20,"Roatan",40,55,"m",1.934782609,77.39130436
+"1528","Scarus taeniopterus",30,"Roatan",20,56,"m",1.034883721,20.69767442
+"1529","Scarus taeniopterus",40,"Bonaire",5,21,"m",1.139215137,5.696075685
+"1530","Scarus taeniopterus",40,"Roatan",30,57,"m",1.1125,33.375
+"1531","Scarus taeniopterus",40,"St. Eustatius",16,104,"m",10.87650602,174.02409632
+"1532","Scarus taeniopterus",50,"Bonaire",5,22,"m",0.999995899,4.999979495
+"1533","Scarus taeniopterus",50,"Roatan",20,58,"m",1.390625,27.8125
+"1534","Scarus taeniopterus",50,"St. Eustatius",3,103,"m",15.20421053,45.61263159
+"1535","Scarus taeniopterus",60,"Bonaire",3,23,"m",2.016114097,6.048342291
+"1536","Scarus taeniopterus",60,"Roatan",23,59,"m",1.893617021,43.553191483
+"1537","Scarus taeniopterus",60,"St. Eustatius",3,102,"m",6.826086957,20.478260871
+"1538","Scarus taeniopterus",70,"Roatan",6,60,"m",2.656716418,15.940298508
+"1539","Scarus taeniopterus",80,"Roatan",2,61,"m",2.472222222,4.944444444
+"1540","Scarus taeniopterus",80,"St. Eustatius",13,100,"m",3.768327681,48.988259853
+"1541","Scarus taeniopterus",90,"Roatan",1,62,"m",2.966666667,2.966666667
+"1542","Scarus taeniopterus",90,"St. Eustatius",3,99,"m",1,3
+"1543","Scarus vetula",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"1544","Scarus vetula",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"1545","Scarus viride",50,"Roatan",1,58,"m",1.390625,1.390625
+"1546","Scorpaena brasiliensis",200,"Bonaire",1,11,"m",1.203301258,1.203301258
+"1547","Scorpaenodes barrybrowni",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"1548","Scorpaenodes barrybrowni",150,"Bonaire",1,6,"m",1.188927353,1.188927353
+"1549","Scorpaenodes caribbaeus",190,"St. Eustatius",1,112,"m",3.571711177,3.571711177
+"1550","Scorpaenodes caribbaeus",200,"St. Eustatius",1,111,"m",3.862032086,3.862032086
+"1551","Scorpaenodes caribbaeus",220,"St. Eustatius",2,109,"m",5.980952381,11.961904762
+"1552","Seriola dumerili",230,"Roatan",1,76,"m",1.589285714,1.589285714
+"1553","Seriola rivoliana",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"1554","Seriola rivoliana",160,"St. Eustatius",2,115,"m",4.342754059,8.685508118
+"1555","Serranus annularis",90,"St. Eustatius",1,99,"m",1,1
+"1556","Serranus annularis",100,"St. Eustatius",1,121,"m",1.546301253,1.546301253
+"1557","Serranus atrobranchus",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"1558","Serranus chionaraia",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"1559","Serranus chionaraia",70,"Bonaire",5,24,"m",2.085070543,10.425352715
+"1560","Serranus chionaraia",80,"Bonaire",2,25,"m",1.181725224,2.363450448
+"1561","Serranus chionaraia",90,"Bonaire",1,26,"m",1.187769118,1.187769118
+"1562","Serranus luciopercanus",60,"Curacao",1,50,"m",2.016114097,2.016114097
+"1563","Serranus luciopercanus",70,"Curacao",7,51,"m",2.085070543,14.595493801
+"1564","Serranus luciopercanus",70,"Roatan",2,60,"m",2.656716418,5.313432836
+"1565","Serranus luciopercanus",80,"Bonaire",1,25,"m",1.181725224,1.181725224
+"1566","Serranus luciopercanus",80,"Curacao",1,52,"m",1.181725224,1.181725224
+"1567","Serranus luciopercanus",80,"Roatan",2,61,"m",2.472222222,4.944444444
+"1568","Serranus luciopercanus",90,"Bonaire",6,26,"m",1.187769118,7.126614708
+"1569","Serranus luciopercanus",90,"Curacao",20,53,"m",1.187769118,23.75538236
+"1570","Serranus luciopercanus",90,"Roatan",8,62,"m",2.966666667,23.733333336
+"1571","Serranus luciopercanus",90,"St. Eustatius",1,99,"m",1,1
+"1572","Serranus luciopercanus",100,"Bonaire",1,1,"m",1.379236425,1.379236425
+"1573","Serranus luciopercanus",100,"Curacao",18,27,"m",1.379236425,24.82625565
+"1574","Serranus luciopercanus",100,"St. Eustatius",2,121,"m",1.546301253,3.092602506
+"1575","Serranus luciopercanus",110,"Bonaire",2,2,"m",1.161185714,2.322371428
+"1576","Serranus luciopercanus",110,"Curacao",15,28,"m",1.161185714,17.41778571
+"1577","Serranus luciopercanus",110,"Roatan",3,64,"m",1.934782609,5.804347827
+"1578","Serranus luciopercanus",110,"St. Eustatius",12,120,"m",1.300675371,15.608104452
+"1579","Serranus luciopercanus",120,"Bonaire",1,3,"m",1.127104229,1.127104229
+"1580","Serranus luciopercanus",120,"Curacao",7,29,"m",1.127104229,7.889729603
+"1581","Serranus luciopercanus",120,"Roatan",2,65,"m",2.170731707,4.341463414
+"1582","Serranus luciopercanus",120,"St. Eustatius",3,119,"m",3.838426787,11.515280361
+"1583","Serranus luciopercanus",130,"Roatan",3,66,"m",2.542857143,7.628571429
+"1584","Serranus luciopercanus",130,"St. Eustatius",2,118,"m",3.42437174,6.84874348
+"1585","Serranus luciopercanus",140,"Roatan",3,67,"m",1.893617021,5.680851063
+"1586","Serranus luciopercanus",140,"St. Eustatius",2,117,"m",5.143874644,10.287749288
+"1587","Serranus luciopercanus",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"1588","Serranus notospilus",100,"Bonaire",2,1,"m",1.379236425,2.75847285
+"1589","Serranus notospilus",100,"Curacao",2,27,"m",1.379236425,2.75847285
+"1590","Serranus notospilus",110,"Bonaire",1,2,"m",1.161185714,1.161185714
+"1591","Serranus notospilus",110,"St. Eustatius",1,120,"m",1.300675371,1.300675371
+"1592","Serranus notospilus",120,"Bonaire",3,3,"m",1.127104229,3.381312687
+"1593","Serranus notospilus",130,"Bonaire",5,4,"m",1.303308391,6.516541955
+"1594","Serranus notospilus",130,"Curacao",2,30,"m",1.303308391,2.606616782
+"1595","Serranus notospilus",130,"St. Eustatius",1,118,"m",3.42437174,3.42437174
+"1596","Serranus notospilus",140,"Bonaire",13,5,"m",1.365335946,17.749367298
+"1597","Serranus notospilus",140,"Curacao",8,31,"m",1.365335946,10.922687568
+"1598","Serranus notospilus",140,"St. Eustatius",1,117,"m",5.143874644,5.143874644
+"1599","Serranus notospilus",150,"Bonaire",7,6,"m",1.188927353,8.322491471
+"1600","Serranus notospilus",150,"Curacao",7,32,"m",1.188927353,8.322491471
+"1601","Serranus notospilus",160,"Bonaire",6,7,"m",1.212877394,7.277264364
+"1602","Serranus notospilus",160,"Curacao",6,33,"m",1.212877394,7.277264364
+"1603","Serranus notospilus",170,"Bonaire",8,8,"m",1.172632844,9.381062752
+"1604","Serranus notospilus",170,"Curacao",4,34,"m",1.172632844,4.690531376
+"1605","Serranus notospilus",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"1606","Serranus notospilus",180,"Curacao",10,35,"m",1.724533239,17.24533239
+"1607","Serranus notospilus",180,"St. Eustatius",4,113,"m",4.174566474,16.698265896
+"1608","Serranus notospilus",190,"Curacao",15,36,"m",1.643187332,24.64780998
+"1609","Serranus notospilus",190,"St. Eustatius",1,112,"m",3.571711177,3.571711177
+"1610","Serranus notospilus",200,"Bonaire",1,11,"m",1.203301258,1.203301258
+"1611","Serranus notospilus",200,"Curacao",20,37,"m",1.203301258,24.06602516
+"1612","Serranus notospilus",210,"Bonaire",2,12,"m",1.454078712,2.908157424
+"1613","Serranus notospilus",210,"Curacao",7,38,"m",1.454078712,10.178550984
+"1614","Serranus notospilus",220,"Curacao",12,39,"m",1.136560242,13.638722904
+"1615","Serranus notospilus",220,"St. Eustatius",1,109,"m",5.980952381,5.980952381
+"1616","Serranus notospilus",230,"Curacao",8,40,"m",1.644295347,13.154362776
+"1617","Serranus phoebe",70,"Bonaire",1,24,"m",2.085070543,2.085070543
+"1618","Serranus phoebe",80,"Bonaire",8,25,"m",1.181725224,9.453801792
+"1619","Serranus phoebe",80,"Curacao",2,52,"m",1.181725224,2.363450448
+"1620","Serranus phoebe",90,"Bonaire",4,26,"m",1.187769118,4.751076472
+"1621","Serranus phoebe",100,"Bonaire",4,1,"m",1.379236425,5.5169457
+"1622","Serranus phoebe",100,"Curacao",1,27,"m",1.379236425,1.379236425
+"1623","Serranus phoebe",110,"Bonaire",11,2,"m",1.161185714,12.773042854
+"1624","Serranus phoebe",120,"Bonaire",12,3,"m",1.127104229,13.525250748
+"1625","Serranus phoebe",120,"Curacao",3,29,"m",1.127104229,3.381312687
+"1626","Serranus phoebe",130,"Bonaire",30,4,"m",1.303308391,39.09925173
+"1627","Serranus phoebe",130,"Curacao",4,30,"m",1.303308391,5.213233564
+"1628","Serranus phoebe",140,"Bonaire",15,5,"m",1.365335946,20.48003919
+"1629","Serranus phoebe",140,"Curacao",8,31,"m",1.365335946,10.922687568
+"1630","Serranus phoebe",150,"Bonaire",5,6,"m",1.188927353,5.944636765
+"1631","Serranus phoebe",160,"Bonaire",4,7,"m",1.212877394,4.851509576
+"1632","Serranus phoebe",160,"Curacao",2,33,"m",1.212877394,2.425754788
+"1633","Serranus phoebe",170,"Bonaire",5,8,"m",1.172632844,5.86316422
+"1634","Serranus phoebe",170,"Curacao",4,34,"m",1.172632844,4.690531376
+"1635","Serranus phoebe",170,"St. Eustatius",2,114,"m",3.76734481,7.53468962
+"1636","Serranus phoebe",180,"Bonaire",3,9,"m",1.724533239,5.173599717
+"1637","Serranus phoebe",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"1638","Serranus phoebe",180,"St. Eustatius",7,113,"m",4.174566474,29.221965318
+"1639","Serranus phoebe",200,"St. Eustatius",2,111,"m",3.862032086,7.724064172
+"1640","Serranus tabacarius",40,"St. Eustatius",1,104,"m",10.87650602,10.87650602
+"1641","Serranus tabacarius",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"1642","Serranus tabacarius",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"1643","Serranus tabacarius",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"1644","Serranus tabacarius",90,"St. Eustatius",2,99,"m",1,2
+"1645","Serranus tabacarrius",40,"Roatan",1,57,"m",1.1125,1.1125
+"1646","Serranus tigrinus",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"1647","Serranus tortugarum",40,"Roatan",8,57,"m",1.1125,8.9
+"1648","Serranus tortugarum",40,"St. Eustatius",9,104,"m",10.87650602,97.88855418
+"1649","Serranus tortugarum",50,"St. Eustatius",60,103,"m",15.20421053,912.2526318
+"1650","Serranus tortugarum",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"1651","Serranus tortugarum",60,"St. Eustatius",25,102,"m",6.826086957,170.652173925
+"1652","Serranus tortugarum",70,"Bonaire",2,24,"m",2.085070543,4.170141086
+"1653","Serranus tortugarum",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"1654","Serranus tortugarum",80,"Bonaire",3,25,"m",1.181725224,3.545175672
+"1655","Serranus tortugarum",80,"Roatan",7,61,"m",2.472222222,17.305555554
+"1656","Serranus tortugarum",80,"St. Eustatius",18,100,"m",3.768327681,67.829898258
+"1657","Serranus tortugarum",90,"St. Eustatius",1,99,"m",1,1
+"1658","Sparisoma atomarium",10,"Roatan",1,54,"m",2.225,2.225
+"1659","Sparisoma atomarium",20,"Roatan",1,55,"m",1.934782609,1.934782609
+"1660","Sparisoma atomarium",40,"Roatan",4,57,"m",1.1125,4.45
+"1661","Sparisoma atomarium",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"1662","Sparisoma aurofrenatum",10,"Roatan",53,54,"m",2.225,117.925
+"1663","Sparisoma aurofrenatum",20,"Roatan",6,55,"m",1.934782609,11.608695654
+"1664","Sparisoma aurofrenatum",30,"Roatan",9,56,"m",1.034883721,9.313953489
+"1665","Sparisoma aurofrenatum",40,"Roatan",8,57,"m",1.1125,8.9
+"1666","Sparisoma aurofrenatum",40,"St. Eustatius",2,104,"m",10.87650602,21.75301204
+"1667","Sparisoma aurofrenatum",50,"Roatan",9,58,"m",1.390625,12.515625
+"1668","Sparisoma aurofrenatum",60,"Roatan",6,59,"m",1.893617021,11.361702126
+"1669","Sparisoma aurofrenatum",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"1670","Sparisoma aurofrenatum",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"1671","Sparisoma chrysopterum",10,"Roatan",4,54,"m",2.225,8.9
+"1672","Sparisoma rubripinne",10,"Roatan",1,54,"m",2.225,2.225
+"1673","Sparisoma viride",10,"Roatan",28,54,"m",2.225,62.3
+"1674","Sparisoma viride",20,"Roatan",6,55,"m",1.934782609,11.608695654
+"1675","Sparisoma viride",30,"Roatan",2,56,"m",1.034883721,2.069767442
+"1676","Sparisoma viride",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"1677","Sparisoma viride",40,"Roatan",1,57,"m",1.1125,1.1125
+"1678","Sparisoma viride",40,"St. Eustatius",2,104,"m",10.87650602,21.75301204
+"1679","Sparisoma viride",50,"Bonaire",1,22,"m",0.999995899,0.999995899
+"1680","Sparisoma viride",60,"Bonaire",1,23,"m",2.016114097,2.016114097
+"1681","Sparisoma viride",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"1682","Sphoeroides dorsalis",180,"St. Eustatius",1,113,"m",4.174566474,4.174566474
+"1683","Sphoeroides dorsalis",200,"St. Eustatius",1,111,"m",3.862032086,3.862032086
+"1684","Sphoeroides dorsalis",220,"St. Eustatius",1,109,"m",5.980952381,5.980952381
+"1685","Sphoeroides dorsalis",230,"St. Eustatius",1,108,"m",2.26572549,2.26572549
+"1686","Sphyraena barracuda",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"1687","Sphyraena barracuda",40,"Roatan",1,57,"m",1.1125,1.1125
+"1688","Sphyraena barracuda",50,"St. Eustatius",1,103,"m",15.20421053,15.20421053
+"1689","Sphyraena barracuda",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"1690","Sphyraena barracuda",80,"St. Eustatius",1,100,"m",3.768327681,3.768327681
+"1691","Sphyraena barracuda",90,"Roatan",2,62,"m",2.966666667,5.933333334
+"1692","Sphyraena barracuda",100,"St. Eustatius",2,121,"m",1.546301253,3.092602506
+"1693","Sphyraena barracuda",120,"St. Eustatius",1,119,"m",3.838426787,3.838426787
+"1694","Sphyraena barracuda",160,"St. Eustatius",1,115,"m",4.342754059,4.342754059
+"1695","Sphyraenops bairdianus",260,"Curacao",4,43,"m",2.855374707,11.421498828
+"1696","Sphyraenops bairdianus",280,"Curacao",2,45,"m",3.295256757,6.590513514
+"1697","Stegastes diencaeus",10,"Roatan",105,54,"m",2.225,233.625
+"1698","Stegastes partitus",10,"Roatan",133,54,"m",2.225,295.925
+"1699","Stegastes partitus",20,"Roatan",36,55,"m",1.934782609,69.652173924
+"1700","Stegastes partitus",30,"Roatan",9,56,"m",1.034883721,9.313953489
+"1701","Stegastes partitus",40,"Bonaire",25,21,"m",1.139215137,28.480378425
+"1702","Stegastes partitus",40,"Curacao",19,48,"m",1.139215137,21.645087603
+"1703","Stegastes partitus",40,"Roatan",32,57,"m",1.1125,35.6
+"1704","Stegastes partitus",40,"St. Eustatius",44,104,"m",10.87650602,478.56626488
+"1705","Stegastes partitus",50,"Bonaire",45,22,"m",0.999995899,44.999815455
+"1706","Stegastes partitus",50,"Curacao",18,49,"m",0.999995899,17.999926182
+"1707","Stegastes partitus",50,"Roatan",5,58,"m",1.390625,6.953125
+"1708","Stegastes partitus",50,"St. Eustatius",210,103,"m",15.20421053,3192.8842113
+"1709","Stegastes partitus",60,"Bonaire",23,23,"m",2.016114097,46.370624231
+"1710","Stegastes partitus",60,"Curacao",5,50,"m",2.016114097,10.080570485
+"1711","Stegastes partitus",60,"Roatan",1,59,"m",1.893617021,1.893617021
+"1712","Stegastes partitus",70,"Bonaire",3,24,"m",2.085070543,6.255211629
+"1713","Stegastes planifrons",10,"Roatan",183,54,"m",2.225,407.175
+"1714","Stegastes planifrons",20,"Roatan",9,55,"m",1.934782609,17.413043481
+"1715","Stegastes variabilis",10,"Roatan",2,54,"m",2.225,4.45
+"1716","Stegastes variabilis",20,"Roatan",15,55,"m",1.934782609,29.021739135
+"1717","Stegastes variabilis",30,"Roatan",7,56,"m",1.034883721,7.244186047
+"1718","Stegastes viride",10,"Roatan",1,54,"m",2.225,2.225
+"1719","Stegastes xanthurus",30,"Roatan",3,56,"m",1.034883721,3.104651163
+"1720","Stegastes xanthurus",40,"Roatan",1,57,"m",1.1125,1.1125
+"1721","Syacium gunteri",170,"Bonaire",1,8,"m",1.172632844,1.172632844
+"1722","Symphysanodon berryi",120,"Curacao",1,29,"m",1.127104229,1.127104229
+"1723","Symphysanodon berryi",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"1724","Symphysanodon berryi",160,"Curacao",5,33,"m",1.212877394,6.06438697
+"1725","Symphysanodon berryi",180,"Curacao",3,35,"m",1.724533239,5.173599717
+"1726","Symphysanodon berryi",190,"Curacao",5,36,"m",1.643187332,8.21593666
+"1727","Symphysanodon berryi",200,"Curacao",7,37,"m",1.203301258,8.423108806
+"1728","Symphysanodon berryi",200,"Roatan",5,73,"m",1.369230769,6.846153845
+"1729","Symphysanodon berryi",210,"Curacao",10,38,"m",1.454078712,14.54078712
+"1730","Symphysanodon berryi",220,"Curacao",14,39,"m",1.136560242,15.911843388
+"1731","Symphysanodon berryi",220,"Roatan",1,75,"m",1.854166667,1.854166667
+"1732","Symphysanodon berryi",230,"Curacao",20,40,"m",1.644295347,32.88590694
+"1733","Symphysanodon berryi",230,"Roatan",1,76,"m",1.589285714,1.589285714
+"1734","Symphysanodon berryi",230,"St. Eustatius",1,108,"m",2.26572549,2.26572549
+"1735","Symphysanodon berryi",240,"Curacao",14,41,"m",2.350351807,32.904925298
+"1736","Symphysanodon berryi",250,"Curacao",14,42,"m",3.051927409,42.726983726
+"1737","Symphysanodon berryi",250,"Roatan",13,78,"m",1.034883721,13.453488373
+"1738","Symphysanodon berryi",260,"Curacao",4,43,"m",2.855374707,11.421498828
+"1739","Symphysanodon berryi",260,"Roatan",20,79,"m",1.126582278,22.53164556
+"1740","Symphysanodon berryi",270,"Curacao",3,44,"m",3.382094313,10.146282939
+"1741","Symphysanodon berryi",270,"Roatan",1,80,"m",1,1
+"1742","Symphysanodon berryi",270,"St. Eustatius",1,105,"m",18.23737374,18.23737374
+"1743","Symphysanodon berryi",280,"Curacao",2,45,"m",3.295256757,6.590513514
+"1744","Symphysanodon berryi",280,"Roatan",1,81,"m",2.022727273,2.022727273
+"1745","Symphysanodon berryi",290,"Curacao",14,46,"m",4.077742475,57.08839465
+"1746","Symphysanodon berryi",290,"Roatan",2,82,"m",1.308823529,2.617647058
+"1747","Symphysanodon berryi",300,"Roatan",1,83,"m",2.617647059,2.617647059
+"1748","Symphysanodon octoactinus",140,"Curacao",1,31,"m",1.365335946,1.365335946
+"1749","Symphysanodon octoactinus",150,"Bonaire",6,6,"m",1.188927353,7.133564118
+"1750","Symphysanodon octoactinus",150,"Curacao",10,32,"m",1.188927353,11.88927353
+"1751","Symphysanodon octoactinus",160,"Bonaire",8,7,"m",1.212877394,9.703019152
+"1752","Symphysanodon octoactinus",160,"Curacao",33,33,"m",1.212877394,40.024954002
+"1753","Symphysanodon octoactinus",160,"Roatan",4,69,"m",1.618181818,6.472727272
+"1754","Symphysanodon octoactinus",170,"Curacao",43,34,"m",1.172632844,50.423212292
+"1755","Symphysanodon octoactinus",170,"Roatan",15,70,"m",1.022988506,15.34482759
+"1756","Symphysanodon octoactinus",180,"Curacao",21,35,"m",1.724533239,36.215198019
+"1757","Symphysanodon octoactinus",180,"Roatan",26,71,"m",2.870967742,74.645161292
+"1758","Symphysanodon octoactinus",190,"Curacao",7,36,"m",1.643187332,11.502311324
+"1759","Symphysanodon octoactinus",190,"Roatan",7,72,"m",1.934782609,13.543478263
+"1760","Symphysanodon octoactinus",200,"Curacao",6,37,"m",1.203301258,7.219807548
+"1761","Symphysanodon octoactinus",200,"Roatan",22,73,"m",1.369230769,30.123076918
+"1762","Symphysanodon octoactinus",210,"Curacao",4,38,"m",1.454078712,5.816314848
+"1763","Symphysanodon octoactinus",210,"Roatan",20,74,"m",2.119047619,42.38095238
+"1764","Symphysanodon octoactinus",210,"St. Eustatius",1,110,"m",2.498961938,2.498961938
+"1765","Symphysanodon octoactinus",220,"Curacao",15,39,"m",1.136560242,17.04840363
+"1766","Symphysanodon octoactinus",220,"Roatan",4,75,"m",1.854166667,7.416666668
+"1767","Symphysanodon octoactinus",230,"Curacao",11,40,"m",1.644295347,18.087248817
+"1768","Symphysanodon octoactinus",230,"Roatan",10,76,"m",1.589285714,15.89285714
+"1769","Symphysanodon octoactinus",240,"Roatan",3,77,"m",1.711538462,5.134615386
+"1770","Symphysanodon octoactinus",250,"Curacao",2,42,"m",3.051927409,6.103854818
+"1771","Symphysanodon octoactinus",250,"Roatan",1,78,"m",1.034883721,1.034883721
+"1772","Symphysanodon octoactinus",260,"Roatan",1,79,"m",1.126582278,1.126582278
+"1773","Symphysanodon octoactinus",270,"Roatan",1,80,"m",1,1
+"1774","Symphysanodon octoactinus",290,"Roatan",1,82,"m",1.308823529,1.308823529
+"1775","Symphysanodon octoactinus",450,"Roatan",1,95,"m",5.933333333,5.933333333
+"1776","Synagrops bellus",180,"Bonaire",1,9,"m",1.724533239,1.724533239
+"1777","Synagrops bellus",200,"Roatan",3,73,"m",1.369230769,4.107692307
+"1778","Synagrops bellus",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"1779","Synagrops bellus",250,"Roatan",3,78,"m",1.034883721,3.104651163
+"1780","Synagrops bellus",290,"Roatan",1,82,"m",1.308823529,1.308823529
+"1781","Synagrops egretta",210,"Bonaire",1,12,"m",1.454078712,1.454078712
+"1782","Thalassoma bifasciatum",10,"Roatan",215,54,"m",2.225,478.375
+"1783","Thalassoma bifasciatum",20,"Roatan",2,55,"m",1.934782609,3.869565218
+"1784","Thalassoma bifasciatum",30,"Roatan",1,56,"m",1.034883721,1.034883721
+"1785","Thalassoma bifasciatum",40,"Roatan",1,57,"m",1.1125,1.1125
+"1786","Thalassoma bifasciatum",40,"St. Eustatius",2,104,"m",10.87650602,21.75301204
+"1787","Thalassoma bifasciatum",70,"Roatan",1,60,"m",2.656716418,2.656716418
+"1788","Trachinotus goodei",40,"Roatan",3,57,"m",1.1125,3.3375
+"1789","Varicus adamsi",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"1790","Varicus cephalocellatus",130,"Bonaire",2,4,"m",1.303308391,2.606616782
+"1791","Varicus cephalocellatus",180,"St. Eustatius",1,113,"m",4.174566474,4.174566474
+"1792","Varicus decorum",90,"Curacao",1,53,"m",1.187769118,1.187769118
+"1793","Varicus decorum",140,"Bonaire",1,5,"m",1.365335946,1.365335946
+"1794","Varicus decorum",160,"Bonaire",8,7,"m",1.212877394,9.703019152
+"1795","Varicus decorum",160,"Curacao",1,33,"m",1.212877394,1.212877394
+"1796","Varicus decorum",220,"Curacao",1,39,"m",1.136560242,1.136560242
+"1797","Varicus veliguttatus",150,"Curacao",1,32,"m",1.188927353,1.188927353
+"1798","Varicus veliguttatus",180,"Curacao",1,35,"m",1.724533239,1.724533239
+"1799","Varicus veliguttatus",190,"Curacao",1,36,"m",1.643187332,1.643187332
+"1800","Varicus veliguttatus",190,"Roatan",1,72,"m",1.934782609,1.934782609
+"1801","Varicus veliguttatus",200,"Roatan",1,73,"m",1.369230769,1.369230769
+"1802","Varicus veliguttatus",220,"Curacao",1,39,"m",1.136560242,1.136560242
+"1803","Varicus veliguttatus",220,"Roatan",4,75,"m",1.854166667,7.416666668
+"1804","Varicus veliguttatus",230,"Roatan",1,76,"m",1.589285714,1.589285714
+"1805","Varicus veliguttatus",230,"St. Eustatius",2,108,"m",2.26572549,4.53145098
+"1806","Varicus veliguttatus",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"1807","Varicus veliguttatus",260,"Roatan",1,79,"m",1.126582278,1.126582278
+"1808","Varicus veliguttatus",270,"Roatan",1,80,"m",1,1
+"1809","Verilus sordidus",240,"Roatan",1,77,"m",1.711538462,1.711538462
+"1810","Verilus sordidus",390,"Roatan",1,89,"m",8.090909091,8.090909091
+"1811","Vomerogobius flavus",70,"Roatan",2,60,"m",2.656716418,5.313432836
+"1812","Vomerogobius flavus",90,"Roatan",1,62,"m",2.966666667,2.966666667
+"1813","Xanthichthys ringens",40,"Bonaire",1,21,"m",1.139215137,1.139215137
+"1814","Xanthichthys ringens",40,"Curacao",2,48,"m",1.139215137,2.278430274
+"1815","Xanthichthys ringens",50,"Bonaire",7,22,"m",0.999995899,6.999971293
+"1816","Xanthichthys ringens",50,"Curacao",4,49,"m",0.999995899,3.999983596
+"1817","Xanthichthys ringens",60,"Bonaire",12,23,"m",2.016114097,24.193369164
+"1818","Xanthichthys ringens",60,"Curacao",7,50,"m",2.016114097,14.112798679
+"1819","Xanthichthys ringens",70,"Bonaire",5,24,"m",2.085070543,10.425352715
+"1820","Xanthichthys ringens",70,"Curacao",1,51,"m",2.085070543,2.085070543
+"1821","Xanthichthys ringens",70,"St. Eustatius",1,101,"m",5.971062422,5.971062422
+"1822","Xanthichthys ringens",80,"Curacao",1,52,"m",1.181725224,1.181725224
+"1823","Xanthichthys ringens",80,"St. Eustatius",5,100,"m",3.768327681,18.841638405
+"1824","Xanthichthys ringens",90,"St. Eustatius",5,99,"m",1,5
+"1825","Xanthichthys ringens",100,"Bonaire",1,1,"m",1.379236425,1.379236425
+"1826","Xanthichthys ringens",100,"St. Eustatius",4,121,"m",1.546301253,6.185205012
+"1827","Xanthichthys ringens",150,"St. Eustatius",1,116,"m",3.366899767,3.366899767
+"1828","Zalieutes mcgintyi",200,"St. Eustatius",1,111,"m",3.862032086,3.862032086

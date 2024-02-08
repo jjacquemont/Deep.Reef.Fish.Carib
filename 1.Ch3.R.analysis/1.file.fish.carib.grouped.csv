@@ -1,0 +1,1829 @@
+,species,dband,location,abundance,m,COEF,abu.corr,species.fb
+1,Abudefduf saxatilis,10,Roatan,191,m,2.225,424.975,Abudefduf saxatilis
+2,Abudefduf saxatilis,20,Roatan,18,m,1.934782609,34.82608696,Abudefduf saxatilis
+3,Acanthostracion polygonius,60,St. Eustatius,1,m,6.826086957,6.826086957,Acanthostracion polygonius
+4,Acanthostracion polygonius,70,St. Eustatius,1,m,5.971062422,5.971062422,Acanthostracion polygonius
+5,Acanthostracion quadricornis,60,Roatan,1,m,1.893617021,1.893617021,Acanthostracion quadricornis
+6,Acanthostracion quadricornis,80,St. Eustatius,1,m,3.768327681,3.768327681,Acanthostracion quadricornis
+7,Acanthurus chirurgus,10,Roatan,23,m,2.225,51.175,Acanthurus chirurgus
+8,Acanthurus chirurgus,20,Roatan,3,m,1.934782609,5.804347827,Acanthurus chirurgus
+9,Acanthurus chirurgus,30,Roatan,1,m,1.034883721,1.034883721,Acanthurus chirurgus
+10,Acanthurus chirurgus,40,St. Eustatius,1,m,10.87650602,10.87650602,Acanthurus chirurgus
+11,Acanthurus coeruleus,10,Roatan,163,m,2.225,362.675,Acanthurus coeruleus
+12,Acanthurus coeruleus,20,Roatan,4,m,1.934782609,7.739130436,Acanthurus coeruleus
+13,Acanthurus coeruleus,30,Roatan,3,m,1.034883721,3.104651163,Acanthurus coeruleus
+14,Acanthurus coeruleus,40,Bonaire,1,m,1.139215137,1.139215137,Acanthurus coeruleus
+15,Acanthurus coeruleus,40,Roatan,3,m,1.1125,3.3375,Acanthurus coeruleus
+16,Acanthurus coeruleus,40,St. Eustatius,1,m,10.87650602,10.87650602,Acanthurus coeruleus
+17,Acanthurus coeruleus,50,Bonaire,1,m,0.999995899,0.999995899,Acanthurus coeruleus
+18,Acanthurus coeruleus,60,Roatan,1,m,1.893617021,1.893617021,Acanthurus coeruleus
+19,Acanthurus tractus,30,Roatan,2,m,1.034883721,2.069767442,Acanthurus tractus
+20,Acanthurus tractus,50,Bonaire,1,m,0.999995899,0.999995899,Acanthurus tractus
+21,Acanthurus tractus,50,St. Eustatius,1,m,15.20421053,15.20421053,Acanthurus tractus
+22,Anisotremus surinamensis,40,Bonaire,1,m,1.139215137,1.139215137,Anisotremus surinamensis
+23,Anisotremus virginicus,10,Roatan,2,m,2.225,4.45,Anisotremus virginicus
+24,Anisotremus virginicus,20,Roatan,1,m,1.934782609,1.934782609,Anisotremus virginicus
+25,Anthias asperilinguis,90,Curacao,1,m,1.187769118,1.187769118,Anthias asperilinguis
+26,Anthias asperilinguis,120,Curacao,2,m,1.127104229,2.254208458,Anthias asperilinguis
+27,Anthias asperilinguis,220,Curacao,3,m,1.136560242,3.409680726,Anthias asperilinguis
+28,Anthias asperilinguis,230,Curacao,2,m,1.644295347,3.288590694,Anthias asperilinguis
+29,Anthias asperilinguis,230,Roatan,1,m,1.589285714,1.589285714,Anthias asperilinguis
+30,Anthias asperilinguis,240,Curacao,6,m,2.350351807,14.10211084,Anthias asperilinguis
+31,Anthias asperilinguis,250,Curacao,2,m,3.051927409,6.103854818,Anthias asperilinguis
+32,Anthias asperilinguis,270,Curacao,1,m,3.382094313,3.382094313,Anthias asperilinguis
+33,Anthias asperilinguis,280,Roatan,1,m,2.022727273,2.022727273,Anthias asperilinguis
+34,Anthias asperilinguis,290,Curacao,2,m,4.077742475,8.15548495,Anthias asperilinguis
+35,Anthias asperilinguis,360,Roatan,1,m,8.090909091,8.090909091,Anthias asperilinguis
+36,Antigonia capros,150,Curacao,1,m,1.188927353,1.188927353,Antigonia capros
+37,Antigonia capros,160,Curacao,4,m,1.212877394,4.851509576,Antigonia capros
+38,Antigonia capros,170,Curacao,4,m,1.172632844,4.690531376,Antigonia capros
+39,Antigonia capros,180,Curacao,12,m,1.724533239,20.69439887,Antigonia capros
+40,Antigonia capros,190,Curacao,2,m,1.643187332,3.286374664,Antigonia capros
+41,Antigonia capros,200,Curacao,9,m,1.203301258,10.82971132,Antigonia capros
+42,Antigonia capros,210,Curacao,11,m,1.454078712,15.99486583,Antigonia capros
+43,Antigonia capros,220,Curacao,16,m,1.136560242,18.18496387,Antigonia capros
+44,Antigonia capros,220,St. Eustatius,1,m,5.980952381,5.980952381,Antigonia capros
+45,Antigonia capros,230,Curacao,9,m,1.644295347,14.79865812,Antigonia capros
+46,Antigonia capros,240,Curacao,2,m,2.350351807,4.700703614,Antigonia capros
+47,Antigonia capros,250,Curacao,3,m,3.051927409,9.155782227,Antigonia capros
+48,Antigonia capros,270,Curacao,2,m,3.382094313,6.764188626,Antigonia capros
+49,Antigonia capros,280,Curacao,2,m,3.295256757,6.590513514,Antigonia capros
+50,Antigonia capros,290,Curacao,1,m,4.077742475,4.077742475,Antigonia capros
+51,Antilligobius nikkiae,60,Bonaire,10,m,2.016114097,20.16114097,Antilligobius nikkiae
+52,Antilligobius nikkiae,70,Bonaire,1,m,2.085070543,2.085070543,Antilligobius nikkiae
+53,Antilligobius nikkiae,70,Roatan,15,m,2.656716418,39.85074627,Antilligobius nikkiae
+54,Antilligobius nikkiae,80,Bonaire,21,m,1.181725224,24.8162297,Antilligobius nikkiae
+55,Antilligobius nikkiae,80,Curacao,4,m,1.181725224,4.726900896,Antilligobius nikkiae
+56,Antilligobius nikkiae,80,Roatan,11,m,2.472222222,27.19444444,Antilligobius nikkiae
+57,Antilligobius nikkiae,90,Bonaire,101,m,1.187769118,119.9646809,Antilligobius nikkiae
+58,Antilligobius nikkiae,90,Curacao,65,m,1.187769118,77.20499267,Antilligobius nikkiae
+59,Antilligobius nikkiae,90,Roatan,231,m,2.966666667,685.3000001,Antilligobius nikkiae
+60,Antilligobius nikkiae,90,St. Eustatius,9,m,1,9,Antilligobius nikkiae
+61,Antilligobius nikkiae,100,Bonaire,1,m,1.379236425,1.379236425,Antilligobius nikkiae
+62,Antilligobius nikkiae,100,Curacao,29,m,1.379236425,39.99785633,Antilligobius nikkiae
+63,Antilligobius nikkiae,100,Roatan,9,m,1.483333333,13.35,Antilligobius nikkiae
+64,Antilligobius nikkiae,100,St. Eustatius,151,m,1.546301253,233.4914892,Antilligobius nikkiae
+65,Antilligobius nikkiae,110,Bonaire,100,m,1.161185714,116.1185714,Antilligobius nikkiae
+66,Antilligobius nikkiae,110,Curacao,134,m,1.161185714,155.5988857,Antilligobius nikkiae
+67,Antilligobius nikkiae,110,Roatan,3,m,1.934782609,5.804347827,Antilligobius nikkiae
+68,Antilligobius nikkiae,110,St. Eustatius,357,m,1.300675371,464.3411074,Antilligobius nikkiae
+69,Antilligobius nikkiae,120,Bonaire,32,m,1.127104229,36.06733533,Antilligobius nikkiae
+70,Antilligobius nikkiae,120,Curacao,16,m,1.127104229,18.03366766,Antilligobius nikkiae
+71,Antilligobius nikkiae,120,Roatan,15,m,2.170731707,32.56097561,Antilligobius nikkiae
+72,Antilligobius nikkiae,120,St. Eustatius,351,m,3.838426787,1347.287802,Antilligobius nikkiae
+73,Antilligobius nikkiae,130,Bonaire,12,m,1.303308391,15.63970069,Antilligobius nikkiae
+74,Antilligobius nikkiae,130,Curacao,4,m,1.303308391,5.213233564,Antilligobius nikkiae
+75,Antilligobius nikkiae,130,Roatan,45,m,2.542857143,114.4285714,Antilligobius nikkiae
+76,Antilligobius nikkiae,130,St. Eustatius,160,m,3.42437174,547.8994784,Antilligobius nikkiae
+77,Antilligobius nikkiae,140,Bonaire,1,m,1.365335946,1.365335946,Antilligobius nikkiae
+78,Antilligobius nikkiae,140,Curacao,1,m,1.365335946,1.365335946,Antilligobius nikkiae
+79,Antilligobius nikkiae,140,Roatan,129,m,1.893617021,244.2765957,Antilligobius nikkiae
+80,Antilligobius nikkiae,140,St. Eustatius,21,m,5.143874644,108.0213675,Antilligobius nikkiae
+81,Antilligobius nikkiae,150,Roatan,1,m,2.022727273,2.022727273,Antilligobius nikkiae
+82,Antilligobius nikkiae,150,St. Eustatius,27,m,3.366899767,90.90629371,Antilligobius nikkiae
+83,Antilligobius nikkiae,160,Roatan,5,m,1.618181818,8.09090909,Antilligobius nikkiae
+84,Antilligobius nikkiae,170,Roatan,10,m,1.022988506,10.22988506,Antilligobius nikkiae
+85,Antilligobius nikkiae,170,St. Eustatius,64,m,3.76734481,241.1100678,Antilligobius nikkiae
+86,Antilligobius nikkiae,180,Curacao,1,m,1.724533239,1.724533239,Antilligobius nikkiae
+87,Antilligobius nikkiae,180,Roatan,5,m,2.870967742,14.35483871,Antilligobius nikkiae
+88,Antilligobius nikkiae,180,St. Eustatius,36,m,4.174566474,150.2843931,Antilligobius nikkiae
+89,Antilligobius nikkiae,200,Curacao,1,m,1.203301258,1.203301258,Antilligobius nikkiae
+90,Apogon gouldi,100,Curacao,3,m,1.379236425,4.137709275,Apogon gouldi
+91,Apogon gouldi,110,Bonaire,1,m,1.161185714,1.161185714,Apogon gouldi
+92,Apogon gouldi,110,Curacao,3,m,1.161185714,3.483557142,Apogon gouldi
+93,Apogon gouldi,120,Curacao,2,m,1.127104229,2.254208458,Apogon gouldi
+94,Apogon gouldi,130,Curacao,3,m,1.303308391,3.909925173,Apogon gouldi
+95,Apogon gouldi,140,Curacao,5,m,1.365335946,6.82667973,Apogon gouldi
+96,Apogon gouldi,150,Curacao,2,m,1.188927353,2.377854706,Apogon gouldi
+97,Apogon gouldi,150,Roatan,2,m,2.022727273,4.045454546,Apogon gouldi
+98,Apogon lachneri,90,Roatan,1,m,2.966666667,2.966666667,Apogon lachneri
+99,Apogon maculatus,120,Bonaire,1,m,1.127104229,1.127104229,Apogon maculatus
+100,Apogon pillionatus,70,St. Eustatius,2,m,5.971062422,11.94212484,Apogon pillionatus
+101,Apogon pseudomaculatus,70,Bonaire,1,m,2.085070543,2.085070543,Apogon pseudomaculatus
+102,Apogon pseudomaculatus,110,Bonaire,1,m,1.161185714,1.161185714,Apogon pseudomaculatus
+103,Apogon pseudomaculatus,130,Bonaire,4,m,1.303308391,5.213233564,Apogon pseudomaculatus
+104,Apsilus dentatus,90,Roatan,1,m,2.966666667,2.966666667,Apsilus dentatus
+105,Aulopus filamentosus,280,Roatan,1,m,2.022727273,2.022727273,Aulopus filamentosus
+106,Aulopus filamentosus,360,Roatan,1,m,8.090909091,8.090909091,Aulopus filamentosus
+107,Aulostomus maculatus,20,Roatan,1,m,1.934782609,1.934782609,Aulostomus maculatus
+108,Baldwinella vivanus,120,Curacao,2,m,1.127104229,2.254208458,Baldwinella vivanus
+109,Baldwinella vivanus,120,St. Eustatius,1,m,3.838426787,3.838426787,Baldwinella vivanus
+110,Baldwinella vivanus,140,Curacao,11,m,1.365335946,15.01869541,Baldwinella vivanus
+111,Baldwinella vivanus,150,Bonaire,7,m,1.188927353,8.322491471,Baldwinella vivanus
+112,Baldwinella vivanus,150,Curacao,4,m,1.188927353,4.755709412,Baldwinella vivanus
+113,Baldwinella vivanus,160,Curacao,7,m,1.212877394,8.490141758,Baldwinella vivanus
+114,Baldwinella vivanus,170,Bonaire,2,m,1.172632844,2.345265688,Baldwinella vivanus
+115,Baldwinella vivanus,170,Curacao,3,m,1.172632844,3.517898532,Baldwinella vivanus
+116,Baldwinella vivanus,180,Bonaire,2,m,1.724533239,3.449066478,Baldwinella vivanus
+117,Baldwinella vivanus,180,Curacao,7,m,1.724533239,12.07173267,Baldwinella vivanus
+118,Baldwinella vivanus,190,Curacao,12,m,1.643187332,19.71824798,Baldwinella vivanus
+119,Baldwinella vivanus,200,Curacao,4,m,1.203301258,4.813205032,Baldwinella vivanus
+120,Baldwinella vivanus,210,Curacao,3,m,1.454078712,4.362236136,Baldwinella vivanus
+121,Baldwinella vivanus,220,Curacao,3,m,1.136560242,3.409680726,Baldwinella vivanus
+122,Baldwinella vivanus,230,Curacao,1,m,1.644295347,1.644295347,Baldwinella vivanus
+123,Baldwinella vivanus,230,St. Eustatius,1,m,2.26572549,2.26572549,Baldwinella vivanus
+124,Bathyanthias sp.,210,Bonaire,3,m,1.454078712,4.362236136,Bathyanthias mexicanus
+125,Bathyanthias sp.,270,St. Eustatius,1,m,18.23737374,18.23737374,Bathyanthias mexicanus
+126,Bellator brachychir,170,Bonaire,2,m,1.172632844,2.345265688,Bellator brachychir
+127,Bellator brachychir,190,Curacao,5,m,1.643187332,8.21593666,Bellator brachychir
+128,Bellator brachychir,210,Bonaire,1,m,1.454078712,1.454078712,Bellator brachychir
+129,Bellator brachychir,220,Curacao,1,m,1.136560242,1.136560242,Bellator brachychir
+130,Bellator brachychir,230,Curacao,1,m,1.644295347,1.644295347,Bellator brachychir
+131,Bellator brachychir,240,Curacao,3,m,2.350351807,7.051055421,Bellator brachychir
+132,Bellator egretta,160,Bonaire,1,m,1.212877394,1.212877394,Bellator egretta
+133,Bellator egretta,170,Bonaire,1,m,1.172632844,1.172632844,Bellator egretta
+134,Bellator egretta,170,Curacao,1,m,1.172632844,1.172632844,Bellator egretta
+135,Bellator egretta,180,Bonaire,4,m,1.724533239,6.898132956,Bellator egretta
+136,Bellator egretta,180,Curacao,2,m,1.724533239,3.449066478,Bellator egretta
+137,Bellator egretta,190,Curacao,1,m,1.643187332,1.643187332,Bellator egretta
+138,Bellator egretta,210,Bonaire,1,m,1.454078712,1.454078712,Bellator egretta
+139,Bellator egretta,210,Curacao,1,m,1.454078712,1.454078712,Bellator egretta
+140,Bellator egretta,220,Curacao,1,m,1.136560242,1.136560242,Bellator egretta
+141,Bellator egretta,220,St. Eustatius,1,m,5.980952381,5.980952381,Bellator egretta
+142,Bellator egretta,230,Bonaire,1,m,1.644295347,1.644295347,Bellator egretta
+143,Bellator egretta,230,Curacao,1,m,1.644295347,1.644295347,Bellator egretta
+144,Bembrops sp.,160,Roatan,1,m,1.618181818,1.618181818,Bembrops gobioides
+145,Bembrops sp.,180,Roatan,1,m,2.870967742,2.870967742,Bembrops gobioides
+146,Bembrops sp.,210,Roatan,4,m,2.119047619,8.476190476,Bembrops gobioides
+147,Bembrops sp.,230,Roatan,1,m,1.589285714,1.589285714,Bembrops gobioides
+148,Bembrops sp.,240,Roatan,2,m,1.711538462,3.423076924,Bembrops gobioides
+149,Bodianus pulchellus,70,Roatan,1,m,2.656716418,2.656716418,Bodianus pulchellus
+150,Bodianus pulchellus,90,Roatan,4,m,2.966666667,11.86666667,Bodianus pulchellus
+151,Bodianus rufus,10,Roatan,3,m,2.225,6.675,Bodianus rufus
+152,Bodianus rufus,20,Roatan,1,m,1.934782609,1.934782609,Bodianus rufus
+153,Bodianus rufus,30,Roatan,1,m,1.034883721,1.034883721,Bodianus rufus
+154,Bodianus rufus,40,Roatan,2,m,1.1125,2.225,Bodianus rufus
+155,Bodianus rufus,40,St. Eustatius,1,m,10.87650602,10.87650602,Bodianus rufus
+156,Bodianus rufus,50,Bonaire,3,m,0.999995899,2.999987697,Bodianus rufus
+157,Bodianus rufus,50,Roatan,3,m,1.390625,4.171875,Bodianus rufus
+158,Bodianus rufus,60,Bonaire,1,m,2.016114097,2.016114097,Bodianus rufus
+159,Bodianus rufus,90,Roatan,1,m,2.966666667,2.966666667,Bodianus rufus
+160,Bollmannia boqueronensis,70,Bonaire,30,m,2.085070543,62.55211629,Bollmannia boqueronensis
+161,Bollmannia boqueronensis,80,Bonaire,1,m,1.181725224,1.181725224,Bollmannia boqueronensis
+162,Bollmannia boqueronensis,100,Bonaire,2,m,1.379236425,2.75847285,Bollmannia boqueronensis
+163,Bollmannia boqueronensis,110,Bonaire,2,m,1.161185714,2.322371428,Bollmannia boqueronensis
+164,Bollmannia eigenmanni,80,Bonaire,1,m,1.181725224,1.181725224,Bollmannia eigenmanni
+165,Brotula barbata,220,St. Eustatius,1,m,5.980952381,5.980952381,Brotula barbata
+166,Bullisichthys caribbaeus,80,Bonaire,2,m,1.181725224,2.363450448,Bullisichthys caribbaeus
+167,Bullisichthys caribbaeus,80,Curacao,30,m,1.181725224,35.45175672,Bullisichthys caribbaeus
+168,Bullisichthys caribbaeus,80,St. Eustatius,301,m,3.768327681,1134.266632,Bullisichthys caribbaeus
+169,Bullisichthys caribbaeus,90,Curacao,33,m,1.187769118,39.19638089,Bullisichthys caribbaeus
+170,Bullisichthys caribbaeus,100,Curacao,59,m,1.379236425,81.37494908,Bullisichthys caribbaeus
+171,Bullisichthys caribbaeus,100,St. Eustatius,40,m,1.546301253,61.85205012,Bullisichthys caribbaeus
+172,Bullisichthys caribbaeus,110,Curacao,106,m,1.161185714,123.0856857,Bullisichthys caribbaeus
+173,Bullisichthys caribbaeus,110,St. Eustatius,524,m,1.300675371,681.5538944,Bullisichthys caribbaeus
+174,Bullisichthys caribbaeus,120,Curacao,4,m,1.127104229,4.508416916,Bullisichthys caribbaeus
+175,Bullisichthys caribbaeus,120,Roatan,20,m,2.170731707,43.41463414,Bullisichthys caribbaeus
+176,Bullisichthys caribbaeus,120,St. Eustatius,239,m,3.838426787,917.3840021,Bullisichthys caribbaeus
+177,Bullisichthys caribbaeus,130,Curacao,30,m,1.303308391,39.09925173,Bullisichthys caribbaeus
+178,Bullisichthys caribbaeus,130,Roatan,10,m,2.542857143,25.42857143,Bullisichthys caribbaeus
+179,Bullisichthys caribbaeus,130,St. Eustatius,21,m,3.42437174,71.91180654,Bullisichthys caribbaeus
+180,Bullisichthys caribbaeus,140,Roatan,1,m,1.893617021,1.893617021,Bullisichthys caribbaeus
+181,Bullisichthys caribbaeus,150,St. Eustatius,1,m,3.366899767,3.366899767,Bullisichthys caribbaeus
+182,Bullisichthys caribbaeus,160,St. Eustatius,21,m,4.342754059,91.19783524,Bullisichthys caribbaeus
+183,Calamus calamus,10,Roatan,1,m,2.225,2.225,Calamus calamus
+184,Cantherhines sp.,20,Roatan,2,m,1.934782609,3.869565218,Cantherhines pullus
+185,Canthidermis sufflamen,10,Roatan,1,m,2.225,2.225,Canthidermis sufflamen
+186,Canthidermis sufflamen,20,Roatan,2,m,1.934782609,3.869565218,Canthidermis sufflamen
+187,Canthidermis sufflamen,30,Roatan,1,m,1.034883721,1.034883721,Canthidermis sufflamen
+188,Canthidermis sufflamen,40,St. Eustatius,3,m,10.87650602,32.62951806,Canthidermis sufflamen
+189,Canthidermis sufflamen,50,St. Eustatius,1,m,15.20421053,15.20421053,Canthidermis sufflamen
+190,Canthidermis sufflamen,90,St. Eustatius,1,m,1,1,Canthidermis sufflamen
+191,Canthigaster jamestyleri,20,Roatan,4,m,1.934782609,7.739130436,Canthigaster jamestyleri
+192,Canthigaster jamestyleri,40,Roatan,1,m,1.1125,1.1125,Canthigaster jamestyleri
+193,Canthigaster jamestyleri,60,Roatan,1,m,1.893617021,1.893617021,Canthigaster jamestyleri
+194,Canthigaster jamestyleri,70,Curacao,64,m,2.085070543,133.4445148,Canthigaster jamestyleri
+195,Canthigaster jamestyleri,70,Roatan,1,m,2.656716418,2.656716418,Canthigaster jamestyleri
+196,Canthigaster jamestyleri,80,Curacao,2,m,1.181725224,2.363450448,Canthigaster jamestyleri
+197,Canthigaster jamestyleri,80,Roatan,2,m,2.472222222,4.944444444,Canthigaster jamestyleri
+198,Canthigaster jamestyleri,90,Curacao,23,m,1.187769118,27.31868971,Canthigaster jamestyleri
+199,Canthigaster jamestyleri,90,Roatan,5,m,2.966666667,14.83333334,Canthigaster jamestyleri
+200,Canthigaster jamestyleri,100,Roatan,1,m,1.483333333,1.483333333,Canthigaster jamestyleri
+201,Canthigaster jamestyleri,110,Curacao,12,m,1.161185714,13.93422857,Canthigaster jamestyleri
+202,Canthigaster jamestyleri,110,Roatan,2,m,1.934782609,3.869565218,Canthigaster jamestyleri
+203,Canthigaster jamestyleri,120,Curacao,8,m,1.127104229,9.016833832,Canthigaster jamestyleri
+204,Canthigaster jamestyleri,120,Roatan,3,m,2.170731707,6.512195121,Canthigaster jamestyleri
+205,Canthigaster jamestyleri,130,Curacao,2,m,1.303308391,2.606616782,Canthigaster jamestyleri
+206,Canthigaster jamestyleri,130,Roatan,6,m,2.542857143,15.25714286,Canthigaster jamestyleri
+207,Canthigaster jamestyleri,140,Curacao,5,m,1.365335946,6.82667973,Canthigaster jamestyleri
+208,Canthigaster jamestyleri,140,Roatan,13,m,1.893617021,24.61702127,Canthigaster jamestyleri
+209,Canthigaster jamestyleri,150,Bonaire,1,m,1.188927353,1.188927353,Canthigaster jamestyleri
+210,Canthigaster jamestyleri,170,Roatan,1,m,1.022988506,1.022988506,Canthigaster jamestyleri
+211,Canthigaster rostrata,10,Roatan,444,m,2.225,987.9,Canthigaster rostrata
+212,Canthigaster rostrata,20,Roatan,507,m,1.934782609,980.9347828,Canthigaster rostrata
+213,Canthigaster rostrata,30,Roatan,661,m,1.034883721,684.0581396,Canthigaster rostrata
+214,Canthigaster rostrata,40,Roatan,182,m,1.1125,202.475,Canthigaster rostrata
+215,Canthigaster rostrata,50,Bonaire,1,m,0.999995899,0.999995899,Canthigaster rostrata
+216,Canthigaster rostrata,50,Roatan,80,m,1.390625,111.25,Canthigaster rostrata
+217,Canthigaster rostrata,50,St. Eustatius,1,m,15.20421053,15.20421053,Canthigaster rostrata
+218,Canthigaster rostrata,60,Roatan,114,m,1.893617021,215.8723404,Canthigaster rostrata
+219,Canthigaster rostrata,70,Bonaire,1,m,2.085070543,2.085070543,Canthigaster rostrata
+220,Canthigaster rostrata,70,Roatan,198,m,2.656716418,526.0298508,Canthigaster rostrata
+221,Canthigaster rostrata,70,St. Eustatius,2,m,5.971062422,11.94212484,Canthigaster rostrata
+222,Canthigaster rostrata,80,Bonaire,2,m,1.181725224,2.363450448,Canthigaster rostrata
+223,Canthigaster rostrata,80,Roatan,107,m,2.472222222,264.5277778,Canthigaster rostrata
+224,Canthigaster rostrata,80,St. Eustatius,1,m,3.768327681,3.768327681,Canthigaster rostrata
+225,Canthigaster rostrata,90,Bonaire,2,m,1.187769118,2.375538236,Canthigaster rostrata
+226,Canthigaster rostrata,90,Roatan,381,m,2.966666667,1130.3,Canthigaster rostrata
+227,Canthigaster rostrata,90,St. Eustatius,1,m,1,1,Canthigaster rostrata
+228,Canthigaster rostrata,100,Bonaire,1,m,1.379236425,1.379236425,Canthigaster rostrata
+229,Canthigaster rostrata,100,Roatan,27,m,1.483333333,40.04999999,Canthigaster rostrata
+230,Canthigaster rostrata,100,St. Eustatius,1,m,1.546301253,1.546301253,Canthigaster rostrata
+231,Canthigaster rostrata,110,Roatan,44,m,1.934782609,85.1304348,Canthigaster rostrata
+232,Canthigaster rostrata,120,Roatan,28,m,2.170731707,60.7804878,Canthigaster rostrata
+233,Canthigaster rostrata,130,Roatan,21,m,2.542857143,53.4,Canthigaster rostrata
+234,Canthigaster rostrata,140,Roatan,16,m,1.893617021,30.29787234,Canthigaster rostrata
+235,Canthigaster rostrata,150,Roatan,4,m,2.022727273,8.090909092,Canthigaster rostrata
+236,Canthigaster rostrata,210,St. Eustatius,1,m,2.498961938,2.498961938,Canthigaster rostrata
+237,Carangoides bartholomaei,90,Bonaire,10,m,1.187769118,11.87769118,Carangoides bartholomaei
+238,Carangoides ruber,10,Roatan,25,m,2.225,55.625,Caranx ruber
+239,Carangoides ruber,20,Roatan,12,m,1.934782609,23.21739131,Caranx ruber
+240,Carangoides ruber,30,Roatan,3,m,1.034883721,3.104651163,Caranx ruber
+241,Carangoides ruber,40,Roatan,7,m,1.1125,7.7875,Caranx ruber
+242,Carangoides ruber,40,St. Eustatius,1,m,10.87650602,10.87650602,Caranx ruber
+243,Carangoides ruber,50,Bonaire,1,m,0.999995899,0.999995899,Caranx ruber
+244,Carangoides ruber,60,Roatan,1,m,1.893617021,1.893617021,Caranx ruber
+245,Carangoides ruber,70,Bonaire,1,m,2.085070543,2.085070543,Caranx ruber
+246,Carangoides ruber,70,Roatan,1,m,2.656716418,2.656716418,Caranx ruber
+247,Carangoides ruber,80,Roatan,1,m,2.472222222,2.472222222,Caranx ruber
+248,Carangoides ruber,150,St. Eustatius,1,m,3.366899767,3.366899767,Caranx ruber
+249,Carangoides ruber,180,Roatan,4,m,2.870967742,11.48387097,Caranx ruber
+250,Carangoides ruber,200,Roatan,1,m,1.369230769,1.369230769,Caranx ruber
+251,Caranx latus,20,Roatan,1,m,1.934782609,1.934782609,Caranx latus
+252,Caranx latus,150,Bonaire,1,m,1.188927353,1.188927353,Caranx latus
+253,Caranx lugubris,40,Roatan,1,m,1.1125,1.1125,Caranx lugubris
+254,Caranx lugubris,90,Roatan,3,m,2.966666667,8.900000001,Caranx lugubris
+255,Caranx lugubris,100,Roatan,1,m,1.483333333,1.483333333,Caranx lugubris
+256,Caranx lugubris,110,Roatan,4,m,1.934782609,7.739130436,Caranx lugubris
+257,Caranx lugubris,110,St. Eustatius,1,m,1.300675371,1.300675371,Caranx lugubris
+258,Caranx lugubris,120,Roatan,2,m,2.170731707,4.341463414,Caranx lugubris
+259,Caranx lugubris,140,Roatan,1,m,1.893617021,1.893617021,Caranx lugubris
+260,Caranx lugubris,170,Roatan,1,m,1.022988506,1.022988506,Caranx lugubris
+261,Caranx lugubris,180,Roatan,2,m,2.870967742,5.741935484,Caranx lugubris
+262,Caranx lugubris,190,Roatan,1,m,1.934782609,1.934782609,Caranx lugubris
+263,Caranx lugubris,200,Roatan,1,m,1.369230769,1.369230769,Caranx lugubris
+264,Caranx lugubris,230,Roatan,3,m,1.589285714,4.767857142,Caranx lugubris
+265,Caranx lugubris,240,Roatan,1,m,1.711538462,1.711538462,Caranx lugubris
+266,Caranx lugubris,250,Roatan,1,m,1.034883721,1.034883721,Caranx lugubris
+267,Caranx lugubris,290,Roatan,1,m,1.308823529,1.308823529,Caranx lugubris
+268,Caulolatilus dooleyi,90,Bonaire,1,m,1.187769118,1.187769118,Caulolatilus dooleyi
+269,Caulolatilus dooleyi,120,Bonaire,1,m,1.127104229,1.127104229,Caulolatilus dooleyi
+270,Caulolatilus dooleyi,130,Bonaire,1,m,1.303308391,1.303308391,Caulolatilus dooleyi
+271,Caulolatilus dooleyi,160,Bonaire,1,m,1.212877394,1.212877394,Caulolatilus dooleyi
+272,Caulolatilus dooleyi,170,Bonaire,4,m,1.172632844,4.690531376,Caulolatilus dooleyi
+273,Caulolatilus dooleyi,180,Bonaire,1,m,1.724533239,1.724533239,Caulolatilus dooleyi
+274,Caulolatilus dooleyi,190,Bonaire,3,m,1.643187332,4.929561996,Caulolatilus dooleyi
+275,Caulolatilus dooleyi,200,Bonaire,3,m,1.203301258,3.609903774,Caulolatilus dooleyi
+276,Caulolatilus plumieri,130,Bonaire,1,m,1.303308391,1.303308391,Malacanthus plumieri
+277,Caulolatilus plumieri,180,Bonaire,1,m,1.724533239,1.724533239,Malacanthus plumieri
+278,Centropristis fuscula,40,Curacao,1,m,1.139215137,1.139215137,Centropristis fuscula
+279,Centropristis fuscula,70,Curacao,2,m,2.085070543,4.170141086,Centropristis fuscula
+280,Centropristis fuscula,90,Curacao,1,m,1.187769118,1.187769118,Centropristis fuscula
+281,Centropristis fuscula,110,Curacao,1,m,1.161185714,1.161185714,Centropristis fuscula
+282,Centropristis fuscula,120,Curacao,3,m,1.127104229,3.381312687,Centropristis fuscula
+283,Centropristis fuscula,150,St. Eustatius,1,m,3.366899767,3.366899767,Centropristis fuscula
+284,Centropristis fuscula,190,Curacao,2,m,1.643187332,3.286374664,Centropristis fuscula
+285,Centropristis fuscula,230,Curacao,2,m,1.644295347,3.288590694,Centropristis fuscula
+286,Centropristis fuscula,240,Curacao,1,m,2.350351807,2.350351807,Centropristis fuscula
+287,Centropyge argi,40,Bonaire,1,m,1.139215137,1.139215137,Centropyge argi
+288,Centropyge argi,40,St. Eustatius,2,m,10.87650602,21.75301204,Centropyge argi
+289,Centropyge argi,50,Roatan,1,m,1.390625,1.390625,Centropyge argi
+290,Centropyge argi,60,Bonaire,2,m,2.016114097,4.032228194,Centropyge argi
+291,Centropyge argi,60,Curacao,30,m,2.016114097,60.48342291,Centropyge argi
+292,Centropyge argi,60,St. Eustatius,7,m,6.826086957,47.7826087,Centropyge argi
+293,Centropyge argi,70,Bonaire,18,m,2.085070543,37.53126977,Centropyge argi
+294,Centropyge argi,70,Curacao,8,m,2.085070543,16.68056434,Centropyge argi
+295,Centropyge argi,70,Roatan,1,m,2.656716418,2.656716418,Centropyge argi
+296,Centropyge argi,70,St. Eustatius,20,m,5.971062422,119.4212484,Centropyge argi
+297,Centropyge argi,80,Bonaire,6,m,1.181725224,7.090351344,Centropyge argi
+298,Centropyge argi,80,St. Eustatius,2,m,3.768327681,7.536655362,Centropyge argi
+299,Centropyge argi,90,Bonaire,2,m,1.187769118,2.375538236,Centropyge argi
+300,Centropyge argi,90,Curacao,1,m,1.187769118,1.187769118,Centropyge argi
+301,Centropyge argi,90,St. Eustatius,2,m,1,2,Centropyge argi
+302,Cephalopholis cruentata,10,Roatan,2,m,2.225,4.45,Cephalopholis cruentata
+303,Cephalopholis cruentata,20,Roatan,4,m,1.934782609,7.739130436,Cephalopholis cruentata
+304,Cephalopholis cruentata,30,Roatan,1,m,1.034883721,1.034883721,Cephalopholis cruentata
+305,Cephalopholis cruentata,40,Curacao,2,m,1.139215137,2.278430274,Cephalopholis cruentata
+306,Cephalopholis cruentata,40,Roatan,2,m,1.1125,2.225,Cephalopholis cruentata
+307,Cephalopholis cruentata,40,St. Eustatius,2,m,10.87650602,21.75301204,Cephalopholis cruentata
+308,Cephalopholis cruentata,50,Curacao,1,m,0.999995899,0.999995899,Cephalopholis cruentata
+309,Cephalopholis cruentata,50,Roatan,2,m,1.390625,2.78125,Cephalopholis cruentata
+310,Cephalopholis cruentata,50,St. Eustatius,1,m,15.20421053,15.20421053,Cephalopholis cruentata
+311,Cephalopholis cruentata,60,Bonaire,2,m,2.016114097,4.032228194,Cephalopholis cruentata
+312,Cephalopholis cruentata,60,Curacao,4,m,2.016114097,8.064456388,Cephalopholis cruentata
+313,Cephalopholis cruentata,60,Roatan,6,m,1.893617021,11.36170213,Cephalopholis cruentata
+314,Cephalopholis cruentata,70,Curacao,4,m,2.085070543,8.340282172,Cephalopholis cruentata
+315,Cephalopholis cruentata,70,Roatan,14,m,2.656716418,37.19402985,Cephalopholis cruentata
+316,Cephalopholis cruentata,80,Bonaire,1,m,1.181725224,1.181725224,Cephalopholis cruentata
+317,Cephalopholis cruentata,80,Curacao,2,m,1.181725224,2.363450448,Cephalopholis cruentata
+318,Cephalopholis cruentata,80,Roatan,3,m,2.472222222,7.416666666,Cephalopholis cruentata
+319,Cephalopholis cruentata,80,St. Eustatius,3,m,3.768327681,11.30498304,Cephalopholis cruentata
+320,Cephalopholis cruentata,90,Bonaire,18,m,1.187769118,21.37984412,Cephalopholis cruentata
+321,Cephalopholis cruentata,90,Curacao,5,m,1.187769118,5.93884559,Cephalopholis cruentata
+322,Cephalopholis cruentata,90,Roatan,4,m,2.966666667,11.86666667,Cephalopholis cruentata
+323,Cephalopholis cruentata,90,St. Eustatius,2,m,1,2,Cephalopholis cruentata
+324,Cephalopholis cruentata,100,Curacao,9,m,1.379236425,12.41312783,Cephalopholis cruentata
+325,Cephalopholis cruentata,100,Roatan,2,m,1.483333333,2.966666666,Cephalopholis cruentata
+326,Cephalopholis cruentata,100,St. Eustatius,4,m,1.546301253,6.185205012,Cephalopholis cruentata
+327,Cephalopholis cruentata,110,Bonaire,7,m,1.161185714,8.128299998,Cephalopholis cruentata
+328,Cephalopholis cruentata,110,Curacao,3,m,1.161185714,3.483557142,Cephalopholis cruentata
+329,Cephalopholis cruentata,110,Roatan,1,m,1.934782609,1.934782609,Cephalopholis cruentata
+330,Cephalopholis cruentata,110,St. Eustatius,3,m,1.300675371,3.902026113,Cephalopholis cruentata
+331,Cephalopholis cruentata,120,Curacao,1,m,1.127104229,1.127104229,Cephalopholis cruentata
+332,Cephalopholis cruentata,120,St. Eustatius,3,m,3.838426787,11.51528036,Cephalopholis cruentata
+333,Cephalopholis cruentata,130,Curacao,1,m,1.303308391,1.303308391,Cephalopholis cruentata
+334,Cephalopholis cruentata,140,St. Eustatius,1,m,5.143874644,5.143874644,Cephalopholis cruentata
+335,Cephalopholis fulva,30,Roatan,5,m,1.034883721,5.174418605,Cephalopholis fulva
+336,Cephalopholis fulva,50,St. Eustatius,3,m,15.20421053,45.61263159,Cephalopholis fulva
+337,Chaetodon capistratus,10,Roatan,23,m,2.225,51.175,Chaetodon capistratus
+338,Chaetodon capistratus,20,Roatan,41,m,1.934782609,79.32608697,Chaetodon capistratus
+339,Chaetodon capistratus,30,Roatan,27,m,1.034883721,27.94186047,Chaetodon capistratus
+340,Chaetodon capistratus,40,Curacao,4,m,1.139215137,4.556860548,Chaetodon capistratus
+341,Chaetodon capistratus,40,Roatan,16,m,1.1125,17.8,Chaetodon capistratus
+342,Chaetodon capistratus,50,Curacao,5,m,0.999995899,4.999979495,Chaetodon capistratus
+343,Chaetodon capistratus,50,Roatan,11,m,1.390625,15.296875,Chaetodon capistratus
+344,Chaetodon capistratus,50,St. Eustatius,2,m,15.20421053,30.40842106,Chaetodon capistratus
+345,Chaetodon capistratus,60,Roatan,5,m,1.893617021,9.468085105,Chaetodon capistratus
+346,Chaetodon capistratus,70,Curacao,4,m,2.085070543,8.340282172,Chaetodon capistratus
+347,Chaetodon capistratus,70,Roatan,11,m,2.656716418,29.2238806,Chaetodon capistratus
+348,Chaetodon capistratus,80,Curacao,3,m,1.181725224,3.545175672,Chaetodon capistratus
+349,Chaetodon capistratus,80,Roatan,7,m,2.472222222,17.30555555,Chaetodon capistratus
+350,Chaetodon capistratus,90,Roatan,6,m,2.966666667,17.8,Chaetodon capistratus
+351,Chaetodon capistratus,100,Curacao,1,m,1.379236425,1.379236425,Chaetodon capistratus
+352,Chaetodon capistratus,100,Roatan,1,m,1.483333333,1.483333333,Chaetodon capistratus
+353,Chaetodon capistratus,110,Roatan,2,m,1.934782609,3.869565218,Chaetodon capistratus
+354,Chaetodon ocellatus,90,Roatan,1,m,2.966666667,2.966666667,Chaetodon ocellatus
+355,Chaetodon sedentarius,50,St. Eustatius,1,m,15.20421053,15.20421053,Chaetodon sedentarius
+356,Chaetodon sedentarius,60,St. Eustatius,1,m,6.826086957,6.826086957,Chaetodon sedentarius
+357,Chaetodon sedentarius,70,Roatan,2,m,2.656716418,5.313432836,Chaetodon sedentarius
+358,Chaetodon sedentarius,70,St. Eustatius,1,m,5.971062422,5.971062422,Chaetodon sedentarius
+359,Chaetodon sedentarius,80,Roatan,2,m,2.472222222,4.944444444,Chaetodon sedentarius
+360,Chaetodon sedentarius,80,St. Eustatius,4,m,3.768327681,15.07331072,Chaetodon sedentarius
+361,Chaetodon sedentarius,90,Bonaire,4,m,1.187769118,4.751076472,Chaetodon sedentarius
+362,Chaetodon sedentarius,90,St. Eustatius,2,m,1,2,Chaetodon sedentarius
+363,Chaetodon sedentarius,100,Bonaire,1,m,1.379236425,1.379236425,Chaetodon sedentarius
+364,Chaetodon sedentarius,100,St. Eustatius,1,m,1.546301253,1.546301253,Chaetodon sedentarius
+365,Chaetodon sedentarius,110,St. Eustatius,4,m,1.300675371,5.202701484,Chaetodon sedentarius
+366,Chaetodon striatus,10,Roatan,2,m,2.225,4.45,Chaetodon striatus
+367,Chaetodon striatus,20,Roatan,2,m,1.934782609,3.869565218,Chaetodon striatus
+368,Chaetodon striatus,50,Bonaire,2,m,0.999995899,1.999991798,Chaetodon striatus
+369,Chaetodon striatus,50,St. Eustatius,1,m,15.20421053,15.20421053,Chaetodon striatus
+370,Chaetodon striatus,60,Bonaire,2,m,2.016114097,4.032228194,Chaetodon striatus
+371,Chaetodon striatus,60,Roatan,1,m,1.893617021,1.893617021,Chaetodon striatus
+372,Chaetodon striatus,80,Bonaire,6,m,1.181725224,7.090351344,Chaetodon striatus
+373,Chaetodon striatus,80,Roatan,20,m,2.472222222,49.44444444,Chaetodon striatus
+374,Chaetodon striatus,100,St. Eustatius,1,m,1.546301253,1.546301253,Chaetodon striatus
+375,Chaunax pictus,10,Roatan,3,m,2.225,6.675,Chaunax pictus
+376,Chaunax pictus,240,Curacao,1,m,2.350351807,2.350351807,Chaunax pictus
+377,Chaunax pictus,240,Roatan,1,m,1.711538462,1.711538462,Chaunax pictus
+378,Chaunax pictus,260,Curacao,1,m,2.855374707,2.855374707,Chaunax pictus
+379,Chaunax pictus,270,Curacao,1,m,3.382094313,3.382094313,Chaunax pictus
+380,Chaunax pictus,280,Curacao,2,m,3.295256757,6.590513514,Chaunax pictus
+381,Chaunax pictus,290,Curacao,1,m,4.077742475,4.077742475,Chaunax pictus
+382,Chaunax pictus,330,Roatan,2,m,8.090909091,16.18181818,Chaunax pictus
+383,Choranthias tenuis,90,Curacao,1,m,1.187769118,1.187769118,Choranthias tenuis
+384,Choranthias tenuis,110,Bonaire,124,m,1.161185714,143.9870285,Choranthias tenuis
+385,Choranthias tenuis,110,Curacao,7,m,1.161185714,8.128299998,Choranthias tenuis
+386,Choranthias tenuis,120,Bonaire,2,m,1.127104229,2.254208458,Choranthias tenuis
+387,Choranthias tenuis,120,Curacao,5,m,1.127104229,5.635521145,Choranthias tenuis
+388,Choranthias tenuis,130,Bonaire,4,m,1.303308391,5.213233564,Choranthias tenuis
+389,Choranthias tenuis,140,Curacao,2,m,1.365335946,2.730671892,Choranthias tenuis
+390,Choranthias tenuis,150,Bonaire,1,m,1.188927353,1.188927353,Choranthias tenuis
+391,Choranthias tenuis,150,Curacao,1,m,1.188927353,1.188927353,Choranthias tenuis
+392,Choranthias tenuis,160,Curacao,1,m,1.212877394,1.212877394,Choranthias tenuis
+393,Choranthias tenuis,170,Curacao,1,m,1.172632844,1.172632844,Choranthias tenuis
+394,Choranthias tenuis,180,Bonaire,4,m,1.724533239,6.898132956,Choranthias tenuis
+395,Choranthias tenuis,180,Curacao,3,m,1.724533239,5.173599717,Choranthias tenuis
+396,Choranthias tenuis,300,Curacao,1,m,8.196605042,8.196605042,Choranthias tenuis
+397,Chrionema squamentum,150,Curacao,1,m,1.188927353,1.188927353,Chrionema squamentum
+398,Chrionema squamentum,160,Bonaire,4,m,1.212877394,4.851509576,Chrionema squamentum
+399,Chrionema squamentum,160,Curacao,1,m,1.212877394,1.212877394,Chrionema squamentum
+400,Chrionema squamentum,170,Bonaire,1,m,1.172632844,1.172632844,Chrionema squamentum
+401,Chrionema squamentum,180,Bonaire,3,m,1.724533239,5.173599717,Chrionema squamentum
+402,Chrionema squamentum,180,Curacao,2,m,1.724533239,3.449066478,Chrionema squamentum
+403,Chrionema squamentum,190,Curacao,3,m,1.643187332,4.929561996,Chrionema squamentum
+404,Chrionema squamentum,190,St. Eustatius,1,m,3.571711177,3.571711177,Chrionema squamentum
+405,Chrionema squamentum,200,Bonaire,4,m,1.203301258,4.813205032,Chrionema squamentum
+406,Chrionema squamentum,200,Curacao,1,m,1.203301258,1.203301258,Chrionema squamentum
+407,Chrionema squamentum,200,St. Eustatius,1,m,3.862032086,3.862032086,Chrionema squamentum
+408,Chrionema squamentum,210,Bonaire,3,m,1.454078712,4.362236136,Chrionema squamentum
+409,Chrionema squamentum,210,Curacao,7,m,1.454078712,10.17855098,Chrionema squamentum
+410,Chrionema squamentum,210,Roatan,3,m,2.119047619,6.357142857,Chrionema squamentum
+411,Chrionema squamentum,210,St. Eustatius,1,m,2.498961938,2.498961938,Chrionema squamentum
+412,Chrionema squamentum,220,Bonaire,1,m,1.136560242,1.136560242,Chrionema squamentum
+413,Chrionema squamentum,220,Curacao,15,m,1.136560242,17.04840363,Chrionema squamentum
+414,Chrionema squamentum,230,Bonaire,1,m,1.644295347,1.644295347,Chrionema squamentum
+415,Chrionema squamentum,230,Curacao,14,m,1.644295347,23.02013486,Chrionema squamentum
+416,Chrionema squamentum,230,Roatan,1,m,1.589285714,1.589285714,Chrionema squamentum
+417,Chrionema squamentum,230,St. Eustatius,4,m,2.26572549,9.06290196,Chrionema squamentum
+418,Chrionema squamentum,240,Curacao,7,m,2.350351807,16.45246265,Chrionema squamentum
+419,Chrionema squamentum,240,Roatan,2,m,1.711538462,3.423076924,Chrionema squamentum
+420,Chrionema squamentum,250,Curacao,4,m,3.051927409,12.20770964,Chrionema squamentum
+421,Chrionema squamentum,250,Roatan,2,m,1.034883721,2.069767442,Chrionema squamentum
+422,Chrionema squamentum,260,Bonaire,6,m,2.855374707,17.13224824,Chrionema squamentum
+423,Chrionema squamentum,260,Curacao,2,m,2.855374707,5.710749414,Chrionema squamentum
+424,Chrionema squamentum,260,Roatan,3,m,1.126582278,3.379746834,Chrionema squamentum
+425,Chrionema squamentum,270,Bonaire,8,m,3.382094313,27.0567545,Chrionema squamentum
+426,Chrionema squamentum,270,Roatan,7,m,1,7,Chrionema squamentum
+427,Chrionema squamentum,280,Bonaire,4,m,3.295256757,13.18102703,Chrionema squamentum
+428,Chrionema squamentum,280,Curacao,48,m,3.295256757,158.1723243,Chrionema squamentum
+429,Chrionema squamentum,290,Bonaire,1,m,4.077742475,4.077742475,Chrionema squamentum
+430,Chrionema squamentum,290,Curacao,55,m,4.077742475,224.2758361,Chrionema squamentum
+431,Chrionema squamentum,300,Bonaire,3,m,8.196605042,24.58981513,Chrionema squamentum
+432,Chrionema squamentum,300,Curacao,21,m,8.196605042,172.1287059,Chrionema squamentum
+433,Chrionema squamentum,330,Roatan,3,m,8.090909091,24.27272727,Chrionema squamentum
+434,Chrionema squamentum,390,Roatan,1,m,8.090909091,8.090909091,Chrionema squamentum
+435,Chromis cyanea,10,Roatan,517,m,2.225,1150.325,Chromis cyanea
+436,Chromis cyanea,20,Roatan,86,m,1.934782609,166.3913044,Chromis cyanea
+437,Chromis cyanea,30,Roatan,59,m,1.034883721,61.05813954,Chromis cyanea
+438,Chromis cyanea,40,Bonaire,162,m,1.139215137,184.5528522,Chromis cyanea
+439,Chromis cyanea,40,Curacao,5,m,1.139215137,5.696075685,Chromis cyanea
+440,Chromis cyanea,40,Roatan,96,m,1.1125,106.8,Chromis cyanea
+441,Chromis cyanea,40,St. Eustatius,66,m,10.87650602,717.8493973,Chromis cyanea
+442,Chromis cyanea,50,Bonaire,143,m,0.999995899,142.9994136,Chromis cyanea
+443,Chromis cyanea,50,Curacao,27,m,0.999995899,26.99988927,Chromis cyanea
+444,Chromis cyanea,50,Roatan,37,m,1.390625,51.453125,Chromis cyanea
+445,Chromis cyanea,50,St. Eustatius,217,m,15.20421053,3299.313685,Chromis cyanea
+446,Chromis cyanea,60,Bonaire,13,m,2.016114097,26.20948326,Chromis cyanea
+447,Chromis cyanea,60,Curacao,7,m,2.016114097,14.11279868,Chromis cyanea
+448,Chromis cyanea,60,Roatan,26,m,1.893617021,49.23404255,Chromis cyanea
+449,Chromis cyanea,70,Bonaire,4,m,2.085070543,8.340282172,Chromis cyanea
+450,Chromis cyanea,70,Curacao,3,m,2.085070543,6.255211629,Chromis cyanea
+451,Chromis cyanea,70,Roatan,3,m,2.656716418,7.970149254,Chromis cyanea
+452,Chromis cyanea,70,St. Eustatius,6,m,5.971062422,35.82637453,Chromis cyanea
+453,Chromis cyanea,80,Bonaire,2,m,1.181725224,2.363450448,Chromis cyanea
+454,Chromis enchrysura,40,Bonaire,2,m,1.139215137,2.278430274,Chromis enchrysura
+455,Chromis enchrysura,60,Roatan,20,m,1.893617021,37.87234042,Chromis enchrysura
+456,Chromis enchrysura,70,Bonaire,5,m,2.085070543,10.42535272,Chromis enchrysura
+457,Chromis enchrysura,70,Curacao,3,m,2.085070543,6.255211629,Chromis enchrysura
+458,Chromis enchrysura,80,Bonaire,19,m,1.181725224,22.45277926,Chromis enchrysura
+459,Chromis enchrysura,80,Curacao,4,m,1.181725224,4.726900896,Chromis enchrysura
+460,Chromis enchrysura,90,Bonaire,39,m,1.187769118,46.3229956,Chromis enchrysura
+461,Chromis enchrysura,90,Curacao,9,m,1.187769118,10.68992206,Chromis enchrysura
+462,Chromis enchrysura,100,Bonaire,4,m,1.379236425,5.5169457,Chromis enchrysura
+463,Chromis enchrysura,100,Curacao,26,m,1.379236425,35.86014705,Chromis enchrysura
+464,Chromis enchrysura,110,Bonaire,68,m,1.161185714,78.96062855,Chromis enchrysura
+465,Chromis enchrysura,110,Curacao,18,m,1.161185714,20.90134285,Chromis enchrysura
+466,Chromis enchrysura,110,St. Eustatius,3,m,1.300675371,3.902026113,Chromis enchrysura
+467,Chromis enchrysura,120,Bonaire,22,m,1.127104229,24.79629304,Chromis enchrysura
+468,Chromis enchrysura,120,Curacao,4,m,1.127104229,4.508416916,Chromis enchrysura
+469,Chromis enchrysura,120,St. Eustatius,1,m,3.838426787,3.838426787,Chromis enchrysura
+470,Chromis enchrysura,130,Bonaire,18,m,1.303308391,23.45955104,Chromis enchrysura
+471,Chromis enchrysura,130,Curacao,3,m,1.303308391,3.909925173,Chromis enchrysura
+472,Chromis enchrysura,130,Roatan,1,m,2.542857143,2.542857143,Chromis enchrysura
+473,Chromis enchrysura,130,St. Eustatius,3,m,3.42437174,10.27311522,Chromis enchrysura
+474,Chromis enchrysura,140,Bonaire,6,m,1.365335946,8.192015676,Chromis enchrysura
+475,Chromis enchrysura,140,Curacao,1,m,1.365335946,1.365335946,Chromis enchrysura
+476,Chromis enchrysura,140,Roatan,4,m,1.893617021,7.574468084,Chromis enchrysura
+477,Chromis enchrysura,140,St. Eustatius,1,m,5.143874644,5.143874644,Chromis enchrysura
+478,Chromis enchrysura,150,Bonaire,1,m,1.188927353,1.188927353,Chromis enchrysura
+479,Chromis enchrysura,150,Roatan,3,m,2.022727273,6.068181819,Chromis enchrysura
+480,Chromis enchrysura,150,St. Eustatius,4,m,3.366899767,13.46759907,Chromis enchrysura
+481,Chromis enchrysura,160,Roatan,1,m,1.618181818,1.618181818,Chromis enchrysura
+482,Chromis enchrysura,160,St. Eustatius,3,m,4.342754059,13.02826218,Chromis enchrysura
+483,Chromis enchrysura,170,St. Eustatius,6,m,3.76734481,22.60406886,Chromis enchrysura
+484,Chromis insolata,10,Roatan,186,m,2.225,413.85,Chromis insolata
+485,Chromis insolata,20,Roatan,469,m,1.934782609,907.4130436,Chromis insolata
+486,Chromis insolata,30,Roatan,389,m,1.034883721,402.5697675,Chromis insolata
+487,Chromis insolata,40,Bonaire,6,m,1.139215137,6.835290822,Chromis insolata
+488,Chromis insolata,40,Curacao,4,m,1.139215137,4.556860548,Chromis insolata
+489,Chromis insolata,40,Roatan,680,m,1.1125,756.5,Chromis insolata
+490,Chromis insolata,40,St. Eustatius,3,m,10.87650602,32.62951806,Chromis insolata
+491,Chromis insolata,50,Bonaire,33,m,0.999995899,32.99986467,Chromis insolata
+492,Chromis insolata,50,Curacao,37,m,0.999995899,36.99984826,Chromis insolata
+493,Chromis insolata,50,Roatan,521,m,1.390625,724.515625,Chromis insolata
+494,Chromis insolata,50,St. Eustatius,1,m,15.20421053,15.20421053,Chromis insolata
+495,Chromis insolata,60,Bonaire,1,m,2.016114097,2.016114097,Chromis insolata
+496,Chromis insolata,60,Curacao,58,m,2.016114097,116.9346176,Chromis insolata
+497,Chromis insolata,60,Roatan,365,m,1.893617021,691.1702127,Chromis insolata
+498,Chromis insolata,60,St. Eustatius,21,m,6.826086957,143.3478261,Chromis insolata
+499,Chromis insolata,70,Bonaire,6,m,2.085070543,12.51042326,Chromis insolata
+500,Chromis insolata,70,Curacao,47,m,2.085070543,97.99831552,Chromis insolata
+501,Chromis insolata,70,Roatan,301,m,2.656716418,799.6716418,Chromis insolata
+502,Chromis insolata,70,St. Eustatius,121,m,5.971062422,722.4985531,Chromis insolata
+503,Chromis insolata,80,Bonaire,3,m,1.181725224,3.545175672,Chromis insolata
+504,Chromis insolata,80,Curacao,45,m,1.181725224,53.17763508,Chromis insolata
+505,Chromis insolata,80,Roatan,121,m,2.472222222,299.1388889,Chromis insolata
+506,Chromis insolata,80,St. Eustatius,167,m,3.768327681,629.3107227,Chromis insolata
+507,Chromis insolata,90,Bonaire,1,m,1.187769118,1.187769118,Chromis insolata
+508,Chromis insolata,90,Curacao,9,m,1.187769118,10.68992206,Chromis insolata
+509,Chromis insolata,90,Roatan,97,m,2.966666667,287.7666667,Chromis insolata
+510,Chromis insolata,90,St. Eustatius,52,m,1,52,Chromis insolata
+511,Chromis insolata,100,Curacao,12,m,1.379236425,16.5508371,Chromis insolata
+512,Chromis insolata,100,Roatan,3,m,1.483333333,4.449999999,Chromis insolata
+513,Chromis insolata,100,St. Eustatius,14,m,1.546301253,21.64821754,Chromis insolata
+514,Chromis insolata,110,Curacao,1,m,1.161185714,1.161185714,Chromis insolata
+515,Chromis insolata,110,St. Eustatius,7,m,1.300675371,9.104727597,Chromis insolata
+516,Chromis insolata,120,Roatan,2,m,2.170731707,4.341463414,Chromis insolata
+517,Chromis insolata,120,St. Eustatius,1,m,3.838426787,3.838426787,Chromis insolata
+518,Chromis insolata,130,Bonaire,1,m,1.303308391,1.303308391,Chromis insolata
+519,Chromis insolata,130,St. Eustatius,1,m,3.42437174,3.42437174,Chromis insolata
+520,Chromis insolata,140,Roatan,2,m,1.893617021,3.787234042,Chromis insolata
+521,Chromis insolata,150,Roatan,1,m,2.022727273,2.022727273,Chromis insolata
+522,Chromis multilineata,10,Roatan,128,m,2.225,284.8,Chromis multilineata
+523,Chromis multilineata,40,Curacao,26,m,1.139215137,29.61959356,Chromis multilineata
+524,Chromis multilineata,40,St. Eustatius,13,m,10.87650602,141.3945783,Chromis multilineata
+525,Chromis multilineata,50,Curacao,22,m,0.999995899,21.99990978,Chromis multilineata
+526,Chromis multilineata,60,Bonaire,4,m,2.016114097,8.064456388,Chromis multilineata
+527,Chromis multilineata,60,Curacao,1,m,2.016114097,2.016114097,Chromis multilineata
+528,Chromis multilineata,70,Bonaire,10,m,2.085070543,20.85070543,Chromis multilineata
+529,Chromis scotti,40,Curacao,1,m,1.139215137,1.139215137,Chromis scotti
+530,Chromis scotti,50,Bonaire,1,m,0.999995899,0.999995899,Chromis scotti
+531,Chromis scotti,50,Curacao,1,m,0.999995899,0.999995899,Chromis scotti
+532,Chromis scotti,50,Roatan,7,m,1.390625,9.734375,Chromis scotti
+533,Chromis scotti,60,Curacao,4,m,2.016114097,8.064456388,Chromis scotti
+534,Chromis scotti,60,Roatan,7,m,1.893617021,13.25531915,Chromis scotti
+535,Chromis scotti,60,St. Eustatius,1,m,6.826086957,6.826086957,Chromis scotti
+536,Chromis scotti,70,Curacao,38,m,2.085070543,79.23268063,Chromis scotti
+537,Chromis scotti,70,Roatan,28,m,2.656716418,74.3880597,Chromis scotti
+538,Chromis scotti,70,St. Eustatius,2,m,5.971062422,11.94212484,Chromis scotti
+539,Chromis scotti,80,Curacao,24,m,1.181725224,28.36140538,Chromis scotti
+540,Chromis scotti,80,Roatan,6,m,2.472222222,14.83333333,Chromis scotti
+541,Chromis scotti,80,St. Eustatius,14,m,3.768327681,52.75658753,Chromis scotti
+542,Chromis scotti,90,Curacao,6,m,1.187769118,7.126614708,Chromis scotti
+543,Chromis scotti,90,Roatan,21,m,2.966666667,62.30000001,Chromis scotti
+544,Chromis scotti,100,Curacao,10,m,1.379236425,13.79236425,Chromis scotti
+545,Chromis scotti,100,Roatan,2,m,1.483333333,2.966666666,Chromis scotti
+546,Chromis scotti,100,St. Eustatius,11,m,1.546301253,17.00931378,Chromis scotti
+547,Chromis scotti,110,Curacao,1,m,1.161185714,1.161185714,Chromis scotti
+548,Chromis scotti,110,Roatan,2,m,1.934782609,3.869565218,Chromis scotti
+549,Chromis scotti,110,St. Eustatius,12,m,1.300675371,15.60810445,Chromis scotti
+550,Chromis scotti,120,Roatan,1,m,2.170731707,2.170731707,Chromis scotti
+551,Chromis scotti,120,St. Eustatius,5,m,3.838426787,19.19213394,Chromis scotti
+552,Chromis scotti,130,Roatan,1,m,2.542857143,2.542857143,Chromis scotti
+553,Chromis scotti,130,St. Eustatius,6,m,3.42437174,20.54623044,Chromis scotti
+554,Chromis scotti,150,St. Eustatius,1,m,3.366899767,3.366899767,Chromis scotti
+555,Clepticus parrae,10,Roatan,1385,m,2.225,3081.625,Clepticus parrae
+556,Clepticus parrae,20,Roatan,514,m,1.934782609,994.478261,Clepticus parrae
+557,Clepticus parrae,30,Roatan,269,m,1.034883721,278.3837209,Clepticus parrae
+558,Clepticus parrae,40,Curacao,77,m,1.139215137,87.71956555,Clepticus parrae
+559,Clepticus parrae,40,Roatan,24,m,1.1125,26.7,Clepticus parrae
+560,Clepticus parrae,40,St. Eustatius,94,m,10.87650602,1022.391566,Clepticus parrae
+561,Clepticus parrae,50,Bonaire,11,m,0.999995899,10.99995489,Clepticus parrae
+562,Clepticus parrae,50,Curacao,2,m,0.999995899,1.999991798,Clepticus parrae
+563,Clepticus parrae,50,Roatan,13,m,1.390625,18.078125,Clepticus parrae
+564,Clepticus parrae,60,Bonaire,2,m,2.016114097,4.032228194,Clepticus parrae
+565,Clepticus parrae,60,Curacao,125,m,2.016114097,252.0142621,Clepticus parrae
+566,Clepticus parrae,60,Roatan,249,m,1.893617021,471.5106382,Clepticus parrae
+567,Clepticus parrae,70,Curacao,76,m,2.085070543,158.4653613,Clepticus parrae
+568,Clepticus parrae,70,Roatan,259,m,2.656716418,688.0895523,Clepticus parrae
+569,Clepticus parrae,80,Curacao,3,m,1.181725224,3.545175672,Clepticus parrae
+570,Clepticus parrae,80,Roatan,101,m,2.472222222,249.6944444,Clepticus parrae
+571,Clepticus parrae,90,Bonaire,1,m,1.187769118,1.187769118,Clepticus parrae
+572,Clepticus parrae,90,Curacao,4,m,1.187769118,4.751076472,Clepticus parrae
+573,Clepticus parrae,90,Roatan,55,m,2.966666667,163.1666667,Clepticus parrae
+574,Corniger spinosus,110,Bonaire,3,m,1.161185714,3.483557142,Corniger spinosus
+575,Corniger spinosus,120,Bonaire,5,m,1.127104229,5.635521145,Corniger spinosus
+576,Corniger spinosus,120,Roatan,1,m,2.170731707,2.170731707,Corniger spinosus
+577,Corniger spinosus,130,Bonaire,3,m,1.303308391,3.909925173,Corniger spinosus
+578,Corniger spinosus,130,Curacao,1,m,1.303308391,1.303308391,Corniger spinosus
+579,Corniger spinosus,140,Bonaire,1,m,1.365335946,1.365335946,Corniger spinosus
+580,Corniger spinosus,140,Curacao,1,m,1.365335946,1.365335946,Corniger spinosus
+581,Corniger spinosus,150,Bonaire,9,m,1.188927353,10.70034618,Corniger spinosus
+582,Corniger spinosus,150,Curacao,2,m,1.188927353,2.377854706,Corniger spinosus
+583,Corniger spinosus,160,Bonaire,1,m,1.212877394,1.212877394,Corniger spinosus
+584,Corniger spinosus,160,Curacao,2,m,1.212877394,2.425754788,Corniger spinosus
+585,Corniger spinosus,160,Roatan,2,m,1.618181818,3.236363636,Corniger spinosus
+586,Corniger spinosus,160,St. Eustatius,1,m,4.342754059,4.342754059,Corniger spinosus
+587,Corniger spinosus,170,Curacao,1,m,1.172632844,1.172632844,Corniger spinosus
+588,Corniger spinosus,180,Curacao,1,m,1.724533239,1.724533239,Corniger spinosus
+589,Corniger spinosus,230,Curacao,1,m,1.644295347,1.644295347,Corniger spinosus
+590,Coryphopterus curasub,70,Curacao,3,m,2.085070543,6.255211629,Coryphopterus glaucofraenum
+591,Coryphopterus curasub,80,Bonaire,4,m,1.181725224,4.726900896,Coryphopterus glaucofraenum
+592,Coryphopterus curasub,80,Curacao,2,m,1.181725224,2.363450448,Coryphopterus glaucofraenum
+593,Coryphopterus personatus,10,Roatan,40,m,2.225,89,Coryphopterus personatus
+594,Coryphopterus personatus,20,Roatan,72,m,1.934782609,139.3043478,Coryphopterus personatus
+595,Coryphopterus personatus,30,Roatan,289,m,1.034883721,299.0813954,Coryphopterus personatus
+596,Coryphopterus personatus,40,Roatan,720,m,1.1125,801,Coryphopterus personatus
+597,Coryphopterus personatus,50,Roatan,150,m,1.390625,208.59375,Coryphopterus personatus
+598,Coryphopterus personatus,60,Roatan,287,m,1.893617021,543.468085,Coryphopterus personatus
+599,Coryphopterus personatus,70,Roatan,110,m,2.656716418,292.238806,Coryphopterus personatus
+600,Decapterus sp.,80,Roatan,20,m,2.472222222,49.44444444,Decapterus macarellus
+601,Decodon puellaris,120,St. Eustatius,2,m,3.838426787,7.676853574,Decodon puellaris
+602,Decodon puellaris,160,Curacao,3,m,1.212877394,3.638632182,Decodon puellaris
+603,Decodon puellaris,170,St. Eustatius,2,m,3.76734481,7.53468962,Decodon puellaris
+604,Decodon puellaris,180,Curacao,2,m,1.724533239,3.449066478,Decodon puellaris
+605,Decodon puellaris,180,St. Eustatius,2,m,4.174566474,8.349132948,Decodon puellaris
+606,Decodon puellaris,200,Curacao,1,m,1.203301258,1.203301258,Decodon puellaris
+607,Decodon puellaris,200,St. Eustatius,1,m,3.862032086,3.862032086,Decodon puellaris
+608,Decodon puellaris,220,St. Eustatius,3,m,5.980952381,17.94285714,Decodon puellaris
+609,Decodon puellaris,230,Curacao,1,m,1.644295347,1.644295347,Decodon puellaris
+610,Decodon puellaris,230,St. Eustatius,4,m,2.26572549,9.06290196,Decodon puellaris
+611,Decodon shallow,80,Bonaire,2,m,1.181725224,2.363450448,Decodon puellaris
+612,Decodon shallow,90,Bonaire,9,m,1.187769118,10.68992206,Decodon puellaris
+613,Decodon shallow,90,Curacao,1,m,1.187769118,1.187769118,Decodon puellaris
+614,Decodon shallow,90,St. Eustatius,1,m,1,1,Decodon puellaris
+615,Decodon shallow,100,Curacao,1,m,1.379236425,1.379236425,Decodon puellaris
+616,Decodon shallow,100,St. Eustatius,8,m,1.546301253,12.37041002,Decodon puellaris
+617,Decodon shallow,110,Bonaire,2,m,1.161185714,2.322371428,Decodon puellaris
+618,Decodon shallow,110,St. Eustatius,6,m,1.300675371,7.804052226,Decodon puellaris
+619,Decodon shallow,120,Bonaire,5,m,1.127104229,5.635521145,Decodon puellaris
+620,Decodon shallow,120,Curacao,2,m,1.127104229,2.254208458,Decodon puellaris
+621,Decodon shallow,120,St. Eustatius,1,m,3.838426787,3.838426787,Decodon puellaris
+622,Decodon shallow,130,Bonaire,2,m,1.303308391,2.606616782,Decodon puellaris
+623,Decodon shallow,130,Curacao,2,m,1.303308391,2.606616782,Decodon puellaris
+624,Decodon shallow,130,St. Eustatius,5,m,3.42437174,17.1218587,Decodon puellaris
+625,Decodon shallow,140,Bonaire,8,m,1.365335946,10.92268757,Decodon puellaris
+626,Decodon shallow,140,St. Eustatius,2,m,5.143874644,10.28774929,Decodon puellaris
+627,Decodon shallow,150,Bonaire,2,m,1.188927353,2.377854706,Decodon puellaris
+628,Decodon shallow,150,Curacao,1,m,1.188927353,1.188927353,Decodon puellaris
+629,Decodon shallow,150,St. Eustatius,4,m,3.366899767,13.46759907,Decodon puellaris
+630,Decodon shallow,160,Bonaire,1,m,1.212877394,1.212877394,Decodon puellaris
+631,Decodon shallow,180,Curacao,1,m,1.724533239,1.724533239,Decodon puellaris
+632,Derilissus lombardii,100,St. Eustatius,3,m,1.546301253,4.638903759,Derilissus lombardii
+633,Derilissus lombardii,110,St. Eustatius,4,m,1.300675371,5.202701484,Derilissus lombardii
+634,Derilissus lombardii,120,St. Eustatius,5,m,3.838426787,19.19213394,Derilissus lombardii
+635,Derilissus lombardii,150,St. Eustatius,1,m,3.366899767,3.366899767,Derilissus lombardii
+636,Derilissus lombardii,170,St. Eustatius,1,m,3.76734481,3.76734481,Derilissus lombardii
+637,Elacatinus chancei,80,Roatan,1,m,2.472222222,2.472222222,Elacatinus chancei
+638,Elacatinus chancei,110,St. Eustatius,1,m,1.300675371,1.300675371,Elacatinus chancei
+639,Elacatinus lobeli,10,Roatan,1,m,2.225,2.225,Elacatinus lobeli
+640,Epigonidae,260,Roatan,8,m,1.126582278,9.012658224,Epigonus denticulatus
+641,Epigonidae,270,Roatan,4,m,1,4,Epigonus denticulatus
+642,Epigonidae,280,Roatan,6,m,2.022727273,12.13636364,Epigonus denticulatus
+643,Epigonidae,290,Roatan,18,m,1.308823529,23.55882352,Epigonus denticulatus
+644,Epigonidae,300,Roatan,93,m,2.617647059,243.4411765,Epigonus denticulatus
+645,Epigonidae,330,Roatan,11,m,8.090909091,89,Epigonus denticulatus
+646,Epigonidae,350,Roatan,1,m,8.090909091,8.090909091,Epigonus denticulatus
+647,Epigonidae,400,Roatan,1,m,3.708333333,3.708333333,Epigonus denticulatus
+648,Epigonidae,430,Roatan,2,m,2.282051282,4.564102564,Epigonus denticulatus
+649,Epigonidae,440,Roatan,1,m,3.296296296,3.296296296,Epigonus denticulatus
+650,Epigonidae,450,Roatan,2,m,5.933333333,11.86666667,Epigonus denticulatus
+651,Epigonidae,470,Roatan,1,m,5.933333333,5.933333333,Epigonus denticulatus
+652,Epigonidae,480,Roatan,6,m,5.933333333,35.6,Epigonus denticulatus
+653,Epinephalus striatus,60,Roatan,1,m,1.893617021,1.893617021,Epinephelus striatus
+654,Epinephelus adscensionis,40,St. Eustatius,1,m,10.87650602,10.87650602,Epinephelus adscensionis
+655,Epinephelus adscensionis,80,St. Eustatius,1,m,3.768327681,3.768327681,Epinephelus adscensionis
+656,Epinephelus adscensionis,110,St. Eustatius,2,m,1.300675371,2.601350742,Epinephelus adscensionis
+657,Epinephelus adscensionis,150,St. Eustatius,1,m,3.366899767,3.366899767,Epinephelus adscensionis
+658,Epinephelus guttatus,50,St. Eustatius,1,m,15.20421053,15.20421053,Epinephelus guttatus
+659,Epinephelus guttatus,60,St. Eustatius,1,m,6.826086957,6.826086957,Epinephelus guttatus
+660,Epinephelus guttatus,100,St. Eustatius,2,m,1.546301253,3.092602506,Epinephelus guttatus
+661,Equetus lanceolatus,90,Bonaire,2,m,1.187769118,2.375538236,Equetus lanceolatus
+662,Equetus lanceolatus,110,Bonaire,5,m,1.161185714,5.80592857,Equetus lanceolatus
+663,Equetus lanceolatus,120,Bonaire,4,m,1.127104229,4.508416916,Equetus lanceolatus
+664,Equetus lanceolatus,130,Bonaire,3,m,1.303308391,3.909925173,Equetus lanceolatus
+665,Equetus lanceolatus,140,Bonaire,1,m,1.365335946,1.365335946,Equetus lanceolatus
+666,Equetus lanceolatus,150,Bonaire,1,m,1.188927353,1.188927353,Equetus lanceolatus
+667,Equetus lanceolatus,150,St. Eustatius,1,m,3.366899767,3.366899767,Equetus lanceolatus
+668,Etelis oculatus,240,Roatan,1,m,1.711538462,1.711538462,Etelis oculatus
+669,Etelis oculatus,250,Roatan,2,m,1.034883721,2.069767442,Etelis oculatus
+670,Etelis oculatus,290,Roatan,1,m,1.308823529,1.308823529,Etelis oculatus
+671,Fistularia sp.,120,St. Eustatius,1,m,3.838426787,3.838426787,Fistularia commersonii
+672,Fistularia sp.,170,Bonaire,1,m,1.172632844,1.172632844,Fistularia commersonii
+673,Flammeo marianus,40,Roatan,10,m,1.1125,11.125,Neoniphon marianus
+674,Flammeo marianus,50,Curacao,5,m,0.999995899,4.999979495,Neoniphon marianus
+675,Flammeo marianus,50,Roatan,7,m,1.390625,9.734375,Neoniphon marianus
+676,Flammeo marianus,60,Bonaire,1,m,2.016114097,2.016114097,Neoniphon marianus
+677,Flammeo marianus,60,Curacao,10,m,2.016114097,20.16114097,Neoniphon marianus
+678,Flammeo marianus,60,Roatan,18,m,1.893617021,34.08510638,Neoniphon marianus
+679,Flammeo marianus,70,Curacao,2,m,2.085070543,4.170141086,Neoniphon marianus
+680,Flammeo marianus,70,Roatan,18,m,2.656716418,47.82089552,Neoniphon marianus
+681,Flammeo marianus,80,Bonaire,1,m,1.181725224,1.181725224,Neoniphon marianus
+682,Flammeo marianus,80,Curacao,17,m,1.181725224,20.08932881,Neoniphon marianus
+683,Flammeo marianus,80,Roatan,18,m,2.472222222,44.5,Neoniphon marianus
+684,Flammeo marianus,80,St. Eustatius,1,m,3.768327681,3.768327681,Neoniphon marianus
+685,Flammeo marianus,90,Bonaire,1,m,1.187769118,1.187769118,Neoniphon marianus
+686,Flammeo marianus,90,Curacao,2,m,1.187769118,2.375538236,Neoniphon marianus
+687,Flammeo marianus,90,Roatan,29,m,2.966666667,86.03333334,Neoniphon marianus
+688,Flammeo marianus,100,Curacao,1,m,1.379236425,1.379236425,Neoniphon marianus
+689,Flammeo marianus,100,Roatan,8,m,1.483333333,11.86666666,Neoniphon marianus
+690,Flammeo marianus,100,St. Eustatius,19,m,1.546301253,29.37972381,Neoniphon marianus
+691,Flammeo marianus,110,Bonaire,1,m,1.161185714,1.161185714,Neoniphon marianus
+692,Flammeo marianus,110,Roatan,5,m,1.934782609,9.673913045,Neoniphon marianus
+693,Flammeo marianus,110,St. Eustatius,5,m,1.300675371,6.503376855,Neoniphon marianus
+694,Flammeo marianus,120,Roatan,3,m,2.170731707,6.512195121,Neoniphon marianus
+695,Flammeo marianus,120,St. Eustatius,2,m,3.838426787,7.676853574,Neoniphon marianus
+696,Flammeo marianus,130,Roatan,1,m,2.542857143,2.542857143,Neoniphon marianus
+697,Flammeo marianus,130,St. Eustatius,1,m,3.42437174,3.42437174,Neoniphon marianus
+698,Flammeo marianus,140,Roatan,1,m,1.893617021,1.893617021,Neoniphon marianus
+699,Flammeo marianus,140,St. Eustatius,1,m,5.143874644,5.143874644,Neoniphon marianus
+700,Flammeo marianus,150,St. Eustatius,1,m,3.366899767,3.366899767,Neoniphon marianus
+701,Foetorepus agassizii,240,Curacao,1,m,2.350351807,2.350351807,Foetorepus agassizii
+702,Foetorepus agassizii,250,Curacao,2,m,3.051927409,6.103854818,Foetorepus agassizii
+703,Foetorepus agassizii,280,Curacao,3,m,3.295256757,9.885770271,Foetorepus agassizii
+704,Foetorepus agassizii,300,Curacao,1,m,8.196605042,8.196605042,Foetorepus agassizii
+705,Gastropsetta frontalis,210,St. Eustatius,1,m,2.498961938,2.498961938,Gastropsetta frontalis
+706,Gephyroberyx darwinii,160,Curacao,1,m,1.212877394,1.212877394,Gephyroberyx darwinii
+707,Gephyroberyx darwinii,190,Roatan,1,m,1.934782609,1.934782609,Gephyroberyx darwinii
+708,Gephyroberyx darwinii,220,Roatan,2,m,1.854166667,3.708333334,Gephyroberyx darwinii
+709,Gephyroberyx darwinii,230,Curacao,2,m,1.644295347,3.288590694,Gephyroberyx darwinii
+710,Gephyroberyx darwinii,240,Roatan,1,m,1.711538462,1.711538462,Gephyroberyx darwinii
+711,Gephyroberyx darwinii,250,Curacao,1,m,3.051927409,3.051927409,Gephyroberyx darwinii
+712,Gephyroberyx darwinii,250,Roatan,1,m,1.034883721,1.034883721,Gephyroberyx darwinii
+713,Gephyroberyx darwinii,260,Curacao,2,m,2.855374707,5.710749414,Gephyroberyx darwinii
+714,Gephyroberyx darwinii,260,Roatan,3,m,1.126582278,3.379746834,Gephyroberyx darwinii
+715,Gephyroberyx darwinii,270,Curacao,5,m,3.382094313,16.91047157,Gephyroberyx darwinii
+716,Gephyroberyx darwinii,280,Curacao,1,m,3.295256757,3.295256757,Gephyroberyx darwinii
+717,Gephyroberyx darwinii,280,Roatan,4,m,2.022727273,8.090909092,Gephyroberyx darwinii
+718,Gephyroberyx darwinii,410,Roatan,1,m,3.068965517,3.068965517,Gephyroberyx darwinii
+719,Gephyroberyx darwinii,420,Roatan,1,m,3.178571429,3.178571429,Gephyroberyx darwinii
+720,Gephyroberyx darwinii,430,Roatan,1,m,2.282051282,2.282051282,Gephyroberyx darwinii
+721,Gephyroberyx darwinii,460,Roatan,1,m,5.933333333,5.933333333,Gephyroberyx darwinii
+722,Gnatholepis thompsoni,40,Roatan,11,m,1.1125,12.2375,Gnatholepis thompsoni
+723,Gnatholepis thompsoni,50,Roatan,18,m,1.390625,25.03125,Gnatholepis thompsoni
+724,Gnatholepis thompsoni,60,Roatan,8,m,1.893617021,15.14893617,Gnatholepis thompsoni
+725,Gnatholepis thompsoni,70,Roatan,10,m,2.656716418,26.56716418,Gnatholepis thompsoni
+726,Gnatholepis thompsoni,80,Bonaire,1,m,1.181725224,1.181725224,Gnatholepis thompsoni
+727,Gnatholepis thompsoni,80,St. Eustatius,1,m,3.768327681,3.768327681,Gnatholepis thompsoni
+728,Gonioplectrus hispanus,100,Curacao,1,m,1.379236425,1.379236425,Gonioplectrus hispanus
+729,Gonioplectrus hispanus,120,Curacao,4,m,1.127104229,4.508416916,Gonioplectrus hispanus
+730,Gonioplectrus hispanus,130,Curacao,9,m,1.303308391,11.72977552,Gonioplectrus hispanus
+731,Gonioplectrus hispanus,140,Curacao,8,m,1.365335946,10.92268757,Gonioplectrus hispanus
+732,Gonioplectrus hispanus,150,Bonaire,11,m,1.188927353,13.07820088,Gonioplectrus hispanus
+733,Gonioplectrus hispanus,150,Curacao,13,m,1.188927353,15.45605559,Gonioplectrus hispanus
+734,Gonioplectrus hispanus,150,St. Eustatius,1,m,3.366899767,3.366899767,Gonioplectrus hispanus
+735,Gonioplectrus hispanus,160,Bonaire,2,m,1.212877394,2.425754788,Gonioplectrus hispanus
+736,Gonioplectrus hispanus,160,Curacao,10,m,1.212877394,12.12877394,Gonioplectrus hispanus
+737,Gonioplectrus hispanus,170,Curacao,5,m,1.172632844,5.86316422,Gonioplectrus hispanus
+738,Gonioplectrus hispanus,180,Curacao,3,m,1.724533239,5.173599717,Gonioplectrus hispanus
+739,Gonioplectrus hispanus,200,Curacao,2,m,1.203301258,2.406602516,Gonioplectrus hispanus
+740,Gonioplectrus hispanus,200,Roatan,1,m,1.369230769,1.369230769,Gonioplectrus hispanus
+741,Gonioplectrus hispanus,220,Curacao,1,m,1.136560242,1.136560242,Gonioplectrus hispanus
+742,Gramma linki,40,Roatan,1,m,1.1125,1.1125,Gramma linki
+743,Gramma linki,70,Roatan,9,m,2.656716418,23.91044776,Gramma linki
+744,Gramma linki,80,Roatan,1,m,2.472222222,2.472222222,Gramma linki
+745,Gramma linki,80,St. Eustatius,2,m,3.768327681,7.536655362,Gramma linki
+746,Gramma linki,90,Roatan,5,m,2.966666667,14.83333334,Gramma linki
+747,Gramma linki,100,Roatan,1,m,1.483333333,1.483333333,Gramma linki
+748,Gramma linki,100,St. Eustatius,2,m,1.546301253,3.092602506,Gramma linki
+749,Gramma linki,110,Roatan,1,m,1.934782609,1.934782609,Gramma linki
+750,Gramma linki,110,St. Eustatius,2,m,1.300675371,2.601350742,Gramma linki
+751,Gramma loreto,10,Roatan,32,m,2.225,71.2,Gramma loreto
+752,Gramma loreto,20,Roatan,36,m,1.934782609,69.65217392,Gramma loreto
+753,Gramma loreto,30,Roatan,13,m,1.034883721,13.45348837,Gramma loreto
+754,Gramma loreto,40,Bonaire,1,m,1.139215137,1.139215137,Gramma loreto
+755,Gramma loreto,40,Curacao,13,m,1.139215137,14.80979678,Gramma loreto
+756,Gramma loreto,40,Roatan,2,m,1.1125,2.225,Gramma loreto
+757,Gramma loreto,50,Curacao,7,m,0.999995899,6.999971293,Gramma loreto
+758,Gramma loreto,50,Roatan,5,m,1.390625,6.953125,Gramma loreto
+759,Gramma loreto,60,Curacao,7,m,2.016114097,14.11279868,Gramma loreto
+760,Gramma melacara,20,Roatan,4,m,1.934782609,7.739130436,Gramma melacara
+761,Gramma melacara,30,Roatan,42,m,1.034883721,43.46511628,Gramma melacara
+762,Gramma melacara,40,Roatan,136,m,1.1125,151.3,Gramma melacara
+763,Gramma melacara,50,Roatan,21,m,1.390625,29.203125,Gramma melacara
+764,Gramma melacara,60,Roatan,120,m,1.893617021,227.2340425,Gramma melacara
+765,Gramma melacara,70,Roatan,245,m,2.656716418,650.8955224,Gramma melacara
+766,Gramma melacara,80,Roatan,33,m,2.472222222,81.58333333,Gramma melacara
+767,Gramma melacara,90,Roatan,50,m,2.966666667,148.3333334,Gramma melacara
+768,Gramma melacara,100,Roatan,4,m,1.483333333,5.933333332,Gramma melacara
+769,Gramma melacara,110,Roatan,2,m,1.934782609,3.869565218,Gramma melacara
+770,Gymnothorax funebris,50,Bonaire,1,m,0.999995899,0.999995899,Gymnothorax funebris
+771,Gymnothorax moringa,120,Bonaire,1,m,1.127104229,1.127104229,Gymnothorax moringa
+772,Gymnothorax moringa,150,Bonaire,1,m,1.188927353,1.188927353,Gymnothorax moringa
+773,Gymnothorax ocellatus,60,St. Eustatius,1,m,6.826086957,6.826086957,Gymnothorax ocellatus
+774,Gymnothorax ocellatus,130,Bonaire,1,m,1.303308391,1.303308391,Gymnothorax ocellatus
+775,Gymnothorax ocellatus,140,Bonaire,1,m,1.365335946,1.365335946,Gymnothorax ocellatus
+776,Gymnothorax ocellatus,170,Bonaire,2,m,1.172632844,2.345265688,Gymnothorax ocellatus
+777,Gymnothorax ocellatus,180,Bonaire,2,m,1.724533239,3.449066478,Gymnothorax ocellatus
+778,Gymnothorax ocellatus,190,Bonaire,1,m,1.643187332,1.643187332,Gymnothorax ocellatus
+779,Haemulon bonariense,40,Roatan,1,m,1.1125,1.1125,Haemulon bonariense
+780,Haemulon chrysargyreum,110,Bonaire,51,m,1.161185714,59.22047141,Haemulon chrysargyreum
+781,Haemulon chrysargyreum,140,Bonaire,2,m,1.365335946,2.730671892,Haemulon chrysargyreum
+782,Haemulon flavolineatum,10,Roatan,4,m,2.225,8.9,Haemulon flavolineatum
+783,Haemulon flavolineatum,20,Roatan,2,m,1.934782609,3.869565218,Haemulon flavolineatum
+784,Haemulon flavolineatum,30,Roatan,1,m,1.034883721,1.034883721,Haemulon flavolineatum
+785,Haemulon flavolineatum,40,Roatan,3,m,1.1125,3.3375,Haemulon flavolineatum
+786,Haemulon flavolineatum,50,Bonaire,2,m,0.999995899,1.999991798,Haemulon flavolineatum
+787,Haemulon flavolineatum,50,Curacao,2,m,0.999995899,1.999991798,Haemulon flavolineatum
+788,Haemulon flavolineatum,50,Roatan,3,m,1.390625,4.171875,Haemulon flavolineatum
+789,Haemulon flavolineatum,60,Bonaire,3,m,2.016114097,6.048342291,Haemulon flavolineatum
+790,Haemulon flavolineatum,60,Curacao,5,m,2.016114097,10.08057049,Haemulon flavolineatum
+791,Haemulon flavolineatum,60,Roatan,4,m,1.893617021,7.574468084,Haemulon flavolineatum
+792,Haemulon flavolineatum,70,Curacao,4,m,2.085070543,8.340282172,Haemulon flavolineatum
+793,Haemulon flavolineatum,70,Roatan,5,m,2.656716418,13.28358209,Haemulon flavolineatum
+794,Haemulon flavolineatum,80,Bonaire,1,m,1.181725224,1.181725224,Haemulon flavolineatum
+795,Haemulon plumierii,10,Roatan,1,m,2.225,2.225,Haemulon plumierii
+796,Haemulon plumierii,30,Roatan,1,m,1.034883721,1.034883721,Haemulon plumierii
+797,Haemulon plumierii,40,Roatan,3,m,1.1125,3.3375,Haemulon plumierii
+798,Haemulon plumierii,60,Roatan,2,m,1.893617021,3.787234042,Haemulon plumierii
+799,Haemulon sciurus,20,Roatan,1,m,1.934782609,1.934782609,Haemulon sciurus
+800,Haemulon striatum,50,Curacao,1,m,0.999995899,0.999995899,Haemulon striatum
+801,Haemulon striatum,60,Bonaire,4,m,2.016114097,8.064456388,Haemulon striatum
+802,Haemulon striatum,60,Curacao,2,m,2.016114097,4.032228194,Haemulon striatum
+803,Haemulon striatum,70,Curacao,23,m,2.085070543,47.95662249,Haemulon striatum
+804,Haemulon striatum,70,Roatan,1,m,2.656716418,2.656716418,Haemulon striatum
+805,Haemulon striatum,80,Curacao,3,m,1.181725224,3.545175672,Haemulon striatum
+806,Haemulon striatum,80,Roatan,1,m,2.472222222,2.472222222,Haemulon striatum
+807,Haemulon striatum,80,St. Eustatius,4,m,3.768327681,15.07331072,Haemulon striatum
+808,Haemulon striatum,90,Bonaire,40,m,1.187769118,47.51076472,Haemulon striatum
+809,Haemulon striatum,90,Curacao,3,m,1.187769118,3.563307354,Haemulon striatum
+810,Haemulon striatum,90,Roatan,165,m,2.966666667,489.5000001,Haemulon striatum
+811,Haemulon striatum,100,Curacao,1,m,1.379236425,1.379236425,Haemulon striatum
+812,Haemulon striatum,100,Roatan,2,m,1.483333333,2.966666666,Haemulon striatum
+813,Haemulon striatum,110,Roatan,4,m,1.934782609,7.739130436,Haemulon striatum
+814,Haemulon striatum,120,Bonaire,3,m,1.127104229,3.381312687,Haemulon striatum
+815,Haemulon striatum,120,Roatan,30,m,2.170731707,65.12195121,Haemulon striatum
+816,Haemulon striatum,140,Roatan,24,m,1.893617021,45.4468085,Haemulon striatum
+817,Haemulon striatum,150,Roatan,2,m,2.022727273,4.045454546,Haemulon striatum
+818,Haemulon vittata,60,Curacao,2,m,2.016114097,4.032228194,Haemulon vittatum
+819,Haemulon vittata,100,Curacao,15,m,1.379236425,20.68854638,Haemulon vittatum
+820,Halichoeres bathyphilus,80,Bonaire,20,m,1.181725224,23.63450448,Halichoeres bathyphilus
+821,Halichoeres bathyphilus,100,St. Eustatius,1,m,1.546301253,1.546301253,Halichoeres bathyphilus
+822,Halichoeres bathyphilus,110,Bonaire,2,m,1.161185714,2.322371428,Halichoeres bathyphilus
+823,Halichoeres garnoti,10,Roatan,10,m,2.225,22.25,Halichoeres garnoti
+824,Halichoeres garnoti,20,Roatan,23,m,1.934782609,44.50000001,Halichoeres garnoti
+825,Halichoeres garnoti,30,Roatan,15,m,1.034883721,15.52325582,Halichoeres garnoti
+826,Halichoeres garnoti,40,Bonaire,1,m,1.139215137,1.139215137,Halichoeres garnoti
+827,Halichoeres garnoti,40,Roatan,35,m,1.1125,38.9375,Halichoeres garnoti
+828,Halichoeres garnoti,40,St. Eustatius,26,m,10.87650602,282.7891565,Halichoeres garnoti
+829,Halichoeres garnoti,50,Bonaire,9,m,0.999995899,8.999963091,Halichoeres garnoti
+830,Halichoeres garnoti,50,Roatan,18,m,1.390625,25.03125,Halichoeres garnoti
+831,Halichoeres garnoti,50,St. Eustatius,9,m,15.20421053,136.8378948,Halichoeres garnoti
+832,Halichoeres garnoti,60,Bonaire,2,m,2.016114097,4.032228194,Halichoeres garnoti
+833,Halichoeres garnoti,60,Roatan,38,m,1.893617021,71.9574468,Halichoeres garnoti
+834,Halichoeres garnoti,60,St. Eustatius,1,m,6.826086957,6.826086957,Halichoeres garnoti
+835,Halichoeres garnoti,70,Bonaire,1,m,2.085070543,2.085070543,Halichoeres garnoti
+836,Halichoeres garnoti,70,Roatan,32,m,2.656716418,85.01492538,Halichoeres garnoti
+837,Halichoeres garnoti,70,St. Eustatius,1,m,5.971062422,5.971062422,Halichoeres garnoti
+838,Halichoeres garnoti,80,Roatan,10,m,2.472222222,24.72222222,Halichoeres garnoti
+839,Halichoeres garnoti,80,St. Eustatius,9,m,3.768327681,33.91494913,Halichoeres garnoti
+840,Halichoeres garnoti,90,Bonaire,1,m,1.187769118,1.187769118,Halichoeres garnoti
+841,Halichoeres garnoti,90,Roatan,5,m,2.966666667,14.83333334,Halichoeres garnoti
+842,Halichoeres garnoti,90,St. Eustatius,4,m,1,4,Halichoeres garnoti
+843,Halichoeres garnoti,110,St. Eustatius,2,m,1.300675371,2.601350742,Halichoeres garnoti
+844,Halichoeres maculipinna,10,Roatan,1,m,2.225,2.225,Halichoeres maculipinna
+845,Halichoeres maculipinna,20,Roatan,1,m,1.934782609,1.934782609,Halichoeres maculipinna
+846,Halichoeres maculipinna,40,Roatan,1,m,1.1125,1.1125,Halichoeres maculipinna
+847,Halichoeres pictus,10,Roatan,2,m,2.225,4.45,Halichoeres pictus
+848,Halichoeres pictus,40,Roatan,16,m,1.1125,17.8,Halichoeres pictus
+849,Halichoeres pictus,50,Roatan,1,m,1.390625,1.390625,Halichoeres pictus
+850,Haptoclinus dropi,150,Curacao,1,m,1.188927353,1.188927353,Haptoclinus dropi
+851,Haptoclinus dropi,160,Curacao,1,m,1.212877394,1.212877394,Haptoclinus dropi
+852,Haptoclinus dropi,360,Roatan,1,m,8.090909091,8.090909091,Haptoclinus dropi
+853,Hemanthias leptus,110,Curacao,2,m,1.161185714,2.322371428,Hemanthias leptus
+854,Hemanthias leptus,150,Bonaire,3,m,1.188927353,3.566782059,Hemanthias leptus
+855,Hemanthias leptus,180,Bonaire,1,m,1.724533239,1.724533239,Hemanthias leptus
+856,Heteropriacanthus cruentatus,160,Roatan,2,m,1.618181818,3.236363636,Heteropriacanthus cruentatus
+857,Heteropriacanthus cruentatus,170,Roatan,1,m,1.022988506,1.022988506,Heteropriacanthus cruentatus
+858,Holacanthus ciliaris,10,Roatan,4,m,2.225,8.9,Holacanthus ciliaris
+859,Holacanthus ciliaris,20,Roatan,2,m,1.934782609,3.869565218,Holacanthus ciliaris
+860,Holacanthus ciliaris,30,Roatan,7,m,1.034883721,7.244186047,Holacanthus ciliaris
+861,Holacanthus ciliaris,50,Roatan,1,m,1.390625,1.390625,Holacanthus ciliaris
+862,Holacanthus ciliaris,60,Roatan,1,m,1.893617021,1.893617021,Holacanthus ciliaris
+863,Holacanthus ciliaris,70,Roatan,3,m,2.656716418,7.970149254,Holacanthus ciliaris
+864,Holacanthus ciliaris,80,Bonaire,1,m,1.181725224,1.181725224,Holacanthus ciliaris
+865,Holacanthus ciliaris,80,Roatan,1,m,2.472222222,2.472222222,Holacanthus ciliaris
+866,Holacanthus ciliaris,90,Roatan,5,m,2.966666667,14.83333334,Holacanthus ciliaris
+867,Holacanthus ciliaris,110,St. Eustatius,1,m,1.300675371,1.300675371,Holacanthus ciliaris
+868,Holacanthus ciliaris,120,St. Eustatius,2,m,3.838426787,7.676853574,Holacanthus ciliaris
+869,Holacanthus tricolor,30,Roatan,2,m,1.034883721,2.069767442,Holacanthus tricolor
+870,Holacanthus tricolor,40,Roatan,2,m,1.1125,2.225,Holacanthus tricolor
+871,Holacanthus tricolor,40,St. Eustatius,1,m,10.87650602,10.87650602,Holacanthus tricolor
+872,Holacanthus tricolor,50,Roatan,5,m,1.390625,6.953125,Holacanthus tricolor
+873,Holacanthus tricolor,50,St. Eustatius,7,m,15.20421053,106.4294737,Holacanthus tricolor
+874,Holacanthus tricolor,60,Roatan,2,m,1.893617021,3.787234042,Holacanthus tricolor
+875,Holacanthus tricolor,70,Roatan,1,m,2.656716418,2.656716418,Holacanthus tricolor
+876,Holacanthus tricolor,80,St. Eustatius,2,m,3.768327681,7.536655362,Holacanthus tricolor
+877,Holacanthus tricolor,100,St. Eustatius,1,m,1.546301253,1.546301253,Holacanthus tricolor
+878,Holacanthus tricolor,110,St. Eustatius,1,m,1.300675371,1.300675371,Holacanthus tricolor
+879,Holacanthus tricolor,140,St. Eustatius,1,m,5.143874644,5.143874644,Holacanthus tricolor
+880,Hollardia hollardi,400,Roatan,1,m,3.708333333,3.708333333,Hollardia hollardi
+881,Hollardia hollardi,410,Roatan,1,m,3.068965517,3.068965517,Hollardia hollardi
+882,Hollardia hollardi,430,Roatan,2,m,2.282051282,4.564102564,Hollardia hollardi
+883,Hollardia hollardi,470,Roatan,1,m,5.933333333,5.933333333,Hollardia hollardi
+884,Hollardia hollardi,480,Roatan,2,m,5.933333333,11.86666667,Hollardia hollardi
+885,Holocentrus adscensionis,50,Bonaire,1,m,0.999995899,0.999995899,Holocentrus adscensionis
+886,Holocentrus adscensionis,50,St. Eustatius,13,m,15.20421053,197.6547369,Holocentrus adscensionis
+887,Holocentrus adscensionis,80,St. Eustatius,4,m,3.768327681,15.07331072,Holocentrus adscensionis
+888,Holocentrus adscensionis,90,Bonaire,3,m,1.187769118,3.563307354,Holocentrus adscensionis
+889,Holocentrus adscensionis,90,St. Eustatius,4,m,1,4,Holocentrus adscensionis
+890,Holocentrus adscensionis,100,St. Eustatius,2,m,1.546301253,3.092602506,Holocentrus adscensionis
+891,Holocentrus adscensionis,120,Bonaire,2,m,1.127104229,2.254208458,Holocentrus adscensionis
+892,Holocentrus adscensionis,120,St. Eustatius,2,m,3.838426787,7.676853574,Holocentrus adscensionis
+893,Holocentrus adscensionis,130,St. Eustatius,2,m,3.42437174,6.84874348,Holocentrus adscensionis
+894,Holocentrus adscensionis,140,St. Eustatius,5,m,5.143874644,25.71937322,Holocentrus adscensionis
+895,Holocentrus adscensionis,150,St. Eustatius,2,m,3.366899767,6.733799534,Holocentrus adscensionis
+896,Holocentrus rufus,40,Roatan,2,m,1.1125,2.225,Holocentrus rufus
+897,Holocentrus rufus,40,St. Eustatius,4,m,10.87650602,43.50602408,Holocentrus rufus
+898,Holocentrus rufus,50,Roatan,1,m,1.390625,1.390625,Holocentrus rufus
+899,Holocentrus rufus,50,St. Eustatius,1,m,15.20421053,15.20421053,Holocentrus rufus
+900,Holocentrus rufus,60,Roatan,3,m,1.893617021,5.680851063,Holocentrus rufus
+901,Holocentrus rufus,60,St. Eustatius,1,m,6.826086957,6.826086957,Holocentrus rufus
+902,Holocentrus rufus,70,Roatan,8,m,2.656716418,21.25373134,Holocentrus rufus
+903,Holocentrus rufus,70,St. Eustatius,2,m,5.971062422,11.94212484,Holocentrus rufus
+904,Holocentrus rufus,80,Roatan,9,m,2.472222222,22.25,Holocentrus rufus
+905,Holocentrus rufus,80,St. Eustatius,2,m,3.768327681,7.536655362,Holocentrus rufus
+906,Holocentrus rufus,90,Roatan,18,m,2.966666667,53.40000001,Holocentrus rufus
+907,Holocentrus rufus,90,St. Eustatius,3,m,1,3,Holocentrus rufus
+908,Holocentrus rufus,100,Roatan,2,m,1.483333333,2.966666666,Holocentrus rufus
+909,Holocentrus rufus,100,St. Eustatius,4,m,1.546301253,6.185205012,Holocentrus rufus
+910,Holocentrus rufus,110,Roatan,1,m,1.934782609,1.934782609,Holocentrus rufus
+911,Holocentrus rufus,110,St. Eustatius,5,m,1.300675371,6.503376855,Holocentrus rufus
+912,Holocentrus rufus,120,Roatan,1,m,2.170731707,2.170731707,Holocentrus rufus
+913,Holocentrus rufus,140,Roatan,1,m,1.893617021,1.893617021,Holocentrus rufus
+914,Hypoplectrus chlorurus,50,Bonaire,3,m,0.999995899,2.999987697,Hypoplectrus chlorurus
+915,Hypoplectrus indigo,10,Roatan,3,m,2.225,6.675,Hypoplectrus indigo
+916,Hypoplectrus indigo,50,St. Eustatius,1,m,15.20421053,15.20421053,Hypoplectrus indigo
+917,Hypoplectrus nigricans,10,Roatan,2,m,2.225,4.45,Hypoplectrus nigricans
+918,Hypoplectrus nigricans,20,Roatan,1,m,1.934782609,1.934782609,Hypoplectrus nigricans
+919,Hypoplectrus nigricans,60,Roatan,2,m,1.893617021,3.787234042,Hypoplectrus nigricans
+920,Hypoplectrus puella,20,Roatan,1,m,1.934782609,1.934782609,Hypoplectrus puella
+921,Hypoplectrus puella,30,Roatan,1,m,1.034883721,1.034883721,Hypoplectrus puella
+922,Hypoplectrus puella,40,St. Eustatius,1,m,10.87650602,10.87650602,Hypoplectrus puella
+923,Hyporthodus niveatus,170,Bonaire,1,m,1.172632844,1.172632844,Hyporthodus niveatus
+924,Jeboehlkia gladifer,120,Curacao,1,m,1.127104229,1.127104229,Jeboehlkia gladifer
+925,Jeboehlkia gladifer,150,Bonaire,1,m,1.188927353,1.188927353,Jeboehlkia gladifer
+926,Jeboehlkia gladifer,160,Bonaire,2,m,1.212877394,2.425754788,Jeboehlkia gladifer
+927,Jeboehlkia gladifer,170,Bonaire,1,m,1.172632844,1.172632844,Jeboehlkia gladifer
+928,Jeboehlkia gladifer,170,Curacao,9,m,1.172632844,10.5536956,Jeboehlkia gladifer
+929,Jeboehlkia gladifer,170,Roatan,2,m,1.022988506,2.045977012,Jeboehlkia gladifer
+930,Jeboehlkia gladifer,180,Bonaire,1,m,1.724533239,1.724533239,Jeboehlkia gladifer
+931,Jeboehlkia gladifer,180,Curacao,4,m,1.724533239,6.898132956,Jeboehlkia gladifer
+932,Jeboehlkia gladifer,190,Curacao,7,m,1.643187332,11.50231132,Jeboehlkia gladifer
+933,Jeboehlkia gladifer,200,Curacao,3,m,1.203301258,3.609903774,Jeboehlkia gladifer
+934,Jeboehlkia gladifer,210,Curacao,5,m,1.454078712,7.27039356,Jeboehlkia gladifer
+935,Jeboehlkia gladifer,220,Curacao,3,m,1.136560242,3.409680726,Jeboehlkia gladifer
+936,Jeboehlkia gladifer,230,Curacao,8,m,1.644295347,13.15436278,Jeboehlkia gladifer
+937,Jeboehlkia gladifer,240,Curacao,4,m,2.350351807,9.401407228,Jeboehlkia gladifer
+938,Jeboehlkia gladifer,250,Curacao,5,m,3.051927409,15.25963705,Jeboehlkia gladifer
+939,Jeboehlkia gladifer,250,Roatan,1,m,1.034883721,1.034883721,Jeboehlkia gladifer
+940,Jeboehlkia gladifer,260,Curacao,2,m,2.855374707,5.710749414,Jeboehlkia gladifer
+941,Jeboehlkia gladifer,270,Curacao,2,m,3.382094313,6.764188626,Jeboehlkia gladifer
+942,Jeboehlkia gladifer,280,Curacao,1,m,3.295256757,3.295256757,Jeboehlkia gladifer
+943,Jeboehlkia gladifer,280,Roatan,2,m,2.022727273,4.045454546,Jeboehlkia gladifer
+944,Jeboehlkia gladifer,290,Roatan,3,m,1.308823529,3.926470587,Jeboehlkia gladifer
+945,Jeboehlkia gladifer,300,Curacao,1,m,8.196605042,8.196605042,Jeboehlkia gladifer
+946,Jeboehlkia gladifer,360,Roatan,1,m,8.090909091,8.090909091,Jeboehlkia gladifer
+947,Jeboehlkia gladifer,390,Roatan,2,m,8.090909091,16.18181818,Jeboehlkia gladifer
+948,Lachnolaimus maximus,50,Roatan,1,m,1.390625,1.390625,Lachnolaimus maximus
+949,Lactophrys trigonus,60,Roatan,1,m,1.893617021,1.893617021,Lactophrys trigonus
+950,Lactophrys triqueter,10,Roatan,1,m,2.225,2.225,Lactophrys triqueter
+951,Lactophrys triqueter,70,Bonaire,2,m,2.085070543,4.170141086,Lactophrys triqueter
+952,Liopropoma aberrans,90,Curacao,2,m,1.187769118,2.375538236,Liopropoma aberrans
+953,Liopropoma aberrans,110,Curacao,7,m,1.161185714,8.128299998,Liopropoma aberrans
+954,Liopropoma aberrans,110,Roatan,1,m,1.934782609,1.934782609,Liopropoma aberrans
+955,Liopropoma aberrans,120,Bonaire,1,m,1.127104229,1.127104229,Liopropoma aberrans
+956,Liopropoma aberrans,120,Curacao,7,m,1.127104229,7.889729603,Liopropoma aberrans
+957,Liopropoma aberrans,120,Roatan,2,m,2.170731707,4.341463414,Liopropoma aberrans
+958,Liopropoma aberrans,130,Curacao,4,m,1.303308391,5.213233564,Liopropoma aberrans
+959,Liopropoma aberrans,130,Roatan,2,m,2.542857143,5.085714286,Liopropoma aberrans
+960,Liopropoma aberrans,140,Curacao,4,m,1.365335946,5.461343784,Liopropoma aberrans
+961,Liopropoma aberrans,140,Roatan,2,m,1.893617021,3.787234042,Liopropoma aberrans
+962,Liopropoma aberrans,150,Curacao,8,m,1.188927353,9.511418824,Liopropoma aberrans
+963,Liopropoma aberrans,150,Roatan,11,m,2.022727273,22.25,Liopropoma aberrans
+964,Liopropoma aberrans,160,Bonaire,1,m,1.212877394,1.212877394,Liopropoma aberrans
+965,Liopropoma aberrans,160,Curacao,1,m,1.212877394,1.212877394,Liopropoma aberrans
+966,Liopropoma aberrans,160,Roatan,1,m,1.618181818,1.618181818,Liopropoma aberrans
+967,Liopropoma aberrans,170,Curacao,4,m,1.172632844,4.690531376,Liopropoma aberrans
+968,Liopropoma aberrans,170,Roatan,4,m,1.022988506,4.091954024,Liopropoma aberrans
+969,Liopropoma aberrans,180,Roatan,1,m,2.870967742,2.870967742,Liopropoma aberrans
+970,Liopropoma aberrans,190,Roatan,1,m,1.934782609,1.934782609,Liopropoma aberrans
+971,Liopropoma aberrans,240,Curacao,1,m,2.350351807,2.350351807,Liopropoma aberrans
+972,Liopropoma carmabi,70,Bonaire,1,m,2.085070543,2.085070543,Liopropoma carmabi
+973,Liopropoma carmabi,70,St. Eustatius,1,m,5.971062422,5.971062422,Liopropoma carmabi
+974,Liopropoma carmabi,80,Bonaire,2,m,1.181725224,2.363450448,Liopropoma carmabi
+975,Liopropoma carmabi,160,St. Eustatius,1,m,4.342754059,4.342754059,Liopropoma carmabi
+976,Liopropoma mowbrayi,40,Roatan,6,m,1.1125,6.675,Liopropoma mowbrayi
+977,Liopropoma mowbrayi,50,Curacao,1,m,0.999995899,0.999995899,Liopropoma mowbrayi
+978,Liopropoma mowbrayi,50,Roatan,1,m,1.390625,1.390625,Liopropoma mowbrayi
+979,Liopropoma mowbrayi,60,Curacao,3,m,2.016114097,6.048342291,Liopropoma mowbrayi
+980,Liopropoma mowbrayi,60,Roatan,7,m,1.893617021,13.25531915,Liopropoma mowbrayi
+981,Liopropoma mowbrayi,70,Curacao,7,m,2.085070543,14.5954938,Liopropoma mowbrayi
+982,Liopropoma mowbrayi,70,Roatan,21,m,2.656716418,55.79104478,Liopropoma mowbrayi
+983,Liopropoma mowbrayi,70,St. Eustatius,1,m,5.971062422,5.971062422,Liopropoma mowbrayi
+984,Liopropoma mowbrayi,80,Bonaire,5,m,1.181725224,5.90862612,Liopropoma mowbrayi
+985,Liopropoma mowbrayi,80,Curacao,13,m,1.181725224,15.36242791,Liopropoma mowbrayi
+986,Liopropoma mowbrayi,80,Roatan,3,m,2.472222222,7.416666666,Liopropoma mowbrayi
+987,Liopropoma mowbrayi,80,St. Eustatius,1,m,3.768327681,3.768327681,Liopropoma mowbrayi
+988,Liopropoma mowbrayi,90,Bonaire,1,m,1.187769118,1.187769118,Liopropoma mowbrayi
+989,Liopropoma mowbrayi,90,Curacao,24,m,1.187769118,28.50645883,Liopropoma mowbrayi
+990,Liopropoma mowbrayi,90,Roatan,30,m,2.966666667,89.00000001,Liopropoma mowbrayi
+991,Liopropoma mowbrayi,90,St. Eustatius,1,m,1,1,Liopropoma mowbrayi
+992,Liopropoma mowbrayi,100,Curacao,31,m,1.379236425,42.75632918,Liopropoma mowbrayi
+993,Liopropoma mowbrayi,100,Roatan,10,m,1.483333333,14.83333333,Liopropoma mowbrayi
+994,Liopropoma mowbrayi,100,St. Eustatius,11,m,1.546301253,17.00931378,Liopropoma mowbrayi
+995,Liopropoma mowbrayi,110,Curacao,27,m,1.161185714,31.35201428,Liopropoma mowbrayi
+996,Liopropoma mowbrayi,110,Roatan,13,m,1.934782609,25.15217392,Liopropoma mowbrayi
+997,Liopropoma mowbrayi,110,St. Eustatius,15,m,1.300675371,19.51013057,Liopropoma mowbrayi
+998,Liopropoma mowbrayi,120,Curacao,3,m,1.127104229,3.381312687,Liopropoma mowbrayi
+999,Liopropoma mowbrayi,120,Roatan,12,m,2.170731707,26.04878048,Liopropoma mowbrayi
+1000,Liopropoma mowbrayi,120,St. Eustatius,8,m,3.838426787,30.7074143,Liopropoma mowbrayi
+1001,Liopropoma mowbrayi,130,Curacao,2,m,1.303308391,2.606616782,Liopropoma mowbrayi
+1002,Liopropoma mowbrayi,130,Roatan,7,m,2.542857143,17.8,Liopropoma mowbrayi
+1003,Liopropoma mowbrayi,130,St. Eustatius,4,m,3.42437174,13.69748696,Liopropoma mowbrayi
+1004,Liopropoma mowbrayi,140,Roatan,1,m,1.893617021,1.893617021,Liopropoma mowbrayi
+1005,Liopropoma mowbrayi,140,St. Eustatius,4,m,5.143874644,20.57549858,Liopropoma mowbrayi
+1006,Liopropoma mowbrayi,150,Roatan,1,m,2.022727273,2.022727273,Liopropoma mowbrayi
+1007,Liopropoma olneyi,110,Bonaire,3,m,1.161185714,3.483557142,Liopropoma olneyi
+1008,Liopropoma olneyi,110,Curacao,6,m,1.161185714,6.967114284,Liopropoma olneyi
+1009,Liopropoma olneyi,120,Bonaire,4,m,1.127104229,4.508416916,Liopropoma olneyi
+1010,Liopropoma olneyi,120,Curacao,13,m,1.127104229,14.65235498,Liopropoma olneyi
+1011,Liopropoma olneyi,130,Bonaire,4,m,1.303308391,5.213233564,Liopropoma olneyi
+1012,Liopropoma olneyi,130,Curacao,8,m,1.303308391,10.42646713,Liopropoma olneyi
+1013,Liopropoma olneyi,140,Bonaire,9,m,1.365335946,12.28802351,Liopropoma olneyi
+1014,Liopropoma olneyi,140,Curacao,7,m,1.365335946,9.557351622,Liopropoma olneyi
+1015,Liopropoma olneyi,140,St. Eustatius,1,m,5.143874644,5.143874644,Liopropoma olneyi
+1016,Liopropoma olneyi,150,Bonaire,13,m,1.188927353,15.45605559,Liopropoma olneyi
+1017,Liopropoma olneyi,150,Curacao,12,m,1.188927353,14.26712824,Liopropoma olneyi
+1018,Liopropoma olneyi,150,St. Eustatius,4,m,3.366899767,13.46759907,Liopropoma olneyi
+1019,Liopropoma olneyi,160,Bonaire,2,m,1.212877394,2.425754788,Liopropoma olneyi
+1020,Liopropoma olneyi,160,Curacao,7,m,1.212877394,8.490141758,Liopropoma olneyi
+1021,Liopropoma olneyi,160,St. Eustatius,7,m,4.342754059,30.39927841,Liopropoma olneyi
+1022,Liopropoma olneyi,170,Curacao,5,m,1.172632844,5.86316422,Liopropoma olneyi
+1023,Liopropoma olneyi,170,Roatan,1,m,1.022988506,1.022988506,Liopropoma olneyi
+1024,Liopropoma olneyi,170,St. Eustatius,3,m,3.76734481,11.30203443,Liopropoma olneyi
+1025,Liopropoma olneyi,180,Curacao,12,m,1.724533239,20.69439887,Liopropoma olneyi
+1026,Liopropoma olneyi,180,St. Eustatius,2,m,4.174566474,8.349132948,Liopropoma olneyi
+1027,Liopropoma olneyi,190,Curacao,4,m,1.643187332,6.572749328,Liopropoma olneyi
+1028,Liopropoma olneyi,190,St. Eustatius,2,m,3.571711177,7.143422354,Liopropoma olneyi
+1029,Liopropoma olneyi,200,St. Eustatius,2,m,3.862032086,7.724064172,Liopropoma olneyi
+1030,Liopropoma olneyi,220,Curacao,2,m,1.136560242,2.273120484,Liopropoma olneyi
+1031,Liopropoma olneyi,230,Roatan,1,m,1.589285714,1.589285714,Liopropoma olneyi
+1032,Liopropoma olneyi,250,Roatan,1,m,1.034883721,1.034883721,Liopropoma olneyi
+1033,Liopropoma santi,180,Curacao,1,m,1.724533239,1.724533239,Liopropoma santi
+1034,Liopropoma santi,240,Curacao,1,m,2.350351807,2.350351807,Liopropoma santi
+1035,Liopropoma santi,250,Roatan,1,m,1.034883721,1.034883721,Liopropoma santi
+1036,Liopropoma santi,260,Roatan,1,m,1.126582278,1.126582278,Liopropoma santi
+1037,Lipogramma barrettorum,130,Curacao,2,m,1.303308391,2.606616782,Lipogramma barrettorum
+1038,Lipogramma barrettorum,160,Curacao,1,m,1.212877394,1.212877394,Lipogramma barrettorum
+1039,Lipogramma evides,130,Curacao,2,m,1.303308391,2.606616782,Lipogramma evides
+1040,Lipogramma evides,140,Bonaire,5,m,1.365335946,6.82667973,Lipogramma evides
+1041,Lipogramma evides,150,Bonaire,1,m,1.188927353,1.188927353,Lipogramma evides
+1042,Lipogramma evides,150,Curacao,5,m,1.188927353,5.944636765,Lipogramma evides
+1043,Lipogramma evides,160,Bonaire,1,m,1.212877394,1.212877394,Lipogramma evides
+1044,Lipogramma evides,160,Curacao,5,m,1.212877394,6.06438697,Lipogramma evides
+1045,Lipogramma evides,170,Curacao,11,m,1.172632844,12.89896128,Lipogramma evides
+1046,Lipogramma evides,180,Curacao,9,m,1.724533239,15.52079915,Lipogramma evides
+1047,Lipogramma evides,180,Roatan,1,m,2.870967742,2.870967742,Lipogramma evides
+1048,Lipogramma evides,190,Curacao,9,m,1.643187332,14.78868599,Lipogramma evides
+1049,Lipogramma evides,200,Curacao,3,m,1.203301258,3.609903774,Lipogramma evides
+1050,Lipogramma evides,210,Curacao,2,m,1.454078712,2.908157424,Lipogramma evides
+1051,Lipogramma evides,210,Roatan,1,m,2.119047619,2.119047619,Lipogramma evides
+1052,Lipogramma evides,230,Roatan,4,m,1.589285714,6.357142856,Lipogramma evides
+1053,Lipogramma evides,240,Curacao,1,m,2.350351807,2.350351807,Lipogramma evides
+1054,Lipogramma evides,240,Roatan,3,m,1.711538462,5.134615386,Lipogramma evides
+1055,Lipogramma evides,240,St. Eustatius,1,m,14.21653543,14.21653543,Lipogramma evides
+1056,Lipogramma evides,260,Curacao,1,m,2.855374707,2.855374707,Lipogramma evides
+1057,Lipogramma flavescens,90,Roatan,2,m,2.966666667,5.933333334,Lipogramma flavescens
+1058,Lipogramma flavescens,210,Roatan,2,m,2.119047619,4.238095238,Lipogramma flavescens
+1059,Lipogramma flavescens,220,Roatan,1,m,1.854166667,1.854166667,Lipogramma flavescens
+1060,Lipogramma flavescens,230,Roatan,3,m,1.589285714,4.767857142,Lipogramma flavescens
+1061,Lipogramma flavescens,240,Roatan,1,m,1.711538462,1.711538462,Lipogramma flavescens
+1062,Lipogramma flavescens,260,Roatan,1,m,1.126582278,1.126582278,Lipogramma flavescens
+1063,Lipogramma haberi,150,Curacao,1,m,1.188927353,1.188927353,Lipogramma haberi
+1064,Lipogramma haberi,180,Curacao,1,m,1.724533239,1.724533239,Lipogramma haberi
+1065,Lipogramma haberi,230,Curacao,1,m,1.644295347,1.644295347,Lipogramma haberi
+1066,Lipogramma idabeli,130,Roatan,3,m,2.542857143,7.628571429,Lipogramma evides
+1067,Lipogramma idabeli,160,Roatan,4,m,1.618181818,6.472727272,Lipogramma evides
+1068,Lipogramma klayi,60,Bonaire,1,m,2.016114097,2.016114097,Lipogramma klayi
+1069,Lipogramma klayi,60,Roatan,3,m,1.893617021,5.680851063,Lipogramma klayi
+1070,Lipogramma klayi,70,Bonaire,1,m,2.085070543,2.085070543,Lipogramma klayi
+1071,Lipogramma klayi,70,Curacao,10,m,2.085070543,20.85070543,Lipogramma klayi
+1072,Lipogramma klayi,70,Roatan,41,m,2.656716418,108.9253731,Lipogramma klayi
+1073,Lipogramma klayi,70,St. Eustatius,1,m,5.971062422,5.971062422,Lipogramma klayi
+1074,Lipogramma klayi,80,Bonaire,2,m,1.181725224,2.363450448,Lipogramma klayi
+1075,Lipogramma klayi,80,Curacao,5,m,1.181725224,5.90862612,Lipogramma klayi
+1076,Lipogramma klayi,80,Roatan,11,m,2.472222222,27.19444444,Lipogramma klayi
+1077,Lipogramma klayi,80,St. Eustatius,1,m,3.768327681,3.768327681,Lipogramma klayi
+1078,Lipogramma klayi,90,Bonaire,2,m,1.187769118,2.375538236,Lipogramma klayi
+1079,Lipogramma klayi,90,Curacao,27,m,1.187769118,32.06976619,Lipogramma klayi
+1080,Lipogramma klayi,90,Roatan,62,m,2.966666667,183.9333334,Lipogramma klayi
+1081,Lipogramma klayi,90,St. Eustatius,4,m,1,4,Lipogramma klayi
+1082,Lipogramma klayi,100,Curacao,5,m,1.379236425,6.896182125,Lipogramma klayi
+1083,Lipogramma klayi,100,Roatan,9,m,1.483333333,13.35,Lipogramma klayi
+1084,Lipogramma klayi,100,St. Eustatius,18,m,1.546301253,27.83342255,Lipogramma klayi
+1085,Lipogramma klayi,110,Bonaire,1,m,1.161185714,1.161185714,Lipogramma klayi
+1086,Lipogramma klayi,110,Curacao,2,m,1.161185714,2.322371428,Lipogramma klayi
+1087,Lipogramma klayi,110,Roatan,4,m,1.934782609,7.739130436,Lipogramma klayi
+1088,Lipogramma klayi,110,St. Eustatius,15,m,1.300675371,19.51013057,Lipogramma klayi
+1089,Lipogramma klayi,120,Roatan,4,m,2.170731707,8.682926828,Lipogramma klayi
+1090,Lipogramma klayi,120,St. Eustatius,10,m,3.838426787,38.38426787,Lipogramma klayi
+1091,Lipogramma klayi,140,Roatan,1,m,1.893617021,1.893617021,Lipogramma klayi
+1092,Lipogramma levinsoni,90,Curacao,2,m,1.187769118,2.375538236,Lipogramma levinsoni
+1093,Lipogramma levinsoni,100,Bonaire,3,m,1.379236425,4.137709275,Lipogramma levinsoni
+1094,Lipogramma levinsoni,100,Curacao,1,m,1.379236425,1.379236425,Lipogramma levinsoni
+1095,Lipogramma levinsoni,110,Bonaire,2,m,1.161185714,2.322371428,Lipogramma levinsoni
+1096,Lipogramma levinsoni,110,Curacao,4,m,1.161185714,4.644742856,Lipogramma levinsoni
+1097,Lipogramma levinsoni,120,Bonaire,9,m,1.127104229,10.14393806,Lipogramma levinsoni
+1098,Lipogramma levinsoni,120,Curacao,3,m,1.127104229,3.381312687,Lipogramma levinsoni
+1099,Lipogramma levinsoni,120,Roatan,1,m,2.170731707,2.170731707,Lipogramma levinsoni
+1100,Lipogramma levinsoni,130,Bonaire,13,m,1.303308391,16.94300908,Lipogramma levinsoni
+1101,Lipogramma levinsoni,130,Curacao,11,m,1.303308391,14.3363923,Lipogramma levinsoni
+1102,Lipogramma levinsoni,130,St. Eustatius,2,m,3.42437174,6.84874348,Lipogramma levinsoni
+1103,Lipogramma levinsoni,140,Bonaire,3,m,1.365335946,4.096007838,Lipogramma levinsoni
+1104,Lipogramma levinsoni,140,Curacao,3,m,1.365335946,4.096007838,Lipogramma levinsoni
+1105,Lipogramma levinsoni,140,Roatan,1,m,1.893617021,1.893617021,Lipogramma levinsoni
+1106,Lipogramma levinsoni,150,Bonaire,1,m,1.188927353,1.188927353,Lipogramma levinsoni
+1107,Lipogramma levinsoni,150,Curacao,1,m,1.188927353,1.188927353,Lipogramma levinsoni
+1108,Lipogramma levinsoni,160,St. Eustatius,2,m,4.342754059,8.685508118,Lipogramma levinsoni
+1109,Lipogramma levinsoni,170,St. Eustatius,2,m,3.76734481,7.53468962,Lipogramma levinsoni
+1110,Lipogramma regium,100,St. Eustatius,2,m,1.546301253,3.092602506,Lipogramma evides
+1111,Lipogramma regium,110,St. Eustatius,2,m,1.300675371,2.601350742,Lipogramma evides
+1112,Lipogramma schrieri,170,Curacao,3,m,1.172632844,3.517898532,Lipogramma schrieri
+1113,Lipogramma schrieri,180,Curacao,1,m,1.724533239,1.724533239,Lipogramma schrieri
+1114,Lipogramma schrieri,190,Curacao,1,m,1.643187332,1.643187332,Lipogramma schrieri
+1115,Lipogramma trilineata,90,St. Eustatius,1,m,1,1,Lipogramma trilineata
+1116,Lipogramma trilineata,100,St. Eustatius,3,m,1.546301253,4.638903759,Lipogramma trilineata
+1117,Lipogramma trilineata,110,St. Eustatius,1,m,1.300675371,1.300675371,Lipogramma trilineata
+1118,Malacanthus plumieri,40,Roatan,3,m,1.1125,3.3375,Malacanthus plumieri
+1119,Malacanthus plumieri,40,St. Eustatius,1,m,10.87650602,10.87650602,Malacanthus plumieri
+1120,Malacanthus plumieri,60,Bonaire,3,m,2.016114097,6.048342291,Malacanthus plumieri
+1121,Malacanthus plumieri,60,Roatan,1,m,1.893617021,1.893617021,Malacanthus plumieri
+1122,Malacanthus plumieri,70,Bonaire,2,m,2.085070543,4.170141086,Malacanthus plumieri
+1123,Malacanthus plumieri,80,Bonaire,2,m,1.181725224,2.363450448,Malacanthus plumieri
+1124,Malacanthus plumieri,90,Bonaire,3,m,1.187769118,3.563307354,Malacanthus plumieri
+1125,Malacanthus plumieri,100,Bonaire,3,m,1.379236425,4.137709275,Malacanthus plumieri
+1126,Malacanthus plumieri,140,Roatan,1,m,1.893617021,1.893617021,Malacanthus plumieri
+1127,Malacanthus plumieri,180,Bonaire,1,m,1.724533239,1.724533239,Malacanthus plumieri
+1128,Melichthys niger,10,Roatan,4,m,2.225,8.9,Melichthys niger
+1129,Microspathodon chrysurus,10,Roatan,20,m,2.225,44.5,Microspathodon chrysurus
+1130,Mulloidichthys martinicus,30,Roatan,1,m,1.034883721,1.034883721,Mulloidichthys martinicus
+1131,Mulloidichthys martinicus,40,Bonaire,7,m,1.139215137,7.974505959,Mulloidichthys martinicus
+1132,Mulloidichthys martinicus,40,Roatan,3,m,1.1125,3.3375,Mulloidichthys martinicus
+1133,Mulloidichthys martinicus,40,St. Eustatius,1,m,10.87650602,10.87650602,Mulloidichthys martinicus
+1134,Mulloidichthys martinicus,50,Bonaire,23,m,0.999995899,22.99990568,Mulloidichthys martinicus
+1135,Mulloidichthys martinicus,50,Roatan,1,m,1.390625,1.390625,Mulloidichthys martinicus
+1136,Mulloidichthys martinicus,90,Bonaire,1,m,1.187769118,1.187769118,Mulloidichthys martinicus
+1137,Mulloidichthys martinicus,100,St. Eustatius,2,m,1.546301253,3.092602506,Mulloidichthys martinicus
+1138,Muraena retifera,130,Bonaire,2,m,1.303308391,2.606616782,Muraena retifera
+1139,Muraena retifera,140,Bonaire,1,m,1.365335946,1.365335946,Muraena retifera
+1140,Muraena retifera,160,Bonaire,1,m,1.212877394,1.212877394,Muraena retifera
+1141,Mycteroperca bonaci,60,Bonaire,1,m,2.016114097,2.016114097,Mycteroperca bonaci
+1142,Mycteroperca bonaci,80,Bonaire,1,m,1.181725224,1.181725224,Mycteroperca bonaci
+1143,Mycteroperca bonaci,90,Bonaire,1,m,1.187769118,1.187769118,Mycteroperca bonaci
+1144,Mycteroperca interstitialis,60,Bonaire,1,m,2.016114097,2.016114097,Mycteroperca interstitialis
+1145,Mycteroperca interstitialis,90,Roatan,1,m,2.966666667,2.966666667,Mycteroperca interstitialis
+1146,Mycteroperca tigris,50,Roatan,1,m,1.390625,1.390625,Mycteroperca tigris
+1147,Mycteroperca tigris,60,Roatan,1,m,1.893617021,1.893617021,Mycteroperca tigris
+1148,Myctoperca bonaci,120,Roatan,1,m,2.170731707,2.170731707,Mycteroperca bonaci
+1149,Myripristis jacobus,40,Curacao,2,m,1.139215137,2.278430274,Myripristis jacobus
+1150,Myripristis jacobus,50,Curacao,2,m,0.999995899,1.999991798,Myripristis jacobus
+1151,Myripristis jacobus,60,Curacao,6,m,2.016114097,12.09668458,Myripristis jacobus
+1152,Myripristis jacobus,70,Curacao,2,m,2.085070543,4.170141086,Myripristis jacobus
+1153,Myripristis jacobus,80,Bonaire,1,m,1.181725224,1.181725224,Myripristis jacobus
+1154,Myripristis jacobus,80,Curacao,1,m,1.181725224,1.181725224,Myripristis jacobus
+1155,Myripristis jacobus,80,St. Eustatius,1,m,3.768327681,3.768327681,Myripristis jacobus
+1156,Myripristis jacobus,100,St. Eustatius,3,m,1.546301253,4.638903759,Myripristis jacobus
+1157,Myripristis jacobus,110,St. Eustatius,1,m,1.300675371,1.300675371,Myripristis jacobus
+1158,Myripristis jacobus,120,St. Eustatius,3,m,3.838426787,11.51528036,Myripristis jacobus
+1159,Neoepinnula americana,310,Roatan,1,m,1.308823529,1.308823529,Neoepinnula americana
+1160,Neoepinnula americana,480,Roatan,1,m,5.933333333,5.933333333,Neoepinnula americana
+1161,Neoniphon coruscum,90,Bonaire,1,m,1.187769118,1.187769118,Sargocentron coruscum
+1162,Neoscopelus macrolepidotus,470,Roatan,1,m,5.933333333,5.933333333,Neoscopelus macrolepidotus
+1163,Ocyurus chrysurus,10,Roatan,21,m,2.225,46.725,Ocyurus chrysurus
+1164,Ocyurus chrysurus,30,Roatan,2,m,1.034883721,2.069767442,Ocyurus chrysurus
+1165,Ocyurus chrysurus,40,Bonaire,1,m,1.139215137,1.139215137,Ocyurus chrysurus
+1166,Ocyurus chrysurus,50,Roatan,1,m,1.390625,1.390625,Ocyurus chrysurus
+1167,Ocyurus chrysurus,90,Bonaire,1,m,1.187769118,1.187769118,Ocyurus chrysurus
+1168,Ogcocephalus corniger,170,St. Eustatius,1,m,3.76734481,3.76734481,Ogcocephalus corniger
+1169,Ogcocephalus corniger,200,St. Eustatius,1,m,3.862032086,3.862032086,Ogcocephalus corniger
+1170,Ogcocephalus corniger,230,St. Eustatius,3,m,2.26572549,6.79717647,Ogcocephalus corniger
+1171,Ogcocephalus parvus,160,Bonaire,1,m,1.212877394,1.212877394,Ogcocephalus parvus
+1172,Opistognathus aurifrons,40,Roatan,2,m,1.1125,2.225,Opistognathus aurifrons
+1173,Opistognathus schrieri,150,Curacao,1,m,1.188927353,1.188927353,Opistognathus schrieri
+1174,Opistognathus schrieri,200,Roatan,1,m,1.369230769,1.369230769,Opistognathus schrieri
+1175,Opistognathus schrieri,220,Roatan,1,m,1.854166667,1.854166667,Opistognathus schrieri
+1176,Ostichthys trachypoma,80,Bonaire,1,m,1.181725224,1.181725224,Ostichthys trachypoma
+1177,Ostichthys trachypoma,150,Bonaire,1,m,1.188927353,1.188927353,Ostichthys trachypoma
+1178,Ostichthys trachypoma,160,Curacao,4,m,1.212877394,4.851509576,Ostichthys trachypoma
+1179,Ostichthys trachypoma,170,Bonaire,2,m,1.172632844,2.345265688,Ostichthys trachypoma
+1180,Ostichthys trachypoma,170,Curacao,3,m,1.172632844,3.517898532,Ostichthys trachypoma
+1181,Ostichthys trachypoma,170,Roatan,2,m,1.022988506,2.045977012,Ostichthys trachypoma
+1182,Ostichthys trachypoma,180,Bonaire,1,m,1.724533239,1.724533239,Ostichthys trachypoma
+1183,Ostichthys trachypoma,180,Curacao,7,m,1.724533239,12.07173267,Ostichthys trachypoma
+1184,Ostichthys trachypoma,180,Roatan,3,m,2.870967742,8.612903226,Ostichthys trachypoma
+1185,Ostichthys trachypoma,190,Curacao,1,m,1.643187332,1.643187332,Ostichthys trachypoma
+1186,Ostichthys trachypoma,190,Roatan,3,m,1.934782609,5.804347827,Ostichthys trachypoma
+1187,Ostichthys trachypoma,190,St. Eustatius,1,m,3.571711177,3.571711177,Ostichthys trachypoma
+1188,Ostichthys trachypoma,200,Curacao,7,m,1.203301258,8.423108806,Ostichthys trachypoma
+1189,Ostichthys trachypoma,200,Roatan,7,m,1.369230769,9.584615383,Ostichthys trachypoma
+1190,Ostichthys trachypoma,210,Curacao,6,m,1.454078712,8.724472272,Ostichthys trachypoma
+1191,Ostichthys trachypoma,210,Roatan,4,m,2.119047619,8.476190476,Ostichthys trachypoma
+1192,Ostichthys trachypoma,210,St. Eustatius,1,m,2.498961938,2.498961938,Ostichthys trachypoma
+1193,Ostichthys trachypoma,220,Curacao,11,m,1.136560242,12.50216266,Ostichthys trachypoma
+1194,Ostichthys trachypoma,220,Roatan,1,m,1.854166667,1.854166667,Ostichthys trachypoma
+1195,Ostichthys trachypoma,230,Curacao,35,m,1.644295347,57.55033715,Ostichthys trachypoma
+1196,Ostichthys trachypoma,230,Roatan,3,m,1.589285714,4.767857142,Ostichthys trachypoma
+1197,Ostichthys trachypoma,240,Curacao,3,m,2.350351807,7.051055421,Ostichthys trachypoma
+1198,Ostichthys trachypoma,240,Roatan,4,m,1.711538462,6.846153848,Ostichthys trachypoma
+1199,Ostichthys trachypoma,250,Curacao,6,m,3.051927409,18.31156445,Ostichthys trachypoma
+1200,Ostichthys trachypoma,250,Roatan,3,m,1.034883721,3.104651163,Ostichthys trachypoma
+1201,Ostichthys trachypoma,260,Curacao,10,m,2.855374707,28.55374707,Ostichthys trachypoma
+1202,Ostichthys trachypoma,260,Roatan,5,m,1.126582278,5.63291139,Ostichthys trachypoma
+1203,Ostichthys trachypoma,270,Curacao,1,m,3.382094313,3.382094313,Ostichthys trachypoma
+1204,Ostichthys trachypoma,280,Curacao,1,m,3.295256757,3.295256757,Ostichthys trachypoma
+1205,Ostichthys trachypoma,280,Roatan,1,m,2.022727273,2.022727273,Ostichthys trachypoma
+1206,Ostichthys trachypoma,290,Roatan,1,m,1.308823529,1.308823529,Ostichthys trachypoma
+1207,Ostichthys trachypoma,300,Roatan,1,m,2.617647059,2.617647059,Ostichthys trachypoma
+1208,Oxyurichthys stigmalophius,90,Bonaire,2,m,1.187769118,2.375538236,Oxyurichthys stigmalophius
+1209,Oxyurichthys stigmalophius,100,Bonaire,1,m,1.379236425,1.379236425,Oxyurichthys stigmalophius
+1210,Palatogobius grandoculus,120,Roatan,20,m,2.170731707,43.41463414,Palatogobius grandoculus
+1211,Palatogobius grandoculus,130,Roatan,2,m,2.542857143,5.085714286,Palatogobius grandoculus
+1212,Palatogobius grandoculus,140,Roatan,220,m,1.893617021,416.5957446,Palatogobius grandoculus
+1213,Palatogobius grandoculus,150,Roatan,210,m,2.022727273,424.7727273,Palatogobius grandoculus
+1214,Palatogobius grandoculus,160,Roatan,300,m,1.618181818,485.4545454,Palatogobius grandoculus
+1215,Palatogobius grandoculus,170,Roatan,300,m,1.022988506,306.8965518,Palatogobius grandoculus
+1216,Palatogobius grandoculus,190,Roatan,4,m,1.934782609,7.739130436,Palatogobius grandoculus
+1217,Palatogobius grandoculus,200,Roatan,28,m,1.369230769,38.33846153,Palatogobius grandoculus
+1218,Palatogobius grandoculus,210,Roatan,17,m,2.119047619,36.02380952,Palatogobius grandoculus
+1219,Palatogobius grandoculus,220,Roatan,6,m,1.854166667,11.125,Palatogobius grandoculus
+1220,Palatogobius grandoculus,230,Roatan,7,m,1.589285714,11.125,Palatogobius grandoculus
+1221,Palatogobius grandoculus,240,Roatan,10,m,1.711538462,17.11538462,Palatogobius grandoculus
+1222,Palatogobius grandoculus,260,Roatan,4,m,1.126582278,4.506329112,Palatogobius grandoculus
+1223,Palatogobius grandoculus,260,St. Eustatius,1,m,6.485855411,6.485855411,Palatogobius grandoculus
+1224,Palatogobius grandoculus,270,Roatan,1,m,1,1,Palatogobius grandoculus
+1225,Palatogobius grandoculus,280,Roatan,6,m,2.022727273,12.13636364,Palatogobius grandoculus
+1226,Palatogobius grandoculus,290,Roatan,1,m,1.308823529,1.308823529,Palatogobius grandoculus
+1227,Palatogobius incendius,70,Bonaire,6,m,2.085070543,12.51042326,Palatogobius grandoculus
+1228,Palatogobius incendius,90,Roatan,438,m,2.966666667,1299.4,Palatogobius grandoculus
+1229,Palatogobius incendius,100,St. Eustatius,26,m,1.546301253,40.20383258,Palatogobius grandoculus
+1230,Palatogobius incendius,110,Bonaire,51,m,1.161185714,59.22047141,Palatogobius grandoculus
+1231,Palatogobius incendius,110,Curacao,140,m,1.161185714,162.566,Palatogobius grandoculus
+1232,Palatogobius incendius,110,Roatan,401,m,1.934782609,775.8478262,Palatogobius grandoculus
+1233,Palatogobius incendius,110,St. Eustatius,267,m,1.300675371,347.2803241,Palatogobius grandoculus
+1234,Palatogobius incendius,120,Curacao,82,m,1.127104229,92.42254678,Palatogobius grandoculus
+1235,Palatogobius incendius,120,Roatan,261,m,2.170731707,566.5609755,Palatogobius grandoculus
+1236,Palatogobius incendius,130,St. Eustatius,1,m,3.42437174,3.42437174,Palatogobius grandoculus
+1237,Palatogobius incendius,140,Curacao,60,m,1.365335946,81.92015676,Palatogobius grandoculus
+1238,Palatogobius incendius,140,Roatan,21,m,1.893617021,39.76595744,Palatogobius grandoculus
+1239,Palatogobius incendius,150,Bonaire,1,m,1.188927353,1.188927353,Palatogobius grandoculus
+1240,Palatogobius incendius,150,Curacao,32,m,1.188927353,38.0456753,Palatogobius grandoculus
+1241,Palatogobius incendius,150,Roatan,379,m,2.022727273,766.6136365,Palatogobius grandoculus
+1242,Palatogobius incendius,150,St. Eustatius,1,m,3.366899767,3.366899767,Palatogobius grandoculus
+1243,Palatogobius incendius,160,Roatan,405,m,1.618181818,655.3636363,Palatogobius grandoculus
+1244,Palatogobius incendius,160,St. Eustatius,165,m,4.342754059,716.5544197,Palatogobius grandoculus
+1245,Palatogobius incendius,170,Roatan,205,m,1.022988506,209.7126437,Palatogobius grandoculus
+1246,Palatogobius incendius,180,Curacao,1,m,1.724533239,1.724533239,Palatogobius grandoculus
+1247,Palatogobius incendius,180,Roatan,49,m,2.870967742,140.6774194,Palatogobius grandoculus
+1248,Palatogobius incendius,180,St. Eustatius,31,m,4.174566474,129.4115607,Palatogobius grandoculus
+1249,Palatogobius incendius,190,Roatan,3,m,1.934782609,5.804347827,Palatogobius grandoculus
+1250,Palatogobius incendius,200,Curacao,1,m,1.203301258,1.203301258,Palatogobius grandoculus
+1251,Palatogobius incendius,200,Roatan,53,m,1.369230769,72.56923076,Palatogobius grandoculus
+1252,Palatogobius paradoxus,240,Roatan,4,m,1.711538462,6.846153848,Palatogobius paradoxus
+1253,Paranthias furcifer,40,St. Eustatius,5,m,10.87650602,54.3825301,Paranthias furcifer
+1254,Paranthias furcifer,50,Bonaire,26,m,0.999995899,25.99989337,Paranthias furcifer
+1255,Paranthias furcifer,50,Curacao,6,m,0.999995899,5.999975394,Paranthias furcifer
+1256,Paranthias furcifer,60,Bonaire,16,m,2.016114097,32.25782555,Paranthias furcifer
+1257,Paranthias furcifer,60,Curacao,189,m,2.016114097,381.0455643,Paranthias furcifer
+1258,Paranthias furcifer,70,Curacao,45,m,2.085070543,93.82817444,Paranthias furcifer
+1259,Paranthias furcifer,80,Bonaire,101,m,1.181725224,119.3542476,Paranthias furcifer
+1260,Paranthias furcifer,90,Bonaire,50,m,1.187769118,59.3884559,Paranthias furcifer
+1261,Paranthias furcifer,90,Curacao,4,m,1.187769118,4.751076472,Paranthias furcifer
+1262,Paranthias furcifer,100,Curacao,1,m,1.379236425,1.379236425,Paranthias furcifer
+1263,Paranthias furcifer,110,Bonaire,1,m,1.161185714,1.161185714,Paranthias furcifer
+1264,Paranthias furcifer,110,Curacao,2,m,1.161185714,2.322371428,Paranthias furcifer
+1265,Paroncheilus affinis,80,Bonaire,350,m,1.181725224,413.6038284,Paroncheilus affinis
+1266,Paroncheilus affinis,80,St. Eustatius,1004,m,3.768327681,3783.400992,Paroncheilus affinis
+1267,Paroncheilus affinis,90,Bonaire,36,m,1.187769118,42.75968825,Paroncheilus affinis
+1268,Paroncheilus affinis,90,St. Eustatius,1,m,1,1,Paroncheilus affinis
+1269,Paroncheilus affinis,100,Bonaire,1,m,1.379236425,1.379236425,Paroncheilus affinis
+1270,Paroncheilus affinis,100,St. Eustatius,51,m,1.546301253,78.8613639,Paroncheilus affinis
+1271,Paroncheilus affinis,110,Bonaire,249,m,1.161185714,289.1352428,Paroncheilus affinis
+1272,Paroncheilus affinis,110,Curacao,5,m,1.161185714,5.80592857,Paroncheilus affinis
+1273,Paroncheilus affinis,130,Bonaire,1,m,1.303308391,1.303308391,Paroncheilus affinis
+1274,Paroncheilus affinis,200,Bonaire,1,m,1.203301258,1.203301258,Paroncheilus affinis
+1275,Peristedion brevirostre,170,Bonaire,1,m,1.172632844,1.172632844,Peristedion brevirostre
+1276,Peristedion brevirostre,180,Bonaire,1,m,1.724533239,1.724533239,Peristedion brevirostre
+1277,Peristedion brevirostre,220,Bonaire,1,m,1.136560242,1.136560242,Peristedion brevirostre
+1278,Phenacoscorpius nebrius,360,Roatan,1,m,8.090909091,8.090909091,Phenacoscorpius nebris
+1279,Phenacoscorpius nebrius,420,Roatan,1,m,3.178571429,3.178571429,Phenacoscorpius nebris
+1280,Physiculus fulvus,150,Bonaire,1,m,1.188927353,1.188927353,Physiculus fulvus
+1281,Physiculus fulvus,160,Bonaire,1,m,1.212877394,1.212877394,Physiculus fulvus
+1282,Physiculus fulvus,170,Bonaire,2,m,1.172632844,2.345265688,Physiculus fulvus
+1283,Pinnichthys aimoriensis,90,St. Eustatius,1,m,1,1,Chriolepis zebra
+1284,Pinnichthys aimoriensis,160,Bonaire,1,m,1.212877394,1.212877394,Chriolepis zebra
+1285,Plectranthias garrupellus,150,Roatan,1,m,2.022727273,2.022727273,Plectranthias garrupellus
+1286,Plectranthias garrupellus,170,St. Eustatius,1,m,3.76734481,3.76734481,Plectranthias garrupellus
+1287,Plectranthias garrupellus,230,Roatan,1,m,1.589285714,1.589285714,Plectranthias garrupellus
+1288,Plectranthias garrupellus,260,Roatan,1,m,1.126582278,1.126582278,Plectranthias garrupellus
+1289,Plectranthias garrupellus,270,Roatan,1,m,1,1,Plectranthias garrupellus
+1290,Plectranthias sp.,90,Curacao,2,m,1.187769118,2.375538236,Plectranthias garrupellus
+1291,Plectranthias sp.,120,Bonaire,1,m,1.127104229,1.127104229,Plectranthias garrupellus
+1292,Plectranthias sp.,120,Curacao,2,m,1.127104229,2.254208458,Plectranthias garrupellus
+1293,Plectranthias sp.,170,St. Eustatius,1,m,3.76734481,3.76734481,Plectranthias garrupellus
+1294,Polylepion sp.,210,Curacao,1,m,1.454078712,1.454078712,Polylepion russelli
+1295,Polylepion sp.,240,Roatan,2,m,1.711538462,3.423076924,Polylepion russelli
+1296,Polylepion sp.,250,Curacao,1,m,3.051927409,3.051927409,Polylepion russelli
+1297,Polylepion sp.,270,Curacao,1,m,3.382094313,3.382094313,Polylepion russelli
+1298,Polylepion sp.,270,Roatan,1,m,1,1,Polylepion russelli
+1299,Polylepion sp.,300,Roatan,2,m,2.617647059,5.235294118,Polylepion russelli
+1300,Polylepion sp.,320,Roatan,1,m,5.235294118,5.235294118,Polylepion russelli
+1301,Pomacanthus arcuatus,40,Roatan,1,m,1.1125,1.1125,Pomacanthus arcuatus
+1302,Pomacanthus arcuatus,70,Bonaire,2,m,2.085070543,4.170141086,Pomacanthus arcuatus
+1303,Pomacanthus arcuatus,100,Roatan,1,m,1.483333333,1.483333333,Pomacanthus arcuatus
+1304,Pomacanthus paru,40,St. Eustatius,1,m,10.87650602,10.87650602,Pomacanthus paru
+1305,Pomacanthus paru,50,Bonaire,1,m,0.999995899,0.999995899,Pomacanthus paru
+1306,Pomacanthus paru,50,St. Eustatius,2,m,15.20421053,30.40842106,Pomacanthus paru
+1307,Pomacanthus paru,70,Roatan,1,m,2.656716418,2.656716418,Pomacanthus paru
+1308,Pomacanthus paru,80,St. Eustatius,2,m,3.768327681,7.536655362,Pomacanthus paru
+1309,Pomacanthus paru,90,St. Eustatius,2,m,1,2,Pomacanthus paru
+1310,Pomacanthus paru,150,Bonaire,2,m,1.188927353,2.377854706,Pomacanthus paru
+1311,Pontinus castor,110,Bonaire,1,m,1.161185714,1.161185714,Pontinus castor
+1312,Pontinus castor,120,Curacao,2,m,1.127104229,2.254208458,Pontinus castor
+1313,Pontinus castor,130,Curacao,1,m,1.303308391,1.303308391,Pontinus castor
+1314,Pontinus castor,140,Bonaire,5,m,1.365335946,6.82667973,Pontinus castor
+1315,Pontinus castor,150,Bonaire,4,m,1.188927353,4.755709412,Pontinus castor
+1316,Pontinus castor,150,Curacao,5,m,1.188927353,5.944636765,Pontinus castor
+1317,Pontinus castor,160,Curacao,2,m,1.212877394,2.425754788,Pontinus castor
+1318,Pontinus castor,170,St. Eustatius,1,m,3.76734481,3.76734481,Pontinus castor
+1319,Pontinus castor,180,Bonaire,1,m,1.724533239,1.724533239,Pontinus castor
+1320,Pontinus castor,180,Curacao,2,m,1.724533239,3.449066478,Pontinus castor
+1321,Pontinus castor,180,Roatan,2,m,2.870967742,5.741935484,Pontinus castor
+1322,Pontinus castor,180,St. Eustatius,1,m,4.174566474,4.174566474,Pontinus castor
+1323,Pontinus castor,190,Curacao,2,m,1.643187332,3.286374664,Pontinus castor
+1324,Pontinus castor,190,Roatan,1,m,1.934782609,1.934782609,Pontinus castor
+1325,Pontinus castor,200,Curacao,2,m,1.203301258,2.406602516,Pontinus castor
+1326,Pontinus castor,200,Roatan,1,m,1.369230769,1.369230769,Pontinus castor
+1327,Pontinus castor,210,Curacao,2,m,1.454078712,2.908157424,Pontinus castor
+1328,Pontinus castor,210,Roatan,1,m,2.119047619,2.119047619,Pontinus castor
+1329,Pontinus castor,210,St. Eustatius,1,m,2.498961938,2.498961938,Pontinus castor
+1330,Pontinus castor,240,Curacao,1,m,2.350351807,2.350351807,Pontinus castor
+1331,Pontinus castor,250,Bonaire,1,m,3.051927409,3.051927409,Pontinus castor
+1332,Pontinus castor,270,Roatan,1,m,1,1,Pontinus castor
+1333,Pontinus nematophthalmus,130,Curacao,2,m,1.303308391,2.606616782,Pontinus nematophthalmus
+1334,Pontinus nematophthalmus,150,Curacao,2,m,1.188927353,2.377854706,Pontinus nematophthalmus
+1335,Pontinus nematophthalmus,160,Curacao,2,m,1.212877394,2.425754788,Pontinus nematophthalmus
+1336,Pontinus nematophthalmus,170,Curacao,2,m,1.172632844,2.345265688,Pontinus nematophthalmus
+1337,Pontinus nematophthalmus,180,Curacao,3,m,1.724533239,5.173599717,Pontinus nematophthalmus
+1338,Pontinus nematophthalmus,190,Curacao,2,m,1.643187332,3.286374664,Pontinus nematophthalmus
+1339,Pontinus nematophthalmus,200,Curacao,4,m,1.203301258,4.813205032,Pontinus nematophthalmus
+1340,Pontinus nematophthalmus,210,Curacao,2,m,1.454078712,2.908157424,Pontinus nematophthalmus
+1341,Pontinus nematophthalmus,230,Curacao,1,m,1.644295347,1.644295347,Pontinus nematophthalmus
+1342,Pontinus nematophthalmus,240,Curacao,1,m,2.350351807,2.350351807,Pontinus nematophthalmus
+1343,Pontinus nematophthalmus,250,Curacao,1,m,3.051927409,3.051927409,Pontinus nematophthalmus
+1344,Pontinus nematophthalmus,300,Curacao,1,m,8.196605042,8.196605042,Pontinus nematophthalmus
+1345,Priacanthus arenatus,140,Roatan,1,m,1.893617021,1.893617021,Priacanthus arenatus
+1346,Priacanthus arenatus,150,Roatan,2,m,2.022727273,4.045454546,Priacanthus arenatus
+1347,Priacanthus arenatus,190,St. Eustatius,1,m,3.571711177,3.571711177,Priacanthus arenatus
+1348,Priolepis hipoliti,110,Bonaire,3,m,1.161185714,3.483557142,Priolepis hipoliti
+1349,Pristigenys alta,70,Curacao,1,m,2.085070543,2.085070543,Pristigenys alta
+1350,Pristigenys alta,90,Curacao,1,m,1.187769118,1.187769118,Pristigenys alta
+1351,Pristigenys alta,110,Curacao,1,m,1.161185714,1.161185714,Pristigenys alta
+1352,Pristigenys alta,120,Bonaire,1,m,1.127104229,1.127104229,Pristigenys alta
+1353,Pristigenys alta,120,Curacao,1,m,1.127104229,1.127104229,Pristigenys alta
+1354,Pristigenys alta,120,Roatan,1,m,2.170731707,2.170731707,Pristigenys alta
+1355,Pristigenys alta,130,Curacao,2,m,1.303308391,2.606616782,Pristigenys alta
+1356,Pristigenys alta,140,Bonaire,2,m,1.365335946,2.730671892,Pristigenys alta
+1357,Pristigenys alta,140,Roatan,1,m,1.893617021,1.893617021,Pristigenys alta
+1358,Pristigenys alta,140,St. Eustatius,1,m,5.143874644,5.143874644,Pristigenys alta
+1359,Pristigenys alta,150,Bonaire,1,m,1.188927353,1.188927353,Pristigenys alta
+1360,Pristigenys alta,150,Roatan,4,m,2.022727273,8.090909092,Pristigenys alta
+1361,Pristigenys alta,150,St. Eustatius,1,m,3.366899767,3.366899767,Pristigenys alta
+1362,Pristigenys alta,160,Bonaire,5,m,1.212877394,6.06438697,Pristigenys alta
+1363,Pristigenys alta,160,Curacao,2,m,1.212877394,2.425754788,Pristigenys alta
+1364,Pristigenys alta,160,Roatan,4,m,1.618181818,6.472727272,Pristigenys alta
+1365,Pristigenys alta,160,St. Eustatius,4,m,4.342754059,17.37101624,Pristigenys alta
+1366,Pristigenys alta,170,Curacao,1,m,1.172632844,1.172632844,Pristigenys alta
+1367,Pristigenys alta,170,Roatan,1,m,1.022988506,1.022988506,Pristigenys alta
+1368,Pristigenys alta,170,St. Eustatius,3,m,3.76734481,11.30203443,Pristigenys alta
+1369,Pristigenys alta,180,Curacao,2,m,1.724533239,3.449066478,Pristigenys alta
+1370,Pristigenys alta,180,St. Eustatius,2,m,4.174566474,8.349132948,Pristigenys alta
+1371,Pristigenys alta,190,St. Eustatius,3,m,3.571711177,10.71513353,Pristigenys alta
+1372,Pristigenys alta,210,St. Eustatius,2,m,2.498961938,4.997923876,Pristigenys alta
+1373,Pristipomoides aquilonaris,160,Bonaire,1,m,1.212877394,1.212877394,Pristipomoides aquilonaris
+1374,Pristipomoides aquilonaris,210,Bonaire,3,m,1.454078712,4.362236136,Pristipomoides aquilonaris
+1375,Pristipomoides aquilonaris,230,Bonaire,1,m,1.644295347,1.644295347,Pristipomoides aquilonaris
+1376,Pristipomoides freemani,190,Bonaire,1,m,1.643187332,1.643187332,Pristipomoides freemani
+1377,Pristipomoides macrophthalmus,210,Curacao,1,m,1.454078712,1.454078712,Pristipomoides macrophthalmus
+1378,Pristipomoides macrophthalmus,230,St. Eustatius,1,m,2.26572549,2.26572549,Pristipomoides macrophthalmus
+1379,Prognathodes aculeatus,20,Roatan,1,m,1.934782609,1.934782609,Prognathodes aculeatus
+1380,Prognathodes aculeatus,30,Roatan,3,m,1.034883721,3.104651163,Prognathodes aculeatus
+1381,Prognathodes aculeatus,40,Bonaire,1,m,1.139215137,1.139215137,Prognathodes aculeatus
+1382,Prognathodes aculeatus,40,Roatan,2,m,1.1125,2.225,Prognathodes aculeatus
+1383,Prognathodes aculeatus,40,St. Eustatius,4,m,10.87650602,43.50602408,Prognathodes aculeatus
+1384,Prognathodes aculeatus,50,Bonaire,2,m,0.999995899,1.999991798,Prognathodes aculeatus
+1385,Prognathodes aculeatus,50,Curacao,2,m,0.999995899,1.999991798,Prognathodes aculeatus
+1386,Prognathodes aculeatus,50,St. Eustatius,2,m,15.20421053,30.40842106,Prognathodes aculeatus
+1387,Prognathodes aculeatus,60,Bonaire,2,m,2.016114097,4.032228194,Prognathodes aculeatus
+1388,Prognathodes aculeatus,60,Curacao,4,m,2.016114097,8.064456388,Prognathodes aculeatus
+1389,Prognathodes aculeatus,60,Roatan,6,m,1.893617021,11.36170213,Prognathodes aculeatus
+1390,Prognathodes aculeatus,70,Curacao,5,m,2.085070543,10.42535272,Prognathodes aculeatus
+1391,Prognathodes aculeatus,70,Roatan,7,m,2.656716418,18.59701493,Prognathodes aculeatus
+1392,Prognathodes aculeatus,80,Bonaire,1,m,1.181725224,1.181725224,Prognathodes aculeatus
+1393,Prognathodes aculeatus,80,Curacao,5,m,1.181725224,5.90862612,Prognathodes aculeatus
+1394,Prognathodes aculeatus,80,Roatan,1,m,2.472222222,2.472222222,Prognathodes aculeatus
+1395,Prognathodes aculeatus,80,St. Eustatius,8,m,3.768327681,30.14662145,Prognathodes aculeatus
+1396,Prognathodes aculeatus,90,Bonaire,1,m,1.187769118,1.187769118,Prognathodes aculeatus
+1397,Prognathodes aculeatus,90,Curacao,8,m,1.187769118,9.502152944,Prognathodes aculeatus
+1398,Prognathodes aculeatus,90,Roatan,1,m,2.966666667,2.966666667,Prognathodes aculeatus
+1399,Prognathodes aculeatus,90,St. Eustatius,6,m,1,6,Prognathodes aculeatus
+1400,Prognathodes aculeatus,100,Curacao,2,m,1.379236425,2.75847285,Prognathodes aculeatus
+1401,Prognathodes aculeatus,100,St. Eustatius,10,m,1.546301253,15.46301253,Prognathodes aculeatus
+1402,Prognathodes aculeatus,110,Bonaire,2,m,1.161185714,2.322371428,Prognathodes aculeatus
+1403,Prognathodes aculeatus,110,St. Eustatius,6,m,1.300675371,7.804052226,Prognathodes aculeatus
+1404,Prognathodes aculeatus,120,Bonaire,3,m,1.127104229,3.381312687,Prognathodes aculeatus
+1405,Prognathodes aculeatus,120,Curacao,1,m,1.127104229,1.127104229,Prognathodes aculeatus
+1406,Prognathodes aculeatus,120,St. Eustatius,3,m,3.838426787,11.51528036,Prognathodes aculeatus
+1407,Prognathodes aculeatus,130,Bonaire,1,m,1.303308391,1.303308391,Prognathodes aculeatus
+1408,Prognathodes aculeatus,130,Curacao,2,m,1.303308391,2.606616782,Prognathodes aculeatus
+1409,Prognathodes aculeatus,130,St. Eustatius,2,m,3.42437174,6.84874348,Prognathodes aculeatus
+1410,Prognathodes aculeatus,140,St. Eustatius,2,m,5.143874644,10.28774929,Prognathodes aculeatus
+1411,Prognathodes aculeatus,150,St. Eustatius,1,m,3.366899767,3.366899767,Prognathodes aculeatus
+1412,Prognathodes guyanensis,90,Curacao,1,m,1.187769118,1.187769118,Prognathodes guyanensis
+1413,Prognathodes guyanensis,100,Curacao,4,m,1.379236425,5.5169457,Prognathodes guyanensis
+1414,Prognathodes guyanensis,100,Roatan,3,m,1.483333333,4.449999999,Prognathodes guyanensis
+1415,Prognathodes guyanensis,110,Bonaire,1,m,1.161185714,1.161185714,Prognathodes guyanensis
+1416,Prognathodes guyanensis,110,Curacao,2,m,1.161185714,2.322371428,Prognathodes guyanensis
+1417,Prognathodes guyanensis,120,Bonaire,1,m,1.127104229,1.127104229,Prognathodes guyanensis
+1418,Prognathodes guyanensis,120,Curacao,3,m,1.127104229,3.381312687,Prognathodes guyanensis
+1419,Prognathodes guyanensis,130,Bonaire,1,m,1.303308391,1.303308391,Prognathodes guyanensis
+1420,Prognathodes guyanensis,130,Curacao,4,m,1.303308391,5.213233564,Prognathodes guyanensis
+1421,Prognathodes guyanensis,140,Bonaire,5,m,1.365335946,6.82667973,Prognathodes guyanensis
+1422,Prognathodes guyanensis,140,Curacao,3,m,1.365335946,4.096007838,Prognathodes guyanensis
+1423,Prognathodes guyanensis,140,St. Eustatius,2,m,5.143874644,10.28774929,Prognathodes guyanensis
+1424,Prognathodes guyanensis,150,Bonaire,2,m,1.188927353,2.377854706,Prognathodes guyanensis
+1425,Prognathodes guyanensis,150,Curacao,2,m,1.188927353,2.377854706,Prognathodes guyanensis
+1426,Prognathodes guyanensis,160,Bonaire,4,m,1.212877394,4.851509576,Prognathodes guyanensis
+1427,Prognathodes guyanensis,160,Curacao,6,m,1.212877394,7.277264364,Prognathodes guyanensis
+1428,Prognathodes guyanensis,170,Curacao,1,m,1.172632844,1.172632844,Prognathodes guyanensis
+1429,Prognathodes guyanensis,170,St. Eustatius,1,m,3.76734481,3.76734481,Prognathodes guyanensis
+1430,Prognathodes guyanensis,200,Curacao,1,m,1.203301258,1.203301258,Prognathodes guyanensis
+1431,Prognathodes guyanensis,200,Roatan,1,m,1.369230769,1.369230769,Prognathodes guyanensis
+1432,Prognathodes guyanensis,210,Curacao,1,m,1.454078712,1.454078712,Prognathodes guyanensis
+1433,Pronotogrammus martinicensis,80,Bonaire,2,m,1.181725224,2.363450448,Pronotogrammus martinicensis
+1434,Pronotogrammus martinicensis,80,Curacao,1,m,1.181725224,1.181725224,Pronotogrammus martinicensis
+1435,Pronotogrammus martinicensis,90,Bonaire,40,m,1.187769118,47.51076472,Pronotogrammus martinicensis
+1436,Pronotogrammus martinicensis,90,Curacao,17,m,1.187769118,20.19207501,Pronotogrammus martinicensis
+1437,Pronotogrammus martinicensis,100,Bonaire,12,m,1.379236425,16.5508371,Pronotogrammus martinicensis
+1438,Pronotogrammus martinicensis,100,Curacao,12,m,1.379236425,16.5508371,Pronotogrammus martinicensis
+1439,Pronotogrammus martinicensis,110,Bonaire,79,m,1.161185714,91.73367141,Pronotogrammus martinicensis
+1440,Pronotogrammus martinicensis,110,Curacao,100,m,1.161185714,116.1185714,Pronotogrammus martinicensis
+1441,Pronotogrammus martinicensis,120,Bonaire,186,m,1.127104229,209.6413866,Pronotogrammus martinicensis
+1442,Pronotogrammus martinicensis,120,Curacao,80,m,1.127104229,90.16833832,Pronotogrammus martinicensis
+1443,Pronotogrammus martinicensis,130,Bonaire,49,m,1.303308391,63.86211116,Pronotogrammus martinicensis
+1444,Pronotogrammus martinicensis,130,Curacao,76,m,1.303308391,99.05143772,Pronotogrammus martinicensis
+1445,Pronotogrammus martinicensis,140,Bonaire,104,m,1.365335946,141.9949384,Pronotogrammus martinicensis
+1446,Pronotogrammus martinicensis,140,Curacao,27,m,1.365335946,36.86407054,Pronotogrammus martinicensis
+1447,Pronotogrammus martinicensis,140,Roatan,3,m,1.893617021,5.680851063,Pronotogrammus martinicensis
+1448,Pronotogrammus martinicensis,140,St. Eustatius,1,m,5.143874644,5.143874644,Pronotogrammus martinicensis
+1449,Pronotogrammus martinicensis,150,Bonaire,61,m,1.188927353,72.52456853,Pronotogrammus martinicensis
+1450,Pronotogrammus martinicensis,150,Curacao,52,m,1.188927353,61.82422236,Pronotogrammus martinicensis
+1451,Pronotogrammus martinicensis,150,St. Eustatius,1,m,3.366899767,3.366899767,Pronotogrammus martinicensis
+1452,Pronotogrammus martinicensis,160,Bonaire,19,m,1.212877394,23.04467049,Pronotogrammus martinicensis
+1453,Pronotogrammus martinicensis,160,Curacao,93,m,1.212877394,112.7975976,Pronotogrammus martinicensis
+1454,Pronotogrammus martinicensis,160,St. Eustatius,12,m,4.342754059,52.11304871,Pronotogrammus martinicensis
+1455,Pronotogrammus martinicensis,170,Bonaire,13,m,1.172632844,15.24422697,Pronotogrammus martinicensis
+1456,Pronotogrammus martinicensis,170,Curacao,22,m,1.172632844,25.79792257,Pronotogrammus martinicensis
+1457,Pronotogrammus martinicensis,170,St. Eustatius,28,m,3.76734481,105.4856547,Pronotogrammus martinicensis
+1458,Pronotogrammus martinicensis,180,Bonaire,1,m,1.724533239,1.724533239,Pronotogrammus martinicensis
+1459,Pronotogrammus martinicensis,180,Curacao,47,m,1.724533239,81.05306223,Pronotogrammus martinicensis
+1460,Pronotogrammus martinicensis,180,St. Eustatius,10,m,4.174566474,41.74566474,Pronotogrammus martinicensis
+1461,Pronotogrammus martinicensis,190,Curacao,17,m,1.643187332,27.93418464,Pronotogrammus martinicensis
+1462,Pronotogrammus martinicensis,190,St. Eustatius,8,m,3.571711177,28.57368942,Pronotogrammus martinicensis
+1463,Pronotogrammus martinicensis,200,Curacao,6,m,1.203301258,7.219807548,Pronotogrammus martinicensis
+1464,Pronotogrammus martinicensis,200,St. Eustatius,1,m,3.862032086,3.862032086,Pronotogrammus martinicensis
+1465,Pronotogrammus martinicensis,210,Curacao,2,m,1.454078712,2.908157424,Pronotogrammus martinicensis
+1466,Pronotogrammus martinicensis,210,St. Eustatius,2,m,2.498961938,4.997923876,Pronotogrammus martinicensis
+1467,Pronotogrammus martinicensis,220,Curacao,5,m,1.136560242,5.68280121,Pronotogrammus martinicensis
+1468,Pronotogrammus martinicensis,230,Curacao,1,m,1.644295347,1.644295347,Pronotogrammus martinicensis
+1469,Pronotogrammus martinicensis,240,St. Eustatius,1,m,14.21653543,14.21653543,Pronotogrammus martinicensis
+1470,Pronotogrammus martinicensis,290,Curacao,1,m,4.077742475,4.077742475,Pronotogrammus martinicensis
+1471,Pseudupeneus maculatus,50,Roatan,1,m,1.390625,1.390625,Pseudupeneus maculatus
+1472,Pseudupeneus maculatus,60,Roatan,5,m,1.893617021,9.468085105,Pseudupeneus maculatus
+1473,Psilotris laurae,140,Bonaire,1,m,1.365335946,1.365335946,Psilotris boehlkei
+1474,Ptereleotris helenae,60,Bonaire,3,m,2.016114097,6.048342291,Ptereleotris helenae
+1475,Ptereleotris helenae,60,Curacao,1,m,2.016114097,2.016114097,Ptereleotris helenae
+1476,Ptereleotris helenae,70,Bonaire,3,m,2.085070543,6.255211629,Ptereleotris helenae
+1477,Ptereleotris helenae,70,Curacao,8,m,2.085070543,16.68056434,Ptereleotris helenae
+1478,Ptereleotris helenae,70,St. Eustatius,2,m,5.971062422,11.94212484,Ptereleotris helenae
+1479,Ptereleotris helenae,80,Bonaire,13,m,1.181725224,15.36242791,Ptereleotris helenae
+1480,Ptereleotris helenae,80,Curacao,10,m,1.181725224,11.81725224,Ptereleotris helenae
+1481,Ptereleotris helenae,80,Roatan,1,m,2.472222222,2.472222222,Ptereleotris helenae
+1482,Ptereleotris helenae,80,St. Eustatius,19,m,3.768327681,71.59822594,Ptereleotris helenae
+1483,Ptereleotris helenae,90,Bonaire,4,m,1.187769118,4.751076472,Ptereleotris helenae
+1484,Ptereleotris helenae,90,Curacao,1,m,1.187769118,1.187769118,Ptereleotris helenae
+1485,Ptereleotris helenae,90,St. Eustatius,33,m,1,33,Ptereleotris helenae
+1486,Ptereleotris helenae,100,Bonaire,7,m,1.379236425,9.654654975,Ptereleotris helenae
+1487,Ptereleotris helenae,100,Curacao,1,m,1.379236425,1.379236425,Ptereleotris helenae
+1488,Ptereleotris helenae,100,St. Eustatius,22,m,1.546301253,34.01862757,Ptereleotris helenae
+1489,Ptereleotris helenae,110,Bonaire,19,m,1.161185714,22.06252857,Ptereleotris helenae
+1490,Ptereleotris helenae,120,Curacao,2,m,1.127104229,2.254208458,Ptereleotris helenae
+1491,Ptereleotris helenae,130,St. Eustatius,1,m,3.42437174,3.42437174,Ptereleotris helenae
+1492,Ptereleotris helenae,140,Roatan,2,m,1.893617021,3.787234042,Ptereleotris helenae
+1493,Ptereleotris helenae,180,St. Eustatius,1,m,4.174566474,4.174566474,Ptereleotris helenae
+1494,Pterois volitans,30,Roatan,1,m,1.034883721,1.034883721,Pterois volitans
+1495,Pterois volitans,60,Roatan,1,m,1.893617021,1.893617021,Pterois volitans
+1496,Pterois volitans,70,Roatan,4,m,2.656716418,10.62686567,Pterois volitans
+1497,Pterois volitans,80,Roatan,4,m,2.472222222,9.888888888,Pterois volitans
+1498,Pterois volitans,90,Roatan,21,m,2.966666667,62.30000001,Pterois volitans
+1499,Pterois volitans,100,Roatan,1,m,1.483333333,1.483333333,Pterois volitans
+1500,Pterois volitans,110,Roatan,2,m,1.934782609,3.869565218,Pterois volitans
+1501,Pterois volitans,120,Roatan,1,m,2.170731707,2.170731707,Pterois volitans
+1502,Pterois volitans,140,Roatan,4,m,1.893617021,7.574468084,Pterois volitans
+1503,Pterois volitans,150,Roatan,3,m,2.022727273,6.068181819,Pterois volitans
+1504,Pterois volitans,170,Roatan,1,m,1.022988506,1.022988506,Pterois volitans
+1505,Pterois volitans,200,Roatan,2,m,1.369230769,2.738461538,Pterois volitans
+1506,Pterois volitans,210,Roatan,1,m,2.119047619,2.119047619,Pterois volitans
+1507,Rypticus maculatus,80,Bonaire,1,m,1.181725224,1.181725224,Rypticus maculatus
+1508,Rypticus saponaceous,60,Bonaire,1,m,2.016114097,2.016114097,Rypticus saponaceus
+1509,Rypticus saponaceous,90,Bonaire,1,m,1.187769118,1.187769118,Rypticus saponaceus
+1510,Rypticus saponaceous,100,Bonaire,2,m,1.379236425,2.75847285,Rypticus saponaceus
+1511,Rypticus saponaceous,110,Bonaire,3,m,1.161185714,3.483557142,Rypticus saponaceus
+1512,Rypticus saponaceous,130,Bonaire,2,m,1.303308391,2.606616782,Rypticus saponaceus
+1513,Rypticus saponaceous,140,Bonaire,1,m,1.365335946,1.365335946,Rypticus saponaceus
+1514,Rypticus saponaceus,80,St. Eustatius,1,m,3.768327681,3.768327681,Rypticus saponaceus
+1515,Rypticus saponaceus,110,Roatan,1,m,1.934782609,1.934782609,Rypticus saponaceus
+1516,Rypticus saponaceus,110,St. Eustatius,1,m,1.300675371,1.300675371,Rypticus saponaceus
+1517,Rypticus saponaceus,200,St. Eustatius,1,m,3.862032086,3.862032086,Rypticus saponaceus
+1518,Rypticus saponaceus,210,St. Eustatius,1,m,2.498961938,2.498961938,Rypticus saponaceus
+1519,Sargocentron bullisi,110,Bonaire,2,m,1.161185714,2.322371428,Sargocentron bullisi
+1520,Sargocentron bullisi,120,Bonaire,1,m,1.127104229,1.127104229,Sargocentron bullisi
+1521,Sargocentron poco,180,Roatan,1,m,2.870967742,2.870967742,Sargocentron poco
+1522,Scarus iseri,10,Roatan,66,m,2.225,146.85,Scarus iseri
+1523,Scarus iseri,20,Roatan,15,m,1.934782609,29.02173914,Scarus iseri
+1524,Scarus iseri,30,Roatan,9,m,1.034883721,9.313953489,Scarus iseri
+1525,Scarus iseri,40,Roatan,3,m,1.1125,3.3375,Scarus iseri
+1526,Scarus taeniopterus,10,Roatan,17,m,2.225,37.825,Scarus taeniopterus
+1527,Scarus taeniopterus,20,Roatan,40,m,1.934782609,77.39130436,Scarus taeniopterus
+1528,Scarus taeniopterus,30,Roatan,20,m,1.034883721,20.69767442,Scarus taeniopterus
+1529,Scarus taeniopterus,40,Bonaire,5,m,1.139215137,5.696075685,Scarus taeniopterus
+1530,Scarus taeniopterus,40,Roatan,30,m,1.1125,33.375,Scarus taeniopterus
+1531,Scarus taeniopterus,40,St. Eustatius,16,m,10.87650602,174.0240963,Scarus taeniopterus
+1532,Scarus taeniopterus,50,Bonaire,5,m,0.999995899,4.999979495,Scarus taeniopterus
+1533,Scarus taeniopterus,50,Roatan,20,m,1.390625,27.8125,Scarus taeniopterus
+1534,Scarus taeniopterus,50,St. Eustatius,3,m,15.20421053,45.61263159,Scarus taeniopterus
+1535,Scarus taeniopterus,60,Bonaire,3,m,2.016114097,6.048342291,Scarus taeniopterus
+1536,Scarus taeniopterus,60,Roatan,23,m,1.893617021,43.55319148,Scarus taeniopterus
+1537,Scarus taeniopterus,60,St. Eustatius,3,m,6.826086957,20.47826087,Scarus taeniopterus
+1538,Scarus taeniopterus,70,Roatan,6,m,2.656716418,15.94029851,Scarus taeniopterus
+1539,Scarus taeniopterus,80,Roatan,2,m,2.472222222,4.944444444,Scarus taeniopterus
+1540,Scarus taeniopterus,80,St. Eustatius,13,m,3.768327681,48.98825985,Scarus taeniopterus
+1541,Scarus taeniopterus,90,Roatan,1,m,2.966666667,2.966666667,Scarus taeniopterus
+1542,Scarus taeniopterus,90,St. Eustatius,3,m,1,3,Scarus taeniopterus
+1543,Scarus vetula,20,Roatan,1,m,1.934782609,1.934782609,Scarus vetula
+1544,Scarus vetula,60,Bonaire,1,m,2.016114097,2.016114097,Scarus vetula
+1545,Scarus viride,50,Roatan,1,m,1.390625,1.390625,Sparisoma viride
+1546,Scorpaena brasiliensis,200,Bonaire,1,m,1.203301258,1.203301258,Scorpaena brasiliensis
+1547,Scorpaenodes barrybrowni,140,Bonaire,1,m,1.365335946,1.365335946,Scorpaenodes barrybrowni
+1548,Scorpaenodes barrybrowni,150,Bonaire,1,m,1.188927353,1.188927353,Scorpaenodes barrybrowni
+1549,Scorpaenodes caribbaeus,190,St. Eustatius,1,m,3.571711177,3.571711177,Scorpaenodes caribbaeus
+1550,Scorpaenodes caribbaeus,200,St. Eustatius,1,m,3.862032086,3.862032086,Scorpaenodes caribbaeus
+1551,Scorpaenodes caribbaeus,220,St. Eustatius,2,m,5.980952381,11.96190476,Scorpaenodes caribbaeus
+1552,Seriola dumerili,230,Roatan,1,m,1.589285714,1.589285714,Seriola dumerili
+1553,Seriola rivoliana,70,St. Eustatius,1,m,5.971062422,5.971062422,Seriola rivoliana
+1554,Seriola rivoliana,160,St. Eustatius,2,m,4.342754059,8.685508118,Seriola rivoliana
+1555,Serranus annularis,90,St. Eustatius,1,m,1,1,Serranus annularis
+1556,Serranus annularis,100,St. Eustatius,1,m,1.546301253,1.546301253,Serranus annularis
+1557,Serranus atrobranchus,140,Bonaire,1,m,1.365335946,1.365335946,Serranus atrobranchus
+1558,Serranus chionaraia,30,Roatan,1,m,1.034883721,1.034883721,Serranus chionaraia
+1559,Serranus chionaraia,70,Bonaire,5,m,2.085070543,10.42535272,Serranus chionaraia
+1560,Serranus chionaraia,80,Bonaire,2,m,1.181725224,2.363450448,Serranus chionaraia
+1561,Serranus chionaraia,90,Bonaire,1,m,1.187769118,1.187769118,Serranus chionaraia
+1562,Serranus luciopercanus,60,Curacao,1,m,2.016114097,2.016114097,Serranus luciopercanus
+1563,Serranus luciopercanus,70,Curacao,7,m,2.085070543,14.5954938,Serranus luciopercanus
+1564,Serranus luciopercanus,70,Roatan,2,m,2.656716418,5.313432836,Serranus luciopercanus
+1565,Serranus luciopercanus,80,Bonaire,1,m,1.181725224,1.181725224,Serranus luciopercanus
+1566,Serranus luciopercanus,80,Curacao,1,m,1.181725224,1.181725224,Serranus luciopercanus
+1567,Serranus luciopercanus,80,Roatan,2,m,2.472222222,4.944444444,Serranus luciopercanus
+1568,Serranus luciopercanus,90,Bonaire,6,m,1.187769118,7.126614708,Serranus luciopercanus
+1569,Serranus luciopercanus,90,Curacao,20,m,1.187769118,23.75538236,Serranus luciopercanus
+1570,Serranus luciopercanus,90,Roatan,8,m,2.966666667,23.73333334,Serranus luciopercanus
+1571,Serranus luciopercanus,90,St. Eustatius,1,m,1,1,Serranus luciopercanus
+1572,Serranus luciopercanus,100,Bonaire,1,m,1.379236425,1.379236425,Serranus luciopercanus
+1573,Serranus luciopercanus,100,Curacao,18,m,1.379236425,24.82625565,Serranus luciopercanus
+1574,Serranus luciopercanus,100,St. Eustatius,2,m,1.546301253,3.092602506,Serranus luciopercanus
+1575,Serranus luciopercanus,110,Bonaire,2,m,1.161185714,2.322371428,Serranus luciopercanus
+1576,Serranus luciopercanus,110,Curacao,15,m,1.161185714,17.41778571,Serranus luciopercanus
+1577,Serranus luciopercanus,110,Roatan,3,m,1.934782609,5.804347827,Serranus luciopercanus
+1578,Serranus luciopercanus,110,St. Eustatius,12,m,1.300675371,15.60810445,Serranus luciopercanus
+1579,Serranus luciopercanus,120,Bonaire,1,m,1.127104229,1.127104229,Serranus luciopercanus
+1580,Serranus luciopercanus,120,Curacao,7,m,1.127104229,7.889729603,Serranus luciopercanus
+1581,Serranus luciopercanus,120,Roatan,2,m,2.170731707,4.341463414,Serranus luciopercanus
+1582,Serranus luciopercanus,120,St. Eustatius,3,m,3.838426787,11.51528036,Serranus luciopercanus
+1583,Serranus luciopercanus,130,Roatan,3,m,2.542857143,7.628571429,Serranus luciopercanus
+1584,Serranus luciopercanus,130,St. Eustatius,2,m,3.42437174,6.84874348,Serranus luciopercanus
+1585,Serranus luciopercanus,140,Roatan,3,m,1.893617021,5.680851063,Serranus luciopercanus
+1586,Serranus luciopercanus,140,St. Eustatius,2,m,5.143874644,10.28774929,Serranus luciopercanus
+1587,Serranus luciopercanus,150,St. Eustatius,1,m,3.366899767,3.366899767,Serranus luciopercanus
+1588,Serranus notospilus,100,Bonaire,2,m,1.379236425,2.75847285,Serranus notospilus
+1589,Serranus notospilus,100,Curacao,2,m,1.379236425,2.75847285,Serranus notospilus
+1590,Serranus notospilus,110,Bonaire,1,m,1.161185714,1.161185714,Serranus notospilus
+1591,Serranus notospilus,110,St. Eustatius,1,m,1.300675371,1.300675371,Serranus notospilus
+1592,Serranus notospilus,120,Bonaire,3,m,1.127104229,3.381312687,Serranus notospilus
+1593,Serranus notospilus,130,Bonaire,5,m,1.303308391,6.516541955,Serranus notospilus
+1594,Serranus notospilus,130,Curacao,2,m,1.303308391,2.606616782,Serranus notospilus
+1595,Serranus notospilus,130,St. Eustatius,1,m,3.42437174,3.42437174,Serranus notospilus
+1596,Serranus notospilus,140,Bonaire,13,m,1.365335946,17.7493673,Serranus notospilus
+1597,Serranus notospilus,140,Curacao,8,m,1.365335946,10.92268757,Serranus notospilus
+1598,Serranus notospilus,140,St. Eustatius,1,m,5.143874644,5.143874644,Serranus notospilus
+1599,Serranus notospilus,150,Bonaire,7,m,1.188927353,8.322491471,Serranus notospilus
+1600,Serranus notospilus,150,Curacao,7,m,1.188927353,8.322491471,Serranus notospilus
+1601,Serranus notospilus,160,Bonaire,6,m,1.212877394,7.277264364,Serranus notospilus
+1602,Serranus notospilus,160,Curacao,6,m,1.212877394,7.277264364,Serranus notospilus
+1603,Serranus notospilus,170,Bonaire,8,m,1.172632844,9.381062752,Serranus notospilus
+1604,Serranus notospilus,170,Curacao,4,m,1.172632844,4.690531376,Serranus notospilus
+1605,Serranus notospilus,180,Bonaire,1,m,1.724533239,1.724533239,Serranus notospilus
+1606,Serranus notospilus,180,Curacao,10,m,1.724533239,17.24533239,Serranus notospilus
+1607,Serranus notospilus,180,St. Eustatius,4,m,4.174566474,16.6982659,Serranus notospilus
+1608,Serranus notospilus,190,Curacao,15,m,1.643187332,24.64780998,Serranus notospilus
+1609,Serranus notospilus,190,St. Eustatius,1,m,3.571711177,3.571711177,Serranus notospilus
+1610,Serranus notospilus,200,Bonaire,1,m,1.203301258,1.203301258,Serranus notospilus
+1611,Serranus notospilus,200,Curacao,20,m,1.203301258,24.06602516,Serranus notospilus
+1612,Serranus notospilus,210,Bonaire,2,m,1.454078712,2.908157424,Serranus notospilus
+1613,Serranus notospilus,210,Curacao,7,m,1.454078712,10.17855098,Serranus notospilus
+1614,Serranus notospilus,220,Curacao,12,m,1.136560242,13.6387229,Serranus notospilus
+1615,Serranus notospilus,220,St. Eustatius,1,m,5.980952381,5.980952381,Serranus notospilus
+1616,Serranus notospilus,230,Curacao,8,m,1.644295347,13.15436278,Serranus notospilus
+1617,Serranus phoebe,70,Bonaire,1,m,2.085070543,2.085070543,Serranus phoebe
+1618,Serranus phoebe,80,Bonaire,8,m,1.181725224,9.453801792,Serranus phoebe
+1619,Serranus phoebe,80,Curacao,2,m,1.181725224,2.363450448,Serranus phoebe
+1620,Serranus phoebe,90,Bonaire,4,m,1.187769118,4.751076472,Serranus phoebe
+1621,Serranus phoebe,100,Bonaire,4,m,1.379236425,5.5169457,Serranus phoebe
+1622,Serranus phoebe,100,Curacao,1,m,1.379236425,1.379236425,Serranus phoebe
+1623,Serranus phoebe,110,Bonaire,11,m,1.161185714,12.77304285,Serranus phoebe
+1624,Serranus phoebe,120,Bonaire,12,m,1.127104229,13.52525075,Serranus phoebe
+1625,Serranus phoebe,120,Curacao,3,m,1.127104229,3.381312687,Serranus phoebe
+1626,Serranus phoebe,130,Bonaire,30,m,1.303308391,39.09925173,Serranus phoebe
+1627,Serranus phoebe,130,Curacao,4,m,1.303308391,5.213233564,Serranus phoebe
+1628,Serranus phoebe,140,Bonaire,15,m,1.365335946,20.48003919,Serranus phoebe
+1629,Serranus phoebe,140,Curacao,8,m,1.365335946,10.92268757,Serranus phoebe
+1630,Serranus phoebe,150,Bonaire,5,m,1.188927353,5.944636765,Serranus phoebe
+1631,Serranus phoebe,160,Bonaire,4,m,1.212877394,4.851509576,Serranus phoebe
+1632,Serranus phoebe,160,Curacao,2,m,1.212877394,2.425754788,Serranus phoebe
+1633,Serranus phoebe,170,Bonaire,5,m,1.172632844,5.86316422,Serranus phoebe
+1634,Serranus phoebe,170,Curacao,4,m,1.172632844,4.690531376,Serranus phoebe
+1635,Serranus phoebe,170,St. Eustatius,2,m,3.76734481,7.53468962,Serranus phoebe
+1636,Serranus phoebe,180,Bonaire,3,m,1.724533239,5.173599717,Serranus phoebe
+1637,Serranus phoebe,180,Curacao,1,m,1.724533239,1.724533239,Serranus phoebe
+1638,Serranus phoebe,180,St. Eustatius,7,m,4.174566474,29.22196532,Serranus phoebe
+1639,Serranus phoebe,200,St. Eustatius,2,m,3.862032086,7.724064172,Serranus phoebe
+1640,Serranus tabacarius,40,St. Eustatius,1,m,10.87650602,10.87650602,Serranus tabacarius
+1641,Serranus tabacarius,50,Bonaire,1,m,0.999995899,0.999995899,Serranus tabacarius
+1642,Serranus tabacarius,50,St. Eustatius,1,m,15.20421053,15.20421053,Serranus tabacarius
+1643,Serranus tabacarius,60,Bonaire,1,m,2.016114097,2.016114097,Serranus tabacarius
+1644,Serranus tabacarius,90,St. Eustatius,2,m,1,2,Serranus tabacarius
+1645,Serranus tabacarius,40,Roatan,1,m,1.1125,1.1125,Serranus tabacarius
+1646,Serranus tigrinus,50,Bonaire,1,m,0.999995899,0.999995899,Serranus tigrinus
+1647,Serranus tortugarum,40,Roatan,8,m,1.1125,8.9,Serranus tortugarum
+1648,Serranus tortugarum,40,St. Eustatius,9,m,10.87650602,97.88855418,Serranus tortugarum
+1649,Serranus tortugarum,50,St. Eustatius,60,m,15.20421053,912.2526318,Serranus tortugarum
+1650,Serranus tortugarum,60,Roatan,1,m,1.893617021,1.893617021,Serranus tortugarum
+1651,Serranus tortugarum,60,St. Eustatius,25,m,6.826086957,170.6521739,Serranus tortugarum
+1652,Serranus tortugarum,70,Bonaire,2,m,2.085070543,4.170141086,Serranus tortugarum
+1653,Serranus tortugarum,70,St. Eustatius,1,m,5.971062422,5.971062422,Serranus tortugarum
+1654,Serranus tortugarum,80,Bonaire,3,m,1.181725224,3.545175672,Serranus tortugarum
+1655,Serranus tortugarum,80,Roatan,7,m,2.472222222,17.30555555,Serranus tortugarum
+1656,Serranus tortugarum,80,St. Eustatius,18,m,3.768327681,67.82989826,Serranus tortugarum
+1657,Serranus tortugarum,90,St. Eustatius,1,m,1,1,Serranus tortugarum
+1658,Sparisoma atomarium,10,Roatan,1,m,2.225,2.225,Sparisoma atomarium
+1659,Sparisoma atomarium,20,Roatan,1,m,1.934782609,1.934782609,Sparisoma atomarium
+1660,Sparisoma atomarium,40,Roatan,4,m,1.1125,4.45,Sparisoma atomarium
+1661,Sparisoma atomarium,60,Roatan,1,m,1.893617021,1.893617021,Sparisoma atomarium
+1662,Sparisoma aurofrenatum,10,Roatan,53,m,2.225,117.925,Sparisoma aurofrenatum
+1663,Sparisoma aurofrenatum,20,Roatan,6,m,1.934782609,11.60869565,Sparisoma aurofrenatum
+1664,Sparisoma aurofrenatum,30,Roatan,9,m,1.034883721,9.313953489,Sparisoma aurofrenatum
+1665,Sparisoma aurofrenatum,40,Roatan,8,m,1.1125,8.9,Sparisoma aurofrenatum
+1666,Sparisoma aurofrenatum,40,St. Eustatius,2,m,10.87650602,21.75301204,Sparisoma aurofrenatum
+1667,Sparisoma aurofrenatum,50,Roatan,9,m,1.390625,12.515625,Sparisoma aurofrenatum
+1668,Sparisoma aurofrenatum,60,Roatan,6,m,1.893617021,11.36170213,Sparisoma aurofrenatum
+1669,Sparisoma aurofrenatum,70,Roatan,1,m,2.656716418,2.656716418,Sparisoma aurofrenatum
+1670,Sparisoma aurofrenatum,70,St. Eustatius,1,m,5.971062422,5.971062422,Sparisoma aurofrenatum
+1671,Sparisoma chrysopterum,10,Roatan,4,m,2.225,8.9,Sparisoma chrysopterum
+1672,Sparisoma rubripinne,10,Roatan,1,m,2.225,2.225,Sparisoma rubripinne
+1673,Sparisoma viride,10,Roatan,28,m,2.225,62.3,Sparisoma viride
+1674,Sparisoma viride,20,Roatan,6,m,1.934782609,11.60869565,Sparisoma viride
+1675,Sparisoma viride,30,Roatan,2,m,1.034883721,2.069767442,Sparisoma viride
+1676,Sparisoma viride,40,Bonaire,1,m,1.139215137,1.139215137,Sparisoma viride
+1677,Sparisoma viride,40,Roatan,1,m,1.1125,1.1125,Sparisoma viride
+1678,Sparisoma viride,40,St. Eustatius,2,m,10.87650602,21.75301204,Sparisoma viride
+1679,Sparisoma viride,50,Bonaire,1,m,0.999995899,0.999995899,Sparisoma viride
+1680,Sparisoma viride,60,Bonaire,1,m,2.016114097,2.016114097,Sparisoma viride
+1681,Sparisoma viride,60,Roatan,1,m,1.893617021,1.893617021,Sparisoma viride
+1682,Sphoeroides dorsalis,180,St. Eustatius,1,m,4.174566474,4.174566474,Sphoeroides dorsalis
+1683,Sphoeroides dorsalis,200,St. Eustatius,1,m,3.862032086,3.862032086,Sphoeroides dorsalis
+1684,Sphoeroides dorsalis,220,St. Eustatius,1,m,5.980952381,5.980952381,Sphoeroides dorsalis
+1685,Sphoeroides dorsalis,230,St. Eustatius,1,m,2.26572549,2.26572549,Sphoeroides dorsalis
+1686,Sphyraena barracuda,40,Bonaire,1,m,1.139215137,1.139215137,Sphyraena barracuda
+1687,Sphyraena barracuda,40,Roatan,1,m,1.1125,1.1125,Sphyraena barracuda
+1688,Sphyraena barracuda,50,St. Eustatius,1,m,15.20421053,15.20421053,Sphyraena barracuda
+1689,Sphyraena barracuda,60,Roatan,1,m,1.893617021,1.893617021,Sphyraena barracuda
+1690,Sphyraena barracuda,80,St. Eustatius,1,m,3.768327681,3.768327681,Sphyraena barracuda
+1691,Sphyraena barracuda,90,Roatan,2,m,2.966666667,5.933333334,Sphyraena barracuda
+1692,Sphyraena barracuda,100,St. Eustatius,2,m,1.546301253,3.092602506,Sphyraena barracuda
+1693,Sphyraena barracuda,120,St. Eustatius,1,m,3.838426787,3.838426787,Sphyraena barracuda
+1694,Sphyraena barracuda,160,St. Eustatius,1,m,4.342754059,4.342754059,Sphyraena barracuda
+1695,Sphyraenops bairdianus,260,Curacao,4,m,2.855374707,11.42149883,Sphyraenops bairdianus
+1696,Sphyraenops bairdianus,280,Curacao,2,m,3.295256757,6.590513514,Sphyraenops bairdianus
+1697,Stegastes diencaeus,10,Roatan,105,m,2.225,233.625,Stegastes diencaeus
+1698,Stegastes partitus,10,Roatan,133,m,2.225,295.925,Stegastes partitus
+1699,Stegastes partitus,20,Roatan,36,m,1.934782609,69.65217392,Stegastes partitus
+1700,Stegastes partitus,30,Roatan,9,m,1.034883721,9.313953489,Stegastes partitus
+1701,Stegastes partitus,40,Bonaire,25,m,1.139215137,28.48037843,Stegastes partitus
+1702,Stegastes partitus,40,Curacao,19,m,1.139215137,21.6450876,Stegastes partitus
+1703,Stegastes partitus,40,Roatan,32,m,1.1125,35.6,Stegastes partitus
+1704,Stegastes partitus,40,St. Eustatius,44,m,10.87650602,478.5662649,Stegastes partitus
+1705,Stegastes partitus,50,Bonaire,45,m,0.999995899,44.99981546,Stegastes partitus
+1706,Stegastes partitus,50,Curacao,18,m,0.999995899,17.99992618,Stegastes partitus
+1707,Stegastes partitus,50,Roatan,5,m,1.390625,6.953125,Stegastes partitus
+1708,Stegastes partitus,50,St. Eustatius,210,m,15.20421053,3192.884211,Stegastes partitus
+1709,Stegastes partitus,60,Bonaire,23,m,2.016114097,46.37062423,Stegastes partitus
+1710,Stegastes partitus,60,Curacao,5,m,2.016114097,10.08057049,Stegastes partitus
+1711,Stegastes partitus,60,Roatan,1,m,1.893617021,1.893617021,Stegastes partitus
+1712,Stegastes partitus,70,Bonaire,3,m,2.085070543,6.255211629,Stegastes partitus
+1713,Stegastes planifrons,10,Roatan,183,m,2.225,407.175,Stegastes planifrons
+1714,Stegastes planifrons,20,Roatan,9,m,1.934782609,17.41304348,Stegastes planifrons
+1715,Stegastes variabilis,10,Roatan,2,m,2.225,4.45,Stegastes variabilis
+1716,Stegastes variabilis,20,Roatan,15,m,1.934782609,29.02173914,Stegastes variabilis
+1717,Stegastes variabilis,30,Roatan,7,m,1.034883721,7.244186047,Stegastes variabilis
+1718,Stegastes viride,10,Roatan,1,m,2.225,2.225,Sparisoma viride
+1719,Stegastes xanthurus,30,Roatan,3,m,1.034883721,3.104651163,Stegastes xanthurus
+1720,Stegastes xanthurus,40,Roatan,1,m,1.1125,1.1125,Stegastes xanthurus
+1721,Syacium gunteri,170,Bonaire,1,m,1.172632844,1.172632844,Syacium gunteri
+1722,Symphysanodon berryi,120,Curacao,1,m,1.127104229,1.127104229,Symphysanodon berryi
+1723,Symphysanodon berryi,150,Curacao,1,m,1.188927353,1.188927353,Symphysanodon berryi
+1724,Symphysanodon berryi,160,Curacao,5,m,1.212877394,6.06438697,Symphysanodon berryi
+1725,Symphysanodon berryi,180,Curacao,3,m,1.724533239,5.173599717,Symphysanodon berryi
+1726,Symphysanodon berryi,190,Curacao,5,m,1.643187332,8.21593666,Symphysanodon berryi
+1727,Symphysanodon berryi,200,Curacao,7,m,1.203301258,8.423108806,Symphysanodon berryi
+1728,Symphysanodon berryi,200,Roatan,5,m,1.369230769,6.846153845,Symphysanodon berryi
+1729,Symphysanodon berryi,210,Curacao,10,m,1.454078712,14.54078712,Symphysanodon berryi
+1730,Symphysanodon berryi,220,Curacao,14,m,1.136560242,15.91184339,Symphysanodon berryi
+1731,Symphysanodon berryi,220,Roatan,1,m,1.854166667,1.854166667,Symphysanodon berryi
+1732,Symphysanodon berryi,230,Curacao,20,m,1.644295347,32.88590694,Symphysanodon berryi
+1733,Symphysanodon berryi,230,Roatan,1,m,1.589285714,1.589285714,Symphysanodon berryi
+1734,Symphysanodon berryi,230,St. Eustatius,1,m,2.26572549,2.26572549,Symphysanodon berryi
+1735,Symphysanodon berryi,240,Curacao,14,m,2.350351807,32.9049253,Symphysanodon berryi
+1736,Symphysanodon berryi,250,Curacao,14,m,3.051927409,42.72698373,Symphysanodon berryi
+1737,Symphysanodon berryi,250,Roatan,13,m,1.034883721,13.45348837,Symphysanodon berryi
+1738,Symphysanodon berryi,260,Curacao,4,m,2.855374707,11.42149883,Symphysanodon berryi
+1739,Symphysanodon berryi,260,Roatan,20,m,1.126582278,22.53164556,Symphysanodon berryi
+1740,Symphysanodon berryi,270,Curacao,3,m,3.382094313,10.14628294,Symphysanodon berryi
+1741,Symphysanodon berryi,270,Roatan,1,m,1,1,Symphysanodon berryi
+1742,Symphysanodon berryi,270,St. Eustatius,1,m,18.23737374,18.23737374,Symphysanodon berryi
+1743,Symphysanodon berryi,280,Curacao,2,m,3.295256757,6.590513514,Symphysanodon berryi
+1744,Symphysanodon berryi,280,Roatan,1,m,2.022727273,2.022727273,Symphysanodon berryi
+1745,Symphysanodon berryi,290,Curacao,14,m,4.077742475,57.08839465,Symphysanodon berryi
+1746,Symphysanodon berryi,290,Roatan,2,m,1.308823529,2.617647058,Symphysanodon berryi
+1747,Symphysanodon berryi,300,Roatan,1,m,2.617647059,2.617647059,Symphysanodon berryi
+1748,Symphysanodon octoactinus,140,Curacao,1,m,1.365335946,1.365335946,Symphysanodon octoactinus
+1749,Symphysanodon octoactinus,150,Bonaire,6,m,1.188927353,7.133564118,Symphysanodon octoactinus
+1750,Symphysanodon octoactinus,150,Curacao,10,m,1.188927353,11.88927353,Symphysanodon octoactinus
+1751,Symphysanodon octoactinus,160,Bonaire,8,m,1.212877394,9.703019152,Symphysanodon octoactinus
+1752,Symphysanodon octoactinus,160,Curacao,33,m,1.212877394,40.024954,Symphysanodon octoactinus
+1753,Symphysanodon octoactinus,160,Roatan,4,m,1.618181818,6.472727272,Symphysanodon octoactinus
+1754,Symphysanodon octoactinus,170,Curacao,43,m,1.172632844,50.42321229,Symphysanodon octoactinus
+1755,Symphysanodon octoactinus,170,Roatan,15,m,1.022988506,15.34482759,Symphysanodon octoactinus
+1756,Symphysanodon octoactinus,180,Curacao,21,m,1.724533239,36.21519802,Symphysanodon octoactinus
+1757,Symphysanodon octoactinus,180,Roatan,26,m,2.870967742,74.64516129,Symphysanodon octoactinus
+1758,Symphysanodon octoactinus,190,Curacao,7,m,1.643187332,11.50231132,Symphysanodon octoactinus
+1759,Symphysanodon octoactinus,190,Roatan,7,m,1.934782609,13.54347826,Symphysanodon octoactinus
+1760,Symphysanodon octoactinus,200,Curacao,6,m,1.203301258,7.219807548,Symphysanodon octoactinus
+1761,Symphysanodon octoactinus,200,Roatan,22,m,1.369230769,30.12307692,Symphysanodon octoactinus
+1762,Symphysanodon octoactinus,210,Curacao,4,m,1.454078712,5.816314848,Symphysanodon octoactinus
+1763,Symphysanodon octoactinus,210,Roatan,20,m,2.119047619,42.38095238,Symphysanodon octoactinus
+1764,Symphysanodon octoactinus,210,St. Eustatius,1,m,2.498961938,2.498961938,Symphysanodon octoactinus
+1765,Symphysanodon octoactinus,220,Curacao,15,m,1.136560242,17.04840363,Symphysanodon octoactinus
+1766,Symphysanodon octoactinus,220,Roatan,4,m,1.854166667,7.416666668,Symphysanodon octoactinus
+1767,Symphysanodon octoactinus,230,Curacao,11,m,1.644295347,18.08724882,Symphysanodon octoactinus
+1768,Symphysanodon octoactinus,230,Roatan,10,m,1.589285714,15.89285714,Symphysanodon octoactinus
+1769,Symphysanodon octoactinus,240,Roatan,3,m,1.711538462,5.134615386,Symphysanodon octoactinus
+1770,Symphysanodon octoactinus,250,Curacao,2,m,3.051927409,6.103854818,Symphysanodon octoactinus
+1771,Symphysanodon octoactinus,250,Roatan,1,m,1.034883721,1.034883721,Symphysanodon octoactinus
+1772,Symphysanodon octoactinus,260,Roatan,1,m,1.126582278,1.126582278,Symphysanodon octoactinus
+1773,Symphysanodon octoactinus,270,Roatan,1,m,1,1,Symphysanodon octoactinus
+1774,Symphysanodon octoactinus,290,Roatan,1,m,1.308823529,1.308823529,Symphysanodon octoactinus
+1775,Symphysanodon octoactinus,450,Roatan,1,m,5.933333333,5.933333333,Symphysanodon octoactinus
+1776,Synagrops bellus,180,Bonaire,1,m,1.724533239,1.724533239,Synagrops bellus
+1777,Synagrops bellus,200,Roatan,3,m,1.369230769,4.107692307,Synagrops bellus
+1778,Synagrops bellus,240,Roatan,1,m,1.711538462,1.711538462,Synagrops bellus
+1779,Synagrops bellus,250,Roatan,3,m,1.034883721,3.104651163,Synagrops bellus
+1780,Synagrops bellus,290,Roatan,1,m,1.308823529,1.308823529,Synagrops bellus
+1781,Synagrops egretta,210,Bonaire,1,m,1.454078712,1.454078712,Synagrops bellus
+1782,Thalassoma bifasciatum,10,Roatan,215,m,2.225,478.375,Thalassoma bifasciatum
+1783,Thalassoma bifasciatum,20,Roatan,2,m,1.934782609,3.869565218,Thalassoma bifasciatum
+1784,Thalassoma bifasciatum,30,Roatan,1,m,1.034883721,1.034883721,Thalassoma bifasciatum
+1785,Thalassoma bifasciatum,40,Roatan,1,m,1.1125,1.1125,Thalassoma bifasciatum
+1786,Thalassoma bifasciatum,40,St. Eustatius,2,m,10.87650602,21.75301204,Thalassoma bifasciatum
+1787,Thalassoma bifasciatum,70,Roatan,1,m,2.656716418,2.656716418,Thalassoma bifasciatum
+1788,Trachinotus goodei,40,Roatan,3,m,1.1125,3.3375,Trachinotus goodei
+1789,Varicus adamsi,240,Roatan,1,m,1.711538462,1.711538462,Varicus bucca
+1790,Varicus cephalocellatus,130,Bonaire,2,m,1.303308391,2.606616782,Varicus bucca
+1791,Varicus cephalocellatus,180,St. Eustatius,1,m,4.174566474,4.174566474,Varicus bucca
+1792,Varicus decorum,90,Curacao,1,m,1.187769118,1.187769118,Varicus bucca
+1793,Varicus decorum,140,Bonaire,1,m,1.365335946,1.365335946,Varicus bucca
+1794,Varicus decorum,160,Bonaire,8,m,1.212877394,9.703019152,Varicus bucca
+1795,Varicus decorum,160,Curacao,1,m,1.212877394,1.212877394,Varicus bucca
+1796,Varicus decorum,220,Curacao,1,m,1.136560242,1.136560242,Varicus bucca
+1797,Varicus veliguttatus,150,Curacao,1,m,1.188927353,1.188927353,Varicus bucca
+1798,Varicus veliguttatus,180,Curacao,1,m,1.724533239,1.724533239,Varicus bucca
+1799,Varicus veliguttatus,190,Curacao,1,m,1.643187332,1.643187332,Varicus bucca
+1800,Varicus veliguttatus,190,Roatan,1,m,1.934782609,1.934782609,Varicus bucca
+1801,Varicus veliguttatus,200,Roatan,1,m,1.369230769,1.369230769,Varicus bucca
+1802,Varicus veliguttatus,220,Curacao,1,m,1.136560242,1.136560242,Varicus bucca
+1803,Varicus veliguttatus,220,Roatan,4,m,1.854166667,7.416666668,Varicus bucca
+1804,Varicus veliguttatus,230,Roatan,1,m,1.589285714,1.589285714,Varicus bucca
+1805,Varicus veliguttatus,230,St. Eustatius,2,m,2.26572549,4.53145098,Varicus bucca
+1806,Varicus veliguttatus,240,Roatan,1,m,1.711538462,1.711538462,Varicus bucca
+1807,Varicus veliguttatus,260,Roatan,1,m,1.126582278,1.126582278,Varicus bucca
+1808,Varicus veliguttatus,270,Roatan,1,m,1,1,Varicus bucca
+1809,Verilus sordidus,240,Roatan,1,m,1.711538462,1.711538462,Verilus sordidus
+1810,Verilus sordidus,390,Roatan,1,m,8.090909091,8.090909091,Verilus sordidus
+1811,Vomerogobius flavus,70,Roatan,2,m,2.656716418,5.313432836,Vomerogobius flavus
+1812,Vomerogobius flavus,90,Roatan,1,m,2.966666667,2.966666667,Vomerogobius flavus
+1813,Xanthichthys ringens,40,Bonaire,1,m,1.139215137,1.139215137,Xanthichthys ringens
+1814,Xanthichthys ringens,40,Curacao,2,m,1.139215137,2.278430274,Xanthichthys ringens
+1815,Xanthichthys ringens,50,Bonaire,7,m,0.999995899,6.999971293,Xanthichthys ringens
+1816,Xanthichthys ringens,50,Curacao,4,m,0.999995899,3.999983596,Xanthichthys ringens
+1817,Xanthichthys ringens,60,Bonaire,12,m,2.016114097,24.19336916,Xanthichthys ringens
+1818,Xanthichthys ringens,60,Curacao,7,m,2.016114097,14.11279868,Xanthichthys ringens
+1819,Xanthichthys ringens,70,Bonaire,5,m,2.085070543,10.42535272,Xanthichthys ringens
+1820,Xanthichthys ringens,70,Curacao,1,m,2.085070543,2.085070543,Xanthichthys ringens
+1821,Xanthichthys ringens,70,St. Eustatius,1,m,5.971062422,5.971062422,Xanthichthys ringens
+1822,Xanthichthys ringens,80,Curacao,1,m,1.181725224,1.181725224,Xanthichthys ringens
+1823,Xanthichthys ringens,80,St. Eustatius,5,m,3.768327681,18.84163841,Xanthichthys ringens
+1824,Xanthichthys ringens,90,St. Eustatius,5,m,1,5,Xanthichthys ringens
+1825,Xanthichthys ringens,100,Bonaire,1,m,1.379236425,1.379236425,Xanthichthys ringens
+1826,Xanthichthys ringens,100,St. Eustatius,4,m,1.546301253,6.185205012,Xanthichthys ringens
+1827,Xanthichthys ringens,150,St. Eustatius,1,m,3.366899767,3.366899767,Xanthichthys ringens
+1828,Zalieutes mcgintyi,200,St. Eustatius,1,m,3.862032086,3.862032086,Zalieutes mcgintyi

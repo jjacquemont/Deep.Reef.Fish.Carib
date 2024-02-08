@@ -1,0 +1,46 @@
+"","cluster","type","betadiv"
+"1","upper mesophotic","beta",0.5
+"2","lower mesophotic","beta",0.852631578947368
+"3","upper rariphotic","beta",0.895833333333333
+"4","lower rariphotic","beta",0.955555555555556
+"5","deep sea","beta",0.974358974358974
+"6","lower mesophotic ","beta",0.596330275229358
+"7","upper rariphotic ","beta",0.8
+"8","lower rariphotic ","beta",0.942307692307692
+"9","deep sea ","beta",1
+"10","upper rariphotic  ","beta",0.507246376811594
+"11","lower rariphotic  ","beta",0.904761904761905
+"12","deep sea  ","beta",1
+"13","lower rariphotic   ","beta",0.5
+"14","deep sea   ","beta",0.807692307692308
+"15","deep sea    ","beta",0.478260869565217
+"16","upper mesophotic","nestedness",0.0573770491803279
+"17","lower mesophotic","nestedness",0.0585139318885449
+"18","upper rariphotic","nestedness",0.0386904761904762
+"19","lower rariphotic","nestedness",0.0245210727969349
+"20","deep sea","nestedness",0.0331825037707391
+"21","lower mesophotic ","nestedness",0.24338909875877
+"22","upper rariphotic ","nestedness",0.114285714285714
+"23","lower rariphotic ","nestedness",0.0457559681697613
+"24","deep sea ","nestedness",0
+"25","upper rariphotic  ","nestedness",0.0072463768115942
+"26","lower rariphotic  ","nestedness",0.00821018062397373
+"27","deep sea  ","nestedness",0
+"28","lower rariphotic   ","nestedness",0.0517241379310345
+"29","deep sea   ","nestedness",0.101809954751131
+"30","deep sea    ","nestedness",0.184143222506394
+"31","upper mesophotic","turnover",0.442622950819672
+"32","lower mesophotic","turnover",0.794117647058823
+"33","upper rariphotic","turnover",0.857142857142857
+"34","lower rariphotic","turnover",0.931034482758621
+"35","deep sea","turnover",0.941176470588235
+"36","lower mesophotic ","turnover",0.352941176470588
+"37","upper rariphotic ","turnover",0.685714285714286
+"38","lower rariphotic ","turnover",0.896551724137931
+"39","deep sea ","turnover",1
+"40","upper rariphotic  ","turnover",0.5
+"41","lower rariphotic  ","turnover",0.896551724137931
+"42","deep sea  ","turnover",1
+"43","lower rariphotic   ","turnover",0.448275862068966
+"44","deep sea   ","turnover",0.705882352941177
+"45","deep sea    ","turnover",0.294117647058824
