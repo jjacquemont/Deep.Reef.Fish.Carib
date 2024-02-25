@@ -469,9 +469,10 @@ summary(abu.gam)
 # empty table with 1 line per (meter depth x site) to predict abundance
 abu.newdat <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
   # data_grid expands a table using all variables provided
-  data_grid(dband = seq(30,300,1), 
+  data_grid(dband = seq(10,480,1), 
             location = c("Curacao", "Bonaire","St. Eustatius", "Roatan"))%>%
-  mutate(location = factor(location, levels = c("Curacao", "Bonaire","St. Eustatius", "Roatan")))
+  mutate(location = factor(location, levels = c("Curacao", "Bonaire","St. Eustatius", "Roatan")))%>%
+  filter((dband<300 & dband>40 & location!="Roatan") | location=="Roatan") # only keeps Roatan for 1-40 and 300-480m
 
 abu.pred.gam <- data.frame(predict(abu.gam, abu.newdat, se.fit = TRUE, type = "link")) %>%
   add_column(dband = abu.newdat$dband) %>%
@@ -481,20 +482,25 @@ abu.pred.gam <- data.frame(predict(abu.gam, abu.newdat, se.fit = TRUE, type = "l
          uci = pred.abu+1.96*pred.abu.se)%>%
   mutate(location = factor(location, levels = c("Curacao", "Bonaire","St. Eustatius", "Roatan")))
 
+new.pal=c("#ffa600","#ef5675","#21918c","#003f5c")
 #plot
 ggplot(abu.pred.gam, aes(x = dband, y = pred.abu, color = location)) +
+  geom_point(data = carib.fish.sum, aes(x = dband, y = abu.norm, fill = location,
+                                        shape = location), color = "white") +
   geom_line(aes(group = location, color = location)) +
-  geom_ribbon(aes(ymin = lci, ymax = uci, group = location, fill = location), alpha = 0.1) +
-  geom_point(data = carib.fish.sum, aes(x = dband, y = abu.norm, fill = location, shape = location), color = "grey69") +
-  theme_bw() +
-  scale_color_fish_d(option = "Bodianus_rufus") +
-  scale_fill_fish_d(option = "Bodianus_rufus") +
+  geom_ribbon(aes(ymin = lci, ymax = uci, group = location, fill = location), 
+              alpha = 0.2,color=NA) +
+   theme_classic() +
+  scale_color_manual(values=new.pal)+
+  scale_fill_manual(values=new.pal)+
+  #scale_color_fish_d(option = "Bodianus_rufus") +
+  #scale_fill_fish_d(option = "Bodianus_rufus") +
   scale_shape_manual(values = c(21:24)) +
   #theme(legend.position = "none")+
   ylab("relative abundance")+
   xlab("depth")+
-  xlim(40,300)+
-  ylim(0,100)
+  xlim(10,480)+
+  ylim(-7,100)
 
 #### 2.3. species richness ####
 spric.plot <- ggplot(carib.fish.sum, aes(x = dband, y = spric, color = location, fill = location)) +
@@ -511,15 +517,16 @@ spric.plot
 #ggsave(spric.plot, file = "Figures/spric.png", width = 8, height = 6)
 
 
-#### FIG 1 RIGHT: species richness - all in same plot ####
+#### FIG 2 RIGHT: species richness - all in same plot ####
 spric.gam = gam(spric ~ s(dband) + location, family = poisson, data = carib.fish.sum)
 summary(spric.gam)
 
 spric.newdat <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
   # data_grid expands a table using all variables provided
-  data_grid(dband = seq(30,300,1), 
+  data_grid(dband = seq(10,480,1), 
             location = c("Curacao", "Bonaire","St. Eustatius", "Roatan"))%>%
-  mutate(location = factor(location, levels = c("Curacao", "Bonaire","St. Eustatius", "Roatan")))
+  mutate(location = factor(location, levels = c("Curacao", "Bonaire","St. Eustatius", "Roatan")))%>%
+  filter((dband<300 & dband>40 & location!="Roatan") | location=="Roatan") 
 
 spric.pred.gam <- data.frame(predict(spric.gam, spric.newdat, se.fit = TRUE, type = "link")) %>%
   add_column(dband = spric.newdat$dband) %>%
@@ -529,18 +536,24 @@ spric.pred.gam <- data.frame(predict(spric.gam, spric.newdat, se.fit = TRUE, typ
          uci = pred.spric+1.96*pred.spric.se)%>%
   mutate(location = factor(location, levels = c("Curacao", "Bonaire","St. Eustatius", "Roatan")))
 
+new.pal=c("#ffa600","#ef5675","#21918c","#003f5c")
+
 ggplot(spric.pred.gam, aes(x = dband, y = pred.spric, color = location)) +
+  geom_point(data = carib.fish.sum, aes(x = dband, y = spric, fill = location, 
+                                        shape = location),color = "white") +
+  geom_ribbon(aes(ymin = lci, ymax = uci, group = location, fill = location), 
+              alpha = 0.2,colour = NA) +
   geom_line(aes(group = location, color = location)) +
-  geom_ribbon(aes(ymin = lci, ymax = uci, group = location, fill = location), alpha = 0.1) +
-  geom_point(data = carib.fish.sum, aes(x = dband, y = spric, fill = location, shape = location), color = "grey69") +
-  theme_bw() +
-  scale_color_fish_d(option = "Bodianus_rufus") +
-  scale_fill_fish_d(option = "Bodianus_rufus") +
+  theme_classic() +
+  scale_color_manual(values=new.pal)+
+  scale_fill_manual(values=new.pal)+
+  #scale_color_fish_d(option = "Trimma_lantana") +
+  #scale_fill_fish_d(option = "Trimma_lantana") +
   scale_shape_manual(values = c(21:24)) +
   #theme(legend.position = "none")+
   ylab("species richness")+
   xlab("depth")+
-  xlim(40,300)
+  xlim(10,480)
 
 #### 3. Taxonomic diversity metrics using Hill numbers ####
 fish.data <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.carib.grouped.csv")
