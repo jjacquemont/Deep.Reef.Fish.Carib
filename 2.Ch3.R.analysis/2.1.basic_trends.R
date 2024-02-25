@@ -1412,6 +1412,37 @@ ggplot(beta.cluster.avg)+
                            "vs. upper rariphotic","vs. lower rariphotic"),10),size=3.5)+
 coord_cartesian(ylim=c(0,1),clip ="off")
 
+#### Figure 5: Turnover and nestdesness between depth ####
+# Need to run all section 3
+beta.cluster.avg <- beta.cluster.avg %>%
+  filter(type!="beta")
+
+ggplot(beta.cluster.avg)+
+  geom_point(data=beta.cluster.avg,aes(x=cluster,y=avg,shape=type,color=type),position=position_dodge(width=0),
+             size=5.5)+
+  geom_errorbar(aes(x=cluster,y=avg,ymin=avg-se, ymax=avg+se), width=.05,
+                position=position_dodge(.9),color="black") +
+  scale_shape_manual(values=c(15,16,17))+
+  #scale_color_viridis_d(end=0.7)+
+  scale_color_manual(values=c("#B26969","#FFDEBC","#E7A72B"))+
+  #theme_classic()+
+  theme(panel.background = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.line = element_line(color = "black"),
+        text = element_text(color = "black"),
+        axis.text = element_text(size = 10),
+        axis.title = element_text(size = 10,),
+        axis.ticks = element_line(color = "black"),
+        plot.margin = unit(c(1,1,5,1),"lines"))+
+  xlab("")+
+  geom_vline(xintercept=c(1.5,4.5,6.5,7.5),linetype="dashed",color="grey")+
+  scale_x_discrete(labels=str_wrap(labels,6))+
+  ylab("dissimilarity")+
+  annotate("text",x=c(1,3,5.5,7,8),y=-0.2,
+           label=str_wrap(c("vs. altiphotic","vs. upper mesophotic","vs. lower mesophotic",
+                            "vs. upper rariphotic","vs. lower rariphotic"),10),size=3.5)+
+  coord_cartesian(ylim=c(0,1),clip ="off")
+
 
 
 #### 4. Between site beta diversity ####
