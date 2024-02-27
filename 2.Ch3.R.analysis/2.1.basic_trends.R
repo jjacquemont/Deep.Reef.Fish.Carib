@@ -8,15 +8,17 @@ library(GGally) #functions and features that complement the functionality of the
 library(hillR) #to calculate richness, evenness and dominance 
 library(betapart) #to calculate beta diversity 
 
+## dataset with fish observations grouped by depth bins is:
+    # "2.file.fish.binned.csv"
 
-#### 0.1 Data prep - fish observations ####
+#### 0. Data prep - fish observations ####
 # read in raw data files
 bonaire <- read.csv(file = "raw.data/raw fish counts/Bonaire_Raw_2020.csv") 
 curacao <- read.csv(file = "raw.data/raw fish counts/Curacao_Raw_2020.csv")
 roatan <- read.csv(file = "raw.data/raw fish counts/Roatan_Raw_2020.csv") 
 statia <- read.csv(file = "raw.data/raw fish counts/Statia_raw_2020.csv") 
 
-#### 0.1.1. Correction factors (to normalize abundance by time spent) ####
+#### 0.1. Correction factors (to normalize abundance by time spent) ####
 bon.corr <- read.csv("raw.data/CorrectionFactors_SamplingEfforts/BonCoeff_2020.csv") %>%
   separate(depth, into = c("dband", "m")) %>%
   mutate(dband = as.numeric(dband)) %>%
@@ -40,62 +42,12 @@ coefs <- bind_rows(bon.corr, cur.corr, roa.corr, sta.corr)
 #write.csv(coefs,"raw.data/CorrectionFactors_SamplingEfforts/file.correction.coeffs.grouped.csv")
 
 
-#### 0.1.2. Check species name and assign depth bands ####
-carib.deep <- bind_rows(bonaire, curacao, roatan, statia)%>%
+#### 0.1. Assign depth bands ####
+obs.raw <- bind_rows(bonaire, curacao, roatan, statia)%>%
   rename(species = "name")
 
-# look for false names -- need to replace with FB compatible names
-# choosing close congeners
-
-tax.names <- data.frame("species" = c("Bathyanthias sp.","Bembrops sp.","Cantherhines sp.","Carangoides ruber","Caulolatilus plumieri",
-                                      "Coryphopterus curasub","Decapterus sp.","Decodon shallow","Epigonidae","Epinephalus striatus",
-                                      "Fistularia sp.","Flammeo marianus","Haemulon vittata","Lipogramma idabeli","Lipogramma regium",
-                                      "Myctoperca bonaci","Neoniphon coruscum","Palatogobius incendius","Phenacoscorpius nebrius",
-                                      "Pinnichthys aimoriensis","Plectranthias sp.","Polylepion sp.","Psilotris laurae","Rypticus saponaceous",
-                                      "Scarus viride","Serranus tabacarrius","Stegastes viride","Synagrops egretta","Varicus adamsi",
-                                      "Varicus cephalocellatus","Varicus decorum","Varicus veliguttatus")) %>%
-  mutate(species.fb = case_when(species == "Bathyanthias sp." ~ "Bathyanthias mexicanus",
-                                species == "Bembrops sp." ~ "Bembrops gobioides",
-                                species == "Cantherhines sp." ~ "Cantherhines pullus",
-                                species == "Carangoides ruber" ~ "Caranx ruber",
-                                species == "Caulolatilus plumieri" ~ "Malacanthus plumieri",
-                                species == "Coryphopterus curasub" ~ "Coryphopterus glaucofraenum",
-                                species == "Decapterus sp." ~ "Decapterus macarellus",
-                                species == "Decodon shallow" ~ "Decodon puellaris",
-                                species == "Epigonidae" ~ "Epigonus denticulatus",
-                                species == "Epinephalus striatus" ~ "Epinephelus striatus",
-                                species == "Fistularia sp." ~ "Fistularia commersonii",
-                                species == "Flammeo marianus" ~ "Neoniphon marianus",
-                                species == "Haemulon vittata" ~ "Haemulon vittatum",
-                                species == "Lipogramma idabeli" ~ "Lipogramma evides",
-                                species == "Lipogramma regium" ~ "Lipogramma evides",
-                                species == "Myctoperca bonaci" ~ "Mycteroperca bonaci",
-                                species == "Neoniphon coruscum" ~ "Sargocentron coruscum",
-                                species == "Palatogobius incendius" ~ "Palatogobius grandoculus",
-                                species == "Phenacoscorpius nebrius" ~ "Phenacoscorpius nebris",
-                                species == "Pinnichthys aimoriensis" ~ "Chriolepis zebra",
-                                species == "Plectranthias sp." ~ "Plectranthias garrupellus",
-                                species == "Polylepion sp." ~ "Polylepion russelli",
-                                species == "Psilotris laurae" ~ "Psilotris boehlkei",
-                                species == "Rypticus saponaceous" ~ "Rypticus saponaceus",
-                                species == "Scarus viride" ~ "Sparisoma viride",
-                                species == "Serranus tabacarrius" ~ "Serranus tabacarius",
-                                species == "Stegastes viride" ~ "Sparisoma viride",
-                                species == "Synagrops egretta" ~ "Synagrops bellus",
-                                species == "Varicus adamsi" ~ "Varicus bucca",
-                                species == "Varicus cephalocellatus" ~ "Varicus bucca",
-                                species == "Varicus decorum" ~ "Varicus bucca",
-                                species == "Varicus veliguttatus" ~ "Varicus bucca"))
-
-carib.deep.fishbase <- carib.deep %>%
-  left_join(tax.names) %>%
-  #distinct() %>% # selects distinct rows from data frame 
-  mutate(species.fb = case_when(is.na(species.fb) ~ species,
-                                TRUE ~ species.fb)) # attributes the original sp. name when no correction is needed
-#write.csv(carib.deep.fishbase,"2.Ch3.R.analysis/2.file.fish.grouped.raw.csv")
-
 coefs <- read.csv("raw.data/CorrectionFactors_SamplingEfforts/file.correction.coeffs.grouped.csv")
-carib.deep.fishbase <- carib.deep.fishbase %>%
+obs.raw.bins <- obs.raw %>%
   mutate(dband = case_when(meters >= 0 & meters < 10 ~ 0,
                            meters >= 10 & meters < 20 ~ 10,
                            meters >= 20 & meters < 30 ~ 20,
@@ -151,7 +103,14 @@ carib.deep.fishbase <- carib.deep.fishbase %>%
   left_join(coefs) %>%
   mutate(abu.corr = abundance*COEF) ## abundance corrected by sampling effort coeff
 
-#write.csv(carib.deep.fishbase,"2.Ch3.R.analysis/2.file.fish.carib.grouped.csv")
+#### 0.2. Change species names when mistakes or new taxonomy ####
+obs.raw.bins <- obs.raw.bins %>%
+  mutate(species = case_when(
+    species == "Neoscopelus macrolepidotus" ~ "Bathyclupea sp.",
+    TRUE ~ species)) %>%
+  select(-c("X","m"))
+
+#write.csv(obs.raw.bins,"2.Ch3.R.analysis/2.file.fish.binned.csv")
 
 #### 1.1 RAW abundance ####
 #### 1.1.0. data prep ####
@@ -1406,7 +1365,7 @@ ggplot(beta.cluster.avg)+
   xlab("")+
   geom_vline(xintercept=c(1.5,4.5,6.5,7.5),linetype="dashed",color="grey")+
   scale_x_discrete(labels=str_wrap(labels,6))+
-  ylab("dissimilarity")+
+  ylab("beta-diversity")+
   annotate("text",x=c(1,3,5.5,7,8),y=-0.2,
           label=str_wrap(c("vs. altiphotic","vs. upper mesophotic","vs. lower mesophotic",
                            "vs. upper rariphotic","vs. lower rariphotic"),10),size=3.5)+
@@ -1414,18 +1373,15 @@ coord_cartesian(ylim=c(0,1),clip ="off")
 
 #### Figure 5: Turnover and nestdesness between depth ####
 # Need to run all section 3
-beta.cluster.avg <- beta.cluster.avg %>%
-  filter(type!="beta")
+beta.cluster.fig5 <- beta.cluster.avg[beta.cluster.avg$type!="beta",]
+beta.error.fig5 <- beta.cluster.avg[beta.cluster.avg$type=="beta",]
 
-ggplot(beta.cluster.avg)+
-  geom_point(data=beta.cluster.avg,aes(x=cluster,y=avg,shape=type,color=type),position=position_dodge(width=0),
-             size=5.5)+
-  geom_errorbar(aes(x=cluster,y=avg,ymin=avg-se, ymax=avg+se), width=.05,
+ggplot()+
+  geom_bar(data=beta.cluster.fig5,aes(x=cluster,y=avg,fill=type),position="stack",
+           stat="identity",color="black",width=0.3)+
+  geom_errorbar(data=beta.error.fig5,aes(x=cluster,y=avg,ymin=avg-se, ymax=avg+se), width=.05,
                 position=position_dodge(.9),color="black") +
-  scale_shape_manual(values=c(15,16,17))+
-  #scale_color_viridis_d(end=0.7)+
-  scale_color_manual(values=c("#B26969","#FFDEBC","#E7A72B"))+
-  #theme_classic()+
+  scale_fill_manual(values=c("#FFDEBC","#B26969"))+
   theme(panel.background = element_blank(),
         panel.grid.minor = element_blank(),
         axis.line = element_line(color = "black"),
@@ -1433,15 +1389,17 @@ ggplot(beta.cluster.avg)+
         axis.text = element_text(size = 10),
         axis.title = element_text(size = 10,),
         axis.ticks = element_line(color = "black"),
-        plot.margin = unit(c(1,1,5,1),"lines"))+
+        plot.margin = unit(c(1,1,5,1),"lines"),
+        legend.title=element_blank())+
   xlab("")+
   geom_vline(xintercept=c(1.5,4.5,6.5,7.5),linetype="dashed",color="grey")+
-  scale_x_discrete(labels=str_wrap(labels,6))+
-  ylab("dissimilarity")+
-  annotate("text",x=c(1,3,5.5,7,8),y=-0.2,
+  scale_x_discrete(labels=str_wrap(labels,6),position="top")+
+  scale_y_reverse()+
+  ylab("beta-diversity")+
+  annotate("text",x=c(1,3,5.5,7,8),y=-0.08,
            label=str_wrap(c("vs. altiphotic","vs. upper mesophotic","vs. lower mesophotic",
                             "vs. upper rariphotic","vs. lower rariphotic"),10),size=3.5)+
-  coord_cartesian(ylim=c(0,1),clip ="off")
+  coord_cartesian(ylim=c(1,-0.1),clip ="off")
 
 
 
@@ -1682,64 +1640,4 @@ ggplot()+
   ylab("total species richness")+
   xlab("total number of observations")+
   ggtitle("Roatan - all depths")
-
-#### 6. Species list at each site ####
-carib.species <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
-  filter(dband>30 & dband<310) %>%
-  select(species)%>%
-  unique()
-
-bonaire.species <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
-  filter(location=="Bonaire") %>%
-  select(species) %>%
-  unique()%>%
-  mutate(bonaire=c(1))
-
-curacao.species <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
-  filter(location=="Curacao") %>%
-  select(species) %>%
-  unique()%>%
-  mutate(curacao=c(1))
-
-statia.species <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
-  filter(location=="St. Eustatius") %>%
-  select(species) %>%
-  unique()%>%
-  mutate(statia=c(1))
-
-roatan.species <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
-  filter(location=="Roatan" & dband>30 & dband<310) %>%
-  select(species) %>%
-  unique()%>%
-  mutate(roatan=c(1))
-
-## presence/absence of species at each site 
-carib.species.list <- carib.species %>%
-  left_join(bonaire.species) %>%
-  left_join(curacao.species) %>%
-  left_join(statia.species) %>%
-  left_join(roatan.species)
-#write.csv(carib.species.list,"2.Ch3.R.analysis/2.file.carib.species.list.csv")
-
-## species only observed at one site 
-carib.species.list <- read.csv("2.Ch3.R.analysis/2.file.carib.species.list.csv")
-
-endemics <- carib.species.list %>%
-  select(-1)%>%
-  filter(rowSums(. == 1,na.rm=TRUE) == 1) %>% #selects lines where "1" is only present once. 
-  mutate(endemic="yes") %>%
-  select(species,endemic)
-
-endemic.depth <- endemics %>%
-  right_join(read.csv("2.Ch3.R.analysis/2.file.species.depth.csv")) %>%
-  mutate(predominance=case_when(is.na(predominance)~rating,TRUE~predominance),
-         endemic=case_when(is.na(endemic)~"no",TRUE~endemic)) %>%
-  select(-X) 
-
-#write.csv(endemic.depth,"endemic.depth.csv")
-
-endemic.category <- endemic.depth %>%
-  group_by(predominance,endemic) %>%
-  summarize(total=n())
- 
 
