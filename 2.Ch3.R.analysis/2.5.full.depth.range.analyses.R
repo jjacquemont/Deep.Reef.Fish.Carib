@@ -19,7 +19,7 @@ library(betapart) #to calculate beta diversity
 # data is available above 30 m and below 300 m in the case of Roatan.
 
 #### 1.1. Roatan dendrogram ####
-roa.com.full <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+roa.com.full <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Roatan") %>%
   select(species, dband, location, abundance, abu.corr) %>%
   mutate(dband.grouped = case_when(dband >= 310 & dband <= 330 ~ 310,
@@ -36,8 +36,6 @@ roa.com.full <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
 
 rownames(roa.com.full) <- roa.com.full$dband.grouped
 roa.com.cl.full <- roa.com.full[-1]
-
-#write.csv(roa.com.cl,"file_roa.com.cl.csv")
 
 roa.clust.full <- simprof(data = roa.com.cl.full, method.cluster = "complete", method.distance="braycurtis",
                           method.transform="identity", alpha=0.0000001,
@@ -101,9 +99,9 @@ pal <- c(blue_palette[3],blue_palette[3],rariP_palette[1],rariP_palette[2])
 roa.plot.full <- ggplot(roa.dend.data.full$segments, horiz = TRUE) + 
   geom_rect(xmin=26.7,xmax=31.3,ymin=-0.25, ymax=0.95,fill=blue_palette[3])+
   geom_rect(xmin=31.7,xmax=36.3,ymin=-0.25, ymax=0.95,fill=rariP_palette[1])+
-  geom_rect(xmin=23.7,xmax=26.3,ymin=-0.25, ymax=0.95,fill=blue_palette[1])+
+  geom_rect(xmin=21.7,xmax=26.3,ymin=-0.25, ymax=0.95,fill=blue_palette[1])+
   geom_rect(xmin=17.7,xmax=20.3,ymin=-0.25, ymax=0.95,fill=blue_palette[1])+
-  geom_rect(xmin=20.7,xmax=23.3,ymin=-0.25, ymax=0.95,fill="#DCEEF3")+
+  geom_rect(xmin=20.7,xmax=21.3,ymin=-0.25, ymax=0.95,fill="#d0dc36")+
   geom_rect(xmin=7.7,xmax=17.3,ymin=-0.25, ymax=0.95,fill=rariP_palette[2])+
   geom_rect(xmin=0.3,xmax=7.3,ymin=-0.25, ymax=0.95,fill="#831EB6")+
   geom_segment(aes(x = x, y = y, xend = xend, yend = yend), color = "black")+
@@ -139,7 +137,7 @@ roa.points <-
   as_tibble(roa.pca.full$x) %>% 
   bind_cols(roa.com.full) %>%
   inner_join(roa.dend.helper.full)  %>%
-  mutate(cat=case_when(dband.grouped<40~ "altiphotic",
+  mutate(cat=case_when(dband.grouped<20~ "altiphotic",
                         dband.grouped<100 ~ "upper mesophotic",
                        dband.grouped<150 ~ "lower mesophotic",
                        dband.grouped<210~ "upper rariphotic",
@@ -153,7 +151,7 @@ roa.hull <-
   roa.points %>% 
   group_by(cluster) %>% 
   slice(chull(PC1, PC2))%>%
-  mutate(cat=case_when(dband.grouped<40~ "altiphotic",
+  mutate(cat=case_when(dband.grouped<20~ "altiphotic",
                        dband.grouped<100 ~ "upper mesophotic",
                        dband.grouped<150 ~ "lower mesophotic",
                        dband.grouped<210~ "upper rariphotic",
@@ -166,18 +164,25 @@ roa.hull <-
 roa.simper <- with(roa.points, simper(roa.com.full[-1], cluster))
 roa.simsum <- summary(roa.simper)
 
-roa.simspecies <- data_frame("species" = as.character())
+#### SIMPER between depth zones ####
+roa.simper.zones <- simper(roa.com.full, roa.points$cat) 
+roa.simsum.zones <- summary(roa.simper.zones)
 
-for (i in 1:length(roa.simsum)){
-  spec <- as.data.frame(roa.simsum[i]) %>%
+# species driving differences between lower rariphotic and below
+simper.deep <- roa.simsum.zones[["lower rariphotic_deep-sea"]]
+
+
+roa.simspecies.zones <- data_frame("species" = as.character())
+for (i in 1:length(roa.simsum.zones)){ # iterates for each element of list
+  spec <- as.data.frame(roa.simsum.zones[i]) %>%
     mutate(species = rownames(.)) %>%
-    select(1,8) %>%
-    filter(.[[1]] > 0.05) %>% 
-    select(species)
-  
-  roa.simspecies <- bind_rows(roa.simspecies, spec)
-  
+    select(c(1,7,8)) %>% # "average","p-value", "species"
+    filter(.[[2]] < 0.05) %>%
+    arrange(desc(.[[1]]))
+  roa.simspecies.zones <- bind_rows(roa.simspecies.zones, spec)
 }
+roa.simspecies.zones$location="Roatan"
+
 
 roa.species <- roa.simspecies %>%
   distinct()
@@ -305,7 +310,27 @@ roa.pca.plot <- ggplot(roa.points) +
 #guides(colour = guide_legend(nrow = 1), fill = guide_legend(nrow = 1))
 roa.pca.plot
 
-#### 1.4. Contribution of depth affinity groups ####
+#### 1.4. MDS plot ####
+####  MDS
+mds_roa <- cmdscale(vegdist(roa.com.cl.full, method = "bray")) %>%
+  as_tibble() %>%
+  mutate(group=roa.points$cat,dband=roa.points$dband.grouped)
+colnames(mds_roa) <- c("Dim.1", "Dim.2","cluster","dband")
+
+pal <- c("#d0dc36","#BAE0F3","#6CBDE9","#DDC5EB","#BC90DB","#831EB6")
+roa.mds.plot <- ggscatter(mds_roa, x = "Dim.1", y = "Dim.2", 
+                          palette = pal,
+                          size = 1.5,
+                          label=mds_roa$dband,
+                          fill="cluster",
+                          color = "black",
+                          ellipse.alpha = 0.7,
+                          ellipse = TRUE,
+                          ellipse.type = "convex",
+                          repel = TRUE)
+roa.mds.plot
+
+#### 2. Contribution of depth affinity groups ####
 ## for 0-500 m
 roa.com.all <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
   filter(location == "Roatan")
@@ -350,15 +375,15 @@ ggplot(rel.abundance.roa.all, aes(y=species,x=depthzone))+
         panel.grid.minor = element_blank(),axis.text = element_text(size = 5))+
   ylab("")
 
-#### 1.5. Species present below the rariphotic ####
+#### 2.2. Species present below the rariphotic ####
 roa.deep <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
   filter(location == "Roatan" & dband>300) %>%
   group_by(species) %>%
   summarize(abu.corr = sum(abu.corr),abu.raw=sum(abundance)) 
 
-#### 1.6. Contribution of depth affinities ####
+#### 2.3. Contribution of depth affinities ####
 
-####  1.6.1. abundance ####
+####  2.3.1. abundance ####
 roa.abu.com <- roa.com.all[-1] %>%
   inner_join(read.csv("2.Ch3.R.analysis/2.file.species.depth.csv"),by="species") %>%
   group_by(distrib.roa, dband) %>%
@@ -418,7 +443,7 @@ ggplot(data=roa.abu.clus, aes(x=cluster,y=sqrt(abu.corr),fill=distrib.roa))+
   ylab("total abundance (sqrt)")+
   coord_flip()
 
-#### 1.6.2. richness ####
+#### 2.3.2. richness ####
 roa.spric.com <- roa.com.all[-1] %>%
   inner_join(read.csv("2.Ch3.R.analysis/2.file.species.depth.csv"),by="species") %>%
   group_by(distrib.roa, dband) %>%
@@ -603,7 +628,7 @@ plot.betadiv.roa
 
 
 #### 2. Trans-site dendrogram ####
-carib.all <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+carib.all <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   select(species, dband, location, abundance, abu.corr) %>%
   mutate(dband.grouped = case_when(location=="Roatan" & dband >= 310 & dband <= 330 ~ 310,
                                    location=="Roatan" & dband >= 350 & dband <= 360 ~ 350,
@@ -662,13 +687,14 @@ carib.dend.data.all$labels <- carib.dend.helper %>%
                            TRUE ~ as.character(dband.grouped))) %>%
   mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan")))
 
+new.pal=c("#ffa600","#ef5675","#3DAC78","#003f5c")
 carib.dend.plot <- ggplot(carib.dend.data.all$segments) + 
   geom_segment(aes(x = x, y = y, xend = xend, yend = yend), color = "grey46")+
   geom_text(data = carib.dend.data.all$labels, aes(x, y, label = label, color = location),
             hjust = 0,  size = 2.5, fontface = "bold") +
   #geom_label(data = carib.dend.data2$labels, aes(x, y, label = label, fill = location),
   #          hjust = 0,  size = 2.5, fontface = "bold")+
-  scale_color_fish(option = "Bodianus_rufus", discrete = T) +
+  scale_color_manual(values=new.pal)+
   theme_bw() +
   #scale_x_continuous(labels=c(1:96),breaks=c(1:96))+
   theme(legend.position = "top",

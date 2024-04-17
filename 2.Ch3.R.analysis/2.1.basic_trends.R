@@ -335,22 +335,13 @@ ggplot(abu.pred.gam, aes(x = dband, y = log10(pred.abu), color = location)) +
 
 #### 1.2. NORM abundance ####
 #### 1.2.0. data prep ####
-carib.deep.traits <- read.csv(file = "carib.deep.traits.csv")
-
-## list of species observed + their max depth and total length
-carib.deep.traits.species <- carib.deep.traits %>%
-  select(species, maxTL, maxDepth) %>%
-  distinct()
-
-# write.csv(carib.deep.traits.species, file = "2.carib.deep.traits.species.csv")
-
 ## total abundance and biomass (across species) per location per depth
-carib.fish.sum <- carib.deep.traits %>%
+carib.fish.sum <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   group_by(dband, location, species) %>%
-  summarize(tot.abu = sum(abu.corr), u.abu = sum(abundance), tot.biom = sum(biomass)) %>%
+  summarize(tot.abu = sum(abu.corr), u.abu = sum(abundance)) %>%
   ungroup() %>%
   group_by(dband, location) %>%
-  summarize(abundance = sum(tot.abu), u.abundance = sum(u.abu), biomass = sum(tot.biom), spric = n()) %>%
+  summarize(abundance = sum(tot.abu), u.abundance = sum(u.abu), spric = n()) %>%
   bind_rows(data_frame(dband=c(240,250),location=c("Bonaire","St. Eustatius"),abundance=0,u.abundance=0,
                        biomass=0,spric=0)) 
 
@@ -377,7 +368,7 @@ ggplot(carib.fish.sum, aes(x = dband, y = abu.norm, color = location, fill = loc
 
 
 #### 2.0. Data prep (run before) ####
-carib.fish.sum <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+carib.fish.sum <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   #filter(dband>30 & dband <310) %>%
   group_by(dband, location, species) %>%
   summarize(abu.corr = sum(abu.corr), abu.raw = sum(abundance)) %>%
@@ -422,11 +413,11 @@ ggplot(carib.fish.sum, aes(x = dband, y = abu.corr, color = location, fill = loc
   facet_wrap(.~location,scales = "free") ## to have all scales adapted to each graph, use scales = "free"
 
 #### FIGURE 2 - LEFT  corrected and normalized abundance - all on same plot ####
-abu.gam = gam(abu.norm ~ s(dband) + location, family = poisson, data = carib.fish.sum)
+abu.gam = gam(abu.norm ~ s(dband) + location + dband:location, family = poisson, data = carib.fish.sum)
 summary(abu.gam)
 
 # empty table with 1 line per (meter depth x site) to predict abundance
-abu.newdat <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+abu.newdat <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   # data_grid expands a table using all variables provided
   data_grid(dband = seq(10,480,1), 
             location = c("Curacao", "Bonaire","St. Eustatius", "Roatan"))%>%
@@ -480,7 +471,7 @@ spric.plot
 spric.gam = gam(spric ~ s(dband) + location, family = poisson, data = carib.fish.sum)
 summary(spric.gam)
 
-spric.newdat <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+spric.newdat <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   # data_grid expands a table using all variables provided
   data_grid(dband = seq(10,480,1), 
             location = c("Curacao", "Bonaire","St. Eustatius", "Roatan"))%>%
@@ -515,7 +506,7 @@ ggplot(spric.pred.gam, aes(x = dband, y = pred.spric, color = location)) +
   xlim(10,480)
 
 #### 3. Taxonomic diversity metrics using Hill numbers ####
-fish.data <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.carib.grouped.csv")
+fish.data <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.binned.csv")
 #### 3.1. Basic plotting ####
 ## data prep
 fish.curacao <- fish.data %>%
@@ -1339,7 +1330,7 @@ beta.cluster.avg <- beta.cluster.roatan.graph %>%
   select(cluster,type,avg,se) %>%
   rbind(betadiv.roatan.fullrange[c(1,15,16,30,31,45),]) 
 beta.cluster.avg$cluster <- as.character(beta.cluster.avg$cluster)
-beta.cluster.avg$cluster <- factor(beta.cluster.avg$cluster, levels= c("upper mesophotic","lower mesophotic","upper rariphotic","lower rariphotic",
+beta.cluster.avg$cluster <- factor(beta.cluster.avg$cluster, levels=c("upper mesophotic","lower mesophotic","upper rariphotic","lower rariphotic",
         "upper rariphotic ","lower rariphotic ","lower rariphotic  ", "deep sea"))
 
 labels=c("upper mesophotic","lower mesophotic","upper rariphotic","lower rariphotic",
@@ -1393,22 +1384,20 @@ ggplot()+
         legend.title=element_blank())+
   xlab("")+
   geom_vline(xintercept=c(1.5,4.5,6.5,7.5),linetype="dashed",color="grey")+
-  scale_x_discrete(labels=str_wrap(labels,6),position="top")+
-  scale_y_reverse()+
+  scale_x_discrete(labels=str_wrap(labels,6))+
+  #scale_y_reverse()+
   ylab("beta-diversity")+
   annotate("text",x=c(1,3,5.5,7,8),y=-0.08,
            label=str_wrap(c("vs. altiphotic","vs. upper mesophotic","vs. lower mesophotic",
                             "vs. upper rariphotic","vs. lower rariphotic"),10),size=3.5)+
-  coord_cartesian(ylim=c(1,-0.1),clip ="off")
+  #coord_flip()+
+  coord_cartesian(ylim=c(-0.1,1),clip ="off")
 
 
 
-#### 4. Between site beta diversity ####
-## Need to run all the 3. sections to run this part ##
-betadiv.clusters <- rbind(betadiv.statia.cluster,betadiv.curacao.cluster,
-                          betadiv.bonaire.cluster,betadiv.roatan.cluster)
+#### 4. Between site beta diversity - FIGURE 8B ####
 
-betadiv.clusters <- fish.data%>%
+betadiv.clusters <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   select(species,dband,location,abu.corr)%>%
   filter(dband>30 & dband<310)%>%
   mutate(cluster=case_when(dband<=70 & location=="Curacao"~ "upper mesophotic",
@@ -1427,7 +1416,8 @@ betadiv.clusters <- fish.data%>%
                      dband<120 & location=="Bonaire"~ "lower mesophotic",
                      dband<170 & location=="Bonaire"~ "upper rariphotic",
                      dband>=170 & location=="Bonaire"~ "lower rariphotic")) %>%
-  #mutate(cluster=factor(cluster,levels=c("upper mesophotic","lower mesophotic","upper rariphotic","lower rariphotic")))%>%
+  mutate(location=case_when(location=="St. Eustatius" ~ "Statia",
+                            TRUE~location)) %>%
   group_by(cluster,species,location) %>%
   summarize(abu.corr=sum(abu.corr))
 
@@ -1436,18 +1426,18 @@ betadiv.upMesoP <- betadiv.clusters %>%
   ungroup() %>%
   filter(cluster=="upper mesophotic") %>%
   spread(species, abu.corr, fill =  0) %>%
-  mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan"))) %>%
+  mutate(location=factor(location,levels=c("Curacao","Bonaire","Statia","Roatan"))) %>%
   arrange(location) %>%
   select(-cluster,-location) %>%
   mutate_all(~ case_when(.>0 ~ 1, TRUE~0))
 
 beta.cluster.mesoP <- beta.pair(betadiv.upMesoP,index.family="sorensen")
 
-plot.mesoP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"St. Eustatius"),
-                        sites2=c("Bonaire","St. Eustatius","Roatan","St. Eustatius","Roatan","Roatan"),
+plot.mesoP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
+                        sites2=c("Bonaire","Statia","Roatan","Statia","Roatan","Roatan"),
                         betadiv=beta.cluster.mesoP$beta.sor)%>%
-  mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","St. Eustatius")),
-         sites2=factor(sites2,levels=rev(c("Bonaire","St. Eustatius","Roatan"))))
+  mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","Statia")),
+         sites2=factor(sites2,levels=rev(c("Bonaire","Statia","Roatan"))))
   
 
 plot.beta.upMeso <- ggplot(data=plot.mesoP, aes(x=sites2, y=sites1,fill=betadiv))+
@@ -1460,24 +1450,25 @@ plot.beta.upMeso <- ggplot(data=plot.mesoP, aes(x=sites2, y=sites1,fill=betadiv)
         axis.text.x = element_text(size = 10))+
   labs(fill="dissimilarity",y="",x="")+
   ggtitle("upper mesophotic")
+plot.beta.upMeso
 
 #### lower mesophotic 
 betadiv.lowMesoP <- betadiv.clusters %>%
   ungroup() %>%
   filter(cluster=="lower mesophotic") %>%
   spread(species, abu.corr, fill =  0) %>%
-  mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan"))) %>%
+  mutate(location=factor(location,levels=c("Curacao","Bonaire","Statia","Roatan"))) %>%
   arrange(location) %>%
   select(-cluster,-location) %>%
   mutate_all(~ case_when(.>0 ~ 1, TRUE~0))
 
 beta.cluster.mesoP <- beta.pair(betadiv.lowMesoP,index.family="sorensen")
 
-plot.mesoP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"St. Eustatius"),
-                         sites2=c("Bonaire","St. Eustatius","Roatan","St. Eustatius","Roatan","Roatan"),
+plot.mesoP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
+                         sites2=c("Bonaire","Statia","Roatan","Statia","Roatan","Roatan"),
                          betadiv=beta.cluster.mesoP$beta.sor)%>%
-  mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","St. Eustatius")),
-         sites2=factor(sites2,levels=rev(c("Bonaire","St. Eustatius","Roatan"))))
+  mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","Statia")),
+         sites2=factor(sites2,levels=rev(c("Bonaire","Statia","Roatan"))))
 
 
 
@@ -1497,18 +1488,18 @@ betadiv.upRariP <- betadiv.clusters %>%
   ungroup() %>%
   filter(cluster=="upper rariphotic") %>%
   spread(species, abu.corr, fill =  0) %>%
-  mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan"))) %>%
+  mutate(location=factor(location,levels=c("Curacao","Bonaire","Statia","Roatan"))) %>%
   arrange(location) %>%
   select(-cluster,-location) %>%
   mutate_all(~ case_when(.>0 ~ 1, TRUE~0))
 
 beta.cluster.rariP <- beta.pair(betadiv.upRariP,index.family="sorensen")
 
-plot.rariP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"St. Eustatius"),
-                         sites2=c("Bonaire","St. Eustatius","Roatan","St. Eustatius","Roatan","Roatan"),
+plot.rariP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
+                         sites2=c("Bonaire","Statia","Roatan","Statia","Roatan","Roatan"),
                          betadiv=beta.cluster.rariP$beta.sor)%>%
-  mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","St. Eustatius")),
-         sites2=factor(sites2,levels=rev(c("Bonaire","St. Eustatius","Roatan"))))
+  mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","Statia")),
+         sites2=factor(sites2,levels=rev(c("Bonaire","Statia","Roatan"))))
 
 
 
@@ -1528,18 +1519,18 @@ betadiv.lowRariP <- betadiv.clusters %>%
   ungroup() %>%
   filter(cluster=="lower rariphotic") %>%
   spread(species, abu.corr, fill =  0) %>%
-  mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan"))) %>%
+  mutate(location=factor(location,levels=c("Curacao","Bonaire","Statia","Roatan"))) %>%
   arrange(location) %>%
   select(-cluster,-location) %>%
   mutate_all(~ case_when(.>0 ~ 1, TRUE~0))
 
 beta.cluster.rariP <- beta.pair(betadiv.lowRariP,index.family="sorensen")
 
-plot.rariP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"St. Eustatius"),
-                         sites2=c("Bonaire","St. Eustatius","Roatan","St. Eustatius","Roatan","Roatan"),
+plot.rariP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
+                         sites2=c("Bonaire","Statia","Roatan","Statia","Roatan","Roatan"),
                          betadiv=beta.cluster.rariP$beta.sor)%>%
-  mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","St. Eustatius")),
-         sites2=factor(sites2,levels=rev(c("Bonaire","St. Eustatius","Roatan"))))
+  mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","Statia")),
+         sites2=factor(sites2,levels=rev(c("Bonaire","Statia","Roatan"))))
 
 
 

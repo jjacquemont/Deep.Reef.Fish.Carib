@@ -12,6 +12,11 @@ library(GGally) #functions and features that complement the functionality of the
 #library(devtools) #to enable the download of an archived version of clustsig
 #install_github("cran/clustsig")
 library(clustsig)
+library(ggpubr)
+library(magrittr)
+
+## dataset with fish observations grouped by depth bins is:
+# "2.file.fish.binned.csv"
 
 #### 1. Size structure and community composition - PCA ####
 carib.deep.traits <- read.csv(file = "2.Ch3.R.analysis/2.carib.deep.traits.csv") %>%
@@ -128,8 +133,8 @@ pca.plot
 
 
 
-#### 2. Trans-site dendogram ####
-carib.deep.com <- carib.deep.fishbase %>%
+#### 2. Trans-site dendrogram ####
+carib.deep.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   select(species, dband, location, abundance, abu.corr) %>%
   filter(dband <= 300 & dband >= 40) %>%
   mutate(dband.grouped = case_when(location=="St. Eustatius" & dband >= 240 & dband <= 270 ~ 240,
@@ -196,13 +201,16 @@ carib.dend.data2$labels <- carib.dend.helper2 %>%
                            TRUE ~ as.character(dband.grouped))) %>%
   mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan")))
 
-carib.dend.plot <- ggplot(carib.dend.data2$segments) + 
+new.pal=c("#ffa600","#ef5675","#3DAC78","#003f5c")
+
+ggplot(carib.dend.data2$segments) + 
   geom_segment(aes(x = x, y = y, xend = xend, yend = yend), color = "grey46")+
   geom_text(data = carib.dend.data2$labels, aes(x, y, label = label, color = location),
             hjust = 0,  size = 2.5, fontface = "bold") +
   #geom_label(data = carib.dend.data2$labels, aes(x, y, label = label, fill = location),
    #          hjust = 0,  size = 2.5, fontface = "bold")+
-  scale_color_fish(option = "Bodianus_rufus", discrete = T) +
+  #scale_color_fish(option = "Bodianus_rufus", discrete = T) +
+  scale_color_manual(values=new.pal)+
   theme_bw() +
   #scale_x_continuous(labels=c(1:96),breaks=c(1:96))+
   theme(legend.position = "top",
@@ -233,7 +241,6 @@ carib.dend.plot <- ggplot(carib.dend.data2$segments) +
   #ylim(-3,10)+ 
   coord_flip()+
   scale_y_reverse(limits=c(10,-3))
-carib.dend.plot
 
 
 #### 3. PCA and SIMPROF by location ####
@@ -249,7 +256,6 @@ cur.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
 
 rownames(cur.com) <- cur.com$dband
 cur.com.cl <- cur.com[-1]
-#write.csv(cur.com.cl,"file_Curacao_community_cluster.csv")
 
 #### 3.1.0. SIMPROF - saved as file ####
   #determining the number of significant clusters produced using hclust() with the assumption of no a priori groups.
@@ -264,26 +270,26 @@ cur.clust.ward <- simprof(data = cur.com.cl, method.cluster = "ward.D", method.d
                      sample.orientation="row", const=0,
                      silent=TRUE, increment=100,
                      undef.zero=TRUE, warn.braycurtis=TRUE)
-#saveRDS(cur.clust,"2.Ch3.R.analysis/2.cur.clust.RData")
+saveRDS(cur.clust,"2.Ch3.R.analysis/2.cur.clust.RData")
 
 
-#### 3.1.1 dendogram ####
-# Curacao: 7 groups, from shallow to deep
+#### 3.1.1 dendrogram ####
+# Curacao: 6 groups, from shallow to deep
 cur.clust <- readRDS("2.Ch3.R.analysis/2.cur.clust.RData")
 cur.res.tib <- tibble(cl1 = list(cur.clust$significantclusters[[1]]),
                       cl2 = list(cur.clust$significantclusters[[2]]),
                       cl3 = list(cur.clust$significantclusters[[3]]),
                       cl4 = list(cur.clust$significantclusters[[4]]),
                       cl5 = list(cur.clust$significantclusters[[5]]),
-                      cl6 = list(cur.clust$significantclusters[[6]]),
-                      cl7 = list(cur.clust$significantclusters[[7]])) %>%
+                      cl6 = list(cur.clust$significantclusters[[6]])) %>%
+  #                    cl7 = list(cur.clust$significantclusters[[7]])) %>%
   unnest_longer(cl1) %>%
   unnest_longer(cl2) %>%
   unnest_longer(cl3) %>%
   unnest_longer(cl4) %>%
   unnest_longer(cl5) %>%
   unnest_longer(cl6) %>%
-  unnest_longer(cl7) %>%
+  #unnest_longer(cl7) %>%
   gather(key = "cluster", value = "dband") %>% # transform wide to long format 
   distinct() %>% # table with cluster and associated dbands
   mutate(dband = as.numeric(dband)) %>%
@@ -349,8 +355,7 @@ cur.plot <- ggplot(cur.dend.data$segments) +
   geom_segment(aes(x=8.8,xend=12.2,y=-0.13,yend=-0.13),size=1)+
   geom_segment(aes(x=12.8,xend=18.2,y=-0.13,yend=-0.13),size=1)+
   geom_segment(aes(x=18.8,xend=22.2,y=-0.13,yend=-0.13),size=1)+
-  geom_segment(aes(x=22.8,xend=24.2,y=-0.13,yend=-0.13),size=1)+
-  geom_segment(aes(x=24.8,xend=27.2,y=-0.13,yend=-0.13),size=1)+
+  geom_segment(aes(x=22.8,xend=27.2,y=-0.13,yend=-0.13),size=1)+
   ggtitle("Curaçao")+
   ylab("")+
   ylim(-0.2,1)
@@ -395,10 +400,6 @@ cur.points <-
 cur.simper <- simper(cur.com.cl, cur.points$cluster) # length is 21 (nb of different pairs among 7 clusters)
 cur.simsum <- summary(cur.simper)
 
-# SIMPER but for depth zones and not cluster 
-cur.simper.zones <- simper(cur.com.cl, cur.points$cat) 
-cur.simsum.zones <- summary(cur.simper.zones)
-
 ## obtaining species name that contribute to > 0.05 dissimilarity between clusters 
   # and their coordinates 
 cur.simspecies <- data_frame("species" = as.character())
@@ -413,13 +414,19 @@ for (i in 1:length(cur.simsum)){  #length is 21, nb of pairs among 7 clusters
 cur.species <- cur.simspecies %>%
   distinct(species)
 
+#### SIMPER between depth zones ####
+cur.simper.zones <- simper(cur.com.cl, cur.points$cat) 
+cur.simsum.zones <- summary(cur.simper.zones)
+
 ## same, but for depth zones instead of clusters
 cur.simspecies.zones <- data_frame("species" = as.character())
-for (i in 1:length(cur.simsum.zones)){  #length is 21, nb of pairs among 7 clusters
+for (i in 1:length(cur.simsum.zones)){ # iterates for each element of list
   spec <- as.data.frame(cur.simsum.zones[i]) %>%
     mutate(species = rownames(.)) %>%
-    select(1,7,8) %>% #"average" (contribution to dissimilarity) and "species"
-    filter(.[[2]] < 0.05 & .[[1]] > 0.055) #pvalue<0.05, avg contribution>0.05
+    select(c(1,7,8)) %>% # "average","p-value", "species"
+    filter(.[[2]] < 0.05) %>%
+    arrange(desc(.[[1]]))%>%
+    filter(c(1:10)) ## needs fix
   cur.simspecies.zones <- bind_rows(cur.simspecies.zones, spec)
 }
 cur.simspecies.zones$location="Curaçao"
@@ -445,7 +452,7 @@ cur.hull <- cur.points %>%
   group_by(cluster) %>% # using cluster from hierarchial clustering hclust()
   # chull: coordinates of points which constitute the outside border (=convex hull) of a cluster of points
   slice(chull(PC1, PC2)) %>%
-  mutate(cat=case_when(dband<=80 ~ "upper mesophotic",
+  mutate(cat=case_when(dband<=70 ~ "upper mesophotic",
                        dband<=120~ "lower mesophotic",
                        dband<=180~ "upper rariphotic",
                        dband>180~ "lower rariphotic")) %>%
@@ -478,12 +485,67 @@ cur.pca.plot <- ggplot(cur.points) +
 cur.pca.plot
 dev.off()
 
-## MDS trial
-mds_cur <- cmdscale(vegdist(cur.com.cl, method = "bray"))
-plot(mds_cur,col=cur.hull$cat, pch = 19, xlab = "MDS1", ylab = "MDS2")
+#### 3.1.3. MDS ####
+mds_cur <- cmdscale(vegdist(cur.com.cl, method = "bray")) %>%
+  as_tibble() %>%
+  mutate(group=cur.points$cat,dband=cur.points$dband)
+colnames(mds_cur) <- c("Dim.1", "Dim.2","cluster","dband")
+
+cur.mds.plot <- ggscatter(mds_cur, x = "Dim.1", y = "Dim.2", 
+          palette = pal,
+          size = 1.5,
+          fill="cluster",
+          color = "black",
+          ellipse.alpha = 0.7,
+          label=mds_cur$dband,
+          ellipse = TRUE,
+          ellipse.type = "convex",
+          repel = TRUE)
+cur.mds.plot
+
+## with ggplot 
+cur.hull.mds <- mds_cur %>% 
+  group_by(cluster) %>% # using cluster from hierarchial clustering hclust()
+  # chull: coordinates of points which constitute the outside border (=convex hull) of a cluster of points
+  slice(chull(Dim.1, Dim.2)) %>%
+  mutate(cat=case_when(dband<=70 ~ "upper mesophotic",
+                       dband<=120~ "lower mesophotic",
+                       dband<=180~ "upper rariphotic",
+                       dband>180~ "lower rariphotic")) %>%
+  mutate(cat=factor(cat,levels=c("upper mesophotic","lower mesophotic","upper rariphotic","lower rariphotic")))
+
+## obtaining coordinates of species (SIMPER)
+cur.loads <- 
+  # $rotation contains the coordinates of each fish species in the 27 projected dimensions
+  as_tibble(cur.pca$rotation, rownames = 'species') %>%  
+  inner_join(cur.species) %>% # selects only species contributing to dissimilarity
+  select(species, PC1, PC2) # selects only coordinates in the 2 main directions
+
+### plot
+ggplot(mds_cur) +
+  geom_jitter(data = mds_cur, aes(x = Dim.1, y = Dim.2, 
+                                     fill = cluster), shape = 21, alpha = 0.5
+              ,color = "black") +
+  # polygon shape of each 7 cluster
+  geom_polygon(data = cur.hull.mds,
+               aes(x = Dim.1, y = Dim.2, fill = cluster,
+                   colour = cat, #group = as.factor(ord_num)),
+               alpha = 0.3,  show.legend = TRUE)) +
+  # significant species from SIMPER analyses
+  geom_segment(data = cur.loads, aes(x = 0, y = 0, xend = PC1*30, yend = PC2*30), 
+               lwd = 0.1, 
+               arrow = arrow(length = unit(1/2, 'picas'), type = "open")) +
+  geom_text_repel(data = cur.loads[c(1:6),], aes(x = PC1*30,  y = PC2*30, label = species), 
+                  size = 4, segment.color = "grey69")+
+  theme_classic() +
+  scale_fill_manual(values = pal) +
+  scale_color_manual(values = pal) 
+# guides(colour = guide_legend(nrow = 1),
+#       fill = guide_legend(nrow = 1))
+
 
 #### 3.2. Bonaire ####
-bon.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+bon.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Bonaire") %>%
   select(species, dband, location, abundance, abu.corr) %>%
   #mutate(dband.grouped = case_when(dband >= 190 & dband <= 200 ~ 190,
@@ -639,12 +701,9 @@ bon.pca.plot
 
 
 #### 3.3. St. Eustatius ####
-sta.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv")e %>%
+sta.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "St. Eustatius") %>%
   select(species, dband, location, abundance, abu.corr) %>%
-  filter(dband <= 300) %>%
-  #mutate(dband.grouped = case_when(dband >= 240 & dband <= 270 ~ 240,
-  #                                TRUE ~ dband)) %>%
   group_by(species, dband) %>%
   summarize(abundance = sqrt(sum(abu.corr))) %>%
   spread(species, abundance, fill =  0) %>%
@@ -975,10 +1034,27 @@ roa.pca.plot <- ggplot(roa.points) +
 roa.pca.plot
 dev.off()
 
+####  MDS
+mds_roa <- cmdscale(vegdist(roa.com.cl, method = "bray")) %>%
+  as_tibble() %>%
+  mutate(group=roa.points$cat,dband=roa.points$dband)
+colnames(mds_roa) <- c("Dim.1", "Dim.2","cluster","dband")
+
+roa.mds.plot <- ggscatter(mds_roa, x = "Dim.1", y = "Dim.2", 
+                          palette = pal,
+                          size = 1.5,
+                          fill="cluster",
+                          color = "black",
+                          ellipse.alpha = 0.7,
+                          ellipse = TRUE,
+                          ellipse.type = "convex",
+                          repel = TRUE)
+roa.mds.plot
+
 #### 4. PCA and SIMPROF by location - pooled  ####
 ### pooling depth band < 5 individuals
 #### 4.1. Bonaire ####
-bon.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+bon.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Bonaire") %>%
   select(species, dband, location, abundance, abu.corr) %>%
   mutate(dband.grouped = case_when(dband >= 190 & dband <= 200 ~ 190,
@@ -999,10 +1075,10 @@ bon.clust <- simprof(data = bon.com.cl, method.cluster = "complete", method.dist
                      silent=TRUE, increment=100,
                      undef.zero=TRUE, warn.braycurtis=TRUE)
 bon.clust
-#saveRDS(bon.clust,"2.Ch3.R.analysis/2.cur.clust.RData")
+#saveRDS(bon.clust,"2.Ch3.R.analysis/2.bon.clust.RData")
 
 # Bonaire: 6 groups, from shallow to deep
-bon.clust <- readRDS("2.Ch3.R.analysis/2.cur.clust.RData")
+bon.clust <- readRDS("2.Ch3.R.analysis/2.bon.clust.RData")
 bon.res.tib <- tibble(cl1 = list(bon.clust$significantclusters[[1]]),
                       cl2 = list(bon.clust$significantclusters[[2]]),
                       cl3 = list(bon.clust$significantclusters[[3]]),
@@ -1178,6 +1254,26 @@ bon.pca.plot <- ggplot(bon.points) +
   scale_color_manual(values = pal) 
 bon.pca.plot
 dev.off()
+
+#### MDS 
+mds_bon <- cmdscale(vegdist(bon.com.cl, method = "bray")) %>%
+  as_tibble() %>%
+  mutate(group=bon.points$cat,dband=bon.points$dband.grouped)
+colnames(mds_bon) <- c("Dim.1", "Dim.2","cluster","dband")
+
+
+pal <- c("#BAE0F3","#6CBDE9","#DDC5EB","#BC90DB")
+bon.mds.plot <- ggscatter(mds_bon, x = "Dim.1", y = "Dim.2", 
+                          palette = pal,
+                          size = 1.5,
+                          fill="cluster",
+                          color = "black",
+                          label=mds_bon$dband,
+                          ellipse.alpha = 0.7,
+                          ellipse = TRUE,
+                          ellipse.type = "convex",
+                          repel = TRUE)
+bon.mds.plot
 
 #### 4.2. St. Eustatius ####
 sta.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
@@ -1367,6 +1463,26 @@ sta.pca.pooled.plot <- ggplot(sta.points) +
 sta.pca.pooled.plot
 dev.off()
 
+#### MDS 
+mds_sta <- cmdscale(vegdist(sta.com.cl, method = "bray")) %>%
+  as_tibble() %>%
+  mutate(group=sta.points$cat,dband=sta.points$dband.grouped)
+colnames(mds_sta) <- c("Dim.1", "Dim.2","cluster","dband")
+
+
+pal <- c("#BAE0F3","#6CBDE9","#DDC5EB","#BC90DB")
+sta.mds.plot <- ggscatter(mds_sta, x = "Dim.1", y = "Dim.2", 
+                          palette = pal,
+                          size = 1.5,
+                          fill="cluster",
+                          color = "black",
+                          label=mds_sta$dband,
+                          ellipse.alpha = 0.7,
+                          ellipse = TRUE,
+                          ellipse.type = "convex",
+                          repel = TRUE)
+sta.mds.plot
+
 #### 4.3. Plots all together ####
 
 ## arrangement 1 
@@ -1388,6 +1504,17 @@ cluster.plots <- ggarrange(cur.plot, cur.pca.plot + rremove("xlab"),
 cluster.plots
 
 ggsave(cluster.plots, file = "2.Ch3.R.analysis/graphs/combined.dendro.pca.png", width = 10, height = 14)
+
+## arrangement 2 with MDS
+cluster.plots <- ggarrange(cur.plot, cur.mds.plot + rremove("xlab"),
+                           bon.plot.pooled,bon.mds.plot+ rremove("xlab"),
+                           sta.plot.pooled,sta.mds.plot+ rremove("xlab"), 
+                           #roa.plot.full,mds_roa,
+                           ncol = 2, nrow=4, legend="none")
+cluster.plots
+
+ggsave(cluster.plots, file = "2.Ch3.R.analysis/graphs/combined.dendro.pca.png", width = 10, height = 14)
+
 
 ## top 5 species for PC1 and PC2 
 pca.species.PC <- rbind(cur.pca.speciesPC1,cur.pca.speciesPC2,
@@ -1445,3 +1572,112 @@ roa.permanova <- roa.com %>%
   select(zone)
 
 adonis2(roa.com[,-1]~roa.permanova$zone)
+
+#### 5.2. Testing depth zones and site ####
+carib.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv")  %>%
+  filter(dband>30 & dband<310) %>%
+  group_by(species, dband,location) %>%
+  summarize(abundance = sqrt(sum(abu.corr))) %>%
+  mutate(zone=case_when(
+    location=="Curacao" & dband<=70 ~ 2,
+    location=="Curacao" & dband<=120 ~ 3,
+    location=="Curacao" & dband<=180 ~ 4,
+    location=="Curacao" & dband >180 ~ 5,
+    location=="Bonaire" & dband<=60 ~ 2,
+    location=="Bonaire" & dband<=110 ~ 3,
+    location=="Bonaire" & dband<=160 ~ 4,
+    location=="Bonaire" & dband >160 ~ 5,
+    location=="St. Eustatius" & dband<=90 ~ 2,
+    location=="St. Eustatius" & dband<=130 ~ 3,
+    location=="St. Eustatius" & dband<=180 ~ 4,
+    location=="St. Eustatius" & dband >180 ~ 5,
+    location=="Roatan" & dband<=90 ~ 2,
+    location=="Roatan" & dband<=140 ~ 3,
+    location=="Roatan" & dband<=180 ~ 4,
+    location=="Roatan" & dband<=300 ~ 5)) %>%
+  spread(species, abundance, fill =  0) %>%
+  as.data.frame()
+
+adonis2(carib.com[,-c(1:3)]~carib.com$zone*carib.com$location)
+
+#### 6. Indicator species ####
+library(labdsv)
+## Curacao 
+cur.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
+  filter(location == "Curacao") %>%
+  select(species, dband, location, abundance, abu.corr) %>%
+  #mutate(zone=case_when(dband<=70 ~ "upper mesophotic",
+   #                    dband<=120~ "lower mesophotic",
+    #                   dband<=180~ "upper rariphotic",
+     #                  dband>180~ "lower rariphotic")) %>%
+
+  group_by(species, dband) %>%
+  summarize(abundance = sqrt(sum(abu.corr))) %>%
+  mutate(cluster=case_when(dband<=70 ~ 1,
+                           dband<=120~ 2,
+                           dband<=180~ 3,
+                           dband>180~ 4)) %>%
+  spread(species, abundance, fill =  0) %>%
+  as.data.frame()
+
+cluster <- cur.com$cluster
+cur.com <- cur.com[,-c(1,2)]
+
+
+indval <- indval(cur.com,cluster)
+# pval - the probability of obtaining as high an indicator values as observed over the specified iterations
+signif <- which(c(indval[["pval"]])<0.05)
+pval <- indval[["pval"]][c(signif)]
+
+# maxcls - the class each species has maximum indicator value for
+maxcls <- indval[["maxcls"]][c(signif)]
+# indcls - the indicator value for each species to its maximum class
+indcls <- indval[["indcls"]][c(signif)]
+species <- names(pval)
+
+cur.indicators <- data.frame(species=species, pvalue=pval, zone=maxcls, ind.value=indcls)
+
+#### 6.2. Cross-site indicator species ####
+carib.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv")  %>%
+  group_by(species, dband,location) %>%
+  summarize(abundance = sqrt(sum(abu.corr))) %>%
+  mutate(zone=case_when(
+    location=="Curacao" & dband<=70 ~ 2,
+    location=="Curacao" & dband<=120 ~ 3,
+    location=="Curacao" & dband<=180 ~ 4,
+    location=="Curacao" & dband >180 ~ 5,
+    location=="Bonaire" & dband<=60 ~ 2,
+    location=="Bonaire" & dband<=110 ~ 3,
+    location=="Bonaire" & dband<=160 ~ 4,
+    location=="Bonaire" & dband >160 ~ 5,
+    location=="St. Eustatius" & dband<=90 ~ 2,
+    location=="St. Eustatius" & dband<=130 ~ 3,
+    location=="St. Eustatius" & dband<=180 ~ 4,
+    location=="St. Eustatius" & dband >180 ~ 5,
+    location=="Roatan" & dband<=10 ~ 1,
+    location=="Roatan" & dband<=90 ~ 2,
+    location=="Roatan" & dband<=140 ~ 3,
+    location=="Roatan" & dband<=180 ~ 4,
+    location=="Roatan" & dband<=300 ~ 5,
+    location=="Roatan" & dband>300 ~ 6)) %>%
+  spread(species, abundance, fill =  0) %>%
+  as.data.frame()%>%
+  select(c(-1,-2))
+
+zone <- carib.com$zone
+carib.com <- carib.com[,-1]
+
+indval <- indval(carib.com,zone)
+# pval - the probability of obtaining as high an indicator values as observed over the specified iterations
+signif <- which(c(indval[["pval"]])<0.05)
+pval <- indval[["pval"]][c(signif)]
+
+# maxcls - the class each species has maximum indicator value for
+maxcls <- indval[["maxcls"]][c(signif)]
+# indcls - the indicator value for each species to its maximum class
+indcls <- indval[["indcls"]][c(signif)]
+species <- names(pval)
+
+carib.indicators <- data.frame(species=species, pvalue=pval, zone=maxcls, ind.value=indcls)
+
+

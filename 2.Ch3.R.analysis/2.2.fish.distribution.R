@@ -5,8 +5,10 @@ library(viridis)
 library(ggpubr)
 library(ggridges)
 
-
 palette <- viridis(5,begin=0.9,end=0)
+
+## dataset with fish observations grouped by depth bins is:
+# "2.file.fish.binned.csv"
 
 #### 1. Depth affinities ####
 " Depth affinity refers to a category: AM, M, MR, R or DS. 
@@ -24,11 +26,11 @@ deep-sea affinities to relevant species. The later are stored in a file called
 Baldwin et al. 2018, and we used data from that paper to fill in the 'distrib.cur' column"
 
 #### 1.0.2 Roatan  ####
-roa.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+roa.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Roatan") %>%
-  mutate(cluster=case_when(dband<30 ~"altiphotic",
+  mutate(cluster=case_when(dband<=30 ~"altiphotic",
                            dband<150 ~"mesophotic",
-                           TRUE~"rariphotic"))%>%
+                           TRUE ~"rariphotic"))%>%
   select(cluster,dband,species,abu.corr)
 
 combinations <- expand.grid(
@@ -61,7 +63,7 @@ for (k in 1:length(roa.fish)){
 roa.fish.distrib <- data_frame(species=roa.fish,distrib.roa=fish.distrib)
 
 #### 1.0.3. Bonaire ####
-bon.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+bon.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Bonaire") %>%
   mutate(cluster=case_when(dband<120 ~"mesophotic",
                            TRUE~"rariphotic"))%>%
@@ -96,7 +98,7 @@ for (k in 1:length(bon.fish)){
 bon.fish.distrib <- data_frame(species=bon.fish,distrib.bon=fish.distrib)
 
 #### 1.0.4. Statia ####
-sta.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+sta.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "St. Eustatius") %>%
   mutate(cluster=case_when(dband<140 ~"mesophotic",
                            TRUE~"rariphotic"))%>%
@@ -214,6 +216,41 @@ species.distribution.roa <- species.distribution.roa %>%
   mutate(location="Roatan",
          depthzone=factor(depthzone,levels=c("u.meso","l.meso","u.rari","l.rari","tot.abu"))) 
 
+
+## entire depth range
+## for 0-500 m
+roa.com.all <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+  filter(location == "Roatan")
+
+species.distribution.roa.all <- data.frame(species=c(),alti= c(),u.meso=c(),l.meso=c(),
+                                           u.rari=c(),l.rari=c(),deep.sea=c(),tot.abu=c())
+for (k in unique(roa.com.all$species)){
+  species <- roa.com.all[roa.com.all$species==k,]
+  alti <- sum(species$abu.corr[species$dband<40])/sum(species$abu.corr)
+  u.meso <- sum(species$abu.corr[species$dband<100 & species$dband>=40])/sum(species$abu.corr)
+  l.meso <- sum(species$abu.corr[species$dband<150 & species$dband>=100])/sum(species$abu.corr)
+  u.rari <- sum(species$abu.corr[species$dband<210 & species$dband>=150])/sum(species$abu.corr)
+  l.rari <- sum(species$abu.corr[species$dband<300 & species$dband>=210])/sum(species$abu.corr)
+  deep.sea <- sum(species$abu.corr[species$dband>300])/sum(species$abu.corr)
+  
+  tot.abu <- sum(species$abu.corr)
+  species.distribution.roa.all <- rbind(species.distribution.roa.all,
+                                        c(k,alti,u.meso,l.meso,u.rari,l.rari,deep.sea,tot.abu))
+}
+
+colnames(species.distribution.roa.all) <- c("species","alti","u.meso","l.meso","u.rari","l.rari","deep.sea","tot.abu")
+species.distribution.roa.all <- species.distribution.roa.all %>%
+  mutate(alti=as.numeric(alti),u.meso=as.numeric(u.meso),l.meso=as.numeric(l.meso),u.rari=as.numeric(u.rari),
+         l.rari=as.numeric(l.rari),deep.sea=as.numeric(deep.sea),tot.abu=as.numeric(tot.abu)) %>%
+  #add number so that species can be ordered by depth predominance
+  arrange(desc(deep.sea),alti,u.meso,l.meso,u.rari,l.rari) %>%
+  mutate(species=factor(species,levels=species)) %>%
+  #stacking columns for ggplot
+  gather(key="depthzone", value="abundance",alti, u.meso,l.meso,u.rari,l.rari,deep.sea,tot.abu)  %>%
+  mutate(location="Roatan",
+         depthzone=factor(depthzone,levels=c("alti","u.meso","l.meso","u.rari","l.rari","deep.sea","tot.abu"))) 
+
+
 #### 2.3. Bonaire ####
 bon.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
   filter(location == "Bonaire")
@@ -273,42 +310,49 @@ species.distribution.sta <- species.distribution.sta %>%
          depthzone=factor(depthzone,levels=c("u.meso","l.meso","u.rari","l.rari","tot.abu"))) 
 #### 2.5. Across 4 sites ####
 species.distribution <- rbind(species.distribution.cur,species.distribution.bon,
-                              species.distribution.sta,species.distribution.roa)
+                              species.distribution.sta,species.distribution.roa.all)
 
 
 
-species.distribution.overall <- data.frame(species=c(),u.meso=c(),l.meso=c(),
-                                           u.rari=c(),l.rari=c(),tot.abu=c())
+species.distribution.overall <- data.frame(species=c(),alti=c(),u.meso=c(),l.meso=c(),
+                                           u.rari=c(),l.rari=c(),deep.sea=c(),tot.abu=c())
 for (k in unique(species.distribution$species)){
   species <- species.distribution[species.distribution$species==k,]
-  #alti <- mean(species$abundance[species$depthzone=="alti"])
-  u.meso <- mean(species$abundance[species$depthzone=="u.meso"])
-  l.meso <- mean(species$abundance[species$depthzone=="l.meso"])
-  u.rari <- mean(species$abundance[species$depthzone=="u.rari"])
-  l.rari <- mean(species$abundance[species$depthzone=="l.rari"])
+  alti <- mean(species$abundance[species$depthzone=="alti"],na.rm=TRUE)
+  u.meso <- mean(species$abundance[species$depthzone=="u.meso"],na.rm=TRUE)
+  l.meso <- mean(species$abundance[species$depthzone=="l.meso"],na.rm=TRUE)
+  u.rari <- mean(species$abundance[species$depthzone=="u.rari"],na.rm=TRUE)
+  l.rari <- mean(species$abundance[species$depthzone=="l.rari"],na.rm=TRUE)
+  deep.sea <- mean(species$abundance[species$depthzone=="deep.sea"],na.rm=TRUE)
   tot.abu <- sum(species$abundance)
   species.distribution.overall <- rbind(species.distribution.overall,
-                                        c(k,u.meso,l.meso,u.rari,l.rari,tot.abu))
+                                        c(k,alti,u.meso,l.meso,u.rari,l.rari,deep.sea,tot.abu))
 }
 
-colnames(species.distribution.overall) <- c("species","u.meso","l.meso","u.rari","l.rari","tot.abu")
-species.distribution.overall <- species.distribution.overall %>%
-  mutate(u.meso=as.numeric(u.meso),l.meso=as.numeric(l.meso),u.rari=as.numeric(u.rari),
-         l.rari=as.numeric(l.rari),tot.abu=as.numeric(tot.abu)) %>%
-  #add number so that species can be ordered by depth predominance
-  arrange(u.meso,l.meso,desc(l.rari),u.rari) %>%
+colnames(species.distribution.overall) <- c("species","alti","u.meso","l.meso",
+                                            "u.rari","l.rari","deep.sea","tot.abu")
+
+species.distribution.graph <- species.distribution.overall %>%
+  mutate(alti=as.numeric(alti),u.meso=as.numeric(u.meso),l.meso=as.numeric(l.meso),u.rari=as.numeric(u.rari),
+         l.rari=as.numeric(l.rari),deep.sea=as.numeric(deep.sea),tot.abu=as.numeric(tot.abu)) %>%
+  mutate(alti=case_when(alti=="NaN"~0, TRUE~alti),
+         deep.sea=case_when(deep.sea=="NaN"~0, TRUE~deep.sea))%>%
+  arrange(alti,u.meso,l.meso,desc(deep.sea),u.rari,l.rari) %>%
   mutate(species=factor(species,levels=species)) %>%
   #stacking columns for ggplot
-  gather(key="depthzone", value="abundance",u.meso,l.meso,u.rari,l.rari,tot.abu)  %>%
+  gather(key="depthzone", value="abundance",alti,u.meso,l.meso,u.rari,l.rari,deep.sea,tot.abu)  %>%
   mutate(location="overall",
-         depthzone=factor(depthzone,levels=c("u.meso","l.meso","u.rari","l.rari","tot.abu"))) 
+         depthzone=factor(depthzone,levels=c("alti","u.meso","l.meso","u.rari","l.rari","deep.sea","tot.abu"))) 
 
 ## species with > 75% in one depth realm
-nrow(species.distribution.overall[species.distribution.overall$depthzone=="u.meso"&species.distribution.overall$abundance>0.75,]) #67
-nrow(species.distribution.overall[species.distribution.overall$depthzone=="l.meso"&species.distribution.overall$abundance>0.75,]) #18
-nrow(species.distribution.overall[species.distribution.overall$depthzone=="u.rari"&species.distribution.overall$abundance>0.75,]) #19
-nrow(species.distribution.overall[species.distribution.overall$depthzone=="l.rari"&species.distribution.overall$abundance>0.75,]) #37
-"141 total"
+nrow(species.distribution.graph[species.distribution.graph$depthzone=="alti"&species.distribution.graph$abundance>0.75,]) #36
+nrow(species.distribution.graph[species.distribution.graph$depthzone=="u.meso"&species.distribution.graph$abundance>0.75,]) #46
+nrow(species.distribution.graph[species.distribution.graph$depthzone=="l.meso"&species.distribution.graph$abundance>0.75,]) #16
+nrow(species.distribution.graph[species.distribution.graph$depthzone=="u.rari"&species.distribution.graph$abundance>0.75,]) #17
+nrow(species.distribution.graph[species.distribution.graph$depthzone=="l.rari"&species.distribution.graph$abundance>0.75,]) #30
+nrow(species.distribution.graph[species.distribution.graph$depthzone=="deep.sea"&species.distribution.graph$abundance>0.75,]) #7
+
+"152 total, including 109 on deep reefs,7 below rariphotic and 36 in altiphotic"
 
 #write.csv(species.distribution.overall,"2.Ch3.R.analysis/species.distribution.overall.csv")
 
@@ -363,15 +407,14 @@ ggplot(rel.abundance, aes(y=species,x=depthzone))+
   ylab("")
 
 ## across all sites 
-rel.abundance <- species.distribution.overall %>%
-  filter(depthzone!="tot.abu") %>%
-  arrange(species)
+rel.abundance <- species.distribution.graph %>%
+  filter(depthzone!="tot.abu")
 
 ggplot(rel.abundance, aes(y=species,x=depthzone))+
   geom_tile(aes(fill=abundance))+
   xlab("relative abundance per depth zone")+
-  scale_x_discrete(position="top",labels=str_wrap(c("upper mesophotic","lower mesophotic",
-                                                    "upper rariphotic","lower rariphotic"),7))+
+  scale_x_discrete(position="top",labels=str_wrap(c("altiphotic","upper mesophotic","lower mesophotic",
+                                                    "upper rariphotic","lower rariphotic","below rariphotic"),7))+
   theme(panel.border = element_blank(), panel.grid.major = element_blank(), 
         panel.grid.minor = element_blank(),axis.text.y = element_text(size = 4))+
   ylab("")+
@@ -384,7 +427,7 @@ species.distribution.overall <- read.csv("2.Ch3.R.analysis/species.distribution.
 #### attributing a depth predominance to each species based on their distribution
 # across the four sites, and assessing the contribution of depth predominance to
 # the diversity and abundance across depth at each site 
-depth.affinity.overall <- species.distribution.overall %>%
+depth.affinity.overall <- read.csv("2.Ch3.R.analysis/species.distribution.overall.csv") %>%
   select(-1) %>%
   filter(depthzone!="tot.abu") %>%
   spread(depthzone,abundance) %>%
@@ -398,7 +441,7 @@ depth.affinity.overall <- species.distribution.overall %>%
     TRUE~predominance)) %>%
   mutate(predominance=factor(predominance, levels=c("AM","M","MR","R","DS")))
 
-write.csv(depth.affinity.overall,"2.Ch3.R.analysis/2.file.depth.affinity.transsite.csv")
+#write.csv(depth.affinity.overall,"2.Ch3.R.analysis/2.file.depth.affinity.transsite.csv")
 
 ## add to depth affinity file 
 depth.affinity.file <- depth.affinity.overall %>%
@@ -408,11 +451,11 @@ depth.affinity.file <- depth.affinity.overall %>%
 #write.csv(depth.affinity.file,"2.Ch3.R.analysis/2.file.species.depth.csv")
 
 #### 2.8. FIG 7B ####
-depth.affinity.overall <- read.csv("2.file.depth.affinity.transsite.csv")
+depth.affinity.overall <- read.csv("2.Ch3.R.analysis/2.file.depth.affinity.transsite.csv")
 
-depth.affinity.plot <- depth.affinity.overall %>%
+depth.affinity.plot <- ("2.Ch3.R.analysis/2.file.depth.affinity.transsite.csv") %>%
   select(predominance,species)  %>%
-  left_join(read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv")) %>%
+  left_join(read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv")) %>%
   group_by(predominance,location,dband) %>%
   summarize(abu.corr=sum(abu.corr),spric=n()) %>%
   mutate(predominance=factor(predominance, levels=c("AM","M","MR","R","DS")),
@@ -448,9 +491,9 @@ ggplot(data=depth.affinity.overall,aes(x=dband,y=spric,color=predominance))+
   facet_wrap(~location, ncol=4)
 
 ## bar plots
-rel.abundance.realms <- depth.affinity.overall  %>%
+rel.abundance.realms <- read.csv("2.Ch3.R.analysis/2.file.depth.affinity.transsite.csv") %>%
   select(predominance,species)  %>%
-  left_join(read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv")) %>%
+  left_join(read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv")) %>%
   group_by(species,location,dband) %>%
   mutate(depth.realm=case_when(
     location=="Curacao" & dband<=70 ~ "upper mesophotic",
@@ -465,24 +508,28 @@ rel.abundance.realms <- depth.affinity.overall  %>%
     location=="St. Eustatius" & dband<=130 ~ "lower mesophotic",
     location=="St. Eustatius" & dband<=180 ~ "upper rariphotic",
     location=="St. Eustatius" & dband >180 ~ "lower rariphotic",
+    location=="Roatan" & dband<=10 ~ "altiphotic",
     location=="Roatan" & dband<=90 ~ "upper mesophotic",
     location=="Roatan" & dband<=140 ~ "lower mesophotic",
     location=="Roatan" & dband<=180 ~ "upper rariphotic",
-    location=="Roatan" & dband >180 ~ "lower rariphotic")) %>%
+    location=="Roatan" & dband<=300 ~ "lower rariphotic",
+    location=="Roatan" & dband>300 ~ "below rariphotic")) %>%
   group_by(depth.realm,species,predominance) %>%
   summarize(abu.corr=sum(abu.corr))%>%
   group_by(depth.realm,predominance) %>%
   summarize(spric=n(),abu.corr=sum(abu.corr))%>%
  mutate(predominance=factor(predominance,levels=c("AM","M","MR","R","DS")),
-  depth.realm=factor(depth.realm, levels=rev(c("upper mesophotic","lower mesophotic",
-                                     "upper rariphotic","lower rariphotic"))))
+  depth.realm=factor(depth.realm, levels=rev(c("altiphotic","upper mesophotic","lower mesophotic",
+                                     "upper rariphotic","lower rariphotic","below rariphotic"))))
 
 ## bar plot richness - FIG 7B
+pal <- c("AM"="#d0dc36","M"="#50ABE7","MR"="#BC90DB","R"="#831EB6","DS"="#12086F")
+
 ggplot(data=rel.abundance.realms, aes(x=depth.realm,y=spric,fill=predominance))+
-  geom_bar(position="stack",stat="identity",width=0.4) +
+  geom_bar(position="stack",stat="identity",width=0.6) +
   scale_fill_manual(values=pal,
-                    labels=c("alti/mesophotic","mesophotic","meso/rariphotic",
-                             "rariphotic","deep sea"),
+                    labels=c("alti/mesophotic","mesophotic specialist","meso/rariphotic",
+                             "rariphotic specialist","deep sea"),
                     name=str_wrap("species depth affinity"),7)+
   scale_x_discrete(label=str_wrap(levels(rel.abundance.realms$depth.realm),7))+
   theme(axis.line.x = element_blank(),
@@ -493,19 +540,24 @@ ggplot(data=rel.abundance.realms, aes(x=depth.realm,y=spric,fill=predominance))+
   coord_flip()
 
 ## bar plot abundance- FIG 7B
-ggplot(data=rel.abundance.realms, aes(x=depth.realm,y=abu.corr,fill=predominance))+
-  geom_bar(position="stack",stat="identity",width=0.4) +
+abundance.prop <- rel.abundance.realms %>%
+  group_by(depth.realm) %>%
+  mutate(prop.abu=abu.corr/sum(abu.corr)*100)%>%
+  ungroup()
+
+ggplot(data=abundance.prop, aes(x=depth.realm,y=prop.abu,fill=predominance))+
+  geom_bar(position="stack",stat="identity",width=0.6) +
   scale_fill_manual(values=pal,
                     labels=c("alti/mesophotic","mesophotic","meso/rariphotic",
                              "rariphotic","deep sea"),
                     name=str_wrap("species depth affinity"),7)+
   scale_x_discrete(label=str_wrap(levels(rel.abundance.realms$depth.realm),7))+
-  scale_y_continuous(breaks=c(0,50000))+
+  scale_y_continuous(breaks=c(0,100))+
   theme(axis.line.x = element_blank(),
         panel.grid.minor = element_blank(),
         panel.background = element_blank())+
   xlab("")+
-  ylab("relative abundance")+
+  ylab("% total abundance")+
   coord_flip()
 
 
@@ -1457,7 +1509,7 @@ ggplot(data=lioprop,aes(x=dband, y=log(abu.corr),color=location))+
   scale_color_manual(values=carib.pal)+
   facet_wrap(.~species,ncol=1)+
   #coord_flip()+
-  xlim(40,300)+
+  xlim(40,450)+
   theme_classic()
 
 
@@ -1469,7 +1521,6 @@ prognathodes <- read.csv("2.file.fish.carib.grouped.csv") %>%
   mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan")))
 
 carib.pal <- fish(4, option = "Bodianus_rufus")
-#rect.y <- log(max(a.nik$abu.corr))+0.5
 
 ggplot(data=prognathodes,aes(x=dband, y=log(abu.corr),color=location))+
    geom_point(size=3) +
@@ -1480,8 +1531,8 @@ ggplot(data=prognathodes,aes(x=dband, y=log(abu.corr),color=location))+
   theme_classic()
 
 #### 6.4. Chromis ####
-chromis <- read.csv("2.file.fish.carib.grouped.csv") %>%
-  filter(grepl("Chromis", species))%>%
+chromis <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
+  filter(species=="Chromis insolata" | species=="Chromis enchrysura") %>%
   group_by(location,dband, species)%>%
   summarize(abu.corr=sum(abu.corr))%>%
   mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan")),
@@ -1498,7 +1549,25 @@ ggplot(data=chromis,aes(x=dband, y=log(abu.corr),color=location))+
   xlim(0,300)+
   theme_classic()
 
-#### 6.5. Palatogobius ####
+#### 6.5. Azurina ####
+azurina <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
+  filter(species=="Chromis cyanea" | species=="Chromis multilineata")%>%
+  group_by(location,dband, species)%>%
+  summarize(abu.corr=sum(abu.corr))%>%
+  mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan")),
+         species=factor(species,levels=c("Chromis cyanea","Chromis multilineata")))
+
+carib.pal <- fish(4, option = "Bodianus_rufus")
+
+ggplot(data=azurina,aes(x=dband, y=log(abu.corr),color=location))+
+  geom_point(size=3) +
+  scale_color_manual(values=carib.pal)+
+  facet_wrap(.~species,ncol=1)+
+  #coord_flip()+
+  xlim(0,300)+
+  theme_classic()
+
+#### 6.6. Palatogobius ####
 gobius <- read.csv("2.file.fish.carib.grouped.csv") %>%
   filter(species=="Palatogobius incendius"| species=="Palatogobius grandoculus"|
          species=="Antilligobius nikkiae")%>%
@@ -1522,7 +1591,7 @@ ggplot(data=gobius,aes(x=dband, y=log(abu.corr),color=location))+
 
 #### 7. Sister species - one genus per graph ####
 #### 7.1. Lipogramma ####
-lipogram <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+lipogram <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(species=="Lipogramma klayi" | species=="Lipogramma evides"| species== "Lipogramma levinsoni") %>%
   group_by(dband, species)%>%
   summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
@@ -1540,11 +1609,23 @@ lipogram.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
   filter(species=="Lipogramma klayi" | species=="Lipogramma evides"| species== "Lipogramma levinsoni") %>%
   mutate(species=factor(species, levels=c("Lipogramma evides","Lipogramma levinsoni","Lipogramma klayi")))
 
-lipogram.aov <- aov(data=lipogram.stat, meters~species)
-summary(lipogram.aov) ## p <0.001
-TukeyHSD(lipogram.aov)
+# normality test
+ggqqplot(lipogram.stat$meters) #qqplot
+shapiro.test(lipogram.stat$meters) # not normal distribution
 
-## plot
+kruskal.test(data=lipogram.stat, meters~species)
+pairwise.wilcox.test(x=lipogram.stat$meters, g=lipogram.stat$species)
+
+#lipogram.aov <- aov(data=lipogram.stat, meters~species)
+#summary(lipogram.aov) ## p <0.001
+#TukeyHSD(lipogram.aov)
+
+
+#permanova
+lipogram.perm <-  adonis2(lipogram.stat$meters~lipogram.stat$species,method="bray")
+pairwise.adonis2(lipogram.stat$meters~lipogram.stat$species,method="bray")
+
+## OLD plot
 carib.pal <- fish(3, option = "Bodianus_rufus")
 lipogram.plot <- ggplot(data=lipogram,aes(x=dband, y=log(abu.corr),color=species))+
   geom_vline(xintercept=lipogram.means$mean.depth,color=carib.pal)+
@@ -1552,7 +1633,7 @@ lipogram.plot <- ggplot(data=lipogram,aes(x=dband, y=log(abu.corr),color=species
   scale_color_manual(values=carib.pal)+
   coord_flip()+
   theme_classic()+
-  scale_x_reverse(limits=c(300,0))+
+  scale_x_reverse(limits=c(450,0))+
   xlab("depth")+
   ylab("abundance (log)")+
   ggtitle("Lipogramma")
@@ -1563,9 +1644,9 @@ lipogram.plot
 palette <- viridis(4,begin=0.9,end=0)
 
 lipogram.ridges <- ggplot(data=lipogram.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
+  scale_x_continuous(limits=c(0,350))+
   scale_y_discrete(labels=c("Lipogramma evides"=expression(italic("L. evides")),
                             "Lipogramma levinsoni"=expression(italic("L. levinsoni")),
                             "Lipogramma klayi"=expression(italic("L. klayi"))))+
@@ -1581,7 +1662,7 @@ lipogram.ridges
 
 #### 7.2. Liopropoma ####
 ## L.carmabi (n=5), L. santi (n=4) so removed 
-lioprop <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+lioprop <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
  filter(species=="Liopropoma mowbrayi"|species=="Liopropoma olneyi"| species=="Liopropoma aberrans")%>%
   group_by(dband, species)%>%
   summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
@@ -1601,6 +1682,13 @@ lioprop.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
   mutate(species=factor(species, levels=c("Liopropoma olneyi","Liopropoma aberrans",
                                           "Liopropoma mowbrayi")))
   
+# normality test
+ggqqplot(lioprop.stat$meters) #qqplot
+shapiro.test(lioprop.stat$meters) # not normal distribution
+
+kruskal.test(data=lioprop.stat, meters~species)
+pairwise.wilcox.test(x=lioprop.stat$meters, g=lioprop.stat$species)
+
 lioprop.aov <- aov(data=lioprop.stat, meters~species)
 summary(lioprop.aov) ## p <0.001
 TukeyHSD(lioprop.aov)
@@ -1624,9 +1712,9 @@ lioprop.plot
 palette <- viridis(4,begin=0.9,end=0)
 
 lioprop.ridges <- ggplot(data=lioprop.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
+  scale_x_continuous(limits=c(0,350))+
   scale_y_discrete(labels=c("Liopropoma olneyi"=expression(italic("L. olneyi")),
                              "Liopropoma aberrans"=expression(italic("L. aberrans")),
                             "Liopropoma mowbrayi"=expression(italic("L. mowbrayi"))))+
@@ -1641,7 +1729,7 @@ lioprop.ridges <- ggplot(data=lioprop.stat,aes(x=meters, y=species,fill=species,
 lioprop.ridges
 
 #### 7.3. Prognathodes ####
-prognathodes <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+prognathodes <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(grepl("Prognathodes", species))%>%
   group_by(dband, species)%>%
   summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
@@ -1659,6 +1747,9 @@ prognathodes.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>
   filter(grepl("Prognathodes", species)) %>%
   mutate(species=factor(species,levels=c("Prognathodes guyanensis","Prognathodes aculeatus")))
 
+ggqqplot(prognathodes.stat$meters) #qqplot
+shapiro.test(prognathodes.stat$meters) # normal distribution
+wilcox.test(meters ~ species, data = prognathodes.stat, exact = FALSE)
 t.test(data=prognathodes.stat, meters~species)
 
 ## plot
@@ -1680,9 +1771,9 @@ prognathodes.plot
 palette <- viridis(4,begin=0.9,end=0)
 
 prognathodes.ridges <- ggplot(data=prognathodes.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
+  scale_x_continuous(limits=c(0,350))+
   scale_y_discrete(labels=c("Prognathodes aculeatus"=expression(italic("P. aculeatus")),
                             "Prognathodes guyanensis"=expression(italic("P. guyanensis"))))+
   geom_vline(xintercept=prognathodes.means$mean.depth,color=palette[1:2],linetype="dashed")+
@@ -1697,7 +1788,7 @@ prognathodes.ridges
 
 #### 7.4. Serranus ####
 ## 4 species with n>10: luciopercanus, nostospilus, phoebe and tortugarum
-serranus <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+serranus <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(species=="Serranus luciopercanus"| species=="Serranus notospilus" |
            species=="Serranus phoebe"|species=="Serranus tortugarum")%>%
   group_by(dband, species)%>%
@@ -1718,10 +1809,16 @@ serranus.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
            species=="Serranus phoebe"|species=="Serranus tortugarum")%>%
   mutate(species=factor(species,levels=c("Serranus notospilus","Serranus phoebe",
                                          "Serranus luciopercanus","Serranus tortugarum")))
+# normality test
+ggqqplot(serranus.stat$meters) #qqplot
+shapiro.test(serranus.stat$meters) # not normal distribution
+kruskal.test(data=serranus.stat, meters~species)
+pairwise.wilcox.test(x=serranus.stat$meters, g=serranus.stat$species)
 
-serranus.aov <- aov(data=serranus.stat, meters~species)
-summary(serranus.aov) # p <0.001
-TukeyHSD(serranus.aov)
+
+#serranus.aov <- aov(data=serranus.stat, meters~species)
+#summary(serranus.aov) # p <0.001
+#TukeyHSD(serranus.aov)
 
 ## plot
 carib.pal <- fish(4, option = "Bodianus_rufus")
@@ -1741,14 +1838,14 @@ serranus.plot
 palette <- viridis(4,begin=0.9,end=0)
 
 serranus.ridges <- ggplot(data=serranus.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
+  scale_x_continuous(limits=c(0,350))+
   scale_y_discrete(labels=c("Serranus notospilus"=expression(italic("S. notospilus")),
                             "Serranus phoebe"=expression(italic("S. phoebe")),
                             "Serranus luciopercanus"=expression(italic("S. luciopercanus")),
                             "Serranus tortugarum"=expression(italic("S. tortugarum"))))+
-  geom_vline(xintercept=serranus.means$mean.depth,color=palette[c(4,2,3,1)],linetype="dashed")+
+  geom_vline(xintercept=serranus.means$mean.depth,color=palette[c(2,4,3,1)],linetype="dashed")+
   scale_fill_manual(values=palette[4:1],name=NULL,
                     labels = NULL)+
   theme_classic()+
@@ -1759,7 +1856,7 @@ serranus.ridges <- ggplot(data=serranus.stat,aes(x=meters, y=species,fill=specie
 serranus.ridges
 
 #### 7.5. Palatogobius ####
-gobius <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+gobius <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(species=="Palatogobius incendius"| species=="Palatogobius grandoculus")%>%
   group_by(dband, species)%>%
   summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
@@ -1775,7 +1872,10 @@ gobius.means <- gobius %>%
 gobius.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
   filter(species=="Palatogobius incendius"| species=="Palatogobius grandoculus")
 
-t.test(data=gobius.stat, meters~species)
+ggqqplot(gobius.stat$meters) #qqplot
+shapiro.test(gobius.stat$meters) # not normal distribution
+wilcox.test(meters ~ species, data = gobius.stat, exact = FALSE)
+#t.test(data=gobius.stat, meters~species)
 
 ## plot
 carib.pal <- fish(2, option = "Bodianus_rufus")
@@ -1796,9 +1896,9 @@ gobius.plot
 palette <- viridis(4,begin=0.9,end=0)
 
 gobius.ridges <- ggplot(data=gobius.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
+  scale_x_continuous(limits=c(0,350))+
   scale_y_discrete(labels=c("Palatogobius incendius"=expression(italic("P. incendius")),
                             "Palatogobius grandoculus"=expression(italic("P. grandoculus"))))+
   geom_vline(xintercept=gobius.means$mean.depth,color=palette[2:1],linetype="dashed")+
@@ -1812,7 +1912,7 @@ gobius.ridges <- ggplot(data=gobius.stat,aes(x=meters, y=species,fill=species,al
 gobius.ridges
 
 #### 7.6 Symphysanodon ####
-symphy <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+symphy <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(grepl("Symphysanodon", species))%>%
   group_by(dband, species)%>%
   summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
@@ -1828,7 +1928,10 @@ symphy.means <- symphy %>%
 symphy.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
   filter(grepl("Symphysanodon", species))
 
-t.test(data=symphy.stat, meters~species)
+ggqqplot(symphy.stat$meters) #qqplot
+shapiro.test(symphy.stat$meters) # not normal distribution
+wilcox.test(meters ~ species, data = symphy.stat, exact = FALSE)
+#t.test(data=symphy.stat, meters~species)
 
 ## plot
 carib.pal <- fish(2, option = "Bodianus_rufus")
@@ -1838,7 +1941,7 @@ symphy.plot <- ggplot(data=symphy,aes(x=dband, y=log(abu.corr),color=species))+
   scale_color_manual(values=carib.pal)+
   coord_flip()+
   theme_classic()+
-  scale_x_reverse(limits=c(300,0))+
+  scale_x_reverse(limits=c(350,0))+
   xlab("depth")+
   ylab("abundance (log)")+
   ggtitle("Symphysanodon")
@@ -1849,9 +1952,9 @@ symphy.plot
 palette <- viridis(4,begin=0.9,end=0)
 
 symphy.ridges <- ggplot(data=symphy.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
+  scale_x_continuous(limits=c(0,350))+
   scale_y_discrete(labels=c("Symphysanodon octoactinus"=expression(italic("S. octoactinus")),
                             "Symphysanodon berryi"=expression(italic("S. berryi"))))+
   geom_vline(xintercept=symphy.means$mean.depth,color=palette[2:1],linetype="dashed")+
@@ -1865,67 +1968,82 @@ symphy.ridges <- ggplot(data=symphy.stat,aes(x=meters, y=species,fill=species,al
 symphy.ridges
 
 
-#### 7.7. Chromis ####
-## C. scotti removed because of possibly wrong IDs
-chromis <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
-  filter(grepl("Chromis", species))%>%
-  filter(species!="Chromis scotti")%>%
+#### 7.8. Azurina ####
+azu <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
+  filter(species=="Chromis cyanea" | species=="Chromis multilineata")%>%
   group_by(dband, species)%>%
   summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
 
-chromis.means <- chromis %>% # mean depth - using corrected abundance
-  mutate(weighted.depth=dband*abu.corr) %>%
+# normality test
+azu.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
+  filter(species=="Chromis cyanea" | species=="Chromis multilineata")%>%
+  mutate(species=factor(species, levels=rev(c("Chromis multilineata","Chromis cyanea"))))
+
+ggqqplot(azu.stat$meters) #qqplot
+shapiro.test(azu.stat$meters) # not normal distribution
+
+wilcox.test(meters ~ species, data = azu.stat, exact = FALSE)
+#t.test(data=azu.stat, meters~species)
+
+## plot with ridges
+azu.means <- azu.stat %>% # mean depth of each genus
   group_by(species) %>%
-  summarize(tot.depth=sum(weighted.depth),abu.corr=sum(abu.corr), 
-            abu.raw=sum(abu.raw))%>%
-  mutate(mean.depth=tot.depth/abu.corr)
+  summarize(mean.depth=mean(meters))%>%
+  mutate(species=factor(species, levels=rev(c("Chromis multilineata","Chromis cyanea"))))
+
+palette <- viridis(4,begin=0.9,end=0)
+
+azu.ridges <- ggplot(data=azu.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
+  geom_density_ridges(rel_min_height = 0.01)+
+  #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
+  scale_x_continuous(limits=c(0,350))+
+  scale_y_discrete(labels=c("Chromis multilineata"=expression(italic("A. multilineata")),
+                            "Chromis cyanea"=expression(italic("A. cyanea"))))+
+  geom_vline(xintercept=azu.means$mean.depth,color=palette[c(2,1)],linetype="dashed")+
+  scale_fill_manual(values=palette[2:1],name=NULL,
+                    labels = NULL)+
+  theme_classic()+
+  #scale_x_reverse()+
+  xlab("depth")+
+  ylab("")
+azu.ridges
+
+
+#### 7.7. Chromis ####
+## C. scotti not considered because of possibly wrong IDs
+chromis <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
+  filter(species=="Chromis insolata" | species=="Chromis enchrysura")%>%
+  group_by(dband, species)%>%
+  summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
 
 ## stat test
 chromis.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
-  filter(grepl("Chromis", species))%>%
-  filter(species!="Chromis scotti") %>%
-  mutate(species=factor(species, levels=rev(c("Chromis multilineata","Chromis cyanea","Chromis insolata",
+  filter(species=="Chromis insolata" | species=="Chromis enchrysura")%>%
+  mutate(species=factor(species, levels=rev(c("Chromis insolata",
                                           "Chromis enchrysura"))))
-
-chromis.aov <- aov(data=chromis.stat, meters~species)
-summary(chromis.aov) # p <0.001
-TukeyHSD(chromis.aov)
+ggqqplot(chromis.stat$meters) #qqplot
+shapiro.test(chromis.stat$meters) # not normal distribution
+wilcox.test(meters ~ species, data = chromis.stat, exact = FALSE)
+#t.test(data=chromis.stat, meters~species)
 
 chromis.means <- chromis.stat %>% # mean depth of each genus
   group_by(species) %>%
-  summarize(mean.depth=mean(meters))%>%
-  mutate(species=factor(species, levels=rev(c("Chromis multilineata","Chromis cyanea","Chromis insolata",
+  summarize(mean.depth=mean(meters), n=n())%>%
+  mutate(species=factor(species, levels=rev(c("Chromis insolata",
                                               "Chromis enchrysura"))))
 
-## plot
-carib.pal <- fish(4, option = "Bodianus_rufus")
-chromis.plot <- ggplot(data=chromis,aes(x=dband, y=log(abu.corr),color=species))+
-  geom_vline(xintercept=chromis.means$mean.depth,color=carib.pal)+
-  geom_point(size=2) +
-  scale_color_manual(values=carib.pal)+
-  coord_flip()+
-  theme_classic()+
-  #scale_x_reverse()+
-  scale_x_reverse(limits=c(300,0))+
-  xlab("depth")+
-  ylab("abundance (log)")+
-  ggtitle("Chromis")
-
-chromis.plot
 
 ## plot with ridges
 palette <- viridis(4,begin=0.9,end=0)
 
 chromis.ridges <- ggplot(data=chromis.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
-  scale_y_discrete(labels=c("Chromis multilineata"=expression(italic("C. multilineata")),
-                            "Chromis cyanea"=expression(italic("C. cyanea")),
-                            "Chromis insolata"=expression(italic("C. insolata")),
+  scale_x_continuous(limits=c(0,350))+
+  scale_y_discrete(labels=c("Chromis insolata"=expression(italic("C. insolata")),
                             "Chromis enchrysura"=expression(italic("C. vanbebberae"))))+
-  geom_vline(xintercept=chromis.means$mean.depth,color=palette[c(2,4,3,1)],linetype="dashed")+
-  scale_fill_manual(values=palette[4:1],name=NULL,
+  geom_vline(xintercept=chromis.means$mean.depth,color=palette[c(2,1)],linetype="dashed")+
+  scale_fill_manual(values=palette[2:1],name=NULL,
                     labels = NULL)+
   theme_classic()+
   #scale_x_reverse()+
@@ -1933,8 +2051,8 @@ chromis.ridges <- ggplot(data=chromis.stat,aes(x=meters, y=species,fill=species,
   ylab("")
 chromis.ridges
 
-#### 7.8. Haemulon ####
-haemulon <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+#### 7.9. Haemulon ####
+haemulon <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
 filter(species=="Haemulon flavolineatum" | species=="Haemulon striatum") %>%
   group_by(dband, species)%>%
   summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
@@ -1951,7 +2069,10 @@ haemulon.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
   filter(species=="Haemulon flavolineatum" | species=="Haemulon striatum")%>%
   mutate(species=factor(species,levels=c("Haemulon striatum","Haemulon flavolineatum")))
 
-t.test(data=haemulon.stat, meters~species)
+ggqqplot(haemulon.stat$meters) #qqplot
+shapiro.test(haemulon.stat$meters) # not normal distribution
+wilcox.test(meters ~ species, data = haemulon.stat, exact = FALSE)
+#t.test(data=haemulon.stat, meters~species)
 
 
 ## plot
@@ -1964,7 +2085,7 @@ haemulon.plot <- ggplot(data=haemulon,aes(x=dband, y=log(abu.corr),color=species
   coord_flip()+
   theme_classic()+
   #scale_x_reverse()+
-  scale_x_reverse(limits=c(300,0))+
+  scale_x_reverse(limits=c(350,0))+
   xlab("depth")+
   ylab("abundance (log)")+
   ggtitle("Haemulon")
@@ -1975,9 +2096,9 @@ haemulon.plot
 palette <- viridis(4,begin=0.9,end=0)
 
 haemulon.ridges <- ggplot(data=haemulon.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
+  scale_x_continuous(limits=c(0,350))+
   scale_y_discrete(labels=c("Haemulon striatum"=expression(italic("H. striatum")),
                             "Haemulon flavolineatum"=expression(italic("H. flavolineatum"))))+
   geom_vline(xintercept=haemulon.means$mean.depth,color=palette[1:2],linetype="dashed")+
@@ -1991,8 +2112,8 @@ haemulon.ridges <- ggplot(data=haemulon.stat,aes(x=meters, y=species,fill=specie
 
 haemulon.ridges
 
-#### 7.8. Varicus ####
-varicus <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+#### 7.10. Varicus ####
+varicus <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(species=="Varicus decorum" | species=="Varicus veliguttatus") %>%
   group_by(dband, species)%>%
   summarize(abu.corr=sum(abu.corr),abu.raw=sum(abundance))
@@ -2009,15 +2130,19 @@ varicus.stat <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
   filter(species=="Varicus decorum" | species=="Varicus veliguttatus") %>%
   mutate(species=factor(species,levels=c("Varicus veliguttatus","Varicus decorum")))
 
+ggqqplot(varicus.stat$meters) #qqplot
+shapiro.test(varicus.stat$meters) # normal distribution
+wilcox.test(meters ~ species, data = varicus.stat, exact = FALSE)
 t.test(data=varicus.stat, meters~species)
 
 ## plot with ridges
 palette <- viridis(4,begin=0.9,end=0)
 
-varicus.ridges <- ggplot(data=varicus.stat,aes(x=meters, y=species,fill=species,alpha=0.3))+
-  geom_density_ridges()+
+varicus.ridges <- ggplot(data=varicus.stat,aes(x=meters, y=species,fill=species,
+                                               alpha=0.3))+
+  geom_density_ridges(rel_min_height = 0.01)+
   #theme(legend.position = "none",plot.title = element_text(hjust = 2))+
-  scale_x_continuous(limits=c(0,300))+
+  scale_x_continuous(limits=c(0,350))+
   scale_y_discrete(labels=c("Varicus decorum"=expression(italic("V. decorum")),
                             "Varicus veliguttatus"=expression(italic("V. veliguttatus"))))+
   geom_vline(xintercept=varicus.means$mean.depth,color=palette[1:2],linetype="dashed")+
@@ -2030,15 +2155,10 @@ varicus.ridges <- ggplot(data=varicus.stat,aes(x=meters, y=species,fill=species,
 varicus.ridges
 
 #### 7.9. Plots all together ####
-genus.plots <- ggarrange(chromis.plot, haemulon.plot+ rremove("ylab"),lioprop.plot+ rremove("ylab"),
-                           prognathodes.plot+ rremove("ylab"),serranus.plot,
-                         lipogram.plot+ rremove("ylab"),gobius.plot+ rremove("ylab"),symphy.plot+ rremove("ylab"),
-                          ncol = 4, nrow=2, legend="none")
-genus.plots
 
-pdf("2.Ch3.R.analysis/graphs/sister.species.pdf")
-genus.ridges <- ggarrange(chromis.ridges+ rremove("xlab")+rremove("x.axis")+rremove("x.text")+rremove("x.ticks"),
+genus.ridges <- ggarrange(azu.ridges+ rremove("xlab")+rremove("x.axis")+rremove("x.text")+rremove("x.ticks"),
                           haemulon.ridges+ rremove("xlab")+rremove("x.axis")+rremove("x.text")+rremove("x.ticks"),
+                          chromis.ridges+ rremove("xlab")+rremove("x.axis")+rremove("x.text")+rremove("x.ticks"),
                           lioprop.ridges+ rremove("xlab")+rremove("x.axis")+rremove("x.text")+rremove("x.ticks"),
                           prognathodes.ridges+ rremove("xlab")+rremove("x.axis")+rremove("x.text")+rremove("x.ticks"),
                           serranus.ridges+ rremove("xlab")+rremove("x.axis")+rremove("x.text")+rremove("x.ticks"),
@@ -2048,4 +2168,34 @@ genus.ridges <- ggarrange(chromis.ridges+ rremove("xlab")+rremove("x.axis")+rrem
                           ncol = 2, nrow=5, legend="none",align="v")
 
 ggsave(genus.ridges, file = "2.Ch3.R.analysis/graphs/genus.ridge.pdf", width = 7, height = 7)
+
+#### 8. Global depth ranges of selected genera ####
+
+depth.ranges.survey <- read.csv("2.Ch3.R.analysis/2.file.fish.grouped.raw.csv") %>%
+  group_by(species) %>%
+  summarize(min.local=round(min(meters)),max.local=round(max(meters))) %>%
+  mutate(species=case_when(species=="Chromis cyanea"~"Azurina cyanea",
+                           species== "Chromis multilineata"~"Azurina multilineata",
+                           TRUE~species))
+
+depth.ranges.global <- read.csv("raw.data/fig7.global.depth.range.csv") %>%
+  mutate(genus= species %>% #create column containing genus of each species
+           strsplit(" ")%>%
+           sapply(function(x) x[1])) %>%
+  left_join(depth.ranges.survey) %>%
+  arrange(desc(genus),desc(max)) %>%
+ mutate(species=factor(species, levels=species))
+  
+
+ggplot()+
+  geom_segment(depth.ranges.global, mapping=aes(x=species,xend=species,y=min,yend=max,
+                                         color=genus))+
+  geom_segment(depth.ranges.global, mapping=aes(x=species,xend=species,y=min.local,yend=max.local
+                                                ),color="black")+
+  theme_classic()+
+  coord_flip()+
+  ylab("global depth distribution (m)")+
+  xlab("")
+  
+
 
