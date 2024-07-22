@@ -184,7 +184,7 @@ for (i in 1:length(roa.simsum.zones)){ # iterates for each element of list
 roa.simspecies.zones$location="Roatan"
 
 
-roa.species <- roa.simspecies %>%
+roa.species <- roa.simspecies.zones %>%
   distinct()
 
 roa.loads <- 
@@ -332,7 +332,7 @@ roa.mds.plot
 
 #### 2. Contribution of depth affinity groups ####
 ## for 0-500 m
-roa.com.all <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+roa.com.all <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Roatan")
 
 species.distribution.roa.all <- data.frame(species=c(),alti= c(),u.meso=c(),l.meso=c(),
@@ -376,7 +376,7 @@ ggplot(rel.abundance.roa.all, aes(y=species,x=depthzone))+
   ylab("")
 
 #### 2.2. Species present below the rariphotic ####
-roa.deep <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+roa.deep <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Roatan" & dband>300) %>%
   group_by(species) %>%
   summarize(abu.corr = sum(abu.corr),abu.raw=sum(abundance)) 

@@ -7,6 +7,7 @@ library(mgcv) # mixed generalized additive models
 library(GGally) #functions and features that complement the functionality of the popular ggplot2 package.
 library(hillR) #to calculate richness, evenness and dominance 
 library(betapart) #to calculate beta diversity 
+library(viridis)
 
 ## dataset with fish observations grouped by depth bins is:
     # "2.file.fish.binned.csv"
@@ -114,23 +115,17 @@ obs.raw.bins <- obs.raw.bins %>%
 
 #### 1.1 RAW abundance ####
 #### 1.1.0. data prep ####
-carib.deep.traits <- read.csv(file = "1.Ch3.R.analysis/2.carib.deep.traits.csv")
+carib.deep.traits <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.binned.csv")
 
 ## total abundance 
-total_abundance <- read.csv(file = "1.Ch3.R.analysis/2.carib.deep.traits.csv")%>%
+total_abundance <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.binned.csv")%>%
   filter(dband>30 & dband<310) %>%
   summarize(tot.abu=sum(abundance),tot.species=length(unique(species)))
 total_abundance
 
-## list of species observed + their max depth and total length
-carib.deep.traits.species <- carib.deep.traits %>%
-  select(species, maxTL, maxDepth) %>%
-  distinct()
-
-# write.csv(carib.deep.traits.species, file = "2.carib.deep.traits.species.csv")
 
 ## total abundance and biomass (across species) per location per depth
-carib.fish.sum <- carib.deep.traits %>%
+carib.fish.sum <- read.csv(file = "2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   group_by(dband, location, species) %>%
   summarize(tot.abu = sum(abu.corr), u.abu = sum(abundance), tot.biom = sum(biomass)) %>%
   ungroup() %>%
@@ -139,7 +134,6 @@ carib.fish.sum <- carib.deep.traits %>%
   bind_rows(data_frame(dband=c(240,250),location=c("Bonaire","St. Eustatius"),abundance=0,u.abundance=0,
                        biomass=0,spric=0)) 
   
-
 
 #### 1.1.1. Curacao ####
 cur.abu <- carib.fish.sum %>%
@@ -1431,18 +1425,18 @@ betadiv.upMesoP <- betadiv.clusters %>%
   select(-cluster,-location) %>%
   mutate_all(~ case_when(.>0 ~ 1, TRUE~0))
 
-beta.cluster.mesoP <- beta.pair(betadiv.upMesoP,index.family="sorensen")
+beta.cluster.upmesoP <- beta.pair(betadiv.upMesoP,index.family="sorensen")
 
-plot.mesoP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
+plot.upmesoP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
                         sites2=c("Bonaire","Statia","Roatan","Statia","Roatan","Roatan"),
-                        betadiv=beta.cluster.mesoP$beta.sor)%>%
+                        betadiv=beta.cluster.upmesoP$beta.sor)%>%
   mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","Statia")),
          sites2=factor(sites2,levels=rev(c("Bonaire","Statia","Roatan"))))
   
 
-plot.beta.upMeso <- ggplot(data=plot.mesoP, aes(x=sites2, y=sites1,fill=betadiv))+
+plot.beta.upMeso <- ggplot(data=plot.upmesoP, aes(x=sites2, y=sites1,fill=betadiv))+
   geom_tile(color="grey")+
-  scale_fill_viridis(option="magma",begin=1,end=0.55,limits=c(0.4,0.85))+
+  scale_fill_viridis(option="magma",begin=1,end=0.55,limits=c(0.39,0.85))+
   coord_flip()+
   scale_y_discrete(position="right")+
   theme(panel.grid.major = element_blank(),
@@ -1462,19 +1456,19 @@ betadiv.lowMesoP <- betadiv.clusters %>%
   select(-cluster,-location) %>%
   mutate_all(~ case_when(.>0 ~ 1, TRUE~0))
 
-beta.cluster.mesoP <- beta.pair(betadiv.lowMesoP,index.family="sorensen")
+beta.cluster.lowmesoP <- beta.pair(betadiv.lowMesoP,index.family="sorensen")
 
-plot.mesoP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
+plot.lowmesoP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
                          sites2=c("Bonaire","Statia","Roatan","Statia","Roatan","Roatan"),
-                         betadiv=beta.cluster.mesoP$beta.sor)%>%
+                         betadiv=beta.cluster.lowmesoP$beta.sor)%>%
   mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","Statia")),
          sites2=factor(sites2,levels=rev(c("Bonaire","Statia","Roatan"))))
 
 
 
-plot.beta.lowMeso <-ggplot(data=plot.mesoP, aes(x=sites2, y=sites1,fill=betadiv))+
+plot.beta.lowMeso <-ggplot(data=plot.lowmesoP, aes(x=sites2, y=sites1,fill=betadiv))+
   geom_tile(color="grey")+
-  scale_fill_viridis(option="magma",begin=1,end=0.55,limits=c(0.4,0.85))+
+  scale_fill_viridis(option="magma",begin=1,end=0.55,limits=c(0.39,0.85))+
   coord_flip()+
   scale_y_discrete(position="right")+
   theme(panel.grid.major = element_blank(),
@@ -1493,19 +1487,19 @@ betadiv.upRariP <- betadiv.clusters %>%
   select(-cluster,-location) %>%
   mutate_all(~ case_when(.>0 ~ 1, TRUE~0))
 
-beta.cluster.rariP <- beta.pair(betadiv.upRariP,index.family="sorensen")
+beta.cluster.uprariP <- beta.pair(betadiv.upRariP,index.family="sorensen")
 
-plot.rariP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
+plot.uprariP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
                          sites2=c("Bonaire","Statia","Roatan","Statia","Roatan","Roatan"),
-                         betadiv=beta.cluster.rariP$beta.sor)%>%
+                         betadiv=beta.cluster.uprariP$beta.sor)%>%
   mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","Statia")),
          sites2=factor(sites2,levels=rev(c("Bonaire","Statia","Roatan"))))
 
 
 
-plot.beta.upRari <- ggplot(data=plot.rariP, aes(x=sites2, y=sites1,fill=betadiv))+
+plot.beta.upRari <- ggplot(data=plot.uprariP, aes(x=sites2, y=sites1,fill=betadiv))+
   geom_tile(color="grey")+
-  scale_fill_viridis(option="magma",begin=1,end=0.55,limits=c(0.4,0.85))+
+  scale_fill_viridis(option="magma",begin=1,end=0.55,limits=c(0.39,0.85))+
   coord_flip()+
   scale_y_discrete(position="right")+
   theme(panel.grid.major = element_blank(),
@@ -1524,19 +1518,19 @@ betadiv.lowRariP <- betadiv.clusters %>%
   select(-cluster,-location) %>%
   mutate_all(~ case_when(.>0 ~ 1, TRUE~0))
 
-beta.cluster.rariP <- beta.pair(betadiv.lowRariP,index.family="sorensen")
+beta.cluster.lowrariP <- beta.pair(betadiv.lowRariP,index.family="sorensen")
 
-plot.rariP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
+plot.lowrariP <- data_frame(sites1=c(rep("Curacao",3),rep("Bonaire",2),"Statia"),
                          sites2=c("Bonaire","Statia","Roatan","Statia","Roatan","Roatan"),
-                         betadiv=beta.cluster.rariP$beta.sor)%>%
+                         betadiv=beta.cluster.lowrariP$beta.sor)%>%
   mutate(sites1=factor(sites1,levels=c("Curacao","Bonaire","Statia")),
          sites2=factor(sites2,levels=rev(c("Bonaire","Statia","Roatan"))))
 
 
 
-plot.beta.lowRari <-ggplot(data=plot.rariP, aes(x=sites2, y=sites1,fill=betadiv))+
+plot.beta.lowRari <-ggplot(data=plot.lowrariP, aes(x=sites2, y=sites1,fill=betadiv))+
   geom_tile(color="grey")+
-  scale_fill_viridis(option="magma",begin=1,end=0.55,limits=c(0.4,0.85))+
+  scale_fill_viridis(option="magma",begin=1,end=0.55,limits=c(0.39,0.85))+
   coord_flip()+
   scale_y_discrete(position="right")+
   theme(panel.grid.major = element_blank(),
@@ -1584,7 +1578,7 @@ ggplot()+
   ggtitle("Curaçao - deep")
 
 #### Bonaire ####
-rarefaction.bon <- read.csv(file = "raw fish counts/Bonaire_Raw_2020.csv") 
+rarefaction.bon <- read.csv(file = "raw.data/raw fish counts/Bonaire_Raw_2020.csv") 
 rarefaction.bon <- rarefaction.bon[sample(nrow(rarefaction.bon)), ] #shuffles the ordre of lines
 
 total.species <- vector(length=nrow(rarefaction.bon))
@@ -1600,7 +1594,7 @@ ggplot()+
   ggtitle("Bonaire - all depths")
 
 #### Statia ####
-rarefaction.sta <- read.csv(file = "raw fish counts/Statia_Raw_2020.csv") 
+rarefaction.sta <- read.csv(file = "raw.data/raw fish counts/Statia_Raw_2020.csv") 
 rarefaction.sta <- rarefaction.sta[sample(nrow(rarefaction.sta)), ] #shuffles the ordre of lines
 
 total.species <- vector(length=nrow(rarefaction.sta))
@@ -1616,7 +1610,7 @@ ggplot()+
   ggtitle("Statia - all depths")
 
 #### Roatan ####
-rarefaction.roa <- read.csv(file = "raw fish counts/Roatan_Raw_2020.csv") %>%
+rarefaction.roa <- read.csv(file = "raw.data/raw fish counts/Roatan_Raw_2020.csv") %>%
   filter(meters>40 & meters<310)
 rarefaction.roa <- rarefaction.roa[sample(nrow(rarefaction.roa)), ] #shuffles the ordre of lines
 

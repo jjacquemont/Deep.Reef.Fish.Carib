@@ -18,121 +18,6 @@ library(magrittr)
 ## dataset with fish observations grouped by depth bins is:
 # "2.file.fish.binned.csv"
 
-#### 1. Size structure and community composition - PCA ####
-carib.deep.traits <- read.csv(file = "2.Ch3.R.analysis/2.carib.deep.traits.csv") %>%
-  select(-X)
-carib.deep.fishbase <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv")
-## from one line per species per location to one line per individual per location.
-carib.size <- carib.deep.traits %>%
-  select(species, species.fb, dband, location, hab, abundance, COEF, abu.corr, maxTL, length, biomass, lwa_m, lwb_m) %>%
-  as_tibble() %>%
-  # mutate: adds or modifies columns in a data frame (tydiverse)
-  # map function applies a given function to each element of a list/vector.
-  # rep_len function to create a vector of ones with a length specified by .x
-  # creates a new column "obs", where each value in the abundance column is replaced by a vector of ones with a length specified by that value.
-  mutate(obs = map(abundance, ~rep_len(1, .x))) %>% 
-  unnest(cols = c(obs)) %>% # expands the obs column, creating separate rows for each element in the lists in the obs column while duplicating the other columns as necessary.
-  select(-abundance, -obs)
-
-### community composition
-carib.deep.com <- carib.deep.fishbase %>%
-  select(species, dband, location, abundance, abu.corr) %>%
-  filter(dband <= 300 & dband >= 40) %>%
-  group_by(species, dband, location) %>%
-  summarize(abundance = round(sqrt(sqrt(sum(abu.corr))))) %>%
-  # pivots the table from having variable as columns to species as columns
-  spread(species, abundance, fill =  0)
-
-#add.data <- data.frame(c("Bonaire",240,rep(0,212), "St. Eustatius",
-#                                          250, rep(0,212)),rows=2)
-#colnames(add.data) <- colnames(carib.deep.com)
-#carib.deep.com <- rbind(carib.deep.com, add.data)
-
-##principal component analysis
-        # center: a logical value indicating whether the variables should be shifted to be zero centered.
-        # scale: a logical value indicating whether the variables should be scaled to have unit variance before the analysis takes place.
-carib.deep.pca <- prcomp(carib.deep.com[-c(1:2)], center = TRUE, scale = TRUE)
-summary(carib.deep.pca)
-
-carib.deep.points <- 
-  # first convert the pca results to a tibble
-  as_tibble(carib.deep.pca$x) %>% 
-  # add fish species column
-  bind_cols(carib.deep.com) %>%
-  mutate(zone = case_when(dband >= 40 & dband < 80 ~ "Upper Mesophotic",
-                          dband >= 80 & dband < 130 ~ "Lower Mesophotic",
-                          dband >= 130 & dband < 190 ~ "Upper Rariphotic",
-                          dband >= 190 & dband < 310 ~ "Lower Rariphotic",
-                          TRUE ~ "Abyss"))
-
-## taking a set of points defined by PC1 and PC2, calculating the convex hull of those points, 
-## and then returning a subset of those points using the indices computed by chull. 
-#The result is a selection of points from the original data that form the convex hull.
-carib.deep.hull <- 
-  carib.deep.points %>% 
-  group_by(location, zone) %>% 
-  # chull (PC1, PC2) returns a vector of indices representing the points that form the convex hull.
-  #  slice function subsets a data frame or a tibble based on row indices.
-  slice(chull(PC1, PC2))
-
-carib.deep.load.PC1pos <- 
-  as_tibble(carib.deep.pca$rotation, rownames = 'variable') %>%
-  top_n(3, PC1) %>%
-  rename(species = "variable") %>%
-  select(species, PC1, PC2)
-
-carib.deep.load.PC1 <- 
-  as_tibble(carib.deep.pca$rotation, rownames = 'variable') %>%
-  # select the 3 lines with the highest values in PC1
-  top_n(-3, PC1) %>%
-  rename(species = "variable") %>%
-  select(species, PC1, PC2) %>%
-  bind_rows(carib.deep.load.PC1pos)
-
-carib.deep.load.PC2pos <- 
-  as_tibble(carib.deep.pca$rotation, rownames = 'variable') %>%
-  top_n(3, PC2) %>%
-  rename(species = "variable") %>%
-  select(species, PC1, PC2)
-
-carib.deep.load.PC <- 
-  as_tibble(carib.deep.pca$rotation, rownames = 'variable') %>%
-  top_n(-3, PC2) %>%
-  rename(species = "variable") %>%
-  select(species, PC1, PC2) %>%
-  bind_rows(carib.deep.load.PC2pos) %>%
-  full_join(carib.deep.load.PC1)
-
-
-
-pca.plot <- ggplot(carib.deep.points) +
-  geom_jitter(data = carib.deep.points, aes(x = PC1, y = PC2, 
-                                            color = location, 
-                                            fill = location, 
-                                            shape = zone), alpha = 0.5, color = "black") +
-  geom_polygon(data = carib.deep.hull,
-               aes(x = PC1, y = PC2, fill = location,
-                   colour = location,
-                   group = zone),
-               alpha = 0.3,
-               show.legend = TRUE) +
-  geom_segment(data = carib.deep.load.PC, 
-               aes(x = 0, y = 0, 
-                   xend = PC1 * 50,
-                   yend = PC2 * 50), lwd = 0.1, 
-               arrow = arrow(length = unit(1/2, 'picas'), type = "open")) +
-  geom_text_repel(data = carib.deep.load.PC, aes(x = PC1*52, 
-                                                 y = PC2*52, label = species), size = 2, segment.color = "grey69") +
-  theme_bw() +
-  scale_fill_fish_d(option = "Bodianus_rufus") +
-  scale_color_fish_d(option = "Bodianus_rufus") +
-  scale_shape_manual(values = c(21:25)) +
-  facet_wrap(.~location)
-
-pca.plot
-
-
-
 #### 2. Trans-site dendrogram ####
 carib.deep.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   select(species, dband, location, abundance, abu.corr) %>%
@@ -169,29 +54,29 @@ carib.clust2 <- simprof(data = carib.com.cl, method.cluster = "ward.D", method.d
 ## "vegdist" calculates ecological similarity and diversity analyses based on matrices
 ## "hclust" takes a distance matrix and performs agglomerative hierarchical clustering
 carib.clust2 <- readRDS("2.Ch3.R.analysis/carib.clust.wardD.RData")
-carib.clust.veg <- hclust(vegdist(carib.com.cl, method = "bray"), method = "complete")
+#carib.clust.veg <- hclust(vegdist(carib.com.cl, method = "bray"), method = "complete")
 carib.clust.veg2 <- hclust(vegdist(carib.com.cl, method = "bray"), method = "ward.D")
 
-carib.dend <- as.dendrogram(carib.clust.veg)
+#carib.dend <- as.dendrogram(carib.clust.veg)
 carib.dend2 <- as.dendrogram(carib.clust.veg2)
-carib.dend.data <- dendro_data(carib.dend, type = "rectangle")
+#carib.dend.data <- dendro_data(carib.dend, type = "rectangle")
 carib.dend.data2 <- dendro_data(carib.dend2, type = "rectangle")
 
 carib.deep.com.h <- carib.deep.com %>%
   unite(label, dband.grouped, location, remove = F, sep = ".")
 
-carib.dend.helper <- carib.dend.data$labels %>%
-  inner_join(carib.deep.com.h) 
+#carib.dend.helper <- carib.dend.data$labels %>%
+ # inner_join(carib.deep.com.h) 
 carib.dend.helper2 <- carib.dend.data2$labels %>%
   inner_join(carib.deep.com.h) 
 
-carib.dend.data$labels <- carib.dend.helper %>%
-  mutate(label = case_when(location=="St. Eustatius" & dband.grouped >= 240 & dband.grouped <= 270 ~ "240-270",
-                                   location=="Bonaire" & dband.grouped >= 190 & dband.grouped <= 200 ~ "190-200",
-                                   location=="Bonaire" & dband.grouped >= 220 & dband.grouped <= 250 ~ "220-250",
-                                   location=="Bonaire" & dband.grouped >= 280 & dband.grouped <= 300 ~ "280-300",
-                                   TRUE ~ as.character(dband.grouped))) %>%
-  mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan")))
+#carib.dend.data$labels <- carib.dend.helper %>%
+ # mutate(label = case_when(location=="St. Eustatius" & dband.grouped >= 240 & dband.grouped <= 270 ~ "240-270",
+  #                                 location=="Bonaire" & dband.grouped >= 190 & dband.grouped <= 200 ~ "190-200",
+    #                               location=="Bonaire" & dband.grouped >= 220 & dband.grouped <= 250 ~ "220-250",
+   #                                location=="Bonaire" & dband.grouped >= 280 & dband.grouped <= 300 ~ "280-300",
+     #                              TRUE ~ as.character(dband.grouped))) %>%
+  #mutate(location=factor(location,levels=c("Curacao","Bonaire","St. Eustatius","Roatan")))
 
 carib.dend.data2$labels <- carib.dend.helper2 %>%
   mutate(label = case_when(location=="St. Eustatius" & dband.grouped >= 240 & dband.grouped <= 270 ~ "240-270",
@@ -246,7 +131,7 @@ ggplot(carib.dend.data2$segments) +
 #### 3. PCA and SIMPROF by location ####
 #### 3.1. Curacao ####
 
-cur.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+cur.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Curacao") %>%
   select(species, dband, location, abundance, abu.corr) %>%
   group_by(species, dband) %>%
@@ -425,8 +310,7 @@ for (i in 1:length(cur.simsum.zones)){ # iterates for each element of list
     mutate(species = rownames(.)) %>%
     select(c(1,7,8)) %>% # "average","p-value", "species"
     filter(.[[2]] < 0.05) %>%
-    arrange(desc(.[[1]]))%>%
-    filter(c(1:10)) ## needs fix
+    arrange(desc(.[[1]]))
   cur.simspecies.zones <- bind_rows(cur.simspecies.zones, spec)
 }
 cur.simspecies.zones$location="Curaçao"
@@ -846,7 +730,7 @@ sta.pca.plot <- ggplot(sta.points) +
 sta.pca.plot
 
 #### 3.4. Roatan ####
-roa.com <- read.csv("2.Ch3.R.analysis/2.file.fish.carib.grouped.csv") %>%
+roa.com <- read.csv("2.Ch3.R.analysis/2.file.fish.binned.csv") %>%
   filter(location == "Roatan") %>%
   filter(dband >= 40 & dband <= 300) %>%
   select(species, dband, location, abundance, abu.corr) %>%
@@ -1122,7 +1006,6 @@ blue_palette <- c("#BAE0F3","#87CEEB","#6CBDE9","#50ABE7", "#4895EF", "#4361EE",
 mesoP_palette <- c("#DCEEF3","#C2E2EA","#A7D5E1","#8DC8D8","#72BBCE")
 rariP_palette <- c("#DDC5EB","#BC90DB","#831EB6")
 
-pdf("bonaire.dendro.pdf")
 bon.plot.pooled <- ggplot(bon.dend.data$segments) + 
   geom_rect(xmin=16.7,xmax=21.3,ymin=-0.2, ymax=0.95,fill=blue_palette[3])+
   geom_rect(xmin=11.7,xmax=16.3,ymin=-0.2, ymax=0.95,fill=rariP_palette[1])+
@@ -1152,7 +1035,6 @@ bon.plot.pooled <- ggplot(bon.dend.data$segments) +
   ylab("")+
   ylim(-0.2,1)
 bon.plot.pooled
-dev.off()
 
 ### Bonaire pca plot
 bon.pca <- prcomp(bon.com[-1], center = TRUE, scale = TRUE)
@@ -1232,7 +1114,6 @@ bon.loads <-
   inner_join(bon.species) %>%
   select(species, PC1, PC2)
 
-pdf("2.Ch3.R.analysis/graphs/bonaire.pca.pdf") 
 bon.pca.plot <- ggplot(bon.points) +
   geom_jitter(data = bon.points, aes(x = PC1, y = PC2, fill = cat),
               shape = 21, alpha = 0.5, color = "black") +
@@ -1253,7 +1134,6 @@ bon.pca.plot <- ggplot(bon.points) +
   scale_fill_manual(values = pal) +
   scale_color_manual(values = pal) 
 bon.pca.plot
-dev.off()
 
 #### MDS 
 mds_bon <- cmdscale(vegdist(bon.com.cl, method = "bray")) %>%
